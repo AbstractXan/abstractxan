@@ -26,4 +26,4 @@ Category knowledge = create_category("knowledge");
 Category games = create_category("games");
 // Category books = create_category("books");
 
-Category *categories[] = {&home, &knowledge, &knowledge, &blog, &games};
+Category *categories[] = {&home, &knowledge, &blog, &games};
