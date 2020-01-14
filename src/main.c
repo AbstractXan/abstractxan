@@ -8,7 +8,7 @@ char *html_head = "<!DOCTYPE html><html lang='en'><head><meta charset='utf-8'><m
 
 char *html_header = "<header><a id='logo' href='home.html'><img src='../media/interface/logo.jpeg' alt='AbstractXan'></a></header>";
 
-char *html_footer = "<footer><p>Never miss an update</p><form action='https://tinyletter.com/hundredrabbits' method='post' target='popupwindow' onsubmit='window.open(\'https://tinyletter.com/hundredrabbits\', \'popupwindow\', \'scrollbars=yes,width=800,height=600\');return true'><input type='email' value='' name='EMAIL' class='email' placeholder='email@address.com' required=''><input type='submit' value='Subscribe' name='subscribe' class='button'></form></footer></body></html>";
+char *html_footer = "<footer><p>Never miss an update</p><form action='https://tinyletter.com/abstractxan' method='post' target='popupwindow' onsubmit='window.open(\'https://tinyletter.com/abstractxan\', \'popupwindow\', \'scrollbars=yes,width=800,height=600\');return true'><input type='email' value='' name='EMAIL' class='email' placeholder='email@address.com' required=''><input type='submit' value='Subscribe' name='subscribe' class='button'></form></footer></body></html>";
 
 void to_lowercase(char *str, char *target, size_t tsize) {
   for (size_t i = 0; i < tsize; i++) {
@@ -76,7 +76,7 @@ void build_page(Page *page) {
   fputs("<main class='page'>", myfile);
   fprintf(myfile, "<h1>%s</h1>", page->name);
 
-  if (page->parts_len > 4) {
+  if (page->parts_len >= 3) {
     fputs("<ul class='jump'>", myfile);
     for (int i = 0; i < page->parts_len; ++i) {
       char *part_name = page->parts_names[i];
