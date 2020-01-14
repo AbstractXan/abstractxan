@@ -1,6 +1,6 @@
-# Hundred Rabbits
+# Abstractxan
 
-This repository is the sources for the Hundred Rabbits website. The website is written in C, and requires `gcc` to build. To rebuild the site, go to `src` and run the build script:
+This repository is the sources for the Abstractxan website. The website is written in C, and requires `gcc` to build. To rebuild the site, go to `src` and run the build script:
 
 ```
 ./build.sh
