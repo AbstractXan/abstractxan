@@ -4,7 +4,7 @@
 
 #define STR_BUF_LEN 64
 
-char *html_head = "<!DOCTYPE html><html lang='en'><head><meta charset='utf-8'><meta name='description' content='AbstractXan'><meta name='viewport' content='width=device-width, initial-scale=1.0'><meta name='twitter:card' content='summary'><meta name='twitter:site' content='@abstractxan'><meta name='twitter:title' content='AbstractXan'><meta name='twitter:description' content='AbstractXan creates art , games and open source tools.'><meta name='twitter:creator' content='@abstractxan'><meta name='twitter:image' content='https://grimgrains.com/media/services/icon.jpg'><meta property='og:title' content='AbstractXan'><meta property='og:site_name' content='AbstractXan'><title>AbstractXan — %s</title><link rel='stylesheet' type='text/css' href='../links/main.css'></head><body class='%s'>";
+char *html_head = "<!DOCTYPE html><html lang='en'><head><meta charset='utf-8'><meta name='description' content='AbstractXan'><meta name='viewport' content='width=device-width, initial-scale=1.0'><meta name='twitter:card' content='summary'><meta name='twitter:site' content='@abstractxan'><meta name='twitter:title' content='AbstractXan'><meta name='twitter:description' content='AbstractXan creates art , games and open source tools.'><meta name='twitter:creator' content='@abstractxan'><meta name='twitter:image' content='../media/interface/logo.jpeg'><meta property='og:title' content='AbstractXan'><meta property='og:site_name' content='AbstractXan'><title>AbstractXan — %s</title><link rel='stylesheet' type='text/css' href='../links/main.css'></head><body class='%s'>";
 
 char *html_header = "<header><a id='logo' href='home.html'><img src='../media/interface/logo.jpeg' alt='AbstractXan' ></a></header>";
 
@@ -148,6 +148,13 @@ int main(void) {
       Page *page = category->pages[j];
       build_page(page);
     }
+  }
+  
+  //Build separate pages
+  int separate_pages_len = sizeof separate_pages / sizeof separate_pages[0];
+  for (int i = 0; i < separate_pages_len; ++i) {
+      Page *page = separate_pages[i];
+      build_page(page);
   }
 
   return (0);
