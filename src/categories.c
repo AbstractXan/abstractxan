@@ -31,10 +31,11 @@ add_page(&blog,&first_post);
 // Category books = create_category("books");
 Category enigma = create_category("Enigma");
 Page enigma2020 = create_page("Enigma 2020");
-add_part(&enigma2020,"About","<img src='../media/enigma/poster.png'><p>Enigma is a competitive ciphering and deciphering heist while looking for clues in the gigantic internet universe. Explore some amazing corners of the web-battling out puzzles and reading between the lines. Got stuck on some questions? Work your way out through your search engines.</p>");
+add_part(&enigma2020,"About","<img src='../media/enigma/poster.png'><p>Enigma is a competitive ciphering and deciphering heist while looking for clues in the gigantic internet universe. Explore some amazing corners of the web-battling out puzzles and reading between the lines. Got stuck on some questions? Work your way out through your search engines. </p>");
 add_part(&enigma2020,"Goal","<p>Enigma as a medium is our way of exposing the participants to a myriad of exciting places on the internet. We strive to provide an unparalleled experience similar to an open world game — explore the depths of internet for clues, crack mind-bending puzzles, and get to know more about the rad things people are doing in the world.</p><p>Every team's journey is unique and depends on how they approach a problem. Every question has a unique solution and it doesn't matter what path you take, it's important to remember <b>what</b> you're looking for. It's easy to get lost, you see.</p>");
 add_part(&enigma2020,"Rules","<p>Rulebook can be found <a href='../media/enigma/rulebook.pdf'>here</a></p>");
 add_part(&enigma2020,"Format","<p>Previous year question paper could be found <a href='enigma_2019.html'>here</a></p>");
+add_part(&enigma2020,"Participate","<p><a class='button' href='https://dare2compete.com/o/enigma-tirutsava-indian-institute-of-technology-iit-tirupati-99116'>Register Now</a></p>");
 add_page(&enigma,&enigma2020);
 
 Page enigma2019 = create_page("Enigma 2019");
@@ -42,7 +43,7 @@ add_part(&enigma2019,"About","<p>Enigma is a competitive ciphering and decipheri
 add_part(&enigma2019,"Feedback","<p><ul><li>\"Some are mind-bending, some are deep, some are clueless. It's an awesome experience overall.\" <b> — Sai Krupa Reddy, IIT Tirupati</b></li><br><li>\"Even though we couldn't come up with proper logics or answers, it was fun!!\"<li><b>—Hemangi Doye, IIM Indore</b></li><br><li>\"Horiffying. Enthralling. We loved it! Enjoyed the ride. Wish to solve many more of these again and again.\"<b> — Aparna Vadlamani, IIT Tirupati</b></li><br><li>\"It is an awesome,  brain storming event and best one I have ever attempted. I would love to participate even after my B.Tech.\"<b> — Sai Sumanth Vanka, IIT Tirupati</b></li></ul></p>");
 add_part(&enigma2019,"Insight","<p> Insights for the event could be found <a href='../media/enigma/enigma_2019_insights.png'>here</a></p><p>According to the statistics, we found the prelims results to be really skewed even though the questions were relatively simple compared to finals. We decided to increase the duration of the Prelims for the next event to 12 hours.</p>");
 add_part(&enigma2019,"Leaderboards","<p>The following list contains the marks scored and members for the respective teams for Enigma2019 Finals.</p><p><ul><li>222 / 469 Raghav Dhawan | B. Varnika | Sandalika Sapra </li><li>203 / 469 Jakku Sai Krupa Reddy | Dasari Merwin | Sathwik Matsa </li><li>202 / 469 Sai Sumanth Vanka | Vuduthala Pratyusha | Tapan Ganatma </li><li>201 / 469 Aakash Yadav | Bhomik | Vishal </li><li>151 / 469 Rutvik Bade | Ayush Garg | Ravi Shrivatsa </li><li>146 / 469 V Dheeraj | Kalicheti Rishitha</li><li>143 / 469 A Chaitanya | Charan Sai | G Yaswanth </li><li>123 / 469 Manoj kumar | Ritesh Sai T. | Akhil Bharadwaj</li><li>116 / 469 Vasunith Kislay | Manish Kumar Shrivastava | Tejasva Motsara</li><li>101 / 469 Sriram | Akhil | Chandan</li><li>85  / 469 Rohith Sudheer | Prudvi Venkat | Shubham Sangle </li><li> 83  / 469 Reena Deshmukh</li><li> 79  / 469 Aparna Vadlamani | G Sushmita</li><li> 69  / 469 Bodapati Nirupama Sai | Ambati Amulya | Balasa Niharika </li><li> 68  / 469 Ajinkya Kamble | Krishan Kumar Rao | Nakshatra Gupta</li><li> 67  / 469 Raj Garg | Abhishek Kaushik | Deep Ghadiyali </li><li> 66  / 469 Shubhankar Bhadra</li><li> 66  / 469 Abhishek Kumar | Arnab Dutta | Devayan Barindranath Ghosh </li><li> 66  / 469 Shaik Irfan | Vinay Koneru | Yashwant Sai Koneru</li><li> 39  / 469 Nandita V Nair | Kaushal Pillay | Revathy Sajeev </li></ul></p>");
-add_part(&enigma2019,"Questions","<p>Prelims questions were created by both <a href='https://www.twitter.com/AnupKulkarn1'>Anup Kulkarni</a> and I. Questions for finals were created by me. Questions could be found here: <a href='enigma_2019_prelims.html'>prelims</a> | <a href='enigma_2019_finals.html'>finals</a> </p>");
+add_part(&enigma2019,"Questions","<p>Prelims questions were created by both <a href='https://www.twitter.com/AnupKulkarn1'>Anup Kulkarni</a> and I. Questions for finals were created by me. Questions could be found here: <a href='enigma_2019_prelims.html'>prelims</a></p>");
 add_page(&enigma,&enigma2019);
 
 
@@ -62,7 +63,11 @@ add_part(&enigma2019prelims,"Chapter 9: The Chase Begins","<p>Agent Smith was re
 add_part(&enigma2019prelims,"Chapter 10: The Turing Machine","<p>Eliminating the girl and erasing everything was what Agent Smith desired. He reached her apartment to find her PC on and transmitting a video. It had a unbreakable code as its password but he had an infinite mind at his disposal.</p><p>\"It was the first machine of its kind designed to destroy the old world \"</p><p>\"You Know What BM3? some squares have magical properties\"</p><p>\"hzyoi kbnsw uqbhg ltfsg pyrkz mkldz yap\"</p><p>15. Enter The Password [33 points]</p>");
 add_part(&enigma2019prelims,"Epilogue: The Final Sequence","<p>Adriana tuned in a news channel. \"Good people of New-York, don\'t believe the false information spread by some terrorists to harm our great nation. NYPD has made multiple arrests in past couple of weeks regarding the video broadcast by the same terrorist outfit to induce widespread public fear.\" She quickly turned it off and leaned back on her chair. The people were slowly rejecting the matrix just like her unable to cope up with the reality so perfect. Symptoms were visible from last few weeks and everyone was feeling them. Things were getting progressively bad. She was feeling her vision slowly get blurry. She got up and walked to the balcony. People on street were falling down and cars were crashing into objects and people one after other. But she couldn\'t see any of it as her vision quickly faded and her head became light. It was the most sad day of the Architect\'s life as her precision matrix was off the grid. The perfect place of humanity was rejected by its inhabitants The Paradise Matrix has fallen.</p><p>16. I hope you\'ve been watching closely [54 points] </p>");
 
-//Separate Page
-Page enigma2019finals = create_page("enigma 2019 finals");
-Category *categories[] = {&home, &blog, &enigma};
-Page *separate_pages[] = {&enigma2019prelims,&enigma2019finals};
+Category misc = create_category("Miscellaneous");
+Page sketchbook2019 = create_page("Sketchbook 2019");
+add_part(&sketchbook2019,"","<p><iframe src='../media/sketchbook2019/Sketchbook2019.pdf#toolbar=0' width='100%' height='500px'><p>");
+add_page(&misc, &sketchbook2019);
+
+Category *categories[] = {&home, &blog, &enigma, &misc};
+Page *separate_pages[] = {&enigma2019prelims};
+
