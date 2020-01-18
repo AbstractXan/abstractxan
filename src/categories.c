@@ -65,7 +65,7 @@ add_part(&enigma2019prelims,"Epilogue: The Final Sequence","<p>Adriana tuned in 
 
 Category misc = create_category("Miscellaneous");
 Page sketchbook2019 = create_page("Sketchbook 2019");
-add_part(&sketchbook2019,"","<p><iframe src='../media/sketchbook2019/Sketchbook2019.pdf#toolbar=0' width='100%' height='500px'><p>");
+add_part(&sketchbook2019,"","<p>Coming soon<p>");
 add_page(&misc, &sketchbook2019);
 
 Category *categories[] = {&home, &blog, &enigma, &misc};
