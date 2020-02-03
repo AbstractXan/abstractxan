@@ -52,6 +52,13 @@ body footer form { margin-top: 5px; border: 1.5px solid black; display: inline-b
 body footer form *:first-child { padding-left:15px; }
 body footer form *:last-child { background:#000;font-weight: bold;color:white;padding: 10px; cursor: pointer; }
 
+img.thumbnail { border-radius: 3px;max-width: calc(100% - 20px);margin-bottom: 10px}
+b { font-weight: bold }
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 @media (max-width: 900px) {
   body { padding: 30px; }
   body main > ul.jump { columns: 1 !important }
