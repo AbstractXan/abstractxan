@@ -11,7 +11,7 @@
 html { background:black; }
 body { background:#fff; color:#000; font-family: "alte_haas_grotesk_regular", "Helvetica Neue", Helvetica, Arial; overflow-x: hidden; margin-top:5px; padding:45px 90px; }
 body hr { border:0; clear:both; }
-body header a#logo { margin-top: -15px;display: block;width: 75px; margin-bottom:15px; border-style: solid;border-width: 0.5px}
+body header a#logo { margin-top: -15px;display: block;width: 75px; margin-bottom:15px;}
 body header a#logo img { width:100%; }
 body main img.capsule { width: 150px; }
 body main img.medium {max-width: 300px;}
@@ -27,7 +27,7 @@ body main > ul li:hover a { text-decoration: none; }
 body main > p { line-height: 28px; font-size:18px; }
 body main > p a { text-decoration: underline; }
 body main > p b { font-weight: bold }
-body main > p i { line-height: 28px; font-size:18px; }
+body main > p i { font-style: italic; line-height: 28px; font-size:18px; }
 body main > code { font-family: 'input_mono_regular'; font-size:12px; margin-bottom: 30px; display: block; background:black; color:white; padding:15px; white-space: pre}
 body main > code comment { color:#777; }
 body main > p.quote { padding: 30px;font-size: 20px;font-style: italic; max-width: 400px }
@@ -52,13 +52,17 @@ body footer form { margin-top: 5px; border: 1.5px solid black; display: inline-b
 body footer form *:first-child { padding-left:15px; }
 body footer form *:last-child { background:#000;font-weight: bold;color:white;padding: 10px; cursor: pointer; }
 
-img.thumbnail { border-radius: 3px;max-width: calc(100% - 20px);margin-bottom: 10px}
+div.sketchbook {height: 100%;}
+div.sketchbook img{ max-width: calc(100% - 20px); border-radius: 3px;margin: 10px; display: block; float: left; border-style: solid; border-radius: 3px; border-width: 3px;}
+img.thumbnail { border-radius: 3px;max-width: calc(100% - 20px);margin-bottom: 10px;}
 b { font-weight: bold }
 .row:after {
   content: "";
   display: table;
   clear: both;
 }
+body main p sub { font-size: 14px;font-style: italic;}
+
 @media (max-width: 900px) {
   body { padding: 30px; }
   body main > ul.jump { columns: 1 !important }
