@@ -5,34 +5,23 @@ Page about_me = create_page("about");
 add_part(&about_me,"Me","<p> <img class='thumbnail' style='width:200px' src='https://pbs.twimg.com/profile_images/1136164853003849729/FFFdBGmk_400x400.png'> </p><p>Hello, I'm Priyansh Sangule, 4th year Computer Science and Engineering student at <a href='https://www.iittp.ac.in'>IIT Tirupati</a>. I am a programmer and casual artist.</p>"); 
 add_part(&about_me,"Contribute","<p>Source files for my projects could be found on <a href='https://www.github.com/abstractxan'>Github</a>. This website is made with C99 and forked from <a href='https://www.github.com/hundredrabbits/100r.co'>hundredrabbits/100r</a>. Source files for my website are available <a href='https://www.github.com/abstractxan/abstractxan/tree/master/src'>here</a>.</p> <p>Inspired by <a href='https://solar.lowtechmagazine.com/2018/09/how-to-build-a-lowtech-website/'>low-tech web design</a>, most images on this website are <i>dithered</i>.</p> <p>Found a typo? Feel free to open an <a href='github.com/abstractxan/abstractxan/issues/new'>issue</a>.</p>");
 add_page(&home, &about_me);
-// Page mission = create_page("mission");
-// add_page(&home, &mission);
 
-// Page philosophy = create_page("philosophy");
-// add_page(&home, &philosophy);
+//Page mission = create_page("mission");
+//add_page(&home, &mission);
 
-// Page videos = create_page("videos");
-// add_page(&home, &videos);
-
-// Page support = create_page("support");
-// add_page(&home, &support);
-
-// Page library = create_page("library");
-// add_page(&home, &library);
-
-// Page press = create_page("press");
-// add_page(&home, &press);
 Category blog = create_category("blog");
-Page first_post = create_page("first post");
-add_part(&first_post,"Welcome","Blog is under construction");
+Page first_post = create_page("Karnataka");
+add_part(&first_post,"WIP","Blog is under construction");
 add_page(&blog,&first_post);
-//Category knowledge = create_category("knowledge");
-// Category tools = create_category("tools");
-//Category games = create_category("games");
-// Category books = create_category("books");
+
 Category resources = create_category("Resources");
 Page cse = create_page("Computer Science");
-add_part(&cse,"General","<p> University of Washington <a href='https://courses.cs.washington.edu/courses/cse410/99au/lectures/'>slides</a></p>");
+add_part(&cse,"Operating Systems","<p>University of Washington <a href='https://courses.cs.washington.edu/courses/cse410/99au/lectures/'>lecture slides</a>.</p>");
+add_part(&cse,"C/C++","<p>Simple steps to debugging using GDB <a href='https://u.osu.edu/cstutorials/2018/09/28/how-to-debug-c-program-using-gdb-in-6-simple-steps/'>tutorial</a></p>");
+add_part(&cse,"Data Structures","<p>Complete 8 hour <a href='https://www.youtube.com/watch?v=RBSGKlAvoiM'>course</a> ranging from easy to advanced data structures</p>");
+add_part(&cse,"IDE","<p><a href='https://repl.it'>Repl.it</a> allows users to write code and build apps using a browser, without having to install any software on their devices.</p>");
+add_part(&cse,"Developer Podcast","<p>Future of coding <a href='https://futureofcoding.org/episodes/045'>podcast</a> featuring Devine Lu Linvega where he talks about development process of <a href='https://100r.co/site/orca'>Orca</a>, a visual programming environment for making music.</p>");
+
 add_page(&resources, &cse);
 
 Category enigma = create_category("Enigma");
