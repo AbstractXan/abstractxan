@@ -15,6 +15,11 @@ add_part(&first_post,"WIP","Blog is under construction");
 add_page(&blog,&first_post);
 
 Category projects = create_category("Projects");
+Page mizi = create_page("Mizi");
+add_part(&mizi,"Introduction","<p><img class='thumbnail' style='max-width:200px' src='../media/interface/mizi.png'><p><a href='https://github.com/abstractxan/mizi'>Mizi</a> is a static website generator written in C++ that takes markdown file as input.</p>");
+add_part(&mizi,"Design Philosophy","<p>Mizi is designed to be light weight, minimalistic and convenient. It is created in an attempt to help people create websites easily and without any prior web development experience.");
+add_page(&projects,&mizi);
+
 Page mini  = create_page("Mini-projects");
 add_part(&mini,"Shooting Stars","<p><iframe src='https://itch.io/embed/566225' height='167' width='552' frameborder='0'><a href='https://abstractxan.itch.io/shooting-stars'>Shooting stars by AbstractXan</a></iframe></p>");
 add_part(&mini,"Space","<p><iframe src='https://itch.io/embed/543741' height='167' width='552' frameborder='0'><a href='https://abstractxan.itch.io/space'>Space by AbstractXan</a></iframe>");
