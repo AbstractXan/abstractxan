@@ -76,6 +76,10 @@ Questions will be posted here soon.
 <p>Prelims questions were created by both <a href='https://www.twitter.com/AnupKulkarn1'>Anup Kulkarni</a> and I. Questions for finals were created by me. Questions could be found here: <a href='enigma_2019_prelims.html'>prelims</a></p>
 
 # Resources
+## Competitive Coding
+### Questions
+[Container with most water](https://leetcode.com/problems/container-with-most-water/submissions/) is a brilliant question with an elegant solution that feels like magic. Initial instinct would be to go through the array in O(n^2) time but turns out that it could be brought down to O(n) time and O(1) space complexity. I wish I could classify this problem but I haven't solved these kinda questions enough. If you know more about these, do write it to me [@abstractxan](https://www.twitter.com/abstractxan).
+
 ## Computer Science
 ### Operating Systems
 <p>University of Washington <a href='https://courses.cs.washington.edu/courses/cse410/99au/lectures/'>lecture slides</a>.</p>
@@ -264,11 +268,12 @@ Glossary:
 - <b>G</b> : Gaming
 - <b>H</b> : Hygiene
 - <b>M</b> : Meditation
+- <b>Mu</b> : Music
 - <b>S</b> : Study
 - <b>Y</b> : Yoga
 
 Log :
-- 24 March 2020 : EYM
+- 24 March 2020 : E,Y,M,Mu,G,G,S,S
 
 Last Updated: 24 March
 ## Enigma 2019 Prelims
