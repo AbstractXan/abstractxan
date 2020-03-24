@@ -264,7 +264,7 @@ Factors that hinder productivity:
 Currently, I'm building a personal tracker for productivity and projects. I'll be posting daily progress here until then. Every time slot is broken down into pomodoros i.e 25min.
 
 Glossary:
-- <b>E</b> : Excercise
+- <b>E</b> : Exercise
 - <b>G</b> : Gaming
 - <b>H</b> : Hygiene
 - <b>M</b> : Meditation
