@@ -77,8 +77,13 @@ Questions will be posted here soon.
 
 # Resources
 ## Competitive Coding
+
 ### Questions
-[Container with most water](https://leetcode.com/problems/container-with-most-water/submissions/) is a brilliant question with an elegant solution that feels like magic. Initial instinct would be to go through the array in O(n^2) time but turns out that it could be brought down to O(n) time and O(1) space complexity. I wish I could classify this problem but I haven't solved these kinda questions enough. If you know more about these, do write it to me [@abstractxan](https://www.twitter.com/abstractxan).
+[Classification of questions](https://leetcode.com/discuss/general-discussion/457546/LeetCode-Problem-Patterns-from-educative.io)
+
+[Container with most water](https://leetcode.com/problems/container-with-most-water/) is a brilliant question with an elegant solution that feels like magic. Initial instinct would be to go through the array in O(n^2) time but turns out that it could be brought down to O(n) time and O(1) space complexity. I wish I could classify this problem but I haven't solved these kinda questions enough.
+[Reveal cards in increasing order](https://leetcode.com/problems/reveal-cards-in-increasing-order/) is a very good question for testing your knowledge queue implementation.
+
 
 ## Computer Science
 ### Operating Systems
@@ -273,7 +278,7 @@ Glossary:
 - <b>Y</b> : Yoga
 
 Log :
-- 24 March 2020 : E,Y,M,Mu,G,G,S,S
+- 24 March 2020 : E,Y,M,Mu,G,G,S,S,S,S,S
 
 Last Updated: 24 March
 ## Enigma 2019 Prelims
