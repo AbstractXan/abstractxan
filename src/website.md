@@ -76,6 +76,16 @@ Questions will be posted here soon.
 <p>Prelims questions were created by both <a href='https://www.twitter.com/AnupKulkarn1'>Anup Kulkarni</a> and I. Questions for finals were created by me. Questions could be found here: <a href='enigma_2019_prelims.html'>prelims</a></p>
 
 # Resources
+## Cryptography
+### Links
+Unordered list of resources
+- [One way function](https://en.wikipedia.org/wiki/One-way_function)
+- [Attack Models](https://en.wikipedia.org/wiki/Attack_model) like CPA, CCA, COA
+- [Authenticated Encryption](https://en.wikipedia.org/wiki/Authenticated_encryption) 
+- [Diffie-Hellman Key Exchange](https://www.khanacademy.org/computing/computer-science/cryptography/modern-crypt/v/diffie-hellman-key-exchange-part-2)
+- [RSA Encryption](https://www.khanacademy.org/computing/computer-science/cryptography/modern-crypt/v/intro-to-rsa-encryption)
+- [Random Univ Slides](https://www.icg.isy.liu.se/courses/tsit03/)
+
 ## Competitive Coding
 
 ### Questions
@@ -86,6 +96,9 @@ Questions will be posted here soon.
 
 
 ## Computer Science
+### Introduction
+[List of unsolved problems in Computer Science](https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_computer_science)
+
 ### Operating Systems
 <p>University of Washington <a href='https://courses.cs.washington.edu/courses/cse410/99au/lectures/'>lecture slides</a>.</p>
 
@@ -279,7 +292,7 @@ Glossary:
 
 Log :
 - 24 March 2020 : E,Y,M,Mu,G,G,S,S,S,S,S,S,Mu,Mu,Mu,G,G,G,G,G,G,G,G
-- 25 March 2020 : E,Y,M,M,S
+- 25 March 2020 : E,Y,M,M,S,H,S,G,G,G,G,G,G,S,S,S,S,S,S,S
 
 Last Updated: 25 March
 ## Enigma 2019 Prelims
