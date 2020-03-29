@@ -309,7 +309,8 @@ Log :
 - 25 March 2020 : E,Y,M,M,S,H,S,G,G,G,G,G,G,S,S,S,S,S,S,S,S,S,S,G,G,G,G,G,G
 - 26 March 2020 : E,Y,M,S,S,S,S,S,S,S,S,S,G,G,G,G,G,G,G,G
 - 27 March 2020 : Y,M,S,S,S,S,S,S,S,G,G,G,G,G,G,G,G
-- 28 March 2020 : M,S,S,S,S,S,S,
+- 28 March 2020 : M,S,S,S,S,S,S,G,G,G,G,G,G,G,G
+- 29 March 2020 : E,M,S,S,S,S,S,S,S,S,S,S,S,S,G,G,G,G,G,G,G,S,S,G,G,G,G,G,G
 
 Last Updated: 28 March
 ## Enigma 2019 Prelims
