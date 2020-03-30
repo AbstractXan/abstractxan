@@ -296,6 +296,7 @@ Factors that hinder productivity:
 Currently, I'm building a personal tracker for productivity and projects. I'll be posting daily progress here until then. Every time slot is broken down into pomodoros i.e 25min.
 
 Glossary:
+- <b>A<b> : Artwork
 - <b>C</b> : Cooking
 - <b>E</b> : Exercise
 - <b>G</b> : Gaming
@@ -312,7 +313,7 @@ Log :
 - 27 March 2020 : Y,M,S,S,S,S,S,S,S,G,G,G,G,G,G,G,G
 - 28 March 2020 : M,S,S,S,S,S,S,G,G,G,G,G,G,G,G
 - 29 March 2020 : E,M,S,S,S,S,S,S,S,S,S,S,S,S,G,G,G,G,G,G,G,S,S,G,G,G,G,G,G
-- 30 March 2020 : E,Y,M,S,S,S,C,C,C,C
+- 30 March 2020 : E,Y,M,A,A,A,S,S,S,C,C,C,C,H,S,S,S,A,A,A,S
 
 Last Updated: 30 March 2020
 ## Enigma 2019 Prelims
