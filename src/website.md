@@ -278,7 +278,7 @@ Being constantly dissatisfied with myself, I feel very stagnated in life. To com
 ### Workouts
 A set of body workouts including: Gym workouts, Yoga and Meditation on a daily basis.
 
-### Productiviity
+### Productivity
 Every work using pomodoro.
 
 Factors that help improve productivity:
