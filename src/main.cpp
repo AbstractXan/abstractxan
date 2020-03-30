@@ -10,7 +10,7 @@ void createSite(){
     cout << "Categories found: " << categoryCount << endl;
 
     conf = configParser();
-    html_header = "<header>"+conf->header+"<a rel='me' href='https://fosstodon.org/@abstractxan'></a></header>";
+    html_header = "<header>"+conf->header+"</header>";
     html_footer = "<footer><p>"+conf->footer+"</p></footer></body></html>";
     //Debug categories
     //printContent(cats,categoryCount);

@@ -4,4 +4,4 @@ name=abstractxan
 description=Personal Website
 creator=abstractxan 
 header=<a id='logo' href='home.html'><img src='../media/interface/logo.png' alt='AbstractXan' ></a>
-footer=Abstractxan Ⓒ 2020<p>Updates every month</p><form action='https://tinyletter.com/abstractxan' method='post' target='popupwindow' onsubmit='window.open(\'https://tinyletter.com/abstractxan\', \'popupwindow\', \'scrollbars=yes,width=800,height=600\');return true'><input type='email' value='' name='EMAIL' class='email' placeholder='email@address.com' required=''><input type='submit' value='Subscribe' name='subscribe' class='button'></form>
+footer=Abstractxan Ⓒ 2020<p>Updates every month</p><form action='https://tinyletter.com/abstractxan' method='post' target='popupwindow' onsubmit='window.open(\'https://tinyletter.com/abstractxan\', \'popupwindow\', \'scrollbars=yes,width=800,height=600\');return true'><input type='email' value='' name='EMAIL' class='email' placeholder='email@address.com' required=''><input type='submit' value='Subscribe' name='subscribe' class='button'></form><a rel="me" href="https://fosstodon.org/@abstractxan">Mastodon</a>
