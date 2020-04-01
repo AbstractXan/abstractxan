@@ -296,7 +296,7 @@ Factors that hinder productivity:
 Currently, I'm building a personal tracker for productivity and projects. I'll be posting daily progress here until then. Every time slot is broken down into pomodoros i.e 25min.
 
 Glossary:
-- <b>A<b> : Artwork
+- <b>A</b> : Artwork
 - <b>C</b> : Cooking
 - <b>E</b> : Exercise
 - <b>G</b> : Gaming
@@ -314,8 +314,10 @@ Log :
 - 28 March 2020 : M,S,S,S,S,S,S,G,G,G,G,G,G,G,G
 - 29 March 2020 : E,M,S,S,S,S,S,S,S,S,S,S,S,S,G,G,G,G,G,G,G,S,S,G,G,G,G,G,G
 - 30 March 2020 : E,Y,M,A,A,A,S,S,S,C,C,C,C,H,S,S,S,A,A,A,S
+- 31 March 2020 : E,M,A,A,S,S,S,A,A,C,S,S,A,A,S,S,S,G
+- 1 April 2020 : E,M,H
+Last Updated: 1 April 2020
 
-Last Updated: 30 March 2020
 ## Enigma 2019 Prelims
 ### Rules
 <p>Event is 3hrs from 9 to 12pm (midnight). Only one submission per team. Multiple submission will lead to disqualification. Enter valid names as registered on Tirutsava website. Failing to do so will lead to disqualification</p><p><ol><li>1.1 We strongly recommend using internet the greatest gift of the god to its fullest potential.</li><li>1.2 Failure to use god's gift will be considered as blasphemy and the participant will be rendered unable to solve even a single question.</li><li>2 We all at enigma love wearing hats and will greatly appreciate not using any caps in the answers.</li><li>3 Due to recent court hearings all contestants are required to enjoy the storyline embedded in the contest. Failure to do so will result in boredom.</li><li>4 Order of court can be ignored but one shall not ignore the order of questions.</li><li>5 Thou shall be ranked by your intellectual potential to score marks and submit fast</li><li>6 Thou shalt doubt our intellect by wondering how many answers a question has. Just like god they is only one true answer and that's ours.</li><li>7 Thou shall submit on or before 12 midnight</li></ol></p><p></p><p>Special thanks to people who just convinced coke to sponsor <a href='https://www.tirutsava.com'>Tirutsava</a></p><p>Wubba Lubba Dub Dub!</p>
