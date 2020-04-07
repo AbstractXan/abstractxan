@@ -399,7 +399,10 @@ Log :
 - 1 April 2020 : E,M,H,S,S,S,S,S,S,S,S,C,C,S,S,S,S,S,S,C,C,A
 - 2 April 2020 : E,Y,H,S,S,S,S,S,C,C,S,S,S,Mu,Mu,S,S,S
 - 3 April 2020 : E,Y,S,S,S,S,S,S,S
-Last Updated: 3 April 2020
+- 4 April 2020 :
+- 5 April 2020 : E,Y,M,S,S,S,S,C,S,S,S,S,S,S
+- 6 April 2020 : E,M,H,S,S,S,S,S,G,S,S,S,G,G,G,G,G,G,G,G
+Last Updated: 7 April 2020
 
 ## Enigma 2019 Prelims
 ### Rules
