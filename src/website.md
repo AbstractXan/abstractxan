@@ -155,7 +155,6 @@ We realise that since we use a <i>large</i> prime p, the encryption key becomes 
 An interesting area is [Elliptic curve cryptography](https://www.youtube.com/watch?v=gAtBM06xwaw) which tends to reduce the encryption key size and provide equivalent security.
 
 Last Updated: 3 April 2020
-## El Gamal Encryption Scheme
 ## Resources
 ### Coding
 -[Set of Coding crypto challenges](https://cryptopals.com/)
@@ -407,7 +406,7 @@ Log :
 - 1 April 2020 : E,M,H,S,S,S,S,S,S,S,S,C,C,S,S,S,S,S,S,C,C,A
 - 2 April 2020 : E,Y,H,S,S,S,S,S,C,C,S,S,S,Mu,Mu,S,S,S
 - 3 April 2020 : E,Y,S,S,S,S,S,S,S
-- 4 April 2020 :
+- 4 April 2020 : 
 - 5 April 2020 : E,Y,M,S,S,S,S,C,S,S,S,S,S,S
 - 6 April 2020 : E,M,H,S,S,S,S,S,G,S,S,S,G,G,G,G,G,G,G,G
 - 7 April 2020 : E,M,H,S,S,S,C,C,G,G,G,G,E,E,G,G,G
@@ -415,6 +414,7 @@ Log :
 - 9 April 2020 : E,M,G,G,G,G,G,G,G,G,E,E,Mu,Mu,Mu
 - 10 April 2020 : E,S,S
 Last Updated: 10 April 2020
+
 ## Wanderings
 ### BTP
 - Docker Volumes
@@ -475,4 +475,3 @@ Last Updated: 10 April 2020
 
 ### Epilogue: The Final Sequence
 <p>Adriana tuned in a news channel. \"Good people of New-York, don\'t believe the false information spread by some terrorists to harm our great nation. NYPD has made multiple arrests in past couple of weeks regarding the video broadcast by the same terrorist outfit to induce widespread public fear.\" She quickly turned it off and leaned back on her chair. The people were slowly rejecting the matrix just like her unable to cope up with the reality so perfect. Symptoms were visible from last few weeks and everyone was feeling them. Things were getting progressively bad. She was feeling her vision slowly get blurry. She got up and walked to the balcony. People on street were falling down and cars were crashing into objects and people one after other. But she couldn\'t see any of it as her vision quickly faded and her head became light. It was the most sad day of the Architect\'s life as her precision matrix was off the grid. The perfect place of humanity was rejected by its inhabitants The Paradise Matrix has fallen.</p><p>16. I hope you\'ve been watching closely [54 points] </p>
-#
