@@ -79,6 +79,7 @@ Questions will be posted here soon.
 # Cryptography
 ## Diffie-Hellmann Key Exchange
 
+
 ### Introduction
 - Public key exchange protocol
 - [Group](https://en.wikipedia.org/wiki/Multiplicative_group_of_integers_modulo_n) based cryptography
@@ -145,7 +146,8 @@ Generators have a property that g^i mod p generate a group of numbers between 1 
 This way, the encryption key could take any value between 1 to p-1 equally likely and thus it is harder to guess for larger values of p.
 
 Such cyclic groups modulo p, a large prime number, and a corresponding generator ([primitive root modulo p](https://en.wikipedia.org/wiki/Primitive_root_modulo_n) ) g are used to create secure public key transfer protocol given that discreet logarithm problem is hard to solve.
-
+### Flaws
+Impersonation issues.
 ### Further
 
 We realise that since we use a <i>large</i> prime p, the encryption key becomes <b>huge</b> as well, as g^ab mod p always lies between 1 to p-1. This proves to be memory extensive.
@@ -153,6 +155,7 @@ We realise that since we use a <i>large</i> prime p, the encryption key becomes 
 An interesting area is [Elliptic curve cryptography](https://www.youtube.com/watch?v=gAtBM06xwaw) which tends to reduce the encryption key size and provide equivalent security.
 
 Last Updated: 3 April 2020
+## El Gamal Encryption Scheme
 ## Resources
 ### Coding
 -[Set of Coding crypto challenges](https://cryptopals.com/)
@@ -164,6 +167,7 @@ Unordered list of resources
 - [Diffie-Hellman Key Exchange](https://www.khanacademy.org/computing/computer-science/cryptography/modern-crypt/v/diffie-hellman-key-exchange-part-2)
 - [RSA Encryption](https://www.khanacademy.org/computing/computer-science/cryptography/modern-crypt/v/intro-to-rsa-encryption)
 - [Random Univ Slides](https://www.icg.isy.liu.se/courses/tsit03/)
+
 
 # Resources
 ## Competitive Coding
@@ -344,13 +348,17 @@ Insertion
 <div class='sketchbook'><img src='../media/sketchbook2019/Sketchbook2019-02.jpg'><img src='../media/sketchbook2019/Sketchbook2019-03.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-04.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-05.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-06.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-07.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-08.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-09.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-10.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-11.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-12.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-13.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-14.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-15.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-16.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-17.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-18.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-19.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-20.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-21.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-22.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-23.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-24.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-25.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-26.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-27.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-28.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-29.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-30.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-31.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-32.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-33.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-34.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-35.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-36.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-37.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-38.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-39.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-40.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-41.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-42.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-43.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-44.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-45.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-46.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-47.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-48.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-49.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-50.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-51.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-52.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-53.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-54.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-55.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-56.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-57.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-58.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-59.jpg'></div>
 
 $$$ Seperate Pages
-## Casual Discoveries
+
+
+## Casual Notes
 ### Coding
 
 - Sets are slower! Frek my runtime.
 - Iterators add overhead? Maybe..
 - Inplace algorithms improve space complexity
 - WHAT ARE BIT VECTORS UGH
+- XORing string don't test it unique. T_T
+
 
 ## Experiments with life
 ### Introduction
@@ -402,7 +410,31 @@ Log :
 - 4 April 2020 :
 - 5 April 2020 : E,Y,M,S,S,S,S,C,S,S,S,S,S,S
 - 6 April 2020 : E,M,H,S,S,S,S,S,G,S,S,S,G,G,G,G,G,G,G,G
-Last Updated: 7 April 2020
+- 7 April 2020 : E,M,H,S,S,S,C,C,G,G,G,G,E,E,G,G,G
+- 8 April 2020 : S,S,s,S,C,C,S,S,G,G,G,S,S,S,S,S,S,E,E,G,G,G
+- 9 April 2020 : E,M,G,G,G,G,G,G,G,G,E,E,Mu,Mu,Mu
+- 10 April 2020 : E,S,S
+Last Updated: 10 April 2020
+## Wanderings
+### BTP
+- Docker Volumes
+- Docker swarm
+- Kubernetes
+- Setup NDN-Cxx image
+### Admissions
+- Scan 10th Marksheet
+- Write SOP
+- Enroll in other institutes
+### Study
+- Complete CTCI
+- Leetcode challenge everyday
+### Random things I wanna do
+- Variable passing through a website using JS
+- Making a simple game in JS
+- Explore Webassembly
+- Write about Webassembly
+- Game Dev! (Trying raylib)
+
 
 ## Enigma 2019 Prelims
 ### Rules
@@ -443,4 +475,4 @@ Last Updated: 7 April 2020
 
 ### Epilogue: The Final Sequence
 <p>Adriana tuned in a news channel. \"Good people of New-York, don\'t believe the false information spread by some terrorists to harm our great nation. NYPD has made multiple arrests in past couple of weeks regarding the video broadcast by the same terrorist outfit to induce widespread public fear.\" She quickly turned it off and leaned back on her chair. The people were slowly rejecting the matrix just like her unable to cope up with the reality so perfect. Symptoms were visible from last few weeks and everyone was feeling them. Things were getting progressively bad. She was feeling her vision slowly get blurry. She got up and walked to the balcony. People on street were falling down and cars were crashing into objects and people one after other. But she couldn\'t see any of it as her vision quickly faded and her head became light. It was the most sad day of the Architect\'s life as her precision matrix was off the grid. The perfect place of humanity was rejected by its inhabitants The Paradise Matrix has fallen.</p><p>16. I hope you\'ve been watching closely [54 points] </p>
-
+#
