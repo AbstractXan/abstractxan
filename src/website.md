@@ -76,7 +76,7 @@ Questions will be posted here soon.
 <p>Prelims questions were created by both <a href='https://www.twitter.com/AnupKulkarn1'>Anup Kulkarni</a> and I. Questions for finals were created by me. Questions could be found here: <a href='enigma_2019_prelims.html'>prelims</a></p>
 
 
-# Cryptography
+# Articles
 ## Diffie-Hellmann Key Exchange
 
 
@@ -155,20 +155,10 @@ We realise that since we use a <i>large</i> prime p, the encryption key becomes 
 An interesting area is [Elliptic curve cryptography](https://www.youtube.com/watch?v=gAtBM06xwaw) which tends to reduce the encryption key size and provide equivalent security.
 
 Last Updated: 3 April 2020
-## Resources
-### Coding
--[Set of Coding crypto challenges](https://cryptopals.com/)
-### Links
-Unordered list of resources
-- [One way function](https://en.wikipedia.org/wiki/One-way_function)
-- [Attack Models](https://en.wikipedia.org/wiki/Attack_model) like CPA, CCA, COA
-- [Authenticated Encryption](https://en.wikipedia.org/wiki/Authenticated_encryption) 
-- [Diffie-Hellman Key Exchange](https://www.khanacademy.org/computing/computer-science/cryptography/modern-crypt/v/diffie-hellman-key-exchange-part-2)
-- [RSA Encryption](https://www.khanacademy.org/computing/computer-science/cryptography/modern-crypt/v/intro-to-rsa-encryption)
-- [Random Univ Slides](https://www.icg.isy.liu.se/courses/tsit03/)
-
 
 # Resources
+## Machine Learning
+Andrew Ng's class [notes](http://www.holehouse.org/mlclass/index.html)
 ## Competitive Coding
 ### Links
 - [Competitive Programmer's Handbook](https://cses.fi/book/book.pdf)
@@ -213,7 +203,6 @@ Unordered list of resources
 - docker ps -a  (for stopped containers)
 - docker rm $(docker ps -a -q)  (remove all stopped containers)
 - docker rm container
-
 ### Videos
 
 - [Docker in 12minutes](https://www.youtube.com/watch?v=YFl2mCHdv24)
@@ -223,7 +212,9 @@ Unordered list of resources
 - [Docker Compose](https://www.youtube.com/watch?v=Qw9zlE3t8Ko) for multiple containers.
 
 Last updated 22 March 2020
+
 ## C++ STL
+
 ### Vector
 [ | | | | =>
 - [Fast] Insert at back: <b>O(1)</b>
@@ -246,7 +237,6 @@ Iterators
 Alternatively for C++11,
 - for(auto it:vec) // Use &it for reference, if one wants changes in values
 - &nbsp; cout &lt;&lt; it &lt;&lt; endl; 
-
 ### Deque
 <= | | | | =>
 - [Fast] Insert at front and back: <b>O(1)</b>
@@ -257,7 +247,6 @@ Implementation similar to vector
 - deque&lt;int&gt; deq = {4,6,7};
 - deq.push_front(3);
 - deq.push_back(8); 
-
 ### List
  [ ] <-> [ ] <-> [ ]
 - [Fast] Insert and Remove anywhere: <b>O(1)</b>
@@ -275,7 +264,6 @@ Insert
 - listt.erase(itr)
 Splice: Copies elements from list2 (from itr_a to itr_b) to list1 at itr
 - list1.splice(itr,list2,itr_a,itr_b);
-
 ### Array
 Thin layer around the naked array.
 - int a[3] = {3,4,5};
@@ -288,7 +276,6 @@ Usage
 - a.size();
 - a.begin();
 - a.end();
-
 ### Set 
 - [Slow] Insert <b>O(log(n))</b>
 - [Fast] Search <b>O(log(n))</b>
@@ -312,7 +299,6 @@ Insert via <i>hint</i>.
 Erase
 - myset.erase(itr);
 - myset.erase(7); // By <b>value!</b>  
-
 ### Multiset
 - [Fast] Search O(log(n))
 - [Slow] Traversing
@@ -331,7 +317,6 @@ Insertion
 - mymap.insert(pair&lt;char,int&gt;('a',100));
 - mymap.insert(make_pair('z',200));
 - mymap.insert(itr,pair&lt;char,int&gt;('a',300)); // itr is a hint.
-
 ### Multimap
 - <b>Allows duplicate keys
 - Keys cannot be modified
@@ -340,6 +325,18 @@ Insertion
 - (*itr).first = 'd'; // Error
 ### Resources
 - [Associative containers](https://www.youtube.com/watch?v=6iyzPed7FrM)
+
+## Cryptography Resources
+### Coding
+-[Set of Coding crypto challenges](https://cryptopals.com/)
+### Links
+Unordered list of resources
+- [One way function](https://en.wikipedia.org/wiki/One-way_function)
+- [Attack Models](https://en.wikipedia.org/wiki/Attack_model) like CPA, CCA, COA
+- [Authenticated Encryption](https://en.wikipedia.org/wiki/Authenticated_encryption) 
+- [Diffie-Hellman Key Exchange](https://www.khanacademy.org/computing/computer-science/cryptography/modern-crypt/v/diffie-hellman-key-exchange-part-2)
+- [RSA Encryption](https://www.khanacademy.org/computing/computer-science/cryptography/modern-crypt/v/intro-to-rsa-encryption)
+- [Random Univ Slides](https://www.icg.isy.liu.se/courses/tsit03/)
 
 # Miscellaneous
 ## Sketchbook 2019
@@ -376,8 +373,9 @@ Factors that help improve productivity:
 - Getting inspired
 
 Factors that hinder productivity:
+- Absense of physical activities
 - Trying to do a lot of work at once
-- Keep sitting at a single place
+- Prolonged sitting
 - Excessive gaming (drains the mind)
 
 ### Tracker
@@ -410,10 +408,11 @@ Log :
 - 5 April 2020 : E,Y,M,S,S,S,S,C,S,S,S,S,S,S
 - 6 April 2020 : E,M,H,S,S,S,S,S,G,S,S,S,G,G,G,G,G,G,G,G
 - 7 April 2020 : E,M,H,S,S,S,C,C,G,G,G,G,E,E,G,G,G
-- 8 April 2020 : S,S,s,S,C,C,S,S,G,G,G,S,S,S,S,S,S,E,E,G,G,G
+- 8 April 2020 : S,S,S,S,C,C,S,S,G,G,G,S,S,S,S,S,S,E,E,G,G,G
 - 9 April 2020 : E,M,G,G,G,G,G,G,G,G,E,E,Mu,Mu,Mu
-- 10 April 2020 : E,S,S
-Last Updated: 10 April 2020
+- 10 April 2020 : E,S,S,S,S,S,S,C,S,S,S,S,A,Mu,Mu
+- 11 April 2020 : S,E,A,S,S
+Last Updated: 11 April 2020
 
 ## Wanderings
 ### BTP
@@ -428,6 +427,7 @@ Last Updated: 10 April 2020
 ### Study
 - Complete CTCI
 - Leetcode challenge everyday
+- Machine Learning
 ### Random things I wanna do
 - Variable passing through a website using JS
 - Making a simple game in JS
