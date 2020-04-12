@@ -158,6 +158,7 @@ Last Updated: 3 April 2020
 
 # Resources
 ## Machine Learning
+### Links
 Andrew Ng's class [notes](http://www.holehouse.org/mlclass/index.html)
 ## Competitive Coding
 ### Links
