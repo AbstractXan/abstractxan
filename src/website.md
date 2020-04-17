@@ -156,10 +156,26 @@ An interesting area is [Elliptic curve cryptography](https://www.youtube.com/wat
 
 Last Updated: 3 April 2020
 
+
+## Practical Machine Learning
+### Basics
+- Go through Andrew Ng lectures and lecture notes(for revision).
+- Read cheatsheets for Pandas, Sklearn and Matplotlib
+### Classifiers
+Classifying [Iris-dataset](https://www.kaggle.com/arshid/iris-flower-dataset)
+Import csv file using pandas
+- pd.read_csv('IRIS.csv')
+Visualize the data
+![Iris dataset](../media/ml/iris.png)
+Implementing various classifiers and find max accuracy classifier
+![Iris Classifiers](../media/ml/classifiers-iris.png)
+
+
 # Resources
 ## Machine Learning
 ### Links
 Andrew Ng's class [notes](http://www.holehouse.org/mlclass/index.html)
+[PCA intuition video](https://www.youtube.com/watch?v=g-Hb26agBFg)
 ## Competitive Coding
 ### Links
 - [Competitive Programmer's Handbook](https://cses.fi/book/book.pdf)
@@ -385,6 +401,7 @@ Currently, I'm building a personal tracker for productivity and projects. I'll b
 Glossary:
 - <b>A</b> : Artwork
 - <b>C</b> : Cooking
+- <b>Ch</b> : Chores
 - <b>E</b> : Exercise
 - <b>G</b> : Gaming
 - <b>H</b> : Hygiene
@@ -413,7 +430,13 @@ Log :
 - 9 April 2020 : E,M,G,G,G,G,G,G,G,G,E,E,Mu,Mu,Mu
 - 10 April 2020 : E,S,S,S,S,S,S,C,S,S,S,S,A,Mu,Mu
 - 11 April 2020 : S,E,A,S,S
-Last Updated: 11 April 2020
+- 12 April 2020 : E,M,A,S,S,A,S,S,S
+- 13 April 2020 : E,M,S,S,S,S,S,S,S,S
+- 14 April 2020 : E,M,S,S,S,S,S,S,S,S,S,S,A,Mu,Mu
+- 15 April 2020 : E,Y,A,A,S,S,S,S,S,S,S,S,S,
+- 16 April 2020 : E,S,S,Ch,Ch,Ch,Ch,S,S,S,S,S,S,S,S,S,S,S,G,G,G,G
+- 17 April 2020 : E,Y,H,S,S,S,C,G,G,S,S,S,S,S,S,S,S,
+Last Updated: 17 April 2020
 
 ## Wanderings
 ### BTP
