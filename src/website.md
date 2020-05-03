@@ -77,9 +77,86 @@ Questions will be posted here soon.
 
 
 # Articles
+## SQL
+### Introduction
+Structured Query Language. Keywords are case insensitive.
+### Commands
+- show databases;
+
+## Object Oriented Programming
+### C++ Classes 
+- class Box {
+- &nbsp;&nbsp;public:
+- &nbsp;&nbsp;&nbsp;&nbsp;double length;   // Length of a box
+- &nbsp;&nbsp;&nbsp;&nbsp;double breadth;  // Breadth of a box
+- &nbsp;&nbsp;&nbsp;&nbsp;double height;   // Height of a box
+- };
+
+Creating objects:
+- Box Box1;
+
+Accessing data members (dot operator):
+- Box1.length
+
+C++ Classes and Objects in detail: [here](https://www.tutorialspoint.com/cplusplus/cpp_classes_objects.htm)
+
+### Inheritence
+### Polymorphism
+Polymorphism occurs when there is a hierarchy of classes and they are related by inheritance.
+
+C++ polymorphism means that a call to a member function will cause a different function to be executed depending on the type of object that invokes the function. (Overriding)
+
+<script src="https://gist.github.com/AbstractXan/0e4f771dca763653cb560f1751a31ead.js"></script>
+
+<b>Virtual Function</b>
+This could be fixed by using 'virtual' keyword for the parent function.
+<script src="https://gist.github.com/AbstractXan/229f53e877eb1c7ece104a14eccaf3fa.js"></script>
+
+Defining a virtual function for a base class, with another version in a derived class, signals to the compiler that we don't want static linkage for this function. Instead, we want the function to be called at any given point in the program to be based on the kind of object for which it is called. This sort of operation is referred to as <b>dynamic linkage</b>, or late binding.
+
+<b>Pure Virtual Function</b>
+Defining virtual function in a base class so that it may be redefined in a derived class to suit the objects of that class, but that there is no meaningful definition you could give for the function in the base class.
+
+- virtual int area() = 0;
+
+### Encapsulation
+Encapsulation — private instance variable and public accessor methods.
+### Abstraction
+Using abstract class/Interface we express the intent of the class rather than the actual implementation.
+### Overloading
+More than one definition for an operator or a function with different parameters and usage ; used in the same scope.
+
+Function overloading:
+- void print(double  f) {
+- &nbsp;&nbsp;cout << "Printing float: " << f << endl;
+- }
+- void print(char* c) {
+- &nbsp;&nbsp;cout << "Printing character: " << c << endl;
+- }
+
+Operator overloading:
+- class Box {
+- &nbsp;&nbsp;...
+- &nbsp;&nbsp;Box operator+(const Box& b) {
+- &nbsp;&nbsp;&nbsp;&nbsp;Box box;
+- &nbsp;&nbsp;&nbsp;&nbsp;box.length = this->length + b.length;
+- &nbsp;&nbsp;&nbsp;&nbsp;box.breadth = this->breadth + b.breadth;
+- &nbsp;&nbsp;&nbsp;&nbsp;box.height = this->height + b.height;
+- &nbsp;&nbsp;&nbsp;&nbsp;return box;
+- &nbsp;&nbsp;}
+- &nbsp;&nbsp;...
+- };
+- ...
+- Box3 = Box1 + Box2;
+
+## Zero Knowledge Proofs
+### Introduction
+Zero knowledge proof / zero knowledge protocol is a method by which one party (prover) can prove to another party (verifier) that they know 'X' , without conveying any information apart from the fact that they know value 'X'. Properties:
+- Completeness
+- Soundness
+- Zero-Knowledge
+
 ## Diffie-Hellmann Key Exchange
-
-
 ### Introduction
 - Public key exchange protocol
 - [Group](https://en.wikipedia.org/wiki/Multiplicative_group_of_integers_modulo_n) based cryptography
@@ -172,6 +249,9 @@ Implementing various classifiers and find max accuracy classifier
 
 
 # Resources
+## Mathematics
+### Geometry
+- [Byrne's Euclid](https://www.c82.net/euclid/)
 ## Machine Learning
 ### Links
 Andrew Ng's class [notes](http://www.holehouse.org/mlclass/index.html)
@@ -185,7 +265,6 @@ Andrew Ng's class [notes](http://www.holehouse.org/mlclass/index.html)
 ### Questions
 [Container with most water](https://leetcode.com/problems/container-with-most-water/) is a brilliant question with an elegant solution that feels like magic. Initial instinct would be to go through the array in O(n^2) time but turns out that it could be brought down to O(n) time and O(1) space complexity. I wish I could classify this problem but I haven't solved these kinda questions enough.
 [Reveal cards in increasing order](https://leetcode.com/problems/reveal-cards-in-increasing-order/) is a very good question for testing your knowledge queue implementation.
-
 ## Computer Science
 ### Introduction
 [List of unsolved problems in Computer Science](https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_computer_science)
@@ -356,6 +435,23 @@ Unordered list of resources
 - [Random Univ Slides](https://www.icg.isy.liu.se/courses/tsit03/)
 
 # Miscellaneous
+## The Library
+### Books
+- Surely You're Joking Mr. Feynman
+- The Power of Now
+- Fahrenheit 451
+- The Girl with Seven Names
+- The Wind Up Bird Chronicle
+- Da Vinci Code
+- Digital Fortress
+- Animal Farm
+### Anime
+- Mushishi
+- Steins;Gate
+- One Punch Man
+- Sword Art Online
+- Is it wrong to pick up hot chicks in dungeon
+- The day I was reincarnated as a slime
 ## Sketchbook 2019
 ### Sketches
 <div class='sketchbook'><img src='../media/sketchbook2019/Sketchbook2019-02.jpg'><img src='../media/sketchbook2019/Sketchbook2019-03.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-04.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-05.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-06.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-07.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-08.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-09.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-10.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-11.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-12.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-13.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-14.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-15.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-16.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-17.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-18.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-19.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-20.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-21.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-22.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-23.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-24.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-25.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-26.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-27.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-28.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-29.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-30.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-31.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-32.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-33.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-34.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-35.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-36.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-37.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-38.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-39.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-40.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-41.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-42.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-43.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-44.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-45.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-46.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-47.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-48.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-49.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-50.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-51.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-52.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-53.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-54.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-55.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-56.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-57.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-58.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-59.jpg'></div>
@@ -422,13 +518,13 @@ Log :
 - 1 April 2020 : E,M,H,S,S,S,S,S,S,S,S,C,C,S,S,S,S,S,S,C,C,A
 - 2 April 2020 : E,Y,H,S,S,S,S,S,C,C,S,S,S,Mu,Mu,S,S,S
 - 3 April 2020 : E,Y,S,S,S,S,S,S,S
-- 4 April 2020 : 
+- 4 April 2020 : S,S,S,S,S,S,S,S,S,S
 - 5 April 2020 : E,Y,M,S,S,S,S,C,S,S,S,S,S,S
 - 6 April 2020 : E,M,H,S,S,S,S,S,G,S,S,S,G,G,G,G,G,G,G,G
 - 7 April 2020 : E,M,H,S,S,S,C,C,G,G,G,G,E,E,G,G,G
 - 8 April 2020 : S,S,S,S,C,C,S,S,G,G,G,S,S,S,S,S,S,E,E,G,G,G
 - 9 April 2020 : E,M,G,G,G,G,G,G,G,G,E,E,Mu,Mu,Mu
-- 10 April 2020 : E,S,S,S,S,S,S,C,S,S,S,S,A,Mu,Mu
+- 10 April 2020 : E,S,S,S,S,S,S,C,S,S,S,S,A,Ch,Ch,Ch,Ch,Ch,Ch,Mu,Mu
 - 11 April 2020 : S,E,A,S,S
 - 12 April 2020 : E,M,A,S,S,A,S,S,S
 - 13 April 2020 : E,M,S,S,S,S,S,S,S,S
@@ -436,8 +532,33 @@ Log :
 - 15 April 2020 : E,Y,A,A,S,S,S,S,S,S,S,S,S,
 - 16 April 2020 : E,S,S,Ch,Ch,Ch,Ch,S,S,S,S,S,S,S,S,S,S,S,G,G,G,G
 - 17 April 2020 : E,Y,H,S,S,S,C,G,G,S,S,S,S,S,S,S,S,
-Last Updated: 17 April 2020
+- 18 April 2020 : E
+- 19 April 2020 : S,S,S,S,S,S,S,S,S,S,S,S,G,G,G,G
+- 20 April 2020 : S,S,S,S,S,S,S,S,S,S,S,S,G,G,G,G,G
+- 21 April 2020 : E,S,S,S,S,S,S,S,S,G,G,G,G,S,S
+- 22 April 2020 : 
+- 23 April 2020 : S,S,S,S,S,S,S,s,S,S
+- 24 April 2020 : S,S,S,S,S,S,S,S,S,S
+- 25 April 2020 : E,S,S,S,S,S,S,S,S,S,S,G,G,S,S
+- 26 April 2020 : S,S,S,S,S,S,S,S
+- 27 April 2020 : S,S,S,S,G,G,S,S,S,S,S,S
+- 28 April 2020 : E,S,S,S,S,G,G,G,G,G,G,S,S,S,S,S,S,S,S,S,S
+- 29 April 2020 : S,S,S,S,S,S,S,S,G,G,G,G
+- 30 April 2020 : S,S,S,S,S,S,S,S,G,G,G,G,G,G
+- 1 May 2020 : S,S,S,S,S,S,S,S,S,S,G,G,G,G
+- 2 May 2020 : S,S,S,S,S,S,S,S,S,S
+Last Updated: 30 April 2020
 
+Human changelog :
+- 4 April 2020 : Google Code Jam Qualifiers
+- 14 April 2020 : Start Machine Learning
+- 16 April 2020 : Read Fahrenheit 451, Started watching Futureboy Conan
+- 17 April 2020 : Started Reading the power of now
+- 28 April 2020 : Started Studying OOP concept
+- 29 April 2020 : Started Artificial Neural Networks
+- 2 May 2020 : Started CNN and RNN
+
+Last Update: 17 April 2020
 ## Wanderings
 ### BTP
 - Docker Volumes
