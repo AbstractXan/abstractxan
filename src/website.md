@@ -558,7 +558,7 @@ Human changelog :
 - 29 April 2020 : Started Artificial Neural Networks
 - 2 May 2020 : Started CNN and RNN
 
-Last Update: 17 April 2020
+Last Update: 2 May 2020
 ## Wanderings
 ### BTP
 - Docker Volumes
