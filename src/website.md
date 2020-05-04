@@ -300,12 +300,15 @@ Andrew Ng's class [notes](http://www.holehouse.org/mlclass/index.html)
 - docker rm $(docker ps -a -q)  (remove all stopped containers)
 - docker rm container
 ### Videos
-
 - [Docker in 12minutes](https://www.youtube.com/watch?v=YFl2mCHdv24)
 - [What is a container](https://www.docker.com/resources/what-container)
 - [Get started](https://docs.docker.com/get-started/)
 - [Containers, Docker ands Kubernetes](https://www.youtube.com/watch?v=u8dW8DrcSmo)
 - [Docker Compose](https://www.youtube.com/watch?v=Qw9zlE3t8Ko) for multiple containers.
+### Example
+Running a Jupyter Tensorflow Notebook Server:
+- docker run --rm -p 8888:8888 -v "$PWD":/home/jovyan/work jupyter/tensorflow-notebook:latest
+Here, ' -p 888:8888 ' maps the machines 8888 port to containers 8888 port. Also, ' -v &lt;machine_path&gt;:&lt;container_path&gt; ' maps the machines working directory to container's path (usually predefined). Here we map ' $PWD ' i.e current directory's path with container's predefined path '/home/jovyan/work'. For more info lookup: [jupyter-notebook stacks](https://jupyter-docker-stacks.readthedocs.io/en/latest/)
 
 Last updated 22 March 2020
 
@@ -566,20 +569,19 @@ Last Update: 2 May 2020
 - Kubernetes
 - Setup NDN-Cxx image
 ### Admissions
-- Scan 10th Marksheet
 - Write SOP
 - Enroll in other institutes
 ### Study
 - Complete CTCI
 - Leetcode challenge everyday
-- Machine Learning
+- RNN and CNN
 ### Random things I wanna do
 - Variable passing through a website using JS
 - Making a simple game in JS
 - Explore Webassembly
 - Write about Webassembly
 - Game Dev! (Trying raylib)
-
+- Unity GameDev
 
 ## Enigma 2019 Prelims
 ### Rules
