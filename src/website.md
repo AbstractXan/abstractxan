@@ -80,8 +80,43 @@ Questions will be posted here soon.
 ## SQL
 ### Introduction
 Structured Query Language. Keywords are case insensitive.
+### mySQL using Docker
+A basic working SQL server.
+- docker pull mysql
+- docker create network work
+- docker run --name testmysql --network work -e MYSQL_ROOT_PASSWORD=password -d mysql:latest
+- docker run -it --network work --rm mysql mysql -htestmysql -uroot -p
+- #(Enter 'password' as your password)
+
+Pull docker image. Create a network. Start a server in a container. Create a client container and access the server.
+
+### Video
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hGlvp5YgAvM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ### Commands
 - show databases;
+- create database test;
+- use test;
+- create table t ( col1 char , col2 int);
+- insert into t values ('a',1),('b',2);
+- <b>SELECT</b> * from t;
+- select col1 from t <b>WHERE</b> col2 = 1;
+- select col2 from t where col1 <b>LIKE</b> 'a%';
+
+AGGREGATION
+- MIN, MAX, COUNT, AVG
+
+GROUP BY
+- select col1 , count(col1) from t group by col1;
+
+JOINS
+- select t1.col1 , t2.col1 from t1 <b>INNER JOIN</b>  t2 ON t1.col2 = t2.col2;
+-  select t1.col1 , t2.col1 from t1 <b>LEFT JOIN</b>  t2 ON t1.col2 = t2.col2;
+- select t1.col1 , t2.col1 from t1 <b>RIGHT JOIN</b> t2 ON t1.col2 = t2.col2;
+- select * from t1 <b>UNION</b> select * from t2;
+
+
+
 
 ## Object Oriented Programming
 ### C++ Classes 
@@ -256,6 +291,7 @@ Implementing various classifiers and find max accuracy classifier
 ### Links
 Andrew Ng's class [notes](http://www.holehouse.org/mlclass/index.html)
 [PCA intuition video](https://www.youtube.com/watch?v=g-Hb26agBFg)
+[Learn CNN (Interactive)](https://poloclub.github.io/cnn-explainer/)
 ## Competitive Coding
 ### Links
 - [Competitive Programmer's Handbook](https://cses.fi/book/book.pdf)
@@ -425,7 +461,7 @@ Insertion
 ### Resources
 - [Associative containers](https://www.youtube.com/watch?v=6iyzPed7FrM)
 
-## Cryptography Resources
+## Cryptography
 ### Coding
 -[Set of Coding crypto challenges](https://cryptopals.com/)
 ### Links
@@ -448,6 +484,9 @@ Unordered list of resources
 - Da Vinci Code
 - Digital Fortress
 - Animal Farm
+### Books II
+- Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow by <b>Aurelion Geron</b>
+- Cracking the coding interview by <b>Gayle Laakman McDowell</b>
 ### Anime
 - Mushishi
 - Steins;Gate
@@ -483,16 +522,20 @@ A set of body workouts including: Gym workouts, Yoga and Meditation on a daily b
 Every work using pomodoro.
 
 Factors that help improve productivity:
-- Casual debate with someone
+- 
+- Taking breaks between work
+- Explaining a concept to someone
+- Getting inspired
 - Cooking
 - Drawing
-- Getting inspired
 
 Factors that hinder productivity:
 - Absense of physical activities
 - Trying to do a lot of work at once
+- Stress
 - Prolonged sitting
 - Excessive gaming (drains the mind)
+
 
 ### Tracker
 Currently, I'm building a personal tracker for productivity and projects. I'll be posting daily progress here until then. Every time slot is broken down into pomodoros i.e 25min.
@@ -504,6 +547,7 @@ Glossary:
 - <b>E</b> : Exercise
 - <b>G</b> : Gaming
 - <b>H</b> : Hygiene
+- <b>L</b> : Leisure
 - <b>M</b> : Meditation
 - <b>Mu</b> : Music
 - <b>S</b> : Study
@@ -550,7 +594,10 @@ Log :
 - 30 April 2020 : S,S,S,S,S,S,S,S,G,G,G,G,G,G
 - 1 May 2020 : S,S,S,S,S,S,S,S,S,S,G,G,G,G
 - 2 May 2020 : S,S,S,S,S,S,S,S,S,S
-Last Updated: 30 April 2020
+- 3 May 2020 : S,S,S,S,S,S,S,S,S,S,G,G
+- 4 May 2020 : S,S,S,S,S,S,S,S,S,S,S,G,G
+- 5 May 2020 : S,S,G,G,G,S,S
+Last Updated: 5 May 2020
 
 Human changelog :
 - 4 April 2020 : Google Code Jam Qualifiers
@@ -560,11 +607,12 @@ Human changelog :
 - 28 April 2020 : Started Studying OOP concept
 - 29 April 2020 : Started Artificial Neural Networks
 - 2 May 2020 : Started CNN and RNN
+- 5 May 2020 : Started SQL
 
 Last Update: 2 May 2020
 ## Wanderings
 ### BTP
-- Docker Volumes
+- [x] Docker Volumes
 - Docker swarm
 - Kubernetes
 - Setup NDN-Cxx image
@@ -582,7 +630,6 @@ Last Update: 2 May 2020
 - Write about Webassembly
 - Game Dev! (Trying raylib)
 - Unity GameDev
-
 ## Enigma 2019 Prelims
 ### Rules
 <p>Event is 3hrs from 9 to 12pm (midnight). Only one submission per team. Multiple submission will lead to disqualification. Enter valid names as registered on Tirutsava website. Failing to do so will lead to disqualification</p><p><ol><li>1.1 We strongly recommend using internet the greatest gift of the god to its fullest potential.</li><li>1.2 Failure to use god's gift will be considered as blasphemy and the participant will be rendered unable to solve even a single question.</li><li>2 We all at enigma love wearing hats and will greatly appreciate not using any caps in the answers.</li><li>3 Due to recent court hearings all contestants are required to enjoy the storyline embedded in the contest. Failure to do so will result in boredom.</li><li>4 Order of court can be ignored but one shall not ignore the order of questions.</li><li>5 Thou shall be ranked by your intellectual potential to score marks and submit fast</li><li>6 Thou shalt doubt our intellect by wondering how many answers a question has. Just like god they is only one true answer and that's ours.</li><li>7 Thou shall submit on or before 12 midnight</li></ol></p><p></p><p>Special thanks to people who just convinced coke to sponsor <a href='https://www.tirutsava.com'>Tirutsava</a></p><p>Wubba Lubba Dub Dub!</p>
