@@ -9,7 +9,7 @@
 @font-face { font-family: 'input_mono_medium'; src: url('../media/fonts/input_mono_medium.ttf') format('truetype'); font-weight: normal; font-style: normal; }
 
 html { background:white; }
-body { background:#fff; color:#000; font-family: "alte_haas_grotesk_regular", "Helvetica Neue", Helvetica, Arial; overflow-x: hidden; margin-top:5px; padding:45px 90px; }
+body { text-align: centre; background:#fff; color:#000; font-family: "alte_haas_grotesk_regular", "Helvetica Neue", Helvetica, Arial; overflow-x: hidden; margin-top:5px; padding:45px 90px; }
 body hr { border:0; clear:both; }
 body header a#logo { margin-top: -15px;display: block;width: 75px; margin-bottom:15px;}
 body header a#logo img { width:100%; }
