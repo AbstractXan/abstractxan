@@ -113,19 +113,8 @@ JOINS
 - select t1.col1 , t2.col1 from t1 <b>INNER JOIN</b>  t2 ON t1.col2 = t2.col2;
 -  select t1.col1 , t2.col1 from t1 <b>LEFT JOIN</b>  t2 ON t1.col2 = t2.col2;
 - select t1.col1 , t2.col1 from t1 <b>RIGHT JOIN</b> t2 ON t1.col2 = t2.col2;
-
-UNION => DISTINCT 
-UNION ALL => DUPLICATES allowed
 - select * from t1 <b>UNION</b> select * from t2;
 
-
-### Curated Questions
-1. Query even ID numbers in table STATION.
-- select * from station where <b>MOD(id,2)</b>=0;
-2. Query to find the difference between the total number of cities and the unique number of cities in the table STATION.
-- select <b>count(city)-count(distinct city)</b> from station;
-3. Query city with the longest name from table STATION
-- select city from station orderby length(city) <b>desc, city limit 1</b>;
 
 
 
@@ -608,9 +597,6 @@ Log :
 - 3 May 2020 : S,S,S,S,S,S,S,S,S,S,G,G
 - 4 May 2020 : S,S,S,S,S,S,S,S,S,S,S,G,G
 - 5 May 2020 : S,S,G,G,G,S,S
-- 6 May 2020 :
-- 7 May 2020 :
-- 8 May 2020 : S,S,S,S,S,S,S
 Last Updated: 5 May 2020
 
 Human changelog :
@@ -622,7 +608,6 @@ Human changelog :
 - 29 April 2020 : Started Artificial Neural Networks
 - 2 May 2020 : Started CNN and RNN
 - 5 May 2020 : Started SQL
-- 8 May 2020 : Read AutoEncoders and GAN
 
 Last Update: 2 May 2020
 ## Wanderings
