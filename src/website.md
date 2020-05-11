@@ -303,6 +303,8 @@ Implementing various classifiers and find max accuracy classifier
 Andrew Ng's class [notes](http://www.holehouse.org/mlclass/index.html)
 [PCA intuition video](https://www.youtube.com/watch?v=g-Hb26agBFg)
 [Learn CNN (Interactive)](https://poloclub.github.io/cnn-explainer/)
+[Markov Decision Processes](https://youtu.be/9g32v7bK3Co)
+
 ## Competitive Coding
 ### Links
 - [Competitive Programmer's Handbook](https://cses.fi/book/book.pdf)
@@ -611,6 +613,7 @@ Log :
 - 6 May 2020 :
 - 7 May 2020 :
 - 8 May 2020 : S,S,S,S,S,S,S
+- 9 May 2020
 Last Updated: 5 May 2020
 
 Human changelog :
