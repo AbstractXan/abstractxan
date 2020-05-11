@@ -1,112 +1,231 @@
+<!doctype html>
 <html>
-	<head>
-	</head>
-	
-	<body>
-		<script src="../links/main.css"></script>
-		<script src="./data.js"></script>
-		<script>
-			const data = getData();
+
+<head>
+	<title>Line Chart</title>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.bundle.min.js"></script>
+	<script src="./utils.js"></script>
+	<style>
+		canvas {
+			-moz-user-select: none;
+			-webkit-user-select: none;
+			-ms-user-select: none;
+		}
+	</style>
+</head>
+
+<body>
+	<div style="width:1000px">
+		<p></a></p>
+		<canvas id="chart1"></canvas>
+	</div>
+	<br>
+	<br>
+	Chart Type:
+	<select id="type">
+		<option value="line">Line</option>
+		<option value="bar">Bar</option>
+	</select>
+	<select id="unit">
+		<option value="second">Second</option>
+		<option value="minute">Minute</option>
+		<option value="hour">Hour</option>
+		<option value="day" selected>Day</option>
+		<option value="month">Month</option>
+		<option value="year">Year</option>
+	</select>
+	<button id="update">update</button>
+	<script src="data.js"></script>
+	<script>
+
+		function getd(){
+			
+			//helper functions and variables
+			var unit = document.getElementById('unit').value;
+			function unitLessThanDay() {
+				return unit === 'second' || unit === 'minute' || unit === 'hour';
+			}
+
+			var lessThanDay = unitLessThanDay();
+			indata = getData();
+			console.log(indata);
+			data = [];
+			// Looping over data
+			for (var i=0 ; i<indata.length ; i++){
+				// Extract date
+				var day = indata[i];
+				var date = new moment(day[0], "DD MMM YYYY");
+				var activities = day.length - 1; //Number of activities
+				if (lessThanDay) {
+						date = date.hour(9).minute(30).second(0);
+				}
+				console.log(date,date.valueOf());
+				data.push({t: date,y: activities});
+			}
 			console.log(data);
-		</script>
-		<p>
-		## Experiments with life
-		### Introduction
-		Being constantly dissatisfied with myself, I feel very stagnated in life. To come out of these badlands, I'll be writing blogs on my experiments on myself.
-		
-		### Workouts
-		A set of body workouts including: Gym workouts, Yoga and Meditation on a daily basis.
-		
-		### Productivity
-		Every work using pomodoro.
-		
-		Factors that help improve productivity:
-		- 
-		- Taking breaks between work
-		- Explaining a concept to someone
-		- Getting inspired
-		- Cooking
-		- Drawing
-		
-		Factors that hinder productivity:
-		- Absense of physical activities
-		- Trying to do a lot of work at once
-		- Stress
-		- Prolonged sitting
-		- Excessive gaming (drains the mind)
-		
-		
-		### Tracker
-		Currently, I'm building a personal tracker for productivity and projects. I'll be posting daily progress here until then. Every time slot is broken down into pomodoros i.e 25min.
-		
-		Glossary:
-		- <b>A</b> : Artwork
-		- <b>C</b> : Cooking
-		- <b>Ch</b> : Chores
-		- <b>E</b> : Exercise
-		- <b>G</b> : Gaming
-		- <b>H</b> : Hygiene
-		- <b>L</b> : Leisure
-		- <b>M</b> : Meditation
-		- <b>Mu</b> : Music
-		- <b>S</b> : Study
-		- <b>Y</b> : Yoga
-		
-		Log :
-		- 24 March 2020 : E,Y,M,Mu,G,G,S,S,S,S,S,S,Mu,Mu,Mu,G,G,G,G,G,G,G,G
-		- 25 March 2020 : E,Y,M,M,S,H,S,G,G,G,G,G,G,S,S,S,S,S,S,S,S,S,S,G,G,G,G,G,G
-		- 26 March 2020 : E,Y,M,S,S,S,S,S,S,S,S,S,G,G,G,G,G,G,G,G
-		- 27 March 2020 : Y,M,S,S,S,S,S,S,S,G,G,G,G,G,G,G,G
-		- 28 March 2020 : M,S,S,S,S,S,S,G,G,G,G,G,G,G,G
-		- 29 March 2020 : E,M,S,S,S,S,S,S,S,S,S,S,S,S,G,G,G,G,G,G,G,S,S,G,G,G,G,G,G
-		- 30 March 2020 : E,Y,M,A,A,A,S,S,S,C,C,C,C,H,S,S,S,A,A,A,S
-		- 31 March 2020 : E,M,A,A,S,S,S,A,A,C,S,S,A,A,S,S,S,G
-		- 1 April 2020 : E,M,H,S,S,S,S,S,S,S,S,C,C,S,S,S,S,S,S,C,C,A
-		- 2 April 2020 : E,Y,H,S,S,S,S,S,C,C,S,S,S,Mu,Mu,S,S,S
-		- 3 April 2020 : E,Y,S,S,S,S,S,S,S
-		- 4 April 2020 : S,S,S,S,S,S,S,S,S,S
-		- 5 April 2020 : E,Y,M,S,S,S,S,C,S,S,S,S,S,S
-		- 6 April 2020 : E,M,H,S,S,S,S,S,G,S,S,S,G,G,G,G,G,G,G,G
-		- 7 April 2020 : E,M,H,S,S,S,C,C,G,G,G,G,E,E,G,G,G
-		- 8 April 2020 : S,S,S,S,C,C,S,S,G,G,G,S,S,S,S,S,S,E,E,G,G,G
-		- 9 April 2020 : E,M,G,G,G,G,G,G,G,G,E,E,Mu,Mu,Mu
-		- 10 April 2020 : E,S,S,S,S,S,S,C,S,S,S,S,A,Ch,Ch,Ch,Ch,Ch,Ch,Mu,Mu
-		- 11 April 2020 : S,E,A,S,S
-		- 12 April 2020 : E,M,A,S,S,A,S,S,S
-		- 13 April 2020 : E,M,S,S,S,S,S,S,S,S
-		- 14 April 2020 : E,M,S,S,S,S,S,S,S,S,S,S,A,Mu,Mu
-		- 15 April 2020 : E,Y,A,A,S,S,S,S,S,S,S,S,S,
-		- 16 April 2020 : E,S,S,Ch,Ch,Ch,Ch,S,S,S,S,S,S,S,S,S,S,S,G,G,G,G
-		- 17 April 2020 : E,Y,H,S,S,S,C,G,G,S,S,S,S,S,S,S,S,
-		- 18 April 2020 : E
-		- 19 April 2020 : S,S,S,S,S,S,S,S,S,S,S,S,G,G,G,G
-		- 20 April 2020 : S,S,S,S,S,S,S,S,S,S,S,S,G,G,G,G,G
-		- 21 April 2020 : E,S,S,S,S,S,S,S,S,G,G,G,G,S,S
-		- 22 April 2020 : 
-		- 23 April 2020 : S,S,S,S,S,S,S,s,S,S
-		- 24 April 2020 : S,S,S,S,S,S,S,S,S,S
-		- 25 April 2020 : E,S,S,S,S,S,S,S,S,S,S,G,G,S,S
-		- 26 April 2020 : S,S,S,S,S,S,S,S
-		- 27 April 2020 : S,S,S,S,G,G,S,S,S,S,S,S
-		- 28 April 2020 : E,S,S,S,S,G,G,G,G,G,G,S,S,S,S,S,S,S,S,S,S
-		- 29 April 2020 : S,S,S,S,S,S,S,S,G,G,G,G
-		- 30 April 2020 : S,S,S,S,S,S,S,S,G,G,G,G,G,G
-		- 1 May 2020 : S,S,S,S,S,S,S,S,S,S,G,G,G,G
-		- 2 May 2020 : S,S,S,S,S,S,S,S,S,S
-		- 3 May 2020 : S,S,S,S,S,S,S,S,S,S,G,G
-		- 4 May 2020 : S,S,S,S,S,S,S,S,S,S,S,G,G
-		Last Updated: 30 April 2020
-		
-		Human changelog :
-		- 4 April 2020 : Google Code Jam Qualifiers
-		- 14 April 2020 : Start Machine Learning
-		- 16 April 2020 : Read Fahrenheit 451, Started watching Futureboy Conan
-		- 17 April 2020 : Started Reading the power of now
-		- 28 April 2020 : Started Studying OOP concept
-		- 29 April 2020 : Started Artificial Neural Networks
-		- 2 May 2020 : Started CNN and RNN
-		
-		Last Update: 2 May 2020
-		</p>
-	<body>
+			return data;
+		}
+		// function generateData() {
+		// 	var unit = document.getElementById('unit').value;
+
+		// 	function unitLessThanDay() {
+		// 		return unit === 'second' || unit === 'minute' || unit === 'hour';
+		// 	}
+
+		// 	function beforeNineThirty(date) {
+		// 		return date.hour() < 9 || (date.hour() === 9 && date.minute() < 30);
+		// 	}
+
+		// 	// Returns true if outside 9:30am-4pm on a weekday
+		// 	function outsideMarketHours(date) {
+		// 		if (date.isoWeekday() > 5) {
+		// 			return true;
+		// 		}
+		// 		if (unitLessThanDay() && (beforeNineThirty(date) || date.hour() > 16)) {
+		// 			return true;
+		// 		}
+		// 		return false;
+		// 	}
+
+		// 	function randomNumber(min, max) {
+		// 		return Math.random() * (max - min) + min;
+		// 	}
+
+		// 	function randomBar(date, lastClose) {
+		// 		var open = randomNumber(lastClose * 0.95, lastClose * 1.05).toFixed(2);
+		// 		var close = randomNumber(open * 0.95, open * 1.05).toFixed(2);
+		// 		return {
+		// 			t: date.valueOf(),
+		// 			y: close
+		// 		};
+		// 	}
+
+		// 	var date = moment('Jan 01 1990', 'MMM DD YYYY');
+		// 	var now = moment();
+		// 	var data = [];
+		// 	var lessThanDay = unitLessThanDay();
+		// 	for (; data.length < 600 && date.isBefore(now); date = date.clone().add(1, unit).startOf(unit)) {
+		// 		if (outsideMarketHours(date)) {
+		// 			if (!lessThanDay || !beforeNineThirty(date)) {
+		// 				date = date.clone().add(date.isoWeekday() >= 5 ? 8 - date.isoWeekday() : 1, 'day');
+		// 			}
+		// 			if (lessThanDay) {
+		// 				date = date.hour(9).minute(30).second(0);
+		// 			}
+		// 		}
+		// 		data.push(randomBar(date, data.length > 0 ? data[data.length - 1].y : 30));
+		// 	}
+
+		// 	console.log(data);
+		// 	return data;
+		// }
+
+		var ctx = document.getElementById('chart1').getContext('2d');
+		ctx.canvas.width = 1000;
+		ctx.canvas.height = 300;
+
+		var color = Chart.helpers.color;
+		var cfg = {
+			data: {
+				datasets: [{
+					label: 'Activities',
+					backgroundColor: color(window.chartColors.red).alpha(0.5).rgbString(),
+					borderColor: window.chartColors.red,
+					data: getd(),
+					type: 'line',
+					pointRadius: 0,
+					fill: false,
+					lineTension: 0,
+					borderWidth: 2
+				}]
+			},
+			options: {
+				animation: {
+					duration: 0
+				},
+				scales: {
+					xAxes: [{
+						type: 'time',
+						distribution: 'series',
+						offset: true,
+						ticks: {
+							major: {
+								enabled: true,
+								fontStyle: 'bold'
+							},
+							source: 'data',
+							autoSkip: true,
+							autoSkipPadding: 75,
+							maxRotation: 0,
+							sampleSize: 100
+						},
+						afterBuildTicks: function(scale, ticks) {
+							var majorUnit = scale._majorUnit;
+							var firstTick = ticks[0];
+							var i, ilen, val, tick, currMajor, lastMajor;
+
+							val = moment(ticks[0].value);
+							if ((majorUnit === 'minute' && val.second() === 0)
+									|| (majorUnit === 'hour' && val.minute() === 0)
+									|| (majorUnit === 'day' && val.hour() === 9)
+									|| (majorUnit === 'month' && val.date() <= 3 && val.isoWeekday() === 1)
+									|| (majorUnit === 'year' && val.month() === 0)) {
+								firstTick.major = true;
+							} else {
+								firstTick.major = false;
+							}
+							lastMajor = val.get(majorUnit);
+
+							for (i = 1, ilen = ticks.length; i < ilen; i++) {
+								tick = ticks[i];
+								val = moment(tick.value);
+								currMajor = val.get(majorUnit);
+								tick.major = currMajor !== lastMajor;
+								lastMajor = currMajor;
+							}
+							return ticks;
+						}
+					}],
+					yAxes: [{
+						gridLines: {
+							drawBorder: false
+						},
+						scaleLabel: {
+							display: true,
+							labelString: 'Activities'
+						}
+					}]
+				},
+				tooltips: {
+					intersect: false,
+					mode: 'index',
+					callbacks: {
+						label: function(tooltipItem, myData) {
+							var label = myData.datasets[tooltipItem.datasetIndex].label || '';
+							if (label) {
+								label += ': ';
+							}
+							label += parseFloat(tooltipItem.value).toFixed(2);
+							return label;
+						}
+					}
+				}
+			}
+		};
+
+		var chart = new Chart(ctx, cfg);
+
+		document.getElementById('update').addEventListener('click', function() {
+			var type = document.getElementById('type').value;
+			var dataset = chart.config.data.datasets[0];
+			dataset.type = type;
+			dataset.data = getd();
+			chart.update();
+		});
+
+	</script>
+</body>
+
 </html>
+
