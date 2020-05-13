@@ -77,6 +77,27 @@ Questions will be posted here soon.
 
 
 # Articles
+## Unity2D
+### Movement Scipt
+- &nbsp;// Update is called once per frame
+- &nbsp;void Update()
+- &nbsp;{
+- &nbsp;&nbsp;float moveSpeed = 10;
+- &nbsp;&nbsp;float horizontalInput = Input.GetAxis("Horizontal");
+- &nbsp;&nbsp;float verticalInput = Input.GetAxis("Vertical");
+- &nbsp;&nbsp;transform.Translate(new Vector3(horizontalInput, verticalInput, 0 ) * moveSpeed * Time.deltaTime);
+- &nbsp;}
+### Collision Detection
+Objects must have collider component. Objects must have rigidbody for enabling physics engine controls. Refer RigidBody2D [Manual](https://docs.unity3d.com/Manual/class-Rigidbody2D.html).
+- OnCollisionEnter2D(Collider2D other){
+- &nbsp; if (other.gameObject.CompareTag("tag")){
+- &nbsp;&nbsp; Debug.Log("HIT tag");     
+- &nbsp;}
+- }
+
+
+
+
 ## SQL
 ### Introduction
 Structured Query Language. Keywords are case insensitive.
@@ -613,8 +634,11 @@ Log :
 - 6 May 2020 :
 - 7 May 2020 :
 - 8 May 2020 : S,S,S,S,S,S,S
-- 9 May 2020
-Last Updated: 5 May 2020
+- 9 May 2020 :
+- 10 May 2020 :
+- 11 May 2020 :
+- 12 May 2020 :
+Last Updated: 12 May 2020
 
 Human changelog :
 - 4 April 2020 : Google Code Jam Qualifiers
@@ -623,11 +647,11 @@ Human changelog :
 - 17 April 2020 : Started Reading the power of now
 - 28 April 2020 : Started Studying OOP concept
 - 29 April 2020 : Started Artificial Neural Networks
-- 2 May 2020 : Started CNN and RNN
+- 2 May 2020 : Started CNN and NN
 - 5 May 2020 : Started SQL
 - 8 May 2020 : Read AutoEncoders and GAN
-
-Last Update: 2 May 2020
+- 10 May 2020 : Finis Reading Hands-on ML book
+Last Update: 12 May 2020
 ## Wanderings
 ### BTP
 - [x] Docker Volumes
