@@ -108,8 +108,25 @@ Objects must have collider component. Objects must have rigidbody for enabling p
 - &nbsp;}
 - }
 
+### Perlin Noise
+![Perlin Noise](../media/unity/perlin.png)
+- public static float[,] GenerateNoiseMap(int mapWidth, int mapHeight, float scale){
+- &nbsp;&nbsp;float[,] noiseMap = new float[mapWidth,mapHeight];
+- &nbsp;&nbsp;if (scale <= 0){
+- &nbsp;&nbsp;&nbsp;&nbsp;scale = 0.001F;
+- &nbsp;&nbsp;}
+- &nbsp;&nbsp;for (int y = 0 ; y < mapHeight ; y++){
+- &nbsp;&nbsp;&nbsp;&nbsp;for (int x = 0 ; x < mapWidth ; x++){
+- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;float sampleX = x/scale;
+- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;float sampleY = y/scale;
+- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;float perlinValue = Mathf.PerlinNoise(sampleX,sampleY);
+- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;noiseMap[x,y] = perlinValue;
+- &nbsp;&nbsp;&nbsp;&nbsp;}
+- &nbsp;&nbsp;}
+- &nbsp;&nbsp;return noiseMap;
+- }
 
-
+Last Updated: 16 May 2020
 
 ## SQL
 ### Introduction
