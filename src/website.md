@@ -77,6 +77,38 @@ Questions will be posted here soon.
 
 
 # Articles
+## Deep Learning by flowcharts
+### Input
+![Input](../media/dl/catsdogsINPUT.png)
+### Data
+![Data](../media/dl/catsdogsDATA.png)
+### Model
+![Model](../media/dl/catsdogsMODEL.png)
+Could even add Dropout layer after first (convolutional) and last (dense) layers to avoid overfitting.
+### Result
+![Result](../media/dl/catsdogsRESULT.png)
+
+## Unity2D
+### Movement Scipt
+- &nbsp;// Update is called once per frame
+- &nbsp;void Update()
+- &nbsp;{
+- &nbsp;&nbsp;float moveSpeed = 10;
+- &nbsp;&nbsp;float horizontalInput = Input.GetAxis("Horizontal");
+- &nbsp;&nbsp;float verticalInput = Input.GetAxis("Vertical");
+- &nbsp;&nbsp;transform.Translate(new Vector3(horizontalInput, verticalInput, 0 ) * moveSpeed * Time.deltaTime);
+- &nbsp;}
+### Collision Detection
+Objects must have collider component. Objects must have rigidbody for enabling physics engine controls. Refer RigidBody2D [Manual](https://docs.unity3d.com/Manual/class-Rigidbody2D.html).
+- OnCollisionEnter2D(Collider2D other){
+- &nbsp; if (other.gameObject.CompareTag("tag")){
+- &nbsp;&nbsp; Debug.Log("HIT tag");     
+- &nbsp;}
+- }
+
+
+
+
 ## SQL
 ### Introduction
 Structured Query Language. Keywords are case insensitive.
