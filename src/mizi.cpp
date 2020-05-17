@@ -2,6 +2,7 @@
 #include<iostream>
 #include<fstream>
 #include<sstream>
+#include"helpers.cpp"
 using namespace std;
 
 struct Config{
@@ -49,30 +50,7 @@ string html_head(string text){
     return "<!DOCTYPE html><html lang='en'><head><link rel='shortcut icon' href='"+ conf->shortcut_icon +"' type='image/x-icon'><link rel='icon' href='"+conf->icon+"' type='image/x-icon'><meta charset='utf-8'><meta name='description' content='"+conf->description+"'><meta name='viewport' content='width=device-width, initial-scale=1.0'><meta name='twitter:card' content='summary'><meta name='twitter:site' content='"+conf->name+"'><meta name='twitter:title' content='"+conf->name+"'><meta name='twitter:description' content='"+conf->description+"'><meta name='twitter:creator' content='@"+conf->twitter_creator+"'><meta name='twitter:image' content='"+conf->icon+"'><meta property='og:title' content='"+conf->name+"'><meta property='og:site_name' content='"+conf->name+"'><title> "+conf->name+" - "+text+"</title><link rel='stylesheet' type='text/css' href='../links/main.css'></head><body class='"+text+"'>";
 }
 string html_header = "";
-
 string html_footer = "";
-
-
-char getLower(char c){
-    if (c >= 'A' && c <='Z')
-        return c-('Z'-'z');
-    return c;
-}
-
-string toLowerCase(string text){
-    string newtext="";
-    for(unsigned int i=0;i<text.size();i++){
-        if (text[i]=='\0')
-            break;
-        else if(text[i]==' ')
-            newtext+='_';
-        else if( (text[i]>='A' && text[i]<='Z' )||(text[i]>='a' && text[i]<='z')) //alphabets
-            newtext+=getLower(text[i]);
-        else if( text[i]>='0' && text[i]<='9')
-            newtext+=getLower(text[i]);
-    }
-    return newtext;        
-}
 
 struct Page{
     string title;
@@ -378,9 +356,11 @@ void buildHome(Category * categories[], int categories_length, string path){
             string page_index = toLowerCase(page_name);
             htmlHome << "<li><a href='" << page_index << ".html'>" << page_name << "</a></li>";
         }
-        htmlHome << "</ul>";
-    }
 
+        htmlHome << "</ul>";
+        
+        
+    }
     htmlHome << "<hr/>";
     htmlHome << "</main>";
     htmlHome << html_footer;
@@ -419,4 +399,27 @@ void buildPage(Page * page,string path){
     htmlPage << "</main>";
     htmlPage << html_footer;
     htmlPage.close();
+}
+
+void createSite(string filename, string path){
+    Category ** cats;
+    int categoryCount = 0;
+    cats = createCategories(&categoryCount, filename);
+    cout << "Categories found: " << categoryCount << endl;
+
+    conf = configParser();
+    html_header = "<header>"+conf->header+"</header>";
+    html_footer = "<footer><p>"+conf->footer+"</p></footer></body></html>";
+    //Debug categories
+    //printContent(cats,categoryCount);
+
+    buildHome(cats,categoryCount,path);
+    for(int i=0; i<=categoryCount;i++){ //Build all pages including seperate pages
+        Category tempCat = *cats[i];
+
+        for(int pageno=0;pageno<tempCat.pageCount;pageno++){
+            Page * tempPage = tempCat.pages[pageno];
+            buildPage(tempPage,path);
+        }
+    }
 }
