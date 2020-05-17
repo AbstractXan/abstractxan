@@ -14,7 +14,6 @@ struct Config{
     string footer;
 };
 
-
 Config * configParser(){
     Config * conf = new Config;
     ifstream configFile ("config.txt");
@@ -44,7 +43,6 @@ Config * configParser(){
     configFile.close();
     return conf;    
 }
-
 
 Config * conf;
 string html_head(string text){
@@ -235,7 +233,7 @@ string parseLinks(string text){
     return newText;
 }
 
-Category ** createCategories(int * categoryCount){
+Category ** createCategories(int * categoryCount, string filename){
 
     string line;
     int lineNo=0;
@@ -249,7 +247,7 @@ Category ** createCategories(int * categoryCount){
     //Category for separate pages
     Category * seperateCategory = createCategory("SeperatePages",0);
     
-    ifstream mdFile ("website.md");
+    ifstream mdFile (filename);
     
     if (mdFile.is_open())
     {
@@ -258,8 +256,6 @@ Category ** createCategories(int * categoryCount){
             lineNo++;
             int hashcount=0;
             int i=0;
-
-            
             
             if(line==""){
                 currentPartDesc+="<br>";
@@ -365,9 +361,9 @@ Category ** createCategories(int * categoryCount){
     return Categories;
 }
 
-void buildHome(Category * categories[], int categories_length){
+void buildHome(Category * categories[], int categories_length, string path){
     ofstream htmlHome;
-    htmlHome.open("../site/home.html");
+    htmlHome.open(path+"/home.html");
     htmlHome << html_head("Home");
     htmlHome << html_header;
     htmlHome << "<main class='home'>";
@@ -391,10 +387,10 @@ void buildHome(Category * categories[], int categories_length){
     htmlHome.close();
 }
 
-void buildPage(Page * page){
+void buildPage(Page * page,string path){
     ofstream htmlPage;
     string filename = toLowerCase(page->title);
-    string filepath = "../site/"+filename+".html";
+    string filepath = path+filename+".html";
     htmlPage.open(filepath.c_str());
     htmlPage << html_head(page->title);
     htmlPage << html_header;
