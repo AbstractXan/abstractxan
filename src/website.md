@@ -538,6 +538,15 @@ Unordered list of resources
 - [Random Univ Slides](https://www.icg.isy.liu.se/courses/tsit03/)
 
 # Miscellaneous
+## PixelArt
+### X
+![X](../media/pixelart/x1.gif)
+### Vinyl
+![Vinyl](../media/pixelart/vinyl.gif)
+### Face
+![Face](../media/pixelart/face.gif)
+### Ride
+![Ride](../media/pixelart/ride.png)
 ## The Library
 ### Books
 - Surely You're Joking Mr. Feynman
