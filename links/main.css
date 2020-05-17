@@ -46,6 +46,7 @@ body main ul.gallery li h3 { font-family: "alte_haas_grotesk_regular", "Helvetic
 body main ul.gallery li h4 { font-family: "alte_haas_grotesk_bold", "Helvetica Neue", Helvetica, Arial; font-size:20px; text-transform: capitalize; }
 
 body footer { border-top: 1.5px solid black;padding-top: 30px;margin-bottom: 120px; max-width: 600px }
+body footer img {max-height: 30px; margin-right: 10px;}
 body footer p { font-weight: bold }
 body footer form { margin-top: 5px; border: 1.5px solid black; display: inline-block; }
 body footer form *:first-child { padding-left:15px; }
