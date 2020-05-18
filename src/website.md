@@ -9,6 +9,15 @@ Further advance the fields of science and arts. Creating low level simple and sh
 ### Contribute
 <p>Source files for my projects could be found on <a href='https://www.github.com/abstractxan'>Github</a>. This website is made with C++ using  <a href='https://www.github.com/abstractxan/mizi'>Mizi</a>. Source files for my website are available <a href='https://www.github.com/abstractxan/abstractxan/tree/master/src'>here</a>.</p> <p>Inspired by <a href='https://solar.lowtechmagazine.com/2018/09/how-to-build-a-lowtech-website/'>low-tech web design</a>, most images on this website are <i>dithered</i>.</p> <p>Found a typo? Feel free to open an <a href='github.com/abstractxan/abstractxan/issues/new'>issue</a>.</p>
 
+## Journal
+###  
+Journal shows recent updates.
+![170520](../media/journal/170520.jpeg)
+170520 - Perlin Noise
+![150520](../media/dl/catsdogsMODEL.png)
+150520 - CNN Cat/Dog Model
+
+
 # Blog
 ## Karnataka
 ###  
