@@ -136,7 +136,7 @@ Objects must have collider component. Objects must have rigidbody for enabling p
 - }
     
 ### Better Perlin Noise : Octaves
-<iframe width="560" height="315" src="https://www.youtube.com/embed/RC9lg2K0wzM" frameborder="0" allow="gyroscope;" allowfullscreen></iframe>
+<iframe width="600px" height="300px" src="https://www.youtube.com/embed/RC9lg2K0wzM" frameborder="0" allow="gyroscope;" allowfullscreen></iframe>
 
 Last Updated: 17 May 2020
 
