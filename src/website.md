@@ -419,6 +419,8 @@ Unordered list of resources
 ## PixelArt
 ### X
 ![X](../media/pixelart/x1.gif)
+### Corners
+![Corners](../media/pixelart/corners2.gif)
 ### Vinyl
 ![Vinyl](../media/pixelart/vinyl.gif)
 ### Face
