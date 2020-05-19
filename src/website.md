@@ -26,6 +26,17 @@ Journal shows recent updates.
 WIP
 
 # Projects
+## Tensorflow.JS
+
+### MobileNet1.0.0
+
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest/dist/tf.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/mobilenet@1.0.0"></script>
+<input type='file' /><br>
+<img id="InputImage" style="visibility: hidden;" width=100% max-height=600px>
+<p id="prediction_output">Upload image to classify</p>
+<script src="../projects/mobilenet/helper.js"></script>
+
 ## Mizi
 ### Introduction
 <p><img class='thumbnail' style='max-width:200px' src='../media/interface/mizi.png'><p><a href='https://github.com/abstractxan/mizi'>Mizi</a> is a static website generator written in C++ that takes markdown file as input.</p>
@@ -88,7 +99,8 @@ Questions will be posted here soon.
 
 
 # Articles
-## Deep Learning by flowcharts
+
+## Deep Learning Image Classification
 ### Notebook
 [Tensorflow Tutorial](https://www.tensorflow.org/tutorials/images/classification)
 ### Input
@@ -351,11 +363,31 @@ Last Updated: 3 April 2020
 ### Geometry
 - [Byrne's Euclid](https://www.c82.net/euclid/)
 ## Machine Learning
-### Links
-Andrew Ng's class [notes](http://www.holehouse.org/mlclass/index.html)
-[PCA intuition video](https://www.youtube.com/watch?v=g-Hb26agBFg)
-[Learn CNN (Interactive)](https://poloclub.github.io/cnn-explainer/)
-[Markov Decision Processes](https://youtu.be/9g32v7bK3Co)
+### Books
+- Hands on Machine Learning usinf Tensorflow, Keras
+- Practical Machine Learning for Cloud, Mobile and Edge
+### Lectures
+- Andrew Ng's class [notes](http://www.holehouse.org/mlclass/index.html)
+- [PCA intuition video](https://www.youtube.com/watch?v=g-Hb26agBFg)
+- [Learn CNN (Interactive)](https://poloclub.github.io/cnn-explainer/)
+- [Markov Decision Processes](https://youtu.be/9g32v7bK3Co)
+### Tutorials
+- [Tensorflow/tutorials](https://tensorflow.org/tutorials)
+### Standards
+- ONNX is an open standard for representing machine learning models that is a collaboration between Microsoft, Facebook, Amazon, and others.
+### Web
+- [ONNX.js](https://github.com/Microsoft/onnxjs)
+- &nbsp;&nbsp; Faster than Tf.js. Uses WASM, WebGL and Webworkers (multi-threaded env for parallelising data operations).
+- [Tensorflow.js]()
+- [ml5.js]() built on top of tf.js. Abstracts away complexities. Simple, ready-to-use models from GANs to POSNets.
+### Hubs
+- [AI Hub](https://aihub.cloud.google.com/u/0/s?category=notebook): Google
+- [TF Hub.dev](https://tfhub.dev/)
+## Hosting Models
+- Online: [Google Cloud Models](https://console.cloud.google.com/mlengine/models)
+- Docker: [tensorflow/serving](https://github.com/tensorflow/serving/blob/master/tensorflow_serving/g3doc/docker.md)
+### Diagrams
+- [NN SVG](http://alexlenail.me/NN-SVG/AlexNet.html) - Publication-ready NN-architecture schematics
 
 ## Competitive Coding
 ### Links
