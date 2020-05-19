@@ -373,6 +373,8 @@ Last Updated: 3 April 2020
 - [Markov Decision Processes](https://youtu.be/9g32v7bK3Co)
 ### Tutorials
 - [Tensorflow/tutorials](https://tensorflow.org/tutorials)
+### Curated Notebooks
+- [Toxic Comment Classification](https://www.kaggle.com/rhodiumbeng/classifying-multi-label-comments-0-9741-lb)
 ### Standards
 - ONNX is an open standard for representing machine learning models that is a collaboration between Microsoft, Facebook, Amazon, and others.
 ### Web
