@@ -152,7 +152,10 @@ Objects must have collider component. Objects must have rigidbody for enabling p
 ### Better Perlin Noise : Octaves
 <iframe width="600px" height="300px" src="https://www.youtube.com/embed/RC9lg2K0wzM" frameborder="0" allow="gyroscope;" allowfullscreen></iframe>
 
-Last Updated: 17 May 2020
+### Time
+Time.deltaTime : The completion time in seconds since the last frame (Read Only).This property provides the time between the current and previous frame.
+
+Last Updated: 19 May 2020
 
 ## SQL
 ### Introduction
@@ -385,7 +388,7 @@ Last Updated: 3 April 2020
 ### Hubs
 - [AI Hub](https://aihub.cloud.google.com/u/0/s?category=notebook): Google
 - [TF Hub.dev](https://tfhub.dev/)
-## Hosting Models
+### Hosting Models
 - Online: [Google Cloud Models](https://console.cloud.google.com/mlengine/models)
 - Docker: [tensorflow/serving](https://github.com/tensorflow/serving/blob/master/tensorflow_serving/g3doc/docker.md)
 ### Diagrams
