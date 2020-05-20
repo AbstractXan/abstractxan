@@ -13,13 +13,13 @@ Further advance the fields of science and arts. Creating low level simple and sh
 ###  
 Journal shows recent updates.
 ![190520](../media/journal/190520.png)
-190520 - MobileNet tf.js implementation | [image](https://unsplash.com/photos/9SWHIgu8A8k)
+190520 - MobileNet tf.js [implementation](./tensorflowjs.html#MobileNetv1.0.0) | [image](https://unsplash.com/photos/9SWHIgu8A8k)
 ![180520](../media/journal/180520.png)
 180520 - Object Detection | [image](https://unsplash.com/photos/HdtIiGcIQtU)
 ![170520](../media/journal/170520.jpeg)
-170520 - Perlin Noise
+170520 - [Perlin Noise](./unity2d.html#better_perlin_noise__octaves)
 ![150520](../media/dl/catsdogsMODEL.png)
-150520 - CNN Cat/Dog Model
+150520 - CNN Cat/Dog [Model](./deep_learning_image_classification.html)
 
 
 # Blog
@@ -101,7 +101,6 @@ Questions will be posted here soon.
 
 
 # Articles
-
 ## Deep Learning Image Classification
 ### Notebook
 [Tensorflow Tutorial](https://www.tensorflow.org/tutorials/images/classification)
@@ -490,7 +489,9 @@ Unordered list of resources
 - Digital Fortress
 - Animal Farm
 ### Books II
-- Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow by <b>Aurelion Geron</b>
+- Database System Concepts by <b> Silberchatz, Korth and Sudarshan</b>
+- Practical Deep Learning for Cloud, Mobile and Edge
+- Hands On Machine Learning with Scikit-Learn, Keras, and TensorFlow by <b>Aurelion Geron</b>
 - Cracking the coding interview by <b>Gayle Laakman McDowell</b>
 ### Anime
 - Mushishi
@@ -527,7 +528,6 @@ A set of body workouts including: Gym workouts, Yoga and Meditation on a daily b
 Every work using pomodoro.
 
 Factors that help improve productivity:
-- 
 - Taking breaks between work
 - Explaining a concept to someone
 - Getting inspired
@@ -605,7 +605,8 @@ Log :
 - 6 May 2020 :
 - 7 May 2020 :
 - 8 May 2020 : S,S,S,S,S,S,S
-- 9 May 2020
+- 9 May 2020 :
+
 Last Updated: 5 May 2020
 
 Human changelog :
@@ -616,10 +617,11 @@ Human changelog :
 - 28 April 2020 : Started Studying OOP concept
 - 29 April 2020 : Started Artificial Neural Networks
 - 2 May 2020 : Started CNN and RNN
-- 5 May 2020 : Started SQL
 - 8 May 2020 : Read AutoEncoders and GAN
-
-Last Update: 2 May 2020
+- 10 May 2020 : Completed Reading Hands On Machine Learning Book
+- 19 May 2020 : Read Practical Deep Learning for Cloud, Web and Edge ; TF.js Implementations
+- 20 May 2020 : Read DBMS
+Last Update: 20 May 2020
 ## Wanderings
 ### BTP
 - [x] Docker Volumes
@@ -631,12 +633,10 @@ Last Update: 2 May 2020
 - Enroll in other institutes
 ### Study
 - Complete CTCI
-- Leetcode challenge everyday
-- RNN and CNN
 ### Random things I wanna do
+- Unity GameDev
 - Variable passing through a website using JS
 - Making a simple game in JS
 - Explore Webassembly
 - Write about Webassembly
-- Game Dev! (Trying raylib)
-- Unity GameDev
+
