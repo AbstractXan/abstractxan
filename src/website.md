@@ -12,8 +12,10 @@ Further advance the fields of science and arts. Creating low level simple and sh
 ## Journal
 ###  
 Journal shows recent updates.
+![190520](../media/journal/190520.png)
+190520 - MobileNet tf.js implementation | [image](https://unsplash.com/photos/9SWHIgu8A8k)
 ![180520](../media/journal/180520.png)
-180520 - Object Detection : [source](https://unsplash.com/photos/HdtIiGcIQtU)
+180520 - Object Detection | [image](https://unsplash.com/photos/HdtIiGcIQtU)
 ![170520](../media/journal/170520.jpeg)
 170520 - Perlin Noise
 ![150520](../media/dl/catsdogsMODEL.png)
