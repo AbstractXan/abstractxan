@@ -489,6 +489,7 @@ Unordered list of resources
 - Digital Fortress
 - Animal Farm
 ### Books II
+- Fundamentals of Database Systems by <b> Elmasri , Navathe </b>
 - Database System Concepts by <b> Silberchatz, Korth and Sudarshan</b>
 - Practical Deep Learning for Cloud, Mobile and Edge
 - Hands On Machine Learning with Scikit-Learn, Keras, and TensorFlow by <b>Aurelion Geron</b>
