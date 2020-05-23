@@ -12,6 +12,8 @@ Further advance the fields of science and arts. Creating low level simple and sh
 ## Journal
 ###  
 Journal shows recent updates.
+![220520](../media/journal/220520.png)
+220520 - Database Concepts Notes
 ![190520](../media/journal/190520.png)
 190520 - MobileNet tf.js [implementation](./tensorflowjs.html#MobileNetv1.0.0) | [image](https://unsplash.com/photos/9SWHIgu8A8k)
 ![180520](../media/journal/180520.png)
