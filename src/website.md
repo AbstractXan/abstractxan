@@ -102,7 +102,7 @@ Questions will be posted here soon.
 <p>Prelims questions were created by both <a href='https://www.twitter.com/AnupKulkarn1'>Anup Kulkarni</a> and I. Questions for finals were created by me. Questions could be found here: <a href='enigma_2019_prelims.html'>prelims</a></p>
 
 
-# Articles
+# Articles 
 ## Deep Learning Image Classification
 ### Notebook
 [Tensorflow Tutorial](https://www.tensorflow.org/tutorials/images/classification)
@@ -118,39 +118,44 @@ Could even add Dropout layer after first (convolutional) and last (dense) layers
 
 ## Unity2D
 ### Movement Scipt
-- &nbsp;// Update is called once per frame
-- &nbsp;void Update()
-- &nbsp;{
-- &nbsp;&nbsp;float moveSpeed = 10;
-- &nbsp;&nbsp;float horizontalInput = Input.GetAxis("Horizontal");
-- &nbsp;&nbsp;float verticalInput = Input.GetAxis("Vertical");
-- &nbsp;&nbsp;transform.Translate(new Vector3(horizontalInput, verticalInput, 0 ) * moveSpeed * Time.deltaTime);
-- &nbsp;}
+<pre class="code">
+// Update is called once per frame
+void Update(){
+    float moveSpeed = 10;
+    float horizontalInput = Input.GetAxis("Horizontal");
+    float verticalInput = Input.GetAxis("Vertical");
+    transform.Translate(new Vector3(horizontalInput, verticalInput, 0 ) * moveSpeed * Time.deltaTime);
+}
+</pre>
+
 ### Collision Detection
 Objects must have collider component. Objects must have rigidbody for enabling physics engine controls. Refer RigidBody2D [Manual](https://docs.unity3d.com/Manual/class-Rigidbody2D.html).
-- OnCollisionEnter2D(Collider2D other){
-- &nbsp; if (other.gameObject.CompareTag("tag")){
-- &nbsp;&nbsp; Debug.Log("HIT tag");     
-- &nbsp;}
-- }
+<pre class="code">
+OnCollisionEnter2D(Collider2D other){
+    if (other.gameObject.CompareTag("tag")){
+    Debug.Log("HIT tag");     
+    }
+}
+</pre>
 
 ### Basic Perlin Noise
 ![Perlin Noise](../media/unity/perlin.png)
-- public static float[,] GenerateNoiseMap(int mapWidth, int mapHeight, float scale){
-- &nbsp;&nbsp;float[,] noiseMap = new float[mapWidth,mapHeight];
-- &nbsp;&nbsp;if (scale <= 0){
-- &nbsp;&nbsp;&nbsp;&nbsp;scale = 0.001F;
-- &nbsp;&nbsp;}
-- &nbsp;&nbsp;for (int y = 0 ; y < mapHeight ; y++){
-- &nbsp;&nbsp;&nbsp;&nbsp;for (int x = 0 ; x < mapWidth ; x++){
-- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;float sampleX = x/scale;
-- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;float sampleY = y/scale;
-- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;float perlinValue = Mathf.PerlinNoise(sampleX,sampleY);
-- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;noiseMap[x,y] = perlinValue;
-- &nbsp;&nbsp;&nbsp;&nbsp;}
-- &nbsp;&nbsp;}
-- &nbsp;&nbsp;return noiseMap;
-- }
+<pre class="code">
+public static float[,] GenerateNoiseMap(int mapWidth, int mapHeight, float scale){
+    
+    float[,] noiseMap = new float[mapWidth,mapHeight];
+    if ( scale <= 0 ){ scale = 0.001F; }
+    for (int y = 0 ; y < mapHeight ; y++){
+        for (int x = 0 ; x < mapWidth ; x++){
+            float sampleX = x/scale;
+            float sampleY = y/scale;
+            float perlinValue = Mathf.PerlinNoise(sampleX,sampleY);
+            noiseMap[x,y] = perlinValue;
+        }
+    }
+    return noiseMap;
+}
+</pre>
     
 ### Better Perlin Noise : Octaves
 <iframe width="600px" height="300px" src="https://www.youtube.com/embed/RC9lg2K0wzM" frameborder="0" allow="gyroscope;" allowfullscreen></iframe>
