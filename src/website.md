@@ -515,7 +515,8 @@ Here, ' -p 888:8888 ' maps the machines 8888 port to containers 8888 port. Also,
 
 Create a dockerfile with image setup.
 <pre class="code">
-<pre>
+</pre>
+
 Last updated 22 March 2020
 
 
