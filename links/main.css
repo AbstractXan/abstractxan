@@ -66,14 +66,18 @@ body main p sub { font-size: 14px;font-style: italic;}
 
 /* Code */
 body pre.code{
-  font-family: 'input_mono_regular';
+  font-family: 'monospace';
   border: 1px solid black;
   padding: 15px;
   overflow-x: scroll;
+  font-size:12px; line-height: 20px;
 }
 
+
 /*Details summary*/
-details {margin-bottom: 0px!important;}
+details {
+  margin-bottom: 0px!important;
+}
 @media (max-width: 900px) {
   body { padding: 30px; }
   body main > ul.jump { columns: 1 !important }

@@ -461,6 +461,8 @@ int maxUncrossedLines(vector<int>& A, vector<int>& B) {
 }
 </pre></details>
 
+Last Updated: 26 May 2020
+
 ## Computer Science
 ### Introduction
 [List of unsolved problems in Computer Science](https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_computer_science)
@@ -503,9 +505,17 @@ int maxUncrossedLines(vector<int>& A, vector<int>& B) {
 - [Docker Compose](https://www.youtube.com/watch?v=Qw9zlE3t8Ko) for multiple containers.
 ### Example
 Running a Jupyter Tensorflow Notebook Server:
-- docker run --rm -p 8888:8888 -v "$PWD":/home/jovyan/work jupyter/tensorflow-notebook:latest
+<pre class="code">
+docker run --rm -p 8888:8888 -v "$PWD":/home/jovyan/work jupyter/tensorflow-notebook:latest
+</pre>
 Here, ' -p 888:8888 ' maps the machines 8888 port to containers 8888 port. Also, ' -v &lt;machine_path&gt;:&lt;container_path&gt; ' maps the machines working directory to container's path (usually predefined). Here we map ' $PWD ' i.e current directory's path with container's predefined path '/home/jovyan/work'. For more info lookup: [jupyter-notebook stacks](https://jupyter-docker-stacks.readthedocs.io/en/latest/)
 
+
+### Building images
+
+Create a dockerfile with image setup.
+<pre class="code">
+<pre>
 Last updated 22 March 2020
 
 
