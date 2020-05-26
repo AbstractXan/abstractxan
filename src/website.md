@@ -7,7 +7,7 @@
 Further advance the fields of science and arts. Creating low level simple and sharp softwares that help people create and inspire others.
 
 ### Contribute
-<p>Source files for my projects could be found on <a href='https://www.github.com/abstractxan'>Github</a>. This website is made with C++ using  <a href='https://www.github.com/abstractxan/mizi'>Mizi</a>. Source files for my website are available <a href='https://www.github.com/abstractxan/abstractxan/tree/master/src'>here</a>.</p> <p>Inspired by <a href='https://solar.lowtechmagazine.com/2018/09/how-to-build-a-lowtech-website/'>low-tech web design</a>, most images on this website are <i>dithered</i>.</p> <p>Found a typo? Feel free to open an <a href='github.com/abstractxan/abstractxan/issues/new'>issue</a>.</p>
+<p>Source files for my projects could be found on <a href='https://www.github.com/abstractxan'>Github</a>. This website is made with C++ using  <a href='https://www.github.com/abstractxan/mizi'>Mizi</a>. Source files for my website are available <a href='https://www.github.com/abstractxan/abstractxan/tree/master/src'>here</a>.</p> <p>Inspired by <a href='https://solar.lowtechmagazine.com/2018/09/how-to-build-a-lowtech-website/'>low-tech web design</a>, most images on this website are <i>dithered</i>. This website is heavily inspired by <a href='https://100r.co'>100 Rabbits</a>.</p> <p>Found a typo? Feel free to open an <a href='github.com/abstractxan/abstractxan/issues/new'>issue</a>.</p>
 
 ## Journal
 ###  
@@ -411,6 +411,56 @@ Last Updated: 3 April 2020
 ### Questions
 [Container with most water](https://leetcode.com/problems/container-with-most-water/) is a brilliant question with an elegant solution that feels like magic. Initial instinct would be to go through the array in O(n^2) time but turns out that it could be brought down to O(n) time and O(1) space complexity. I wish I could classify this problem but I haven't solved these kinda questions enough.
 [Reveal cards in increasing order](https://leetcode.com/problems/reveal-cards-in-increasing-order/) is a very good question for testing your knowledge queue implementation.
+### Curated Questions
+1. [Uncrossed Lines](https://leetcode.com/problems/uncrossed-lines/)
+<details><summary>Approach 1: Recursion</summary><pre class="code">
+int retbest(int a,int b,vector<int> A, vector<int> B){
+    if(a == A.size() || b==B.size()){
+        return 0;
+    }
+    
+    int best = 0;
+    best = max(best,retbest(a+1,b,A,B));
+    best = max(best,retbest(a,b+1,A,B));
+    
+    if (A[a]==B[b]){
+        best = max(best,retbest(a+1,b+1,A,B)+1);
+    }
+    return best;
+}
+int maxUncrossedLines(vector<int>& A, vector<int>& B) {
+    return retbest(0,0,A,B);
+}
+</pre></details>
+<details><summary>Approach 2: Memoization</summary><pre class="code">
+int memo[501][501]; // Storing in memory
+bool calc[501][501]; // True if calculated
+int retbest(int a,int b,vector<int> A, vector<int> B){
+    if(a == A.size() || b==B.size()){
+        return 0;
+    }
+
+    if(calc[a][b]==true){ 
+        return memo[a][b]; // Return calculated 
+    }
+
+    int best = 0;
+    best = max(best,retbest(a+1,b,A,B));
+    best = max(best,retbest(a,b+1,A,B));
+    
+    if (A[a]==B[b]){
+        best = max(best,retbest(a+1,b+1,A,B)+1);
+    }
+    
+    memo[a][b] = best; // Store calculated value
+    calc[a][b] = true; // Set as calculated
+    return best;
+}
+int maxUncrossedLines(vector<int>& A, vector<int>& B) {
+    return retbest(0,0,A,B);
+}
+</pre></details>
+
 ## Computer Science
 ### Introduction
 [List of unsolved problems in Computer Science](https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_computer_science)
@@ -516,6 +566,10 @@ Unordered list of resources
 - Kimi no na wa
 - 5 Centimeters per sec
 - Garden of Words
+## Quotes
+### 
+- Great engineering comes from creating predictable results at predictable costs. In fact, I like to say that if you’re not measuring you’re not engineering. - Rico Mariani
+
 ## Sketchbook 2019
 ### Sketches
 <div class='sketchbook'><img src='../media/sketchbook2019/Sketchbook2019-02.jpg'><img src='../media/sketchbook2019/Sketchbook2019-03.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-04.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-05.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-06.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-07.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-08.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-09.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-10.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-11.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-12.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-13.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-14.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-15.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-16.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-17.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-18.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-19.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-20.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-21.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-22.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-23.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-24.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-25.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-26.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-27.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-28.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-29.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-30.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-31.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-32.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-33.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-34.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-35.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-36.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-37.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-38.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-39.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-40.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-41.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-42.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-43.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-44.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-45.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-46.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-47.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-48.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-49.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-50.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-51.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-52.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-53.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-54.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-55.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-56.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-57.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-58.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-59.jpg'></div>

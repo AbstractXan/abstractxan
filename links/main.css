@@ -9,14 +9,15 @@
 @font-face { font-family: 'input_mono_medium'; src: url('../media/fonts/input_mono_medium.ttf') format('truetype'); font-weight: normal; font-style: normal; }
 
 html { background:white; }
-body { text-align: centre; background:#fff; color:#000; font-family: "alte_haas_grotesk_regular", "Helvetica Neue", Helvetica, Arial; overflow-x: hidden; margin-top:5px; padding:45px 90px; }
+body { background:#fff; color:#000; font-family: "alte_haas_grotesk_regular", "Helvetica Neue", Helvetica, Arial; overflow-x: hidden; margin-top:5px; padding:45px 90px;  
+  font-size:14px; line-height: 28px; font-size:18px; max-width: 600px;}
 body hr { border:0; clear:both; }
 body header a#logo { margin-top: -15px;display: block;width: 75px; margin-bottom:15px;}
 body header a#logo img { width:100%; }
 body main img.capsule { width: 150px; }
 body main img.medium {max-width: 300px;}
 body main > * { max-width: 600px; margin-bottom: 30px }
-body main > h1 { font-family: "alte_haas_grotesk_regular", "Helvetica Neue", Helvetica, Arial; font-size:45px; text-transform: capitalize; padding-bottom:30px; }
+body main > h1 { font-family: "alte_haas_grotesk_regular", "Helvetica Neue", Helvetica, Arial; font-size:45px; text-transform: capitalize; padding-bottom:30px; line-height: 1;}
 body main > h2 { font-family: "alte_haas_grotesk_bold", "Helvetica Neue", Helvetica, Arial; font-size:30px; text-transform: capitalize; }
 body main img { width:100%; max-width: 600px; }
 body main > ul { font-family: 'input_mono_regular'; font-size:12px; line-height: 20px }
@@ -65,12 +66,14 @@ body main p sub { font-size: 14px;font-style: italic;}
 
 /* Code */
 body pre.code{
-  font-family: 'input_mono_regular'; 
-  font-size:14px;
+  font-family: 'input_mono_regular';
   border: 1px solid black;
   padding: 15px;
   overflow-x: scroll;
 }
+
+/*Details summary*/
+details {margin-bottom: 0px!important;}
 @media (max-width: 900px) {
   body { padding: 30px; }
   body main > ul.jump { columns: 1 !important }

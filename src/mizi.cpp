@@ -126,10 +126,13 @@ string parseLinks(string text){
 
         for(;index<text.size();){
             // Enter into linking
+            // ![ -> image flag true
             if(text[index]=='!' && text[index+1]=='['){
                 isImage = true;
                 index++;
                 continue;
+
+                //
             }else if(text[index]=='['){
                 
                 // Crude implementation for images
@@ -141,7 +144,6 @@ string parseLinks(string text){
 
                 index++;
                 //Loop through urltext
-                
                 while(index<text.size() && text[index]!=']'){
                     
                     //Broken [text [text](link) case
@@ -156,6 +158,7 @@ string parseLinks(string text){
                 }
 
                 // EndofUrlText
+                // [urltext]
                 if(text[index]==']'&&index<text.size())
                 {
                     index++;
@@ -197,10 +200,12 @@ string parseLinks(string text){
                     }
                     else{
                         newText += '[' + urlText + ']';
+                        urlText = "";
                         continue;
                     }
                 } else {
                     newText += '['+ urlText;
+                    urlText = "";
                     continue;
                 }
             } else {
@@ -235,7 +240,7 @@ Category ** createCategories(int * categoryCount, string filename){
             int hashcount=0;
             int i=0;
             
-            if(line==""){
+            if(line == ""){
                 currentPartDesc+="<br>";
                 continue;
             }
