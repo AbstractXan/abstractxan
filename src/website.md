@@ -12,6 +12,8 @@ Further advance the fields of science and arts. Creating low level simple and sh
 ## Journal
 ###  
 Journal shows recent updates.
+![250520](../media/journal/250520.png)
+250520 - Orange
 ![220520](../media/journal/220520.png)
 220520 - Database Concepts Notes
 ![190520](../media/journal/190520.png)
@@ -497,11 +499,12 @@ Last Updated: 26 May 2020
 - docker ps -a  (for stopped containers)
 - docker rm $(docker ps -a -q)  (remove all stopped containers)
 - docker rm container
-### Videos
+### Links
 - [Docker in 12minutes](https://www.youtube.com/watch?v=YFl2mCHdv24)
 - [What is a container](https://www.docker.com/resources/what-container)
 - [Get started](https://docs.docker.com/get-started/)
 - [Containers, Docker ands Kubernetes](https://www.youtube.com/watch?v=u8dW8DrcSmo)
+- [Connecting containers](https://dev.to/mozartted/docker-networking--how-to-connect-multiple-containers-7fl)
 - [Docker Compose](https://www.youtube.com/watch?v=Qw9zlE3t8Ko) for multiple containers.
 ### Example
 Running a Jupyter Tensorflow Notebook Server:
@@ -513,13 +516,24 @@ Here, ' -p 888:8888 ' maps the machines 8888 port to containers 8888 port. Also,
 
 ### Building images
 
-Create a dockerfile with image setup.
+Create a dockerfile with image config:
 <pre class="code">
+FROM alpine:latest
+CMD ["apt-get","install","nfd"]
+</pre>
+
+Build image
+<pre class="code">
+$ docker build -t imagename .
+</pre>
+
+### Creating a network
+<pre class="code">
+$ docker network create ndn
+$ docker run -i -t --network ndn --name consumer ndn-consumer 
 </pre>
 
 Last updated 22 March 2020
-
-
 ## Cryptography
 ### Coding
 -[Set of Coding crypto challenges](https://cryptopals.com/)

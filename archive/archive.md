@@ -163,3 +163,7 @@ Visualize the data
 Implementing various classifiers and find max accuracy classifier
 ![Iris Classifiers](../media/ml/classifiers-iris.png)
 
+
+## BTP
+### 
+[NFD config](https://redmine.named-data.net/projects/nfd/wiki/ConfigFileFormat)
