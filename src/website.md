@@ -105,6 +105,18 @@ Questions will be posted here soon.
 
 
 # Articles 
+## NDN using Docker
+### Introduction
+NDN using Docker
+### Images
+Create images for NFD, Producer and Consumer
+### Run nfd
+[Solved issue](https://stackoverflow.com/a/46801370/9475674) I had.
+<pre class="code">
+docker run -it -d --privileged=true --network ndn --name ndnnfd nfd /sbin/init
+docker exec -it ndnnfd sh
+</pre>
+
 ## Deep Learning Image Classification
 ### Notebook
 [Tensorflow Tutorial](https://www.tensorflow.org/tutorials/images/classification)
@@ -514,7 +526,7 @@ docker run --rm -p 8888:8888 -v "$PWD":/home/jovyan/work jupyter/tensorflow-note
 Here, ' -p 888:8888 ' maps the machines 8888 port to containers 8888 port. Also, ' -v &lt;machine_path&gt;:&lt;container_path&gt; ' maps the machines working directory to container's path (usually predefined). Here we map ' $PWD ' i.e current directory's path with container's predefined path '/home/jovyan/work'. For more info lookup: [jupyter-notebook stacks](https://jupyter-docker-stacks.readthedocs.io/en/latest/)
 
 
-### Building images
+### Building images [WIP]
 
 Create a dockerfile with image config:
 <pre class="code">
@@ -527,10 +539,21 @@ Build image
 $ docker build -t imagename .
 </pre>
 
+Building an image could be hectic if the commands are not ordered properly. Here are some tips:
+- 1. Avoid using '&&' between all RUN commands as this disables checkpointing (using cache).
+- 2. Use COPY commands after RUN commands. This enables checkpointing(using cache) after every RUN. 
+
+### Running 
+Running as a daemon and accessing container shell
+<pre class="code">
+$ docker run -it -d --name container_name image_name /sbin/init
+$ docker exec -it container_name sh
+</pre>
+
 ### Creating a network
 <pre class="code">
-$ docker network create ndn
-$ docker run -i -t --network ndn --name consumer ndn-consumer 
+$ docker network create network_name
+$ docker run --network network_name --name container_name image_name 
 </pre>
 
 Last updated 22 March 2020
