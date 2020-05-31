@@ -438,7 +438,7 @@ Last Updated: 3 April 2020
 [Reveal cards in increasing order](https://leetcode.com/problems/reveal-cards-in-increasing-order/) is a very good question for testing your knowledge queue implementation.
 ### Curated Questions
 1. [Uncrossed Lines](https://leetcode.com/problems/uncrossed-lines/)
-<details><summary>Approach 1: Recursion</summary><pre class="code">
+<details><summary>Approach 1 : Recursion</summary><pre class="code">
 int retbest(int a,int b,vector<int> A, vector<int> B){
     if(a == A.size() || b==B.size()){
         return 0;
@@ -457,7 +457,7 @@ int maxUncrossedLines(vector<int>& A, vector<int>& B) {
     return retbest(0,0,A,B);
 }
 </pre></details>
-<details><summary>Approach 2: Memoization</summary><pre class="code">
+<details><summary>Approach 2: Memoization (arrays)</summary><pre class="code">
 int memo[501][501]; // Storing in memory
 bool calc[501][501]; // True if calculated
 int retbest(int a,int b,vector<int> A, vector<int> B){
@@ -487,7 +487,7 @@ int maxUncrossedLines(vector<int>& A, vector<int>& B) {
 </pre></details>
 
 2. [Edit Distance]()
-<details><summary>Memoization approach</summary>
+<details><summary>Approach : Memoization (vectors) </summary>
 <pre class="code">
 int minDistance(string word1, string word2) {
     int n1 = word1.size();
