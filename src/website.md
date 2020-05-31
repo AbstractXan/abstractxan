@@ -129,7 +129,7 @@ docker exec -it ndnnfd sh
 Could even add Dropout layer after first (convolutional) and last (dense) layers to avoid overfitting.
 ### Result
 ![Result](../media/dl/catsdogsRESULT.png)
-
+ 
 ## Unity2D
 ### Movement Scipt
 <pre class="code">
@@ -179,6 +179,17 @@ Time.deltaTime : The completion time in seconds since the last frame (Read Only)
 
 Last Updated: 19 May 2020
 
+## Computer Networks
+### Intro
+### OSI Model and Protocol Suite
+- <b>Application</b>
+- <b>Presentation</b>
+- <b>Session</b>
+- <b>Transport</b>
+- <b>Network</b>
+- <b>Data Link</b> :
+- <b>Physical</b> : Carrying bitstream over physical media
+### 
 ## SQL
 ### Introduction
 Structured Query Language. Keywords are case insensitive.
@@ -475,7 +486,34 @@ int maxUncrossedLines(vector<int>& A, vector<int>& B) {
 }
 </pre></details>
 
-Last Updated: 26 May 2020
+2. [Edit Distance]()
+<details><summary>Memoization approach</summary>
+<pre class="code">
+int minDistance(string word1, string word2) {
+    int n1 = word1.size();
+    int n2 = word2.size();
+    // For memoization.
+    vector&lt;vector&lt;int&gt;&gt; dp(n1, vector<int>(n2, -1));
+    int result = cost(word1, word2, n1 - 1, n2 - 1, dp);
+    return result;
+}
+int mini(int a, int b, int c) {
+    return min(min(a, b), c);    
+}
+int cost(string &S, string &T, int i, int j, vector<vector<int>> &dp) {
+    if (i < 0 || j < 0) {return abs(i - j);} // Insert leftovers
+    if (dp[i][j] != -1) {return dp[i][j];} // Fetch cache
+    if (S[i] == T[j]) { // Accept when equal
+        return dp[i][j] = cost(S, T, i - 1, j - 1, dp); x
+    }
+    
+    return dp[i][j] = mini( 1 + cost(S, T, i - 1, j - 1, dp),   // Replacement
+                            1 + cost(S, T, i, j - 1, dp),       // Insertion
+                            1 + cost(S, T, i - 1, j, dp));      // Deletion
+}
+</pre></details>
+
+Last Updated: 31 May 2020
 
 ## Computer Science
 ### Introduction
