@@ -515,6 +515,11 @@ int cost(string &S, string &T, int i, int j, vector<vector<int>> &dp) {
 
 Last Updated: 31 May 2020
 
+May 31 2020
+Jun 1 2020
+- 
+- CTCI 16.4 Determining who won in Tic Tac Toe
+- CTCI 16.5 Number of Trailing zeroes in 'n' factorial
 ## Computer Science
 ### Introduction
 [List of unsolved problems in Computer Science](https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_computer_science)
@@ -608,6 +613,24 @@ Unordered list of resources
 - [Random Univ Slides](https://www.icg.isy.liu.se/courses/tsit03/)
 
 # Miscellaneous
+## Coding Log
+### About
+The following is a log of various questions solved.
+### Log
+1 Jun 2020
+- LC 219 : Contains Duplicate
+- Mirror NxN matrix along diagonal | [Code](https://github.com/AbstractXan/CompetitiveProgramming/blob/master/Others/diagonalswap.cpp)
+- CTCI 16.4 : Tic Tac Toe Win
+- CTCI 16.5 : Trailing zeroes in a factorial | [Code](https://github.com/AbstractXan/CompetitiveProgramming/blob/master/Others/fact-trailingzeroes.cpp)
+31 May 2020
+- LC 72 : [Edit Distance](https://leetcode.com/problems/edit-distance/)
+30 May 2020
+- SPOJ 6 : Simple Arithmetic | [Code](https://github.com/AbstractXan/CompetitiveProgramming/blob/master/SPOJ/6.cpp)
+29 May 2020
+- SPOJ 5 : The Next Palindrom | [Code](https://github.com/AbstractXan/CompetitiveProgramming/blob/master/SPOJ/5.cpp)
+27 May 2020
+- SPOJ 4 : Transform The Expression | [Code](https://github.com/AbstractXan/CompetitiveProgramming/blob/master/SPOJ/4.cpp)
+- SPOJ 2 : Prime Generator | [Code](https://github.com/AbstractXan/CompetitiveProgramming/blob/master/SPOJ/2.cpp)
 ## PixelArt
 ### Zip-Zap
 ![Zip-Zap](../media/pixelart/zip-zap-big.gif)
@@ -795,4 +818,3 @@ Last Update: 20 May 2020
 - Making a simple game in JS
 - Explore Webassembly
 - Write about Webassembly
-
