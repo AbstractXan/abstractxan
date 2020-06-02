@@ -514,12 +514,6 @@ int cost(string &S, string &T, int i, int j, vector<vector<int>> &dp) {
 </pre></details>
 
 Last Updated: 31 May 2020
-
-May 31 2020
-Jun 1 2020
-- 
-- CTCI 16.4 Determining who won in Tic Tac Toe
-- CTCI 16.5 Number of Trailing zeroes in 'n' factorial
 ## Computer Science
 ### Introduction
 [List of unsolved problems in Computer Science](https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_computer_science)
