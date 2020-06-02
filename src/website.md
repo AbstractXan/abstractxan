@@ -105,18 +105,6 @@ Questions will be posted here soon.
 
 
 # Articles 
-## NDN using Docker
-### Introduction
-NDN using Docker
-### Images
-Create images for NFD, Producer and Consumer
-### Run nfd
-[Solved issue](https://stackoverflow.com/a/46801370/9475674) I had.
-<pre class="code">
-docker run -it -d --privileged=true --network ndn --name ndnnfd nfd /sbin/init
-docker exec -it ndnnfd sh
-</pre>
-
 ## Deep Learning Image Classification
 ### Notebook
 [Tensorflow Tutorial](https://www.tensorflow.org/tutorials/images/classification)
