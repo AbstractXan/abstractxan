@@ -599,15 +599,23 @@ Unordered list of resources
 ### About
 The following is a log of various questions solved.
 ### Log
+4 Jun 2020
+- CTCI 17.4 Missing Number
+- CTCI 17.6 Count of 2s
+- CTCI 16.19 Pond Sizes | [Code]()
+- CTCI 16.20 Old Cell Phone | [Code]()
+3 Jun 2020
+- CTCI 17.2 Shuffle | [Code](https://github.com/AbstractXan/CompetitiveProgramming/blob/master/CTCI/17-2-Shuffle.cpp)
+- CTCI 17.3 Random Set | [Code](https://github.com/AbstractXan/CompetitiveProgramming/blob/master/CTCI/17-3-RandomSet.cpp)
 2 Jun 2020
-- LC 16.10 Living People | [Code](https://github.com/AbstractXan/CompetitiveProgramming/blob/master/CTCI/16-10-LivingPeople.cpp)
-- LC 16.11 Diving Board | [Code](https://github.com/AbstractXan/CompetitiveProgramming/blob/master/CTCI/16-11-DivingBoard.cpp)
-- LC 16.12 XML Encoding
-- LC 16.13 Bisect Squares
-- LC 16.15 Master Mind
-- LC 16.16 Sub Sort | [Code]()
-- LC 16.19 Pond Sizes | [Code]()
-- LC 16.20 Old Cell Phone | [Code]()
+- LC 237 Delete node in a linked list 
+- CTCI 16.10 Living People | [Code](https://github.com/AbstractXan/CompetitiveProgramming/blob/master/CTCI/16-10-LivingPeople.cpp)
+- CTCI 16.11 Diving Board | [Code](https://github.com/AbstractXan/CompetitiveProgramming/blob/master/CTCI/16-11-DivingBoard.cpp)
+- CTCI 16.12 XML Encoding
+- CTCI 16.13 Bisect Squares
+- CTCI 16.15 Master Mind
+- CTCI 16.16 Sub Sort | [Code](https://github.com/AbstractXan/CompetitiveProgramming/blob/master/CTCI/16-16-SubSort.cpp)
+
 1 Jun 2020
 - LC 219 : Contains Duplicate
 - Mirror NxN matrix along diagonal | [Code](https://github.com/AbstractXan/CompetitiveProgramming/blob/master/Others/diagonalswap.cpp)
