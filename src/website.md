@@ -12,6 +12,8 @@ Further advance the fields of science and arts. Creating low level simple and sh
 ## Journal
 ###  
 Journal shows recent updates.
+![040620](../media/journal/040620.png)
+250520 - Golang
 ![250520](../media/journal/250520.png)
 250520 - Orange
 ![220520](../media/journal/220520.png)
@@ -105,6 +107,22 @@ Questions will be posted here soon.
 
 
 # Articles 
+## Golang
+### Roadmap
+- [ ] Go CLI
+- [ ] Variables,constants,types,functions, packages etc
+- [ ] Array & Slices
+- [ ] Pointers, Structures, Methods
+- [ ] Interface
+### Channels
+Concurrency != Parallelism
+<pre class="code">
+c1 := make(chan string)
+...
+func f(c chan string)
+</pre>
+Channels are 'blocking' in nature.
+Always a good practice to close channel from sender's end. Closing a channel from receivers end might cause sender to panic.
 ## Deep Learning Image Classification
 ### Notebook
 [Tensorflow Tutorial](https://www.tensorflow.org/tutorials/images/classification)
@@ -227,7 +245,6 @@ UNION ALL => DUPLICATES allowed
 - select <b>count(city)-count(distinct city)</b> from station;
 3. Query city with the longest name from table STATION
 - select city from station orderby length(city) <b>desc, city limit 1</b>;
-
 
 
 ## Object Oriented Programming
