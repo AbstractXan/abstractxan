@@ -125,7 +125,7 @@ Channels are 'blocking' in nature.
 Always a good practice to close channel from sender's end. Closing a channel from receivers end might cause sender to panic.
 ## Deep Learning Image Classification
 ### Notebook
-[Tensorflow Tutorial](https://www.tensorflow.org/tutorials/images/classification)
+The following content is best understood with [Tensorflow Tutorial](https://www.tensorflow.org/tutorials/images/classification)
 ### Input
 ![Input](../media/dl/catsdogsINPUT.png)
 ### Data
@@ -188,11 +188,11 @@ Last Updated: 19 May 2020
 ## Computer Networks
 ### Intro
 ### OSI Model and Protocol Suite
-- <b>Application</b>
-- <b>Presentation</b>
-- <b>Session</b>
-- <b>Transport</b>
-- <b>Network</b>
+- <b>Application</b> : 
+- <b>Presentation</b> :
+- <b>Session</b> : 
+- <b>Transport</b> : 
+- <b>Network</b> : 
 - <b>Data Link</b> :
 - <b>Physical</b> : Carrying bitstream over physical media
 ### 
@@ -716,6 +716,15 @@ $$$ Seperate Pages
 ### Introduction
 Being constantly dissatisfied with myself, I feel very stagnated in life. To come out of these badlands, I'll be writing blogs on my experiments on myself.
 
+### Routine
+- Wake up at 3am
+- Study
+- Excercise and Yoga
+- Breakfast at 8:30 : Fruits 
+- Lunch at 11:30 
+- Dinner at 7:30
+- Sleep at 10
+
 ### Workouts
 A set of body workouts including: Gym workouts, Yoga and Meditation on a daily basis.
 
@@ -797,12 +806,9 @@ Log :
 - 3 May 2020 : S,S,S,S,S,S,S,S,S,S,G,G
 - 4 May 2020 : S,S,S,S,S,S,S,S,S,S,S,G,G
 - 5 May 2020 : S,S,G,G,G,S,S
-- 6 May 2020 :
-- 7 May 2020 :
 - 8 May 2020 : S,S,S,S,S,S,S
-- 9 May 2020 :
 
-Last Updated: 5 May 2020
+Last Updated: 8 May 2020
 
 Human changelog :
 - 4 April 2020 : Google Code Jam Qualifiers
@@ -816,7 +822,9 @@ Human changelog :
 - 10 May 2020 : Completed Reading Hands On Machine Learning Book
 - 19 May 2020 : Read Practical Deep Learning for Cloud, Web and Edge ; TF.js Implementations
 - 20 May 2020 : Read DBMS
-Last Update: 20 May 2020
+- 29 May 2020 : First Job Offer - Zopsmart
+- 6 Jun 2020 : Started working on sleep schedule
+Last Update: 6 June 2020
 ## Wanderings
 ### BTP
 - [x] Docker Volumes
