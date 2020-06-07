@@ -717,13 +717,12 @@ $$$ Seperate Pages
 Being constantly dissatisfied with myself, I feel very stagnated in life. To come out of these badlands, I'll be writing blogs on my experiments on myself.
 
 ### Routine
-- Wake up at 3am
-- Study
-- Excercise and Yoga
-- Breakfast at 8:30 : Fruits 
-- Lunch at 11:30 
-- Dinner at 7:30
-- Sleep at 10
+- 3 AM : Wake up and Study 
+- 6 AM : Exercise and Yoga
+- 8:30 AM : Breakfast 
+- 11:30 AM : Lunch  
+- 7:30 PM : Dinner
+- 10 PM : Sleep
 
 ### Workouts
 A set of body workouts including: Gym workouts, Yoga and Meditation on a daily basis.
