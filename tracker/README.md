@@ -11,7 +11,7 @@ Simple Personal Tracker
 
 - [X] ChartJS implementation for TimeSeries 
 - [X] Generating data.js from .txt input
-- [ ] Configure data format
+- [X] Configure data format
 - [ ] Create tracker daemon to track hours
 - [ ] Creating CLI for tracker daemon
 

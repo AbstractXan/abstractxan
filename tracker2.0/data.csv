@@ -1,0 +1,164 @@
+"Project name","Task name","Date","Start time","End time","Duration","Time zone","Project archived","Task completed"
+"Hands on ML",,"9 May 2020","9:51 am","9:52 am","00:00:06","+05:30","false",
+"Hands on ML","GANs","9 May 2020","9:52 am","10:17 am","00:25:33","+05:30","false","true"
+"BTP","NFD testing","9 May 2020","12:16 pm","12:46 pm","00:29:37","+05:30","false","false"
+"Hands on ML","GANs","9 May 2020","1:03 pm","1:05 pm","00:01:36","+05:30","false","true"
+"Hands on ML","GANs","9 May 2020","4:28 pm","5:12 pm","00:44:25","+05:30","false","true"
+"BTP","NFD testing","9 May 2020","5:33 pm","5:39 pm","00:05:45","+05:30","false","false"
+"BTP","Mininet Setup for NDN CXX","9 May 2020","5:39 pm","5:40 pm","00:00:06","+05:30","false","true"
+"BTP","Mininet Setup for NDN CXX","9 May 2020","5:42 pm","6:12 pm","00:29:26","+05:30","false","true"
+"Personal Tracker/Website","ChartJS Timeseries Implementation.","9 May 2020","6:37 pm","7:15 pm","00:37:34","+05:30","false","true"
+"Sketchbook/Art",,"10 May 2020","8:53 am","8:56 am","00:02:45","+05:30","false",
+"Hands on ML","Reinforcement Learning","10 May 2020","10:03 am","10:49 am","00:45:57","+05:30","false","true"
+"Hands on ML","Reinforcement Learning","10 May 2020","11:45 am","12:32 pm","00:46:53","+05:30","false","true"
+"Hands on ML","Reinforcement Learning","10 May 2020","1:47 pm","2:20 pm","00:32:49","+05:30","false","true"
+"Hands on ML","Reinforcement Learning","10 May 2020","2:23 pm","2:28 pm","00:04:22","+05:30","false","true"
+"Gaming","Dota","10 May 2020","2:33 pm","3:09 pm","00:35:40","+05:30","false","false"
+"Gaming","Dota","10 May 2020","3:16 pm","4:03 pm","00:46:52","+05:30","false","false"
+"Sketchbook/Art",,"10 May 2020","4:58 pm","5:09 pm","00:11:38","+05:30","false",
+"Hands on ML","Reinforcement Learning","10 May 2020","5:34 pm","6:33 pm","00:59:04","+05:30","false","true"
+"Hands on ML","Reinforcement Learning","10 May 2020","6:39 pm","7:03 pm","00:23:44","+05:30","false","true"
+"Personal Tracker/Website","ChartJS Timeseries Implementation.","10 May 2020","8:21 pm","8:45 pm","00:24:10","+05:30","false","true"
+"Personal Tracker/Website","ChartJS Timeseries Implementation.","11 May 2020","8:37 am","10:12 am","01:34:40","+05:30","false","true"
+"Hands on ML","Implementing Unsupervised Learning","11 May 2020","10:53 am","11:26 am","00:32:32","+05:30","false","true"
+"Gaming","Dota","11 May 2020","11:32 am","12:10 pm","00:37:22","+05:30","false","false"
+"Gaming","Albion","11 May 2020","12:10 pm","12:57 pm","00:47:33","+05:30","false","false"
+"Hands on ML","Implementing Unsupervised Learning","11 May 2020","1:14 pm","3:15 pm","02:01:39","+05:30","false","true"
+"BTP","Configuring docker image","11 May 2020","9:27 pm","9:34 pm","00:07:33","+05:30","false","false"
+"BTP","Configuring docker image","11 May 2020","9:34 pm","10:03 pm","00:28:23","+05:30","false","false"
+"Gaming","Dota","11 May 2020","10:36 pm","11:59 pm","01:23:46","+05:30","false","false"
+"Gaming","Dota","12 May 2020","12:00 am","12:45 am","00:45:01","+05:30","false","false"
+"Gaming","Albion","12 May 2020","11:33 am","12:00 pm","00:26:22","+05:30","false","false"
+"GameDev",,"12 May 2020","2:35 pm","3:04 pm","00:29:12","+05:30","false",
+"BTP",,"12 May 2020","2:45 pm","3:15 pm","00:30:01","+05:30","false",
+"GameDev",,"12 May 2020","6:49 pm","7:45 pm","00:55:40","+05:30","false",
+"BTP",,"13 May 2020","8:02 am","8:15 am","00:13:04","+05:30","false",
+"BTP",,"13 May 2020","9:09 am","10:03 am","00:53:20","+05:30","false",
+"GameDev",,"13 May 2020","10:03 am","11:25 am","01:22:15","+05:30","false",
+"Gaming","Dota","13 May 2020","2:05 pm","3:27 pm","01:22:32","+05:30","false","false"
+"Hands on ML",,"13 May 2020","3:28 pm","3:29 pm","00:01:24","+05:30","false",
+"Hands on ML",,"13 May 2020","3:38 pm","5:14 pm","01:36:15","+05:30","false",
+"Personal Tracker/Website","FormatData.cpp","13 May 2020","6:28 pm","7:07 pm","00:39:44","+05:30","false","true"
+"Gaming","Dota","13 May 2020","9:32 pm","11:59 pm","02:27:16","+05:30","false","false"
+"Gaming","Dota","14 May 2020","12:00 am","12:31 am","00:31:08","+05:30","false","false"
+"Surfing",,"14 May 2020","12:00 am","5:00 am","05:00:00","+05:30","false",
+"Hands on ML","CNN","14 May 2020","4:51 pm","5:31 pm","00:40:30","+05:30","false","false"
+"Gaming",,"15 May 2020","12:00 am","2:12 am","02:11:02","+05:30","false",
+"Surfing",,"15 May 2020","4:29 am","7:30 am","03:01:02","+05:30","false",
+"Study/others",,"15 May 2020","7:16 am","8:18 am","01:02:01","+05:30","false",
+"Hands on ML","CNN","15 May 2020","11:15 am","11:29 am","00:13:52","+05:30","false","false"
+"Gaming","Dota","16 May 2020","12:00 am","2:00 am","02:00:02","+05:30","false","false"
+"Personal Tracker/Website","Datatype","16 May 2020","7:25 am","8:56 am","01:30:44","+05:30","false","false"
+"Hands on ML","CNN","16 May 2020","10:29 am","2:00 pm","03:31:10","+05:30","false","false"
+"Gaming","Dota","16 May 2020","2:00 pm","3:09 pm","01:09:02","+05:30","false","false"
+"Sketchbook/Art",,"16 May 2020","3:29 pm","4:00 pm","00:31:03","+05:30","false",
+"Hands on ML","CNN","16 May 2020","4:14 pm","5:14 pm","01:00:02","+05:30","false","false"
+"GameDev","Perlin Noise","16 May 2020","5:47 pm","7:25 pm","01:38:35","+05:30","false","true"
+"Personal Tracker/Website",,"17 May 2020","8:00 am","9:40 am","01:40:01","+05:30","false",
+"Personal Tracker/Website",,"17 May 2020","10:10 am","10:25 am","00:15:01","+05:30","false",
+"Sketchbook/Art",,"17 May 2020","10:25 am","11:00 am","00:35:02","+05:30","false",
+"Sketchbook/Art",,"17 May 2020","11:00 am","1:00 pm","02:00:00","+05:30","false",
+"Hands on ML",,"17 May 2020","5:24 pm","7:00 pm","01:36:01","+05:30","false",
+"GameDev","Octaves","17 May 2020","7:10 pm","7:25 pm","00:14:42","+05:30","false","true"
+"GameDev","Octaves","17 May 2020","8:29 pm","9:21 pm","00:52:18","+05:30","false","true"
+"Sketchbook/Art",,"18 May 2020","9:00 am","9:53 am","00:53:04","+05:30","false",
+"Sketchbook/Art",,"18 May 2020","10:32 am","11:00 am","00:27:26","+05:30","false",
+"Gaming","Dota","18 May 2020","11:00 am","1:00 pm","02:00:00","+05:30","false","false"
+"Sketchbook/Art",,"18 May 2020","11:58 am","11:58 am","00:00:01","+05:30","false",
+"Hands on ML",,"18 May 2020","4:06 pm","6:50 pm","02:43:48","+05:30","false",
+"Sketchbook/Art",,"19 May 2020","6:40 am","7:30 am","00:50:02","+05:30","false",
+"Personal Tracker/Website",,"19 May 2020","7:30 am","7:45 am","00:15:02","+05:30","false",
+"Hands on ML",,"19 May 2020","9:33 am","9:46 am","00:13:17","+05:30","false",
+"Hands on ML",,"19 May 2020","9:57 am","10:32 am","00:34:25","+05:30","false",
+"Hands on ML",,"19 May 2020","11:00 am","12:45 pm","01:45:00","+05:30","false",
+"Hands on ML",,"19 May 2020","1:00 pm","2:57 pm","01:57:01","+05:30","false",
+"Hands on ML",,"19 May 2020","2:57 pm","3:43 pm","00:46:01","+05:30","false",
+"Hands on ML",,"19 May 2020","4:30 pm","5:17 pm","00:47:01","+05:30","false",
+"Hands on ML",,"19 May 2020","6:30 pm","7:14 pm","00:44:01","+05:30","false",
+"GameDev",,"19 May 2020","9:00 pm","10:02 pm","01:02:02","+05:30","false",
+"GameDev",,"19 May 2020","10:02 pm","10:14 pm","00:12:02","+05:30","false",
+"GameDev",,"19 May 2020","10:21 pm","11:30 pm","01:09:22","+05:30","false",
+"Personal Tracker/Website",,"20 May 2020","6:15 am","6:34 am","00:19:06","+05:30","false",
+"Study/others","DBMS","20 May 2020","9:30 am","9:59 am","00:29:00","+05:30","false","false"
+"Study/others","DBMS","20 May 2020","10:00 am","10:00 am","00:00:03","+05:30","false","false"
+"Study/others","DBMS","20 May 2020","10:00 am","10:49 am","00:48:37","+05:30","false","false"
+"Study/others","DBMS","20 May 2020","1:32 pm","1:52 pm","00:19:56","+05:30","false","false"
+"Study/others","DBMS","20 May 2020","4:02 pm","5:22 pm","01:19:54","+05:30","false","false"
+"Study/others",,"21 May 2020","7:06 am","11:30 am","04:24:01","+05:30","false",
+"Study/others",,"21 May 2020","11:30 am","1:03 pm","01:33:00","+05:30","false",
+"Study/others",,"21 May 2020","2:30 pm","3:40 pm","01:10:02","+05:30","false",
+"Hands on ML",,"21 May 2020","6:06 pm","6:28 pm","00:22:08","+05:30","false",
+"Gaming","Dota","22 May 2020","2:30 pm","3:48 pm","01:18:01","+05:30","false","false"
+"Study/others",,"22 May 2020","4:23 pm","5:28 pm","01:04:31","+05:30","false",
+"Personal Tracker/Website",,"22 May 2020","5:28 pm","5:31 pm","00:03:24","+05:30","false",
+"Study/others",,"22 May 2020","5:31 pm","6:37 pm","01:05:25","+05:30","false",
+"Personal Tracker/Website",,"22 May 2020","7:06 pm","7:06 pm","00:00:01","+05:30","false",
+"Study/others",,"22 May 2020","7:06 pm","7:11 pm","00:05:04","+05:30","false",
+"Sketchbook/Art",,"22 May 2020","7:45 pm","8:00 pm","00:15:06","+05:30","false",
+"Gaming","Dota","22 May 2020","11:00 pm","11:59 pm","00:59:01","+05:30","false","false"
+"Gaming","Dota","23 May 2020","12:00 am","1:00 am","01:00:00","+05:30","false","false"
+"Personal Tracker/Website",,"23 May 2020","9:30 am","10:11 am","00:41:01","+05:30","false",
+"Gaming","Dota","23 May 2020","10:23 am","11:00 am","00:37:01","+05:30","false","false"
+"Gaming","Dota","23 May 2020","1:30 pm","3:30 pm","02:00:01","+05:30","false","false"
+"Study/others",,"23 May 2020","5:42 pm","7:02 pm","01:20:48","+05:30","false",
+"Study/others",,"23 May 2020","7:18 pm","7:52 pm","00:34:26","+05:30","false",
+"Study/others",,"23 May 2020","9:45 pm","10:03 pm","00:17:20","+05:30","false",
+"Study/others",,"23 May 2020","10:26 pm","11:59 pm","01:33:53","+05:30","false",
+"Study/others",,"24 May 2020","7:30 am","8:00 am","00:30:01","+05:30","false",
+"Study/others",,"24 May 2020","9:00 am","9:53 am","00:53:01","+05:30","false",
+"Study/others",,"24 May 2020","9:54 am","10:50 am","00:56:04","+05:30","false",
+"Study/others",,"24 May 2020","11:12 am","11:30 am","00:17:59","+05:30","false",
+"Study/others",,"24 May 2020","5:18 pm","7:29 pm","02:10:41","+05:30","false",
+"Study/others",,"24 May 2020","9:14 pm","11:00 pm","01:46:32","+05:30","false",
+"Study/others",,"25 May 2020","7:00 am","11:00 am","04:00:47","+05:30","false",
+"BTP",,"25 May 2020","1:00 pm","4:37 pm","03:37:02","+05:30","false",
+"BTP",,"25 May 2020","4:37 pm","5:44 pm","01:06:59","+05:30","false",
+"Study/others",,"26 May 2020","6:30 am","8:01 am","01:31:02","+05:30","false",
+"Study/others",,"26 May 2020","9:49 am","10:47 am","00:58:15","+05:30","false",
+"BTP",,"26 May 2020","2:00 pm","4:27 pm","02:27:01","+05:30","false",
+"BTP",,"26 May 2020","4:27 pm","5:53 pm","01:25:38","+05:30","false",
+"BTP",,"26 May 2020","6:00 pm","7:29 pm","01:29:02","+05:30","false",
+"Gaming",,"26 May 2020","10:00 pm","10:30 pm","00:30:01","+05:30","false",
+"Personal Tracker/Website",,"26 May 2020","11:30 pm","11:45 pm","00:15:01","+05:30","false",
+"BTP",,"27 May 2020","6:00 am","8:00 am","02:00:02","+05:30","false",
+"Gaming",,"27 May 2020","1:00 pm","4:00 pm","03:00:01","+05:30","false",
+"Coding",,"27 May 2020","5:00 pm","5:31 pm","00:31:02","+05:30","false",
+"Coding",,"27 May 2020","5:55 pm","7:18 pm","01:22:34","+05:30","false",
+"Exercise/Yoga",,"28 May 2020","7:00 am","7:30 am","00:30:00","+05:30","false",
+"BTP",,"28 May 2020","9:00 am","11:17 am","02:17:02","+05:30","false",
+"BTP",,"28 May 2020","4:00 pm","7:00 pm","03:00:02","+05:30","false",
+"Coding",,"28 May 2020","7:30 pm","9:55 pm","02:25:03","+05:30","false",
+"Coding",,"29 May 2020","3:30 am","6:30 am","03:00:01","+05:30","false",
+"Exercise/Yoga",,"29 May 2020","6:10 am","7:15 am","01:05:01","+05:30","false",
+"Gaming",,"29 May 2020","12:00 pm","3:00 pm","03:00:01","+05:30","false",
+"Exercise/Yoga",,"30 May 2020","6:15 am","8:24 am","02:09:01","+05:30","false",
+"Study/others",,"30 May 2020","4:00 pm","6:00 pm","02:00:02","+05:30","false",
+"Coding",,"30 May 2020","8:30 pm","9:57 pm","01:27:02","+05:30","false",
+"Exercise/Yoga",,"31 May 2020","6:00 am","8:00 am","02:00:01","+05:30","false",
+"Study/others",,"31 May 2020","10:32 am","1:32 pm","03:00:02","+05:30","false",
+"Coding",,"31 May 2020","9:00 pm","9:50 pm","00:50:02","+05:30","false",
+"Gaming",,"31 May 2020","10:00 pm","11:59 pm","01:59:02","+05:30","false",
+"Gaming",,"1 Jun 2020","12:00 am","1:30 am","01:30:01","+05:30","false",
+"Exercise/Yoga",,"1 Jun 2020","6:00 am","8:00 am","02:00:01","+05:30","false",
+"Coding",,"1 Jun 2020","8:00 am","10:00 am","02:00:01","+05:30","false",
+"Gaming",,"1 Jun 2020","1:00 pm","1:30 pm","00:30:01","+05:30","false",
+"Coding",,"1 Jun 2020","5:00 pm","5:30 pm","00:30:01","+05:30","false",
+"Personal Tracker/Website",,"1 Jun 2020","7:00 pm","7:25 pm","00:25:02","+05:30","false",
+"Exercise/Yoga",,"2 Jun 2020","6:30 am","8:00 am","01:30:01","+05:30","false",
+"Coding",,"2 Jun 2020","11:18 am","3:18 pm","04:00:01","+05:30","false",
+"Gaming",,"2 Jun 2020","2:00 pm","4:00 pm","02:00:01","+05:30","false",
+"Coding",,"3 Jun 2020",,,"05:00:02","+05:30","false",
+"Exercise/Yoga",,"3 Jun 2020","6:30 am","8:00 am","01:30:01","+05:30","false",
+"Exercise/Yoga",,"4 Jun 2020","6:20 am","8:00 am","01:40:01","+05:30","false",
+"Coding",,"4 Jun 2020","4:00 pm","10:17 pm","06:17:01","+05:30","false",
+"Coding",,"4 Jun 2020","9:00 pm","10:40 pm","01:40:02","+05:30","false",
+"Coding",,"5 Jun 2020","5:30 am","6:00 am","00:30:00","+05:30","false",
+"Exercise/Yoga",,"5 Jun 2020","6:30 am","8:00 am","01:30:02","+05:30","false",
+"Coding",,"5 Jun 2020","8:49 pm","9:15 pm","00:25:56","+05:30","false",
+"BTP",,"6 Jun 2020","9:59 am","10:29 am","00:30:04","+05:30","false",
+"Personal Tracker/Website",,"6 Jun 2020","2:38 pm","2:42 pm","00:04:13","+05:30","false",
+"Coding",,"6 Jun 2020","3:06 pm","3:20 pm","00:14:08","+05:30","false",
+"BTP",,"6 Jun 2020","3:20 pm","3:41 pm","00:21:37","+05:30","false",
+"Coding",,"6 Jun 2020","3:41 pm","4:45 pm","01:04:01","+05:30","false",
+"Coding",,"6 Jun 2020","5:15 pm","6:23 pm","01:08:15","+05:30","false",
+"Study/others",,"7 Jun 2020","3:00 am","6:00 am","03:00:31","+05:30","false",
