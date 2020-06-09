@@ -12,6 +12,8 @@ Further advance the fields of science and arts. Creating low level simple and sh
 ## Journal
 ###  
 Journal shows recent updates.
+<a href="https://asciinema.org/a/gbkU4ITHnt4fs9buS5YcT5r0b" target="_blank"><img src="https://asciinema.org/a/gbkU4ITHnt4fs9buS5YcT5r0b.svg" /></a>
+090620 - miniNDN experiments | [Github](https://github.com/AbstractXan/minindn-experiments)
 ![040620](../media/journal/040620.png)
 250520 - Golang
 ![250520](../media/journal/250520.png)
@@ -103,6 +105,8 @@ Questions will be posted here soon.
 
 
 # Articles
+
+
 ## Golang[WIP]
 ### Roadmap
 - [ ] Go CLI
