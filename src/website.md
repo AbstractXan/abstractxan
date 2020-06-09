@@ -28,10 +28,6 @@ Journal shows recent updates.
 150520 - CNN Cat/Dog [Model](./deep_learning_image_classification.html)
 
 
-# Blog
-## Karnataka
-###  
-WIP
 
 # Projects
 ## Tensorflow.JS
@@ -106,8 +102,8 @@ Questions will be posted here soon.
 <p>Prelims questions were created by both <a href='https://www.twitter.com/AnupKulkarn1'>Anup Kulkarni</a> and I. Questions for finals were created by me. Questions could be found here: <a href='enigma_2019_prelims.html'>prelims</a></p>
 
 
-# Articles 
-## Golang
+# Articles
+## Golang[WIP]
 ### Roadmap
 - [ ] Go CLI
 - [ ] Variables,constants,types,functions, packages etc
@@ -185,7 +181,7 @@ Time.deltaTime : The completion time in seconds since the last frame (Read Only)
 
 Last Updated: 19 May 2020
 
-## Computer Networks
+## Computer Networks[WIP]
 ### Intro
 ### OSI Model and Protocol Suite
 - <b>Application</b> : 
@@ -313,12 +309,7 @@ Operator overloading:
 - ...
 - Box3 = Box1 + Box2;
 
-## Zero Knowledge Proofs
-### Introduction
-Zero knowledge proof / zero knowledge protocol is a method by which one party (prover) can prove to another party (verifier) that they know 'X' , without conveying any information apart from the fact that they know value 'X'. Properties:
-- Completeness
-- Soundness
-- Zero-Knowledge
+
 
 ## Diffie-Hellmann Key Exchange
 ### Introduction
@@ -400,9 +391,6 @@ Last Updated: 3 April 2020
 
 
 # Resources
-## Mathematics
-### Geometry
-- [Byrne's Euclid](https://www.c82.net/euclid/)
 ## Machine Learning
 ### Books
 - Hands on Machine Learning usinf Tensorflow, Keras

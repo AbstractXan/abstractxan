@@ -167,3 +167,20 @@ Implementing various classifiers and find max accuracy classifier
 ## BTP
 ### Links
 [NFD config](https://redmine.named-data.net/projects/nfd/wiki/ConfigFileFormat)
+
+# Blog
+## Karnataka
+###  
+WIP
+
+## Zero Knowledge Proofs
+### Introduction
+Zero knowledge proof / zero knowledge protocol is a method by which one party (prover) can prove to another party (verifier) that they know 'X' , without conveying any information apart from the fact that they know value 'X'. Properties:
+- Completeness
+- Soundness
+- Zero-Knowledge
+
+
+## Mathematics
+### Geometry
+- [Byrne's Euclid](https://www.c82.net/euclid/)
