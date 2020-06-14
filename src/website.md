@@ -1,7 +1,8 @@
 # Home
 ## About
 ### Me
-<p> <img class='thumbnail' style='width:200px' src='https://pbs.twimg.com/profile_images/1136164853003849729/FFFdBGmk_400x400.png'> </p><p>Hello, I'm Priyansh Sangule, 4th year Computer Science and Engineering student at <a href='https://www.iittp.ac.in'>IIT Tirupati</a>. I am a programmer and casual artist.</p>
+<p> <img class='thumbnail' style='width:200px' src='https://pbs.twimg.com/profile_images/1136164853003849729/FFFdBGmk_400x400.png'> </p><p>Hello, I'm Priyansh Sangule, 4th year Computer Science and Engineering student at <a href='https://www.iittp.ac.in'>IIT Tirupati</a>. I am a programmer and casual artist. [Resume](../media/Priyansh_Sangule_Resume.pdf)
+</p>
 
 ### Goal
 Further advance the fields of science and arts. Creating low level simple and sharp softwares that help people create and inspire others.
