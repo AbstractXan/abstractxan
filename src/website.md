@@ -32,6 +32,17 @@ Journal shows recent updates.
 
 
 
+## Bucket List
+###  
+- [x] Create my own website
+- [ ] Host my own wiki for my website
+- [ ] Create my own font
+- [ ] Personal Time Tracker
+- [ ] Get a Gramophone
+- [ ] Own a vinyl record of my own songs 
+- [ ] Learn longboarding
+
+
 # Projects
 ## Tensorflow.JS
 
