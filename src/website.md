@@ -118,7 +118,6 @@ Questions will be posted here soon.
 
 # Articles
 
-
 ## Golang[WIP]
 ### Roadmap
 - [ ] Go CLI
@@ -620,11 +619,14 @@ Unordered list of resources
 ### About
 The following is a log of various questions solved.
 ### Log
+19 Jun 2020
+- LC 700 Search in a Binary Tree
+
 4 Jun 2020
 - CTCI 17.4 Missing Number
-- CTCI 17.6 Count of 2s
-- CTCI 16.19 Pond Sizes | [Code]()
-- CTCI 16.20 Old Cell Phone | [Code]()
+- CTCI 17.6 Count of 2s | [Code](https://github.com/AbstractXan/CompetitiveProgramming/blob/master/CTCI/17-6-CountOf2s.cpp)
+- CTCI 16.19 Pond Sizes | [Code](https://github.com/AbstractXan/CompetitiveProgramming/blob/master/CTCI/16-19-PondSizes.cpp)
+- CTCI 16.20 Old Cell Phone | [Code](https://github.com/AbstractXan/CompetitiveProgramming/blob/master/CTCI/16-20-OldCellPhone.cpp)
 3 Jun 2020
 - CTCI 17.2 Shuffle | [Code](https://github.com/AbstractXan/CompetitiveProgramming/blob/master/CTCI/17-2-Shuffle.cpp)
 - CTCI 17.3 Random Set | [Code](https://github.com/AbstractXan/CompetitiveProgramming/blob/master/CTCI/17-3-RandomSet.cpp)
@@ -829,19 +831,10 @@ Human changelog :
 - 6 Jun 2020 : Started working on sleep schedule
 Last Update: 6 June 2020
 ## Wanderings
-### BTP
-- [x] Docker Volumes
-- Docker swarm
-- Kubernetes
-- Setup NDN-Cxx image
-### Admissions
-- Write SOP
-- Enroll in other institutes
 ### Study
 - Complete CTCI
 ### Random things I wanna do
 - Unity GameDev
 - Variable passing through a website using JS
-- Making a simple game in JS
 - Explore Webassembly
 - Write about Webassembly
