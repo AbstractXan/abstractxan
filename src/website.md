@@ -619,6 +619,10 @@ Unordered list of resources
 ### About
 The following is a log of various questions solved.
 ### Log
+
+21 Jun 2020
+- LC 111 Minimum Depth of Binary Tree
+- LC 174 Dungeon Game
 19 Jun 2020
 - LC 700 Search in a Binary Tree
 
