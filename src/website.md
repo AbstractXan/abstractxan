@@ -437,10 +437,12 @@ Last Updated: 3 April 2020
 
 ## Competitive Coding
 ### Links
+- [MIT Introduction to Algorithms](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/) by Prof. Erik Demaine
 - [Competitive Programmer's Handbook](https://cses.fi/book/book.pdf)
 - [Classification of questions](https://leetcode.com/discuss/general-discussion/457546/LeetCode-Problem-Patterns-from-educative.io)
 - [Dynamic Programming Patterns](https://leetcode.com/discuss/general-discussion/458695/dynamic-programming-patterns)
 - [List of DP problems](https://atcoder.jp/contests/dp/tasks) with increasing difficulty   
+- [List of Data Structures](https://en.wikipedia.org/wiki/List_of_data_structures)
 ### Questions
 [Container with most water](https://leetcode.com/problems/container-with-most-water/) is a brilliant question with an elegant solution that feels like magic. Initial instinct would be to go through the array in O(n^2) time but turns out that it could be brought down to O(n) time and O(1) space complexity. I wish I could classify this problem but I haven't solved these kinda questions enough.
 [Reveal cards in increasing order](https://leetcode.com/problems/reveal-cards-in-increasing-order/) is a very good question for testing your knowledge queue implementation.
