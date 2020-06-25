@@ -1,14 +1,25 @@
 # Home
 ## About
 ### Me
-<p> <img class='thumbnail' style='width:200px' src='https://pbs.twimg.com/profile_images/1136164853003849729/FFFdBGmk_400x400.png'> </p><p>Hello, I'm Priyansh Sangule, 4th year Computer Science and Engineering student at <a href='https://www.iittp.ac.in'>IIT Tirupati</a>. I am a programmer and casual artist. [Resume](../media/Priyansh_Sangule_Resume.pdf)
+<p> <img class='thumbnail' style='width:200px' src='https://pbs.twimg.com/profile_images/1136164853003849729/FFFdBGmk_400x400.png'> </p><p>Hello, I'm Priyansh Sangule, 4th year Computer Science and Engineering student at <a href='https://www.iittp.ac.in'>IIT Tirupati</a>. [Resume](../media/Priyansh_Sangule_Resume.pdf)
+
+I'm a heighly motivated individual who likes to tackle problems and tinker with latest technology. I love automatic repetitive things- I'm always look for scriptiing tasks. I love to curate information- my main inspiration for this website. I like art and design principles- thus I post about my artwork here. I like to read interesting codebases in my free time and do not hesitate to build my own tools if need be. I play games in my leisure. I love to code in C++.
+
+Currently I manage Mizi, the Static Site Generator which helped build this website. My future plans include improving Mizi, creating a flatfile wiki generator (Mori) and build my own time tracker.
+
+
+I have an insatiable thirst for knowledge for improving my knowledge base and using it to improve my approach to problems. I am always fascinated by the ocean of unexplored knowledge that lies beyond and constantly push myself to explore more. I am very glad to have known individuals who keep inspiring me everyday to learn and create something new and exciting everyday.  
+
+Various things that intrigue me are : Data Structures and their usage, Named Data Networking, Machine/Deep Learning, Writing better quality code, Game Development.
 </p>
 
 ### Goal
 Further advance the fields of science and arts. Creating low level simple and sharp softwares that help people create and inspire others.
 
 ### Contribute
-<p>Source files for my projects could be found on <a href='https://www.github.com/abstractxan'>Github</a>. This website is made with C++ using  <a href='https://www.github.com/abstractxan/mizi'>Mizi</a>. Source files for my website are available <a href='https://www.github.com/abstractxan/abstractxan/tree/master/src'>here</a>.</p> <p>Inspired by <a href='https://solar.lowtechmagazine.com/2018/09/how-to-build-a-lowtech-website/'>low-tech web design</a>, most images on this website are <i>dithered</i>. This website is heavily inspired by <a href='https://100r.co'>100 Rabbits</a>.</p> <p>Found a typo? Feel free to open an <a href='github.com/abstractxan/abstractxan/issues/new'>issue</a>.</p>
+<p>Website is still under development.
+
+Source files for my projects could be found on <a href='https://www.github.com/abstractxan'>Github</a>. This website is made with C++ using  <a href='https://www.github.com/abstractxan/mizi'>Mizi</a>. Source files for my website are available <a href='https://www.github.com/abstractxan/abstractxan/tree/master/src'>here</a>.</p> <p>Inspired by <a href='https://solar.lowtechmagazine.com/2018/09/how-to-build-a-lowtech-website/'>low-tech web design</a>, most images on this website are <i>dithered</i>. This website is heavily inspired by <a href='https://100r.co'>100 Rabbits</a>.</p> <p>Found a typo? Feel free to open an <a href='github.com/abstractxan/abstractxan/issues/new'>issue</a>.</p>
 
 ## Journal
 ###  
@@ -117,215 +128,6 @@ Questions will be posted here soon.
 
 
 # Articles
-
-## Golang[WIP]
-### Roadmap
-- [ ] Go CLI
-- [ ] Variables,constants,types,functions, packages etc
-- [ ] Array & Slices
-- [ ] Pointers, Structures, Methods
-- [ ] Interface
-### Channels
-Concurrency != Parallelism
-<pre class="code">
-c1 := make(chan string)
-...
-func f(c chan string)
-</pre>
-Channels are 'blocking' in nature.
-Always a good practice to close channel from sender's end. Closing a channel from receivers end might cause sender to panic.
-## Deep Learning Image Classification
-### Notebook
-The following content is best understood with [Tensorflow Tutorial](https://www.tensorflow.org/tutorials/images/classification)
-### Input
-![Input](../media/dl/catsdogsINPUT.png)
-### Data
-![Data](../media/dl/catsdogsDATA.png)
-### Model
-![Model](../media/dl/catsdogsMODEL.png)
-Could even add Dropout layer after first (convolutional) and last (dense) layers to avoid overfitting.
-### Result
-![Result](../media/dl/catsdogsRESULT.png)
- 
-## Unity2D
-### Movement Scipt
-<pre class="code">
-// Update is called once per frame
-void Update(){
-    float moveSpeed = 10;
-    float horizontalInput = Input.GetAxis("Horizontal");
-    float verticalInput = Input.GetAxis("Vertical");
-    transform.Translate(new Vector3(horizontalInput, verticalInput, 0 ) * moveSpeed * Time.deltaTime);
-}
-</pre>
-
-### Collision Detection
-Objects must have collider component. Objects must have rigidbody for enabling physics engine controls. Refer RigidBody2D [Manual](https://docs.unity3d.com/Manual/class-Rigidbody2D.html).
-<pre class="code">
-OnCollisionEnter2D(Collider2D other){
-    if (other.gameObject.CompareTag("tag")){
-    Debug.Log("HIT tag");     
-    }
-}
-</pre>
-
-### Basic Perlin Noise
-![Perlin Noise](../media/unity/perlin.png)
-<pre class="code">
-public static float[,] GenerateNoiseMap(int mapWidth, int mapHeight, float scale){
-    
-    float[,] noiseMap = new float[mapWidth,mapHeight];
-    if ( scale <= 0 ){ scale = 0.001F; }
-    for (int y = 0 ; y < mapHeight ; y++){
-        for (int x = 0 ; x < mapWidth ; x++){
-            float sampleX = x/scale;
-            float sampleY = y/scale;
-            float perlinValue = Mathf.PerlinNoise(sampleX,sampleY);
-            noiseMap[x,y] = perlinValue;
-        }
-    }
-    return noiseMap;
-}
-</pre>
-    
-### Better Perlin Noise : Octaves
-<iframe width="600px" height="300px" src="https://www.youtube.com/embed/RC9lg2K0wzM" frameborder="0" allow="gyroscope;" allowfullscreen></iframe>
-
-### Time
-Time.deltaTime : The completion time in seconds since the last frame (Read Only).This property provides the time between the current and previous frame.
-
-Last Updated: 19 May 2020
-
-## Computer Networks[WIP]
-### Intro
-### OSI Model and Protocol Suite
-- <b>Application</b> : 
-- <b>Presentation</b> :
-- <b>Session</b> : 
-- <b>Transport</b> : 
-- <b>Network</b> : 
-- <b>Data Link</b> :
-- <b>Physical</b> : Carrying bitstream over physical media
-### 
-## SQL
-### Introduction
-Structured Query Language. Keywords are case insensitive.
-### mySQL using Docker
-A basic working SQL server.
-- docker pull mysql
-- docker create network work
-- docker run --name testmysql --network work -e MYSQL_ROOT_PASSWORD=password -d mysql:latest
-- docker run -it --network work --rm mysql mysql -htestmysql -uroot -p
-- #(Enter 'password' as your password)
-
-Pull docker image. Create a network. Start a server in a container. Create a client container and access the server.
-
-### Video
-<iframe width="560" height="315" src="https://www.youtube.com/embed/hGlvp5YgAvM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-### Commands
-- show databases;
-- create database test;
-- use test;
-- create table t ( col1 char , col2 int);
-- insert into t values ('a',1),('b',2);
-- <b>SELECT</b> * from t;
-- select col1 from t <b>WHERE</b> col2 = 1;
-- select col2 from t where col1 <b>LIKE</b> 'a%';
-
-AGGREGATION
-- MIN, MAX, COUNT, AVG
-
-GROUP BY
-- select col1 , count(col1) from t group by col1;
-
-JOINS
-- select t1.col1 , t2.col1 from t1 <b>INNER JOIN</b>  t2 ON t1.col2 = t2.col2;
--  select t1.col1 , t2.col1 from t1 <b>LEFT JOIN</b>  t2 ON t1.col2 = t2.col2;
-- select t1.col1 , t2.col1 from t1 <b>RIGHT JOIN</b> t2 ON t1.col2 = t2.col2;
-
-UNION => DISTINCT 
-UNION ALL => DUPLICATES allowed
-- select * from t1 <b>UNION</b> select * from t2;
-
-
-### Curated Questions
-1. Query even ID numbers in table STATION.
-- select * from station where <b>MOD(id,2)</b>=0;
-2. Query to find the difference between the total number of cities and the unique number of cities in the table STATION.
-- select <b>count(city)-count(distinct city)</b> from station;
-3. Query city with the longest name from table STATION
-- select city from station orderby length(city) <b>desc, city limit 1</b>;
-
-
-## Object Oriented Programming
-### C++ Classes 
-- class Box {
-- &nbsp;&nbsp;public:
-- &nbsp;&nbsp;&nbsp;&nbsp;double length;   // Length of a box
-- &nbsp;&nbsp;&nbsp;&nbsp;double breadth;  // Breadth of a box
-- &nbsp;&nbsp;&nbsp;&nbsp;double height;   // Height of a box
-- };
-
-Creating objects:
-- Box Box1;
-
-Accessing data members (dot operator):
-- Box1.length
-
-C++ Classes and Objects in detail: [here](https://www.tutorialspoint.com/cplusplus/cpp_classes_objects.htm)
-
-### Inheritence
-### Polymorphism
-Polymorphism occurs when there is a hierarchy of classes and they are related by inheritance.
-
-C++ polymorphism means that a call to a member function will cause a different function to be executed depending on the type of object that invokes the function. (Overriding)
-
-<script src="https://gist.github.com/AbstractXan/0e4f771dca763653cb560f1751a31ead.js"></script>
-
-<b>Virtual Function</b>
-This could be fixed by using 'virtual' keyword for the parent function.
-<script src="https://gist.github.com/AbstractXan/229f53e877eb1c7ece104a14eccaf3fa.js"></script>
-
-Defining a virtual function for a base class, with another version in a derived class, signals to the compiler that we don't want static linkage for this function. Instead, we want the function to be called at any given point in the program to be based on the kind of object for which it is called. This sort of operation is referred to as <b>dynamic linkage</b>, or late binding.
-
-<b>Pure Virtual Function</b>
-Defining virtual function in a base class so that it may be redefined in a derived class to suit the objects of that class, but that there is no meaningful definition you could give for the function in the base class.
-
-- virtual int area() = 0;
-
-### Encapsulation
-Encapsulation — private instance variable and public accessor methods.
-### Abstraction
-Using abstract class/Interface we express the intent of the class rather than the actual implementation.
-### Overloading
-More than one definition for an operator or a function with different parameters and usage ; used in the same scope.
-
-Function overloading:
-- void print(double  f) {
-- &nbsp;&nbsp;cout << "Printing float: " << f << endl;
-- }
-- void print(char* c) {
-- &nbsp;&nbsp;cout << "Printing character: " << c << endl;
-- }
-
-Operator overloading:
-- class Box {
-- &nbsp;&nbsp;...
-- &nbsp;&nbsp;Box operator+(const Box& b) {
-- &nbsp;&nbsp;&nbsp;&nbsp;Box box;
-- &nbsp;&nbsp;&nbsp;&nbsp;box.length = this->length + b.length;
-- &nbsp;&nbsp;&nbsp;&nbsp;box.breadth = this->breadth + b.breadth;
-- &nbsp;&nbsp;&nbsp;&nbsp;box.height = this->height + b.height;
-- &nbsp;&nbsp;&nbsp;&nbsp;return box;
-- &nbsp;&nbsp;}
-- &nbsp;&nbsp;...
-- };
-- ...
-- Box3 = Box1 + Box2;
-
-
-
 ## Diffie-Hellmann Key Exchange
 ### Introduction
 - Public key exchange protocol
@@ -404,37 +206,218 @@ An interesting area is [Elliptic curve cryptography](https://www.youtube.com/wat
 Last Updated: 3 April 2020
 
 
+## SQL
+### Introduction
+Structured Query Language. Keywords are case insensitive.
+### mySQL using Docker
+A basic working SQL server.
+- docker pull mysql
+- docker create network work
+- docker run --name testmysql --network work -e MYSQL_ROOT_PASSWORD=password -d mysql:latest
+- docker run -it --network work --rm mysql mysql -htestmysql -uroot -p
+- #(Enter 'password' as your password)
+
+Pull docker image. Create a network. Start a server in a container. Create a client container and access the server.
+
+### Video
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hGlvp5YgAvM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Commands
+- show databases;
+- create database test;
+- use test;
+- create table t ( col1 char , col2 int);
+- insert into t values ('a',1),('b',2);
+- <b>SELECT</b> * from t;
+- select col1 from t <b>WHERE</b> col2 = 1;
+- select col2 from t where col1 <b>LIKE</b> 'a%';
+
+AGGREGATION
+- MIN, MAX, COUNT, AVG
+
+GROUP BY
+- select col1 , count(col1) from t group by col1;
+
+JOINS
+- select t1.col1 , t2.col1 from t1 <b>INNER JOIN</b>  t2 ON t1.col2 = t2.col2;
+-  select t1.col1 , t2.col1 from t1 <b>LEFT JOIN</b>  t2 ON t1.col2 = t2.col2;
+- select t1.col1 , t2.col1 from t1 <b>RIGHT JOIN</b> t2 ON t1.col2 = t2.col2;
+
+UNION => DISTINCT 
+UNION ALL => DUPLICATES allowed
+- select * from t1 <b>UNION</b> select * from t2;
+
+
+### Curated Questions
+1. Query even ID numbers in table STATION.
+- select * from station where <b>MOD(id,2)</b>=0;
+2. Query to find the difference between the total number of cities and the unique number of cities in the table STATION.
+- select <b>count(city)-count(distinct city)</b> from station;
+3. Query city with the longest name from table STATION
+- select city from station orderby length(city) <b>desc, city limit 1</b>;
+
+
+## Deep Learning Image Classification
+### Notebook
+The following content is best understood with [Tensorflow Tutorial](https://www.tensorflow.org/tutorials/images/classification)
+### Input
+![Input](../media/dl/catsdogsINPUT.png)
+### Data
+![Data](../media/dl/catsdogsDATA.png)
+### Model
+![Model](../media/dl/catsdogsMODEL.png)
+Could even add Dropout layer after first (convolutional) and last (dense) layers to avoid overfitting.
+### Result
+![Result](../media/dl/catsdogsRESULT.png)
+## Object Oriented Programming
+### C++ Classes 
+- class Box {
+- &nbsp;&nbsp;public:
+- &nbsp;&nbsp;&nbsp;&nbsp;double length;   // Length of a box
+- &nbsp;&nbsp;&nbsp;&nbsp;double breadth;  // Breadth of a box
+- &nbsp;&nbsp;&nbsp;&nbsp;double height;   // Height of a box
+- };
+
+Creating objects:
+- Box Box1;
+
+Accessing data members (dot operator):
+- Box1.length
+
+C++ Classes and Objects in detail: [here](https://www.tutorialspoint.com/cplusplus/cpp_classes_objects.htm)
+
+### Inheritence
+### Polymorphism
+Polymorphism occurs when there is a hierarchy of classes and they are related by inheritance.
+
+C++ polymorphism means that a call to a member function will cause a different function to be executed depending on the type of object that invokes the function. (Overriding)
+
+<script src="https://gist.github.com/AbstractXan/0e4f771dca763653cb560f1751a31ead.js"></script>
+
+<b>Virtual Function</b>
+This could be fixed by using 'virtual' keyword for the parent function.
+<script src="https://gist.github.com/AbstractXan/229f53e877eb1c7ece104a14eccaf3fa.js"></script>
+
+Defining a virtual function for a base class, with another version in a derived class, signals to the compiler that we don't want static linkage for this function. Instead, we want the function to be called at any given point in the program to be based on the kind of object for which it is called. This sort of operation is referred to as <b>dynamic linkage</b>, or late binding.
+
+<b>Pure Virtual Function</b>
+Defining virtual function in a base class so that it may be redefined in a derived class to suit the objects of that class, but that there is no meaningful definition you could give for the function in the base class.
+
+- virtual int area() = 0;
+
+### Encapsulation
+Encapsulation — private instance variable and public accessor methods.
+### Abstraction
+Using abstract class/Interface we express the intent of the class rather than the actual implementation.
+### Overloading
+More than one definition for an operator or a function with different parameters and usage ; used in the same scope.
+
+Function overloading:
+- void print(double  f) {
+- &nbsp;&nbsp;cout << "Printing float: " << f << endl;
+- }
+- void print(char* c) {
+- &nbsp;&nbsp;cout << "Printing character: " << c << endl;
+- }
+
+Operator overloading:
+- class Box {
+- &nbsp;&nbsp;...
+- &nbsp;&nbsp;Box operator+(const Box& b) {
+- &nbsp;&nbsp;&nbsp;&nbsp;Box box;
+- &nbsp;&nbsp;&nbsp;&nbsp;box.length = this->length + b.length;
+- &nbsp;&nbsp;&nbsp;&nbsp;box.breadth = this->breadth + b.breadth;
+- &nbsp;&nbsp;&nbsp;&nbsp;box.height = this->height + b.height;
+- &nbsp;&nbsp;&nbsp;&nbsp;return box;
+- &nbsp;&nbsp;}
+- &nbsp;&nbsp;...
+- };
+- ...
+- Box3 = Box1 + Box2;
+
+
+
+
+## Unity2D
+### Movement Scipt
+<pre class="code">
+// Update is called once per frame
+void Update(){
+    float moveSpeed = 10;
+    float horizontalInput = Input.GetAxis("Horizontal");
+    float verticalInput = Input.GetAxis("Vertical");
+    transform.Translate(new Vector3(horizontalInput, verticalInput, 0 ) * moveSpeed * Time.deltaTime);
+}
+</pre>
+
+### Collision Detection
+Objects must have collider component. Objects must have rigidbody for enabling physics engine controls. Refer RigidBody2D [Manual](https://docs.unity3d.com/Manual/class-Rigidbody2D.html).
+<pre class="code">
+OnCollisionEnter2D(Collider2D other){
+    if (other.gameObject.CompareTag("tag")){
+    Debug.Log("HIT tag");     
+    }
+}
+</pre>
+
+### Basic Perlin Noise
+![Perlin Noise](../media/unity/perlin.png)
+<pre class="code">
+public static float[,] GenerateNoiseMap(int mapWidth, int mapHeight, float scale){
+    
+    float[,] noiseMap = new float[mapWidth,mapHeight];
+    if ( scale <= 0 ){ scale = 0.001F; }
+    for (int y = 0 ; y < mapHeight ; y++){
+        for (int x = 0 ; x < mapWidth ; x++){
+            float sampleX = x/scale;
+            float sampleY = y/scale;
+            float perlinValue = Mathf.PerlinNoise(sampleX,sampleY);
+            noiseMap[x,y] = perlinValue;
+        }
+    }
+    return noiseMap;
+}
+</pre>
+    
+### Better Perlin Noise : Octaves
+<iframe width="600px" height="300px" src="https://www.youtube.com/embed/RC9lg2K0wzM" frameborder="0" allow="gyroscope;" allowfullscreen></iframe>
+
+### Time
+Time.deltaTime : The completion time in seconds since the last frame (Read Only).This property provides the time between the current and previous frame.
+
+Last Updated: 19 May 2020
+
+## Computer Networks[WIP]
+### Intro
+### OSI Model and Protocol Suite
+- <b>Application</b> : 
+- <b>Presentation</b> :
+- <b>Session</b> : 
+- <b>Transport</b> : 
+- <b>Network</b> : 
+- <b>Data Link</b> :
+- <b>Physical</b> : Carrying bitstream over physical media
+### 
+
+## Golang[WIP]
+### Roadmap
+- [ ] Go CLI
+- [ ] Variables,constants,types,functions, packages etc
+- [ ] Array & Slices
+- [ ] Pointers, Structures, Methods
+- [ ] Interface
+### Channels
+Concurrency != Parallelism
+<pre class="code">
+c1 := make(chan string)
+...
+func f(c chan string)
+</pre>
+Channels are 'blocking' in nature.
+Always a good practice to close channel from sender's end. Closing a channel from receivers end might cause sender to panic.
+
 
 # Resources
-## Machine Learning
-### Books
-- Hands on Machine Learning usinf Tensorflow, Keras
-- Practical Machine Learning for Cloud, Mobile and Edge
-### Lectures
-- Andrew Ng's class [notes](http://www.holehouse.org/mlclass/index.html)
-- [PCA intuition video](https://www.youtube.com/watch?v=g-Hb26agBFg)
-- [Learn CNN (Interactive)](https://poloclub.github.io/cnn-explainer/)
-- [Markov Decision Processes](https://youtu.be/9g32v7bK3Co)
-### Tutorials
-- [Tensorflow/tutorials](https://tensorflow.org/tutorials)
-### Curated Notebooks
-- [Toxic Comment Classification](https://www.kaggle.com/rhodiumbeng/classifying-multi-label-comments-0-9741-lb)
-### Standards
-- ONNX is an open standard for representing machine learning models that is a collaboration between Microsoft, Facebook, Amazon, and others.
-### Web
-- [ONNX.js](https://github.com/Microsoft/onnxjs)
-- &nbsp;&nbsp; Faster than Tf.js. Uses WASM, WebGL and Webworkers (multi-threaded env for parallelising data operations).
-- [Tensorflow.js]()
-- [ml5.js]() built on top of tf.js. Abstracts away complexities. Simple, ready-to-use models from GANs to POSNets.
-### Hubs
-- [AI Hub](https://aihub.cloud.google.com/u/0/s?category=notebook): Google
-- [TF Hub.dev](https://tfhub.dev/)
-### Hosting Models
-- Online: [Google Cloud Models](https://console.cloud.google.com/mlengine/models)
-- Docker: [tensorflow/serving](https://github.com/tensorflow/serving/blob/master/tensorflow_serving/g3doc/docker.md)
-### Diagrams
-- [NN SVG](http://alexlenail.me/NN-SVG/AlexNet.html) - Publication-ready NN-architecture schematics
-
 ## Competitive Coding
 ### Links
 - [MIT Introduction to Algorithms](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/) by Prof. Erik Demaine
@@ -524,6 +507,36 @@ int cost(string &S, string &T, int i, int j, vector<vector<int>> &dp) {
 </pre></details>
 
 Last Updated: 31 May 2020
+
+## Machine Learning
+### Books
+- Hands on Machine Learning usinf Tensorflow, Keras
+- Practical Machine Learning for Cloud, Mobile and Edge
+### Lectures
+- Andrew Ng's class [notes](http://www.holehouse.org/mlclass/index.html)
+- [PCA intuition video](https://www.youtube.com/watch?v=g-Hb26agBFg)
+- [Learn CNN (Interactive)](https://poloclub.github.io/cnn-explainer/)
+- [Markov Decision Processes](https://youtu.be/9g32v7bK3Co)
+### Tutorials
+- [Tensorflow/tutorials](https://tensorflow.org/tutorials)
+### Curated Notebooks
+- [Toxic Comment Classification](https://www.kaggle.com/rhodiumbeng/classifying-multi-label-comments-0-9741-lb)
+### Standards
+- ONNX is an open standard for representing machine learning models that is a collaboration between Microsoft, Facebook, Amazon, and others.
+### Web
+- [ONNX.js](https://github.com/Microsoft/onnxjs)
+- &nbsp;&nbsp; Faster than Tf.js. Uses WASM, WebGL and Webworkers (multi-threaded env for parallelising data operations).
+- [Tensorflow.js]()
+- [ml5.js]() built on top of tf.js. Abstracts away complexities. Simple, ready-to-use models from GANs to POSNets.
+### Hubs
+- [AI Hub](https://aihub.cloud.google.com/u/0/s?category=notebook): Google
+- [TF Hub.dev](https://tfhub.dev/)
+### Hosting Models
+- Online: [Google Cloud Models](https://console.cloud.google.com/mlengine/models)
+- Docker: [tensorflow/serving](https://github.com/tensorflow/serving/blob/master/tensorflow_serving/g3doc/docker.md)
+### Diagrams
+- [NN SVG](http://alexlenail.me/NN-SVG/AlexNet.html) - Publication-ready NN-architecture schematics
+
 ## Computer Science
 ### Introduction
 [List of unsolved problems in Computer Science](https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_computer_science)
@@ -703,9 +716,6 @@ The following is a log of various questions solved.
 - Kimi no na wa
 - 5 Centimeters per sec
 - Garden of Words
-## Quotes
-### 
-- Great engineering comes from creating predictable results at predictable costs. In fact, I like to say that if you’re not measuring you’re not engineering. - Rico Mariani
 
 ## Sketchbook 2019
 ### Sketches
@@ -722,8 +732,9 @@ $$$ Seperate Pages
 - Inplace algorithms improve space complexity
 - WHAT ARE BIT VECTORS UGH
 - XORing string don't test it unique. T_T
-
-
+## Quotes
+### 
+- Great engineering comes from creating predictable results at predictable costs. In fact, I like to say that if you’re not measuring you’re not engineering. - Rico Mariani
 ## Experiments with life
 ### Introduction
 Being constantly dissatisfied with myself, I feel very stagnated in life. To come out of these badlands, I'll be writing blogs on my experiments on myself.
@@ -838,7 +849,8 @@ Human changelog :
 Last Update: 6 June 2020
 ## Wanderings
 ### Study
-- Complete CTCI
+- Complete CTCI [x]
+- Complete DSA - Weiss []
 ### Random things I wanna do
 - Unity GameDev
 - Variable passing through a website using JS

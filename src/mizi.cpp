@@ -354,7 +354,7 @@ void buildHome(Category * categories[], int categories_length, string path){
     for(int i=1;i<=categories_length;i++){
         Category * category = categories[i];
         htmlHome << "<h2>"<< category->name << "</h2>";
-        htmlHome << "<ul>";
+        htmlHome << "<ul class='pagelist'>";
         for(int j=0; j< category->pageCount;j++){
             Page *page = category->pages[j];
             string page_name = page->title;

@@ -8,9 +8,12 @@
 @font-face { font-family: 'input_mono_regular'; src: url('../media/fonts/input_mono_regular.ttf') format('truetype'); font-weight: normal; font-style: normal; }
 @font-face { font-family: 'input_mono_medium'; src: url('../media/fonts/input_mono_medium.ttf') format('truetype'); font-weight: normal; font-style: normal; }
 
-html { background:white; }
-body { background:#fff; color:#000; font-family: "alte_haas_grotesk_regular", "Helvetica Neue", Helvetica, Arial; overflow-x: hidden; margin-top:5px; padding:45px 90px;  
-  font-size:14px; line-height: 28px; font-size:18px; max-width: 600px;}
+html { background: lightgrey; }
+body { 
+  background:#fff; color:#0a0708; 
+  font-family: "alte_haas_grotesk_regular", "Helvetica Neue", Helvetica, Arial; font-size:18px;  
+  overflow-x: hidden; padding:45px 90px; line-height: 28px; max-width: 600px;  
+  margin-left: auto; margin-right:auto;}
 body hr { border:0; clear:both; }
 body header a#logo { margin-top: -15px;display: block;width: 75px; margin-bottom:15px;}
 body header a#logo img { width:100%; }
@@ -20,7 +23,7 @@ body main > * { max-width: 600px; margin-bottom: 30px }
 body main > h1 { font-family: "alte_haas_grotesk_regular", "Helvetica Neue", Helvetica, Arial; font-size:45px; text-transform: capitalize; padding-bottom:30px; line-height: 1;}
 body main > h2 { font-family: "alte_haas_grotesk_bold", "Helvetica Neue", Helvetica, Arial; font-size:30px; text-transform: capitalize; }
 body main img { width:100%; max-width: 600px; }
-body main > ul { font-family: 'input_mono_regular'; font-size:12px; line-height: 20px }
+body main > ul { font-family: 'input_mono_regular'; font-size:14px; line-height: 20px }
 body main > ul li a { text-transform: capitalize; text-decoration: underline; }
 body main > ul li b { font-weight: bold }
 body main > ul li:hover a { text-decoration: none; }
@@ -34,7 +37,7 @@ body main > p.quote { padding: 30px;font-size: 20px;font-style: italic; max-widt
 body main > ul.jump { columns:2; line-height: 20px}
 body main > ul.jump li { list-style-type: decimal-leading-zero; list-style-position: inside; text-transform: capitalize;}
 body main > ul.jump li::marker { color:#777; }
-body main > ul.jump li:hover { background:black; color:white; }
+body main > ul.jump li:hover {background:black; color:white; }
 body main a.button { font-family: "alte_haas_grotesk_bold", "Helvetica Neue", Helvetica, Arial; background-color: #000000;border: none;color: white;padding: 15px 32px;text-align: center;text-decoration: none;display: inline-block;font-size: 16px;}
 body main a.button:hover {background-color: #727272 !important;border: none;color: white;padding: 15px 32px;text-align: center;text-decoration: none;display: inline-block;font-size: 16px;}
 body main a.button.patreon { background-color: #e75942; }
@@ -45,6 +48,11 @@ body main ul.gallery li a { display: block; padding: 10px; }
 body main ul.gallery li img { width:150px; float:left; display: block ; margin-right: 15px;}
 body main ul.gallery li h3 { font-family: "alte_haas_grotesk_regular", "Helvetica Neue", Helvetica, Arial; font-size: 30px;text-transform: capitalize; line-height: 40px;max-width: 75%; margin-bottom: 10px; }
 body main ul.gallery li h4 { font-family: "alte_haas_grotesk_bold", "Helvetica Neue", Helvetica, Arial; font-size:20px; text-transform: capitalize; }
+
+body main > ul.pagelist li { text-decoration-style: none;}
+body main > ul.pagelist li:hover{background:black; color:white; }
+body main > ul.pagelist li::marker { color:#777; }
+body main > ul.pagelist li { list-style-type: decimal-leading-zero; list-style-position: inside; text-transform: capitalize;}
 
 body footer { border-top: 1.5px solid black;padding-top: 30px;margin-bottom: 120px; max-width: 600px }
 body footer img {max-height: 30px; max-width:30px; margin-right: 10px;}
