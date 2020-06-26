@@ -18,7 +18,7 @@ Further advance the fields of science and arts. Creating low level simple and sh
 ### Website
 This website is being built as an attempt to share ideas and technology, log activities, and curate resources for future reference. 
 
-My requirements for a knowledge base lead to the creation of this website as a library, which I curate for my own purposes. My requirement for tracking my progress has led to various activity logs on this website. My love for design and art could be seen in various artworks.  
+My requirements for a knowledge base lead to the creation of this website. My requirement for tracking my progress has led to various activity logs on this website. My love for design and art could be seen in various artworks.  
 
 ### Contribute
 <p>Website is currently under development.
