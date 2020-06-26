@@ -7,16 +7,16 @@ I'm an extremely motivated individual who likes to tackle problems and tinker wi
 
 Currently, I manage Mizi, the Static Site Generator which helped build this website. My plans include improving Mizi, creating a flat-file wiki generator (Mori), and build my time tracker.
 
-I have an insatiable thirst for knowledge and using it to improve my approach to problems. I am always fascinated by the ocean of unexplored knowledge that lies beyond and constantly push myself to explore more. I am very glad to be surrounded by amazing individuals who keep inspiring me to learn and create something new and exciting every day.  
+I have an insatiable thirst for knowledge and use it to improve my approach to problems. I am always fascinated by the ocean of unexplored knowledge that lies beyond. I constantly push myself to explore more. I am very glad to be surrounded by amazing individuals who keep inspiring me to learn and create something new and exciting every day.  
 
-Various things that intrigue me are data structures and their usage, Named Data Networking(NDN), Machine/Deep Learning, better quality code practices, Game Development, C++, Gaming.
-</p>
+Various things that intrigue me are named data networking(NDN), machine/deep learning, better quality code practices, game development, C++, gaming.
+</p
 
 ### Goal
 Further advance the fields of science and arts. Creating low level simple and sharp softwares that help people create and inspire others.
 
 ### Website
-This website is being built as an attempt to share ideas and technology, log activities, and curate resources for future references. 
+This website is being built as an attempt to share ideas and technology, log activities, and curate resources for future reference. 
 
 My requirements for a knowledge base lead to the creation of this website as a library, which I curate for my own purposes. My requirement for tracking my progress has led to various activity logs on this website. My love for design and art could be seen in various artworks.  
 
