@@ -1,20 +1,24 @@
-# Home
+    # Home
 ## About
 ### Me
 <p> <img class='thumbnail' style='width:200px' src='https://pbs.twimg.com/profile_images/1136164853003849729/FFFdBGmk_400x400.png'> </p><p>Hello, I'm Priyansh Sangule, 4th year Computer Science and Engineering student at <a href='https://www.iittp.ac.in'>IIT Tirupati</a>. [Resume](../media/Priyansh_Sangule_Resume.pdf)
 
-I'm a heighly motivated individual who likes to tackle problems and tinker with latest technology. I love automatic repetitive things- I'm always look for scriptiing tasks. I love to curate information- my main inspiration for this website. I like art and design principles- thus I post about my artwork here. I like to read interesting codebases in my free time and do not hesitate to build my own tools if need be. I play games in my leisure. I love to code in C++.
+I'm an extremely motivated individual who likes to tackle problems and tinker with the latest technology. 
 
-Currently I manage Mizi, the Static Site Generator which helped build this website. My future plans include improving Mizi, creating a flatfile wiki generator (Mori) and build my own time tracker.
+Currently, I manage Mizi, the Static Site Generator which helped build this website. My plans include improving Mizi, creating a flat-file wiki generator (Mori), and build my time tracker.
 
+I have an insatiable thirst for knowledge and using it to improve my approach to problems. I am always fascinated by the ocean of unexplored knowledge that lies beyond and constantly push myself to explore more. I am very glad to be surrounded by amazing individuals who keep inspiring me to learn and create something new and exciting every day.  
 
-I have an insatiable thirst for knowledge for improving my knowledge base and using it to improve my approach to problems. I am always fascinated by the ocean of unexplored knowledge that lies beyond and constantly push myself to explore more. I am very glad to have known individuals who keep inspiring me everyday to learn and create something new and exciting everyday.  
-
-Various things that intrigue me are : Data Structures and their usage, Named Data Networking, Machine/Deep Learning, Writing better quality code, Game Development.
+Various things that intrigue me are data structures and their usage, Named Data Networking(NDN), Machine/Deep Learning, better quality code practices, Game Development, C++, Gaming.
 </p>
 
 ### Goal
 Further advance the fields of science and arts. Creating low level simple and sharp softwares that help people create and inspire others.
+
+## Website
+This website is being built as an attempt to share ideas and technology, log activities and curate resources for future references. 
+
+My requirement for a knowledge base lead to the creation for this website as a library, which I curate for my own purposes. My requirement for tracking my progress has led to various activity logs on this website. My love for design and art could be seen in various artwork.  
 
 ### Contribute
 <p>Website is still under development.
