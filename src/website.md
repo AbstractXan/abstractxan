@@ -15,13 +15,13 @@ Various things that intrigue me are data structures and their usage, Named Data 
 ### Goal
 Further advance the fields of science and arts. Creating low level simple and sharp softwares that help people create and inspire others.
 
-## Website
-This website is being built as an attempt to share ideas and technology, log activities and curate resources for future references. 
+### Website
+This website is being built as an attempt to share ideas and technology, log activities, and curate resources for future references. 
 
-My requirement for a knowledge base lead to the creation for this website as a library, which I curate for my own purposes. My requirement for tracking my progress has led to various activity logs on this website. My love for design and art could be seen in various artwork.  
+My requirements for a knowledge base lead to the creation of this website as a library, which I curate for my own purposes. My requirement for tracking my progress has led to various activity logs on this website. My love for design and art could be seen in various artworks.  
 
 ### Contribute
-<p>Website is still under development.
+<p>Website is currently under development.
 
 Source files for my projects could be found on <a href='https://www.github.com/abstractxan'>Github</a>. This website is made with C++ using  <a href='https://www.github.com/abstractxan/mizi'>Mizi</a>. Source files for my website are available <a href='https://www.github.com/abstractxan/abstractxan/tree/master/src'>here</a>.</p> <p>Inspired by <a href='https://solar.lowtechmagazine.com/2018/09/how-to-build-a-lowtech-website/'>low-tech web design</a>, most images on this website are <i>dithered</i>. This website is heavily inspired by <a href='https://100r.co'>100 Rabbits</a>.</p> <p>Found a typo? Feel free to open an <a href='github.com/abstractxan/abstractxan/issues/new'>issue</a>.</p>
 
