@@ -79,10 +79,10 @@ Journal shows recent updates.
 
 ## Mini-projects
 ### Shooting Stars
-<p><iframe src='https://itch.io/embed/566225' height='167' width='552' frameborder='0'><a href='https://abstractxan.itch.io/shooting-stars'>Shooting stars by AbstractXan</a></iframe></p>
+<p><iframe src='https://itch.io/embed/566225' height='auto' width='100%' frameborder='0'><a href='https://abstractxan.itch.io/shooting-stars'>Shooting stars by AbstractXan</a></iframe></p>
 
 ### Space 
-<p><iframe src='https://itch.io/embed/543741' height='167' width='552' frameborder='0'><a href='https://abstractxan.itch.io/space'>Space by AbstractXan</a></iframe>
+<p><iframe src='https://itch.io/embed/543741' height='auto' width='100%' frameborder='0'><a href='https://abstractxan.itch.io/space'>Space by AbstractXan</a></iframe>
 
 ## Enigma 2020
 ### About
@@ -200,7 +200,7 @@ This way, the encryption key could take any value between 1 to p-1 equally likel
 
 Such cyclic groups modulo p, a large prime number, and a corresponding generator ([primitive root modulo p](https://en.wikipedia.org/wiki/Primitive_root_modulo_n) ) g are used to create secure public key transfer protocol given that discreet logarithm problem is hard to solve.
 ### Flaws
-Impersonation issues.
+Impersonation issues. Any information passed to the insecure channel could be intercepted by an impersonator who could act like the actual receiver.
 ### Further
 
 We realise that since we use a <i>large</i> prime p, the encryption key becomes <b>huge</b> as well, as g^ab mod p always lies between 1 to p-1. This proves to be memory extensive.
@@ -224,7 +224,7 @@ A basic working SQL server.
 Pull docker image. Create a network. Start a server in a container. Create a client container and access the server.
 
 ### Video
-<iframe width="560" height="315" src="https://www.youtube.com/embed/hGlvp5YgAvM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="auto" src="https://www.youtube.com/embed/hGlvp5YgAvM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Commands
 - show databases;
@@ -384,7 +384,7 @@ public static float[,] GenerateNoiseMap(int mapWidth, int mapHeight, float scale
 </pre>
     
 ### Better Perlin Noise : Octaves
-<iframe width="600px" height="300px" src="https://www.youtube.com/embed/RC9lg2K0wzM" frameborder="0" allow="gyroscope;" allowfullscreen></iframe>
+<iframe width="100%" height="auto" src="https://www.youtube.com/embed/RC9lg2K0wzM" frameborder="0" allow="gyroscope;" allowfullscreen></iframe>
 
 ### Time
 Time.deltaTime : The completion time in seconds since the last frame (Read Only).This property provides the time between the current and previous frame.
@@ -636,9 +636,16 @@ Unordered list of resources
 # Miscellaneous
 ## Coding Log
 ### About
-The following is a log of various questions solved.
+The following is a log of various questions solved. 
+
+- LC : Leetcode
+- CTCI : Cracking the coding interview
+- SPOJ : Sphere Online Judge
+
 ### Log
 
+27 Jun 2020 
+- LC 129 Sum root to leaf numbers
 21 Jun 2020
 - LC 111 Minimum Depth of Binary Tree
 - LC 174 Dungeon Game
@@ -676,6 +683,8 @@ The following is a log of various questions solved.
 27 May 2020
 - SPOJ 4 : Transform The Expression | [Code](https://github.com/AbstractXan/CompetitiveProgramming/blob/master/SPOJ/4.cpp)
 - SPOJ 2 : Prime Generator | [Code](https://github.com/AbstractXan/CompetitiveProgramming/blob/master/SPOJ/2.cpp)
+
+Started logging: 27 May 2020
 ## PixelArt
 ### Zip-Zap
 ![Zip-Zap](../media/pixelart/zip-zap-big.gif)
