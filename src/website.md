@@ -1,4 +1,4 @@
-    # Home
+# Home
 ## About
 ### Me
 <p> <img class='thumbnail' style='width:200px' src='https://pbs.twimg.com/profile_images/1136164853003849729/FFFdBGmk_400x400.png'> </p><p>Hello, I'm Priyansh Sangule, 4th year Computer Science and Engineering student at <a href='https://www.iittp.ac.in'>IIT Tirupati</a>. [Resume](../media/Priyansh_Sangule_Resume.pdf)
@@ -644,6 +644,8 @@ The following is a log of various questions solved.
 
 ### Log
 
+29 Jun 2020
+- LC 332 Reconstruct Itinerary
 27 Jun 2020 
 - LC 129 Sum root to leaf numbers
 21 Jun 2020
@@ -651,7 +653,6 @@ The following is a log of various questions solved.
 - LC 174 Dungeon Game
 19 Jun 2020
 - LC 700 Search in a Binary Tree
-
 4 Jun 2020
 - CTCI 17.4 Missing Number
 - CTCI 17.6 Count of 2s | [Code](https://github.com/AbstractXan/CompetitiveProgramming/blob/master/CTCI/17-6-CountOf2s.cpp)
@@ -668,7 +669,6 @@ The following is a log of various questions solved.
 - CTCI 16.13 Bisect Squares
 - CTCI 16.15 Master Mind
 - CTCI 16.16 Sub Sort | [Code](https://github.com/AbstractXan/CompetitiveProgramming/blob/master/CTCI/16-16-SubSort.cpp)
-
 1 Jun 2020
 - LC 219 : Contains Duplicate
 - Mirror NxN matrix along diagonal | [Code](https://github.com/AbstractXan/CompetitiveProgramming/blob/master/Others/diagonalswap.cpp)
@@ -859,6 +859,7 @@ Human changelog :
 - 20 May 2020 : Read DBMS
 - 29 May 2020 : First Job Offer - Zopsmart
 - 6 Jun 2020 : Started working on sleep schedule
+- 19 Jun 2020 : Started reading Data Structures and Algorithm Analysis in C
 Last Update: 6 June 2020
 ## Wanderings
 ### Study
