@@ -408,6 +408,68 @@ Last Updated: 19 May 2020
 - [ ] Array & Slices
 - [ ] Pointers, Structures, Methods
 - [ ] Interface
+
+### Functions
+
+<details><summary>Call by Value</summary><pre class="code">
+func foo(y int){
+	y = y+2
+}
+
+func main(){
+	x := 2
+	foo(x)
+	fmt.Println(x)
+}
+</pre></details>
+- Pros : Encapsulation
+- Cons : Copy time
+
+<details><summary>Call by Pointers</summary><pre class="code">
+func foo(y *int){
+	*y = *y+2
+}
+
+func main(){
+	x := 2
+	foo(&x)
+	fmt.Println(x)
+}
+</pre></details>
+- Pros : No extra copy time
+- Cons : No encapsulation
+
+[There is no pass by reference in go](https://dave.cheney.net/2017/04/29/there-is-no-pass-by-reference-in-go)
+
+<b> Functional cohesion : </b> Function should perform only one "operation"
+
+### Arrays and Slices
+
+<b>Slices</b> contain a pointer to the array. Try to use slices, specially when passing array pointers.
+<details><summary>Bad : Passing arrays using pointers</summary><pre class="code">
+func foo(x *[3]int){
+	(*x)[0] = (*x)[0]+1
+}
+
+func main(){
+	a := [3]int{1,2,3}
+	foo(&a)
+	fmt.Println(a[0])
+}
+</pre></details>
+
+<details><summary>Good : Using slices </summary><pre class="code">
+func foo(sli int){
+	sli[0] = sli[0] + 1 
+}
+
+func main(){
+	a := []int{1,2,3}
+	foo(a)
+	fmt.Println(a)
+}
+</pre></details>
+
 ### Channels
 Concurrency != Parallelism
 <pre class="code">
