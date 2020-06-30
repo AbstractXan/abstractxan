@@ -443,6 +443,95 @@ func main(){
 
 <b> Functional cohesion : </b> Function should perform only one "operation"
 
+<hr />
+Function are <b>first-class</b> 
+
+<details><summary>Variables as functions</summary><pre class="code">
+func incFunc(x int) int {
+	return x+1
+}
+func main(){
+	var funcVar func(int) int
+	funcVar = incFunc
+	fmt.Println(funcVar(1))
+}
+</pre></details>
+<details><summary>Functions as arguments</summary><pre class="code">
+func applyIt( afx func (int) int,
+        val int) int{
+    return afx(val) 
+}
+</pre></details>
+
+<details><summary>Anonymous functions / Lambda functons</summary><pre class="code">
+func applyIt( afx func (int) int, val int) int{
+    return afx(val) 
+}
+func main(){
+    v := applyIt(
+        func (x int) int {return x + 1}, 2)
+    fmt.Println(v)
+}
+</pre></details>
+
+Passing a function as an argument implies passing the <b>closure</b> (function + environment). For example, in the following code, originX and originY are set for the new function which is then returned by <b>MakeDistOrigin</b>. 
+
+<details><summary>Returning functons</summary><pre class="code">
+func MakeDistOrigin(originX, originY float64) 
+    func (float64, float64) float64 { // Return type
+	
+    fn := func (x , y float64) float64 { 
+		return math.Sqrt( math.Pow(x-originX,2) + math.Pow(y-originY,2) )
+	}
+	return fn
+}
+func main(){
+	Dist1 := MakeDistOrigin(0,0)
+	Dist2 := MakeDistOrigin(1,1)
+	fmt.Println(Dist1(1,1)) // 1.4142135623730951
+	fmt.Println(Dist2(1,1)) // 0
+}
+</pre></details>
+
+Variadic functions treat multiple input arguments as a slice. They could also accept a slice as an argument (requires ... prefix) 
+
+<details><summary>Variadic functons</summary><pre class="code">
+func getMax(vals ...int) int {
+	maxVal := -1
+	
+    for _,v := range vals{
+		if v > maxVal {
+			maxVal = v
+		}
+	}
+	return maxVal
+}
+
+func main(){
+	vslice := []int{1,2,3,4,10}
+	
+    fmt.Println(getMax(vslice...))
+}
+</pre></details>
+
+<details><summary>Deferred functon call</summary><pre class="code">
+func main(){
+	defer fmt.Println("Bye")
+	fmt.Println("Hello")
+}
+</pre></details>
+Arguments of deferred function calls are evaluated immediately
+
+<details><summary>Deferred functon call</summary><pre class="code">
+func main(){
+    i := 1
+	defer fmt.Println(i+1)
+    i++
+	fmt.Println("Hello")
+}
+</pre></details>
+The above code will print "Hello 2"
+
 ### Arrays and Slices
 
 <b>Slices</b> contain a pointer to the array. Try to use slices, specially when passing array pointers.
