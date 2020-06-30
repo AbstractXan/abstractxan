@@ -905,10 +905,11 @@ Log :
 
 Last Updated: 8 May 2020
 
-Human changelog :
+### Human changelog
 - 4 April 2020 : Google Code Jam Qualifiers
 - 14 April 2020 : Start Machine Learning
-- 16 April 2020 : Read Fahrenheit 451, Started watching Futureboy Conan
+- 16 April 2020 : Read Fahrenheit 451
+- 16 April 2020 : Started watching Futureboy Conan
 - 17 April 2020 : Started Reading the power of now
 - 28 April 2020 : Started Studying OOP concept
 - 29 April 2020 : Started Artificial Neural Networks
@@ -917,10 +918,11 @@ Human changelog :
 - 10 May 2020 : Completed Reading Hands On Machine Learning Book
 - 19 May 2020 : Read Practical Deep Learning for Cloud, Web and Edge ; TF.js Implementations
 - 20 May 2020 : Read DBMS
-- 29 May 2020 : First Job Offer - Zopsmart
+- 29 May 2020 : First Job Offer - [Zopsmart]()
 - 6 Jun 2020 : Started working on sleep schedule
-- 19 Jun 2020 : Started reading Data Structures and Algorithm Analysis in C
-Last Update: 6 June 2020
+- 19 Jun 2020 : Started reading [Data Structures and Algorithm Analysis in C](https://www.amazon.com/Data-Structures-Algorithm-Analysis-2nd/dp/0201498405/ref=pd_sbs_14_10?_encoding=UTF8&pd_rd_i=0201498405&pd_rd_r=419e33ca-9da8-4296-acd1-209c1f6288dd&pd_rd_w=Vl5qZ&pd_rd_wg=t74yz&pf_rd_p=d28ef93e-22cf-4527-b60a-90c984b5663d&pf_rd_r=S6B43ACM842RGFEYW1N4&psc=1&refRID=S6B43ACM842RGFEYW1N4)
+- 29 Jun 2020 : Started Coursera course on [Functions, Methods, and Interfaces in Go](https://www.coursera.org/learn/golang-functions-methods/home/welcome)
+Last Update: 30 June 2020
 ## Wanderings
 ### Study
 - Complete CTCI [x]
