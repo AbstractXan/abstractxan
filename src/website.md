@@ -463,7 +463,7 @@ func applyIt( afx func (int) int,
 }
 </pre></details>
 
-<details><summary>Anonymous functions / Lambda functons</summary><pre class="code">
+<details><summary>Anonymous functions / Lambda functions</summary><pre class="code">
 func applyIt( afx func (int) int, val int) int{
     return afx(val) 
 }
@@ -476,7 +476,7 @@ func main(){
 
 Passing a function as an argument implies passing the <b>closure</b> (function + environment). For example, in the following code, originX and originY are set for the new function which is then returned by <b>MakeDistOrigin</b>. 
 
-<details><summary>Returning functons</summary><pre class="code">
+<details><summary>Returning functions</summary><pre class="code">
 func MakeDistOrigin(originX, originY float64) 
     func (float64, float64) float64 { // Return type
 	
@@ -495,7 +495,7 @@ func main(){
 
 Variadic functions treat multiple input arguments as a slice. They could also accept a slice as an argument (requires ... prefix) 
 
-<details><summary>Variadic functons</summary><pre class="code">
+<details><summary>Variadic functions</summary><pre class="code">
 func getMax(vals ...int) int {
 	maxVal := -1
 	
@@ -569,6 +569,11 @@ func f(c chan string)
 Channels are 'blocking' in nature.
 Always a good practice to close channel from sender's end. Closing a channel from receivers end might cause sender to panic.
 
+
+
+
+### Object Oriented
+Weakly object oriented. Go provides structs. But no classes. No inheritance. No generics. Faster implementation.
 
 # Resources
 ## Competitive Coding
