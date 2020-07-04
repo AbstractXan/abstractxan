@@ -408,11 +408,10 @@ Last Updated: 19 May 2020
 ### 
 
 ## Golang[WIP]
-### Roadmap
-- [ ] Go CLI
-- [ ] Variables,constants,types,functions, packages etc
-- [ ] Array & Slices
-- [ ] Pointers, Structures, Methods
+### Todo
+- [x] Functions
+- [x] Array & Slices
+- [ ] Structures, Methods
 - [ ] Interface
 
 ### Functions
@@ -450,7 +449,7 @@ func main(){
 <b> Functional cohesion : </b> Function should perform only one "operation"
 
 <hr />
-Function are <b>first-class</b> 
+Function are <b> first-class </b> 
 
 <details><summary>Variables as functions</summary><pre class="code">
 func incFunc(x int) int {
@@ -804,6 +803,16 @@ The following is a log of various questions solved.
 
 ### Log
 
+3 Jul 2020
+- Coursera Classes, Objects, Methods in Go | [notes](https://abstractxan.xyz/site/golangwip#object_oriented) | [code](https://github.com/AbstractXan/Golang/tree/master/Coursera/2%20Functions%2C%20Methods%2C%20and%20Interfaces%20in%20Go/week3)
+2 Jul 2020
+- Coursera Getting Started with Go - Week 2 | [notes](https://github.com/AbstractXan/Golang/blob/master/Coursera/1%20Getting%20started%20with%20Go/week2/notes.md) | [code](https://github.com/AbstractXan/Golang/tree/master/Coursera/1%20Getting%20started%20with%20Go/week2)
+1 Jul 2020
+- Coursera Getting Started with Go - Week 1 
+31 Jun 2020
+- Coursera Functions in Go| [notes](https://abstractxan.xyz/site/golangwip#function) | [code](https://github.com/AbstractXan/Golang/tree/master/Coursera/2%20Functions%2C%20Methods%2C%20and%20Interfaces%20in%20Go/week2)
+30 Jun 2020
+- Coursera Data passing in Functions | [notes](https://abstractxan.xyz/site/golangwip#functions) | [code](https://github.com/AbstractXan/Golang/tree/master/Coursera/2%20Functions%2C%20Methods%2C%20and%20Interfaces%20in%20Go/week1)
 29 Jun 2020
 - LC 332 Reconstruct Itinerary
 27 Jun 2020 
