@@ -859,6 +859,8 @@ Started logging: 27 May 2020
 ### Ride
 ![Ride](../media/pixelart/ride.png)
 ## The Library
+### About
+The library is a collection of good content I have read/watched and recommend to others
 ### Books
 - Surely You're Joking Mr. Feynman
 - The Power of Now
