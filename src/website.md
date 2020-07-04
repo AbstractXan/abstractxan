@@ -519,7 +519,7 @@ func main(){
 }
 </pre></details>
 
-<details><summary>Deferred functon call</summary><pre class="code">
+<details><summary>Deferred function call</summary><pre class="code">
 func main(){
 	defer fmt.Println("Bye")
 	fmt.Println("Hello")
@@ -527,7 +527,7 @@ func main(){
 </pre></details>
 Arguments of deferred function calls are evaluated immediately
 
-<details><summary>Deferred functon call</summary><pre class="code">
+<details><summary>Deferred function call</summary><pre class="code">
 func main(){
     i := 1
 	defer fmt.Println(i+1)
