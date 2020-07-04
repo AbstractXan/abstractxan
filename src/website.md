@@ -63,12 +63,14 @@ Journal shows recent updates.
 ## Tensorflow.JS
 
 ### MobileNet1.0.0
+[MobileNets](https://github.com/tensorflow/models/blob/master/research/slim/nets/mobilenet_v1.md) are models parameterized to meet the resource constraints of a variety of use cases. They can be built upon for classification, detection, embeddings and segmentation.
 
+One could use mobilenet pretrained models using tf.js as given [here](https://github.com/tensorflow/tfjs-models/tree/master/mobilenet)
 <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest/dist/tf.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/mobilenet@1.0.0"></script>
+<p id="prediction_output">Upload image to classify using mobilenet </p>
 <input type='file' /><br>
 <img id="InputImage" style="visibility: hidden;" width=100% max-height=600px>
-<p id="prediction_output">Upload image to classify</p>
 <script src="../projects/mobilenet/helper.js"></script>
 
 ## Mizi
