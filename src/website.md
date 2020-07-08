@@ -239,6 +239,9 @@ Pull docker image. Create a network. Start a server in a container. Create a cli
 - <b>SELECT</b> * from t;
 - select col1 from t <b>WHERE</b> col2 = 1;
 - select col2 from t where col1 <b>LIKE</b> 'a%';
+- select distinct city FROM station WHERE city REGEXP "^[aeiou].*";
+
+[REGEX](https://dev.mysql.com/doc/refman/5.7/en/regexp.html)
 
 AGGREGATION
 - MIN, MAX, COUNT, AVG
@@ -263,7 +266,8 @@ UNION ALL => DUPLICATES allowed
 - select <b>count(city)-count(distinct city)</b> from station;
 3. Query city with the longest name from table STATION
 - select city from station orderby length(city) <b>desc, city limit 1</b>;
-
+4. Query the list of CITY names starting with vowels (i.e., a, e, i, o, or u) from STATION. Result cannot contain duplicates.
+- select distinct city FROM station WHERE city REGEXP "^[aeiou].*";
 
 ## Deep Learning Image Classification
 ### Notebook
@@ -791,6 +795,29 @@ Unordered list of resources
 - [Diffie-Hellman Key Exchange](https://www.khanacademy.org/computing/computer-science/cryptography/modern-crypt/v/diffie-hellman-key-exchange-part-2)
 - [RSA Encryption](https://www.khanacademy.org/computing/computer-science/cryptography/modern-crypt/v/intro-to-rsa-encryption)
 - [Random Univ Slides](https://www.icg.isy.liu.se/courses/tsit03/)
+## Microservices
+### Introduction
+### Links
+Websites
+- NGINX: [Introduction to Microservices](https://www.nginx.com/blog/introduction-to-microservices/)
+- Opensource: [What are microservices](https://opensource.com/resources/what-are-microservices)
+- Opensource: [Microservices CheatSheet](https://opensource.com/article/19/11/microservices-cheat-sheet)
+- DEV: [So you wanna learn Microservices](https://dev.to/kgoralski/deep-dive-into-microservices-architecture-h54) curated links
+- Reddit: [Microservices with Go](https://www.reddit.com/r/golang/comments/avfk8l/microservices_with_go/)
+- Reddit: [Beginner Microservices in Go ](https://www.reddit.com/r/golang/comments/eqd868/ask_beginner_microservices_in_go/)
+Videos
+- [Building Microservices with Go](https://www.youtube.com/playlist?list=PLmD8u-IFdreyh6EUfevBcbiuCKzFk0EW_) | gRPC and protocol buffers, Swagger
+- [Introduction to Microservices, Docker and Kubernetes](https://www.youtube.com/watch?v=1xo-0gCVhTU)
+- [Microservices Architecture Patterns](https://www.youtube.com/playlist?list=PLTyWtrsGknYd0JgqeARypdRy-SX1ORYhs)
+
+### Glossary[WIP]s
+<b>Microservices</b>: 
+
+<b>Spring Boot</b>:
+
+<b>Docker</b>:
+
+<b>Kubernetes</b>: [Video](https://www.youtube.com/watch?v=PH-2FfFD2PU)
 
 # Miscellaneous
 ## Coding Log
@@ -802,7 +829,10 @@ The following is a log of various questions solved.
 - SPOJ : Sphere Online Judge
 
 ### Log
-
+5 Jul 2020
+- LC 264 Ugly Number II 
+4 Jul 2020
+- Coursera Interfaces in Go | [notes](https://github.com/AbstractXan/Golang/blob/master/Coursera/2%20Functions%2C%20Methods%2C%20and%20Interfaces%20in%20Go/week4/notes.md) | [code](https://github.com/AbstractXan/Golang/tree/master/Coursera/2%20Functions%2C%20Methods%2C%20and%20Interfaces%20in%20Go/week4)
 3 Jul 2020
 - Coursera Classes, Objects, Methods in Go | [notes](https://abstractxan.xyz/site/golangwip#object_oriented) | [code](https://github.com/AbstractXan/Golang/tree/master/Coursera/2%20Functions%2C%20Methods%2C%20and%20Interfaces%20in%20Go/week3)
 2 Jul 2020
@@ -1033,7 +1063,10 @@ Last Updated: 8 May 2020
 - 6 Jun 2020 : Started working on sleep schedule
 - 19 Jun 2020 : Started reading [Data Structures and Algorithm Analysis in C](https://www.amazon.com/Data-Structures-Algorithm-Analysis-2nd/dp/0201498405/ref=pd_sbs_14_10?_encoding=UTF8&pd_rd_i=0201498405&pd_rd_r=419e33ca-9da8-4296-acd1-209c1f6288dd&pd_rd_w=Vl5qZ&pd_rd_wg=t74yz&pf_rd_p=d28ef93e-22cf-4527-b60a-90c984b5663d&pf_rd_r=S6B43ACM842RGFEYW1N4&psc=1&refRID=S6B43ACM842RGFEYW1N4)
 - 29 Jun 2020 : Started Coursera course on [Functions, Methods, and Interfaces in Go](https://www.coursera.org/learn/golang-functions-methods/home/welcome)
-Last Update: 30 June 2020
+- 5 Jul 2020 Coursera Certified Course : [Functions, Methods and Interfaces in Go](https://www.coursera.org/account/accomplishments/certificate/YWZFLD4PEVGH)
+- 8 Jul 2020 Started looking into Goland and Microservices Architecture and Deployment for a potential Backend Lead Developer Post
+
+Last Update: 8 Jul 2020
 ## Wanderings
 ### Study
 - Complete CTCI [x]
