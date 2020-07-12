@@ -417,6 +417,7 @@ Last Updated: 19 May 2020
 - [x] Array & Slices
 - [ ] Structures, Methods
 - [ ] Interface
+- [ ] Errors
 
 ### Functions
 
@@ -584,6 +585,15 @@ Always a good practice to close channel from sender's end. Closing a channel fro
 ### Object Oriented
 Weakly object oriented. Go provides structs. But no classes. No inheritance. No generics. Faster implementation.
 
+### Errors
+## Note Taking
+###  
+- 1. Read everything
+- 2. Understand it
+- 3. Write what you need to write
+- 4. Write the questions out of the notes and they help us to recall
+- 5. Write summary for all the notes
+- 6. If there's something you need to remember repeatedly use Spaced Repetition to achieve this
 # Resources
 ## Competitive Coding
 ### Links
@@ -809,6 +819,9 @@ Videos
 - [Building Microservices with Go](https://www.youtube.com/playlist?list=PLmD8u-IFdreyh6EUfevBcbiuCKzFk0EW_) | gRPC and protocol buffers, Swagger
 - [Introduction to Microservices, Docker and Kubernetes](https://www.youtube.com/watch?v=1xo-0gCVhTU)
 - [Microservices Architecture Patterns](https://www.youtube.com/playlist?list=PLTyWtrsGknYd0JgqeARypdRy-SX1ORYhs)
+
+Hands On
+- [NodeJS and MySQL microservice using Docker](https://dwmkerr.com/learn-docker-by-building-a-microservice/) | [Code](https://github.com/dwmkerr/node-docker-microservice)
 
 ### Glossary[WIP]s
 <b>Microservices</b>: 
@@ -1065,8 +1078,9 @@ Last Updated: 8 May 2020
 - 29 Jun 2020 : Started Coursera course on [Functions, Methods, and Interfaces in Go](https://www.coursera.org/learn/golang-functions-methods/home/welcome)
 - 5 Jul 2020 Coursera Certified Course : [Functions, Methods and Interfaces in Go](https://www.coursera.org/account/accomplishments/certificate/YWZFLD4PEVGH)
 - 8 Jul 2020 Started looking into Goland and Microservices Architecture and Deployment for a potential Backend Lead Developer Post
+- 10 Jul 2020 Job interview for Velotio : Rejected
 
-Last Update: 8 Jul 2020
+Last Update: 12 Jul 2020
 ## Wanderings
 ### Study
 - Complete CTCI [x]
