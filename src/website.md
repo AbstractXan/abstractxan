@@ -591,9 +591,9 @@ Weakly object oriented. Go provides structs. But no classes. No inheritance. No 
 - 1. Read everything
 - 2. Understand it
 - 3. Write what you need to write
-- 4. Write the questions out of the notes and they help us to recall
+- 4. Write the questions out of the notes, this will help in reacalling
 - 5. Write summary for all the notes
-- 6. If there's something you need to remember repeatedly use Spaced Repetition to achieve this
+- 6. Used spaced repetition techniques like flashcards to remember things
 # Resources
 ## Competitive Coding
 ### Links
