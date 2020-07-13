@@ -283,20 +283,30 @@ Could even add Dropout layer after first (convolutional) and last (dense) layers
 ![Result](../media/dl/catsdogsRESULT.png)
 ## Object Oriented Programming
 ### C++ Classes 
-- class Box {
-- &nbsp;&nbsp;public:
-- &nbsp;&nbsp;&nbsp;&nbsp;double length;   // Length of a box
-- &nbsp;&nbsp;&nbsp;&nbsp;double breadth;  // Breadth of a box
-- &nbsp;&nbsp;&nbsp;&nbsp;double height;   // Height of a box
-- };
+<pre class="code">
+class Box {
+    public:
+    double length;   // Length of a box
+    double breadth;  // Breadth of a box
+    double height;   // Height of a box
+};
+</pre>
 
 Creating objects:
-- Box Box1;
+<pre class="code">
+Box Box1;
+</pre>
 
 Accessing data members (dot operator):
-- Box1.length
+<pre class="code">
+Box1.length
+</pre>
 
 C++ Classes and Objects in detail: [here](https://www.tutorialspoint.com/cplusplus/cpp_classes_objects.htm)
+### Abstraction
+Using abstract class/Interface we express the intent of the class rather than the actual implementation.
+### Encapsulation
+Encapsulation — private instance variable and public accessor methods.
 
 ### Inheritence
 ### Polymorphism
@@ -315,38 +325,39 @@ Defining a virtual function for a base class, with another version in a derived 
 <b>Pure Virtual Function</b>
 Defining virtual function in a base class so that it may be redefined in a derived class to suit the objects of that class, but that there is no meaningful definition you could give for the function in the base class.
 
-- virtual int area() = 0;
+<pre class="code">
+virtual int area() = 0;
+</pre>
 
-### Encapsulation
-Encapsulation — private instance variable and public accessor methods.
-### Abstraction
-Using abstract class/Interface we express the intent of the class rather than the actual implementation.
 ### Overloading
 More than one definition for an operator or a function with different parameters and usage ; used in the same scope.
 
 Function overloading:
-- void print(double  f) {
-- &nbsp;&nbsp;cout << "Printing float: " << f << endl;
-- }
-- void print(char* c) {
-- &nbsp;&nbsp;cout << "Printing character: " << c << endl;
-- }
+<pre class="code">
+void print(double  f) {
+    cout << "Printing float: " << f << endl;
+}
+void print(char* c) {
+    cout << "Printing character: " << c << endl;
+}
+</pre>
 
 Operator overloading:
-- class Box {
-- &nbsp;&nbsp;...
-- &nbsp;&nbsp;Box operator+(const Box& b) {
-- &nbsp;&nbsp;&nbsp;&nbsp;Box box;
-- &nbsp;&nbsp;&nbsp;&nbsp;box.length = this->length + b.length;
-- &nbsp;&nbsp;&nbsp;&nbsp;box.breadth = this->breadth + b.breadth;
-- &nbsp;&nbsp;&nbsp;&nbsp;box.height = this->height + b.height;
-- &nbsp;&nbsp;&nbsp;&nbsp;return box;
-- &nbsp;&nbsp;}
-- &nbsp;&nbsp;...
-- };
-- ...
-- Box3 = Box1 + Box2;
-
+<pre class="code">
+class Box {
+    ...
+    Box operator+(const Box& b) {
+        Box box;
+        box.length = this->length + b.length;
+        box.breadth = this->breadth + b.breadth;
+        box.height = this->height + b.height;
+        return box;
+    }
+    ...
+};
+...
+Box3 = Box1 + Box2;
+</pre>
 
 
 
