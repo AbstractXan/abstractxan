@@ -738,7 +738,9 @@ Last Updated: 31 May 2020
 <p>University of Washington <a href='https://courses.cs.washington.edu/courses/cse410/99au/lectures/'>lecture slides</a>.</p>
 
 ### C/C++
-<p>Simple steps to debugging using GDB <a href='https://u.osu.edu/cstutorials/2018/09/28/how-to-debug-c-program-using-gdb-in-6-simple-steps/'>tutorial</a></p>
+- StackOverflow: [Definitive C++ book guide](https://stackoverflow.com/questions/388242/the-definitive-c-book-guide-and-list)
+- [Yale Notes](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html)
+- Simple steps to debugging using GDB [tutorial](https://u.osu.edu/cstutorials/2018/09/28/how-to-debug-c-program-using-gdb-in-6-simple-steps)
 
 ### Data Structures
 <p>Complete 8 hour <a href='https://www.youtube.com/watch?v=RBSGKlAvoiM'>course</a> ranging from easy to advanced data structures</p>
