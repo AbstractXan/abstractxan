@@ -612,6 +612,7 @@ Weakly object oriented. Go provides structs. But no classes. No inheritance. No 
 # Resources
 ## Competitive Coding
 ### Links
+- [Cplusplus Yale Notes](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#cplusplus)
 - [MIT Introduction to Algorithms](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/) by Prof. Erik Demaine
 - [Competitive Programmer's Handbook](https://cses.fi/book/book.pdf)
 - [Classification of questions](https://leetcode.com/discuss/general-discussion/457546/LeetCode-Problem-Patterns-from-educative.io)
