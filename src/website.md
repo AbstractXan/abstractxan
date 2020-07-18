@@ -217,6 +217,10 @@ Last Updated: 3 April 2020
 ### Introduction
 Structured Query Language. Keywords are case insensitive.
 [DBMS notes](https://github.com/AbstractXan/notes/blob/master/pdf/6%20DBMS.pdf)
+
+### Links
+- [MySQL Tutorial](https://www.mysqltutorial.org/basic-mysql-tutorial.aspx)
+- [20 Important Queries](https://bytescout.com/blog/20-important-sql-queries.html#17)
 ### mySQL using Docker
 A basic working SQL server.
 - docker pull mysql
