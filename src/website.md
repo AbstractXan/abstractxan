@@ -860,6 +860,12 @@ The following is a log of various questions solved.
 - SPOJ : Sphere Online Judge
 
 ### Log
+23 jul 2020
+- LC 26 Remove Duplicates from Sorted Array
+- LC 189 Rotate Array
+- LC 217 Contains Duplicate
+- LC 349 Intersection of Arrays
+
 5 Jul 2020
 - LC 264 Ugly Number II 
 4 Jul 2020
