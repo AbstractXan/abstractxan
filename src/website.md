@@ -27,6 +27,8 @@ Source files for my projects could be found on <a href='https://www.github.com/a
 ###  
 Journal shows recent updates.
 
+![180720](../media/journal/180720.png)
+180720 - Programming with Google Go Specialization | [Coursera](https://coursera.org/share/9fe09f16123983bb2df8fc8ae2d11861) | [Code](https://github.com/AbstractXan/Golang/blob/master/Coursera/)
 ![030720](../media/journal/030720.png)
 030720 - Object Oriented Programming in Golang | [Notes](https://github.com/AbstractXan/Golang/blob/master/Coursera/2%20Functions%2C%20Methods%2C%20and%20Interfaces%20in%20Go/week3/notes.md) | [Coursera](https://www.coursera.org/learn/golang-functions-methods)
 <a href="https://asciinema.org/a/gbkU4ITHnt4fs9buS5YcT5r0b" target="_blank"><img src="https://asciinema.org/a/gbkU4ITHnt4fs9buS5YcT5r0b.svg" /></a>
