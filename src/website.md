@@ -866,7 +866,6 @@ The following is a log of various questions solved.
 ### Log
 26 Jul 2020
 - LC 797 All Paths from Source to Target [Medium] | DFS
-
 24 Jul 2020
 - LC 387 First Unique Character in a String | Hashmap
 - LC 242 Valid Anagram
@@ -881,7 +880,6 @@ The following is a log of various questions solved.
 - LC 283  Move Zeroes
 - LC 1 Two Sum
 - LC 344 Reverse String 
-
 5 Jul 2020
 - LC 264 Ugly Number II 
 4 Jul 2020
