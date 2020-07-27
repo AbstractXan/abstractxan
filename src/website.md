@@ -864,8 +864,17 @@ The following is a log of various questions solved.
 - SPOJ : Sphere Online Judge
 
 ### Log
+27 Jul 2020
+- LC Pascal's Triangle 
+- LC Missing Number
+- LC 17 Letter Combinations of a phone number [Medium] | Recursion
+
 26 Jul 2020
 - LC 797 All Paths from Source to Target [Medium] | DFS
+- LC 28 Implement strStr()
+- LC 258 Add Digits | Recursion
+- LC Longest Common Prefix
+
 24 Jul 2020
 - LC 387 First Unique Character in a String | Hashmap
 - LC 242 Valid Anagram
