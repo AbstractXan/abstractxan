@@ -369,6 +369,28 @@ Box3 = Box1 + Box2;
 
 
 
+## C++ STL Cheatsheet
+### Vector
+Initiatlisation:
+<pre class="code">
+vector&lt;int&gt; a{1,2,3};
+vector&lt;int&gt; b(a);
+vector&lt;int&gt;> c(2,3); //[2,2,2]
+vector&lt;vector&lt;int&gt;&gt; d(vector&lt;int&gt;(0,2),2); // [ [0,0] , [0,0] ]
+</pre>
+Methods:
+<pre class="code">
+vector&lt;int&gt;::iterator it = vec.begin();
+vector&lt;int&gt;::iterator it = vec.end();
+---
+int size = vec.size();
+vec.push_back( 5 );
+vec.erase( it );
+int elem = vec[0];
+---
+for (auto elem : vec){...}
+</pre>
+
 ## Unity2D
 ### Movement Scipt
 <pre class="code">
