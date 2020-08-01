@@ -139,6 +139,10 @@ Questions will be posted here soon.
 
 
 # Articles
+
+## Kubernetes
+### Introduction
+Kubernetes(k8s) is an open source platform for 
 ## Diffie-Hellmann Key Exchange
 ### Introduction
 - Public key exchange protocol
@@ -451,6 +455,39 @@ Last Updated: 19 May 2020
 - <b>Data Link</b> :
 - <b>Physical</b> : Carrying bitstream over physical media
 ### 
+
+## Git
+### Introduction
+
+<pre class="code">
+    $ git init
+    $ git add .
+    $ git commit -m "First Commit"
+    ---
+    $ git status
+    ---
+    $ git log
+    $ git log --all --graph --decorate
+    ---
+    $ git checkout &lt;commit-id&gt;
+    $ git checkout -b &lt;branch&gt; 
+    ---
+    $ git diff
+    ---
+    $ git merge &lt;branch-name&gt;
+</pre>
+
+### 
+- <b>Init</b>: Initialises git repo. Creates ".git" directory
+- <b>Add</b>: Adds the changes in current directory to staging area
+- <b>Commit</b>: Commits the staged changes to snapshot graph. 
+- <b>Status</b>: Shows the details of current changes and latest snapshot
+- <b>Log</b>: Shows flattened version of the commit history. Could be 
+- <b>Checkout</b>: Moves head pointer and mutates contents of working directory corresponding to that commit. Could create a new branch.
+- <b>Merge</b>: Merges current branch with branch specified. Could "auto-merge" or may cause "merge conflict" 
+    In case of merge conflict, resolve conflict manually / using VSCode / other tools.
+- <b>Remote<b>:
+
 
 ## Golang[WIP]
 ### Todo
@@ -1128,7 +1165,14 @@ Log :
 
 Last Updated: 8 May 2020
 
-### Human changelog
+## Human changelog
+###  
+- 29 July 2020 : Started Kubernetes 
+- 29 July 2020 : Accepted Job Offer - [Powerschool]()
+- 29 July 2020 : Second Job Offer - [Powerschool]()
+- 21 July 2020 : Job Interview Rejected - [MindBody]()
+- 18 July 2020 : Coursera Golang specialisation
+- 5 July 2020 : Job Interview - [MindBody]()
 - 4 April 2020 : Google Code Jam Qualifiers
 - 14 April 2020 : Start Machine Learning
 - 16 April 2020 : Read Fahrenheit 451
