@@ -1171,7 +1171,7 @@ Last Updated: 8 May 2020
 - 29 July 2020 : Accepted Job Offer - [Powerschool]()
 - 29 July 2020 : Second Job Offer - [Powerschool]()
 - 21 July 2020 : Job Interview Rejected - [MindBody]()
-- 18 July 2020 : Coursera Golang specialisation
+- 18 July 2020 : Completed Coursera Golang specialisation
 - 5 July 2020 : Job Interview - [MindBody]()
 - 4 April 2020 : Google Code Jam Qualifiers
 - 14 April 2020 : Start Machine Learning
