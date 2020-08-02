@@ -137,6 +137,37 @@ Questions will be posted here soon.
 ### Questions
 <p>Prelims questions were created by both <a href='https://www.twitter.com/AnupKulkarn1'>Anup Kulkarni</a> and I. Questions for finals were created by me. Questions could be found here: <a href='enigma_2019_prelims.html'>prelims</a></p>
 
+## ID5022
+### Introduction
+ID5022: Entreprenuership and Innovation final project
+### Slides
+![0](../media/ID5022slides/entre0.jpg) <hr/>
+![1](../media/ID5022slides/entre1.jpg)
+![2](../media/ID5022slides/entre2.jpg)
+![3](../media/ID5022slides/entre3.jpg)
+![4](../media/ID5022slides/entre4.jpg)
+![5](../media/ID5022slides/entre5.jpg)
+![6](../media/ID5022slides/entre6.jpg)
+![7](../media/ID5022slides/entre7.jpg)
+![8](../media/ID5022slides/entre8.jpg)
+![9](../media/ID5022slides/entre9.jpg)
+![10](../media/ID5022slides/entre10.jpg)
+![11](../media/ID5022slides/entre11.jpg)
+![12](../media/ID5022slides/entre12.jpg)
+![13](../media/ID5022slides/entre13.jpg)
+![14](../media/ID5022slides/entre14.jpg)
+![15](../media/ID5022slides/entre15.jpg)
+![16](../media/ID5022slides/entre16.jpg)
+![17](../media/ID5022slides/entre17.jpg)
+![18](../media/ID5022slides/entre18.jpg)
+![19](../media/ID5022slides/entre19.jpg)
+![20](../media/ID5022slides/entre20.jpg)
+![21](../media/ID5022slides/entre21.jpg)
+![22](../media/ID5022slides/entre22.jpg)
+![23](../media/ID5022slides/entre23.jpg)
+![24](../media/ID5022slides/entre24.jpg)
+![25](../media/ID5022slides/entre25.jpg)
+</div>
 
 # Articles
 
