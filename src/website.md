@@ -64,18 +64,6 @@ Journal shows recent updates.
 
 
 # Projects
-## Tensorflow.JS
-
-### MobileNet1.0.0
-[MobileNets](https://github.com/tensorflow/models/blob/master/research/slim/nets/mobilenet_v1.md) are models parameterized to meet the resource constraints of a variety of use cases. They can be built upon for classification, detection, embeddings and segmentation.
-
-One could use mobilenet pretrained models using tf.js as given [here](https://github.com/tensorflow/tfjs-models/tree/master/mobilenet)
-<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest/dist/tf.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/mobilenet@1.0.0"></script>
-<p id="prediction_output">Upload image to classify using mobilenet </p>
-<input type='file' /><br>
-<img id="InputImage" style="visibility: hidden;" width=100% max-height=600px>
-<script src="../projects/mobilenet/helper.js"></script>
 
 ## Mizi
 ### Introduction
@@ -141,7 +129,7 @@ Questions will be posted here soon.
 ### Introduction
 ID5022: Entreprenuership and Innovation final project
 ### Slides
-![0](../media/ID5022slides/entre0.jpg) <hr/>
+![0](../media/ID5022slides/entre0.jpg)
 ![1](../media/ID5022slides/entre1.jpg)
 ![2](../media/ID5022slides/entre2.jpg)
 ![3](../media/ID5022slides/entre3.jpg)
@@ -167,7 +155,18 @@ ID5022: Entreprenuership and Innovation final project
 ![23](../media/ID5022slides/entre23.jpg)
 ![24](../media/ID5022slides/entre24.jpg)
 ![25](../media/ID5022slides/entre25.jpg)
-</div>
+## Tensorflow.JS
+
+### MobileNet1.0.0
+[MobileNets](https://github.com/tensorflow/models/blob/master/research/slim/nets/mobilenet_v1.md) are models parameterized to meet the resource constraints of a variety of use cases. They can be built upon for classification, detection, embeddings and segmentation.
+
+One could use mobilenet pretrained models using tf.js as given [here](https://github.com/tensorflow/tfjs-models/tree/master/mobilenet)
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest/dist/tf.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/mobilenet@1.0.0"></script>
+<p id="prediction_output">Upload image to classify using mobilenet </p>
+<input type='file' /><br>
+<img id="InputImage" style="visibility: hidden;" width=100% max-height=600px>
+<script src="../projects/mobilenet/helper.js"></script>
 
 # Articles
 
@@ -475,17 +474,6 @@ Time.deltaTime : The completion time in seconds since the last frame (Read Only)
 
 Last Updated: 19 May 2020
 
-## Computer Networks[WIP]
-### Intro
-### OSI Model and Protocol Suite
-- <b>Application</b> : 
-- <b>Presentation</b> :
-- <b>Session</b> : 
-- <b>Transport</b> : 
-- <b>Network</b> : 
-- <b>Data Link</b> :
-- <b>Physical</b> : Carrying bitstream over physical media
-### 
 
 ## Git
 ### Introduction
@@ -520,7 +508,9 @@ Last Updated: 19 May 2020
 - <b>Remote<b>:
 
 
-## Golang[WIP]
+## Golang
+###  
+[WIP]
 ### Todo
 - [x] Functions
 - [x] Array & Slices
@@ -689,12 +679,12 @@ Channels are 'blocking' in nature.
 Always a good practice to close channel from sender's end. Closing a channel from receivers end might cause sender to panic.
 
 
-
-
 ### Object Oriented
 Weakly object oriented. Go provides structs. But no classes. No inheritance. No generics. Faster implementation.
 
 ### Errors
+[TODO]
+
 ## Note Taking
 ###  
 - 1. Read everything
