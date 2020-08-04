@@ -1186,7 +1186,9 @@ Log :
 Last Updated: 8 May 2020
 
 ## Human changelog
-###  
+### 
+- 3 Aug 2020 : First Day at Job 
+- 20 July 2020 : Started creating [Jikan](https://github.com/abstractxan/Jikan)
 - 29 July 2020 : Started Kubernetes 
 - 29 July 2020 : Accepted Job Offer - [Powerschool]()
 - 29 July 2020 : Second Job Offer - [Powerschool]()
