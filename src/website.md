@@ -28,6 +28,8 @@ Source files for my projects could be found on <a href='https://www.github.com/a
 ###  
 Journal shows recent updates.
 
+![110820](../media/journal/110820.jpg)
+110820 - Learning AWS Lamda and Serverless applications
 ![180720](../media/journal/180720.png)
 180720 - Programming with Google Go Specialization | [Coursera](https://coursera.org/share/9fe09f16123983bb2df8fc8ae2d11861) | [Code](https://github.com/AbstractXan/Golang/blob/master/Coursera/)
 ![030720](../media/journal/030720.png)
@@ -1186,7 +1188,8 @@ Log :
 Last Updated: 8 May 2020
 
 ## Human changelog
-### 
+###  
+- 9 Aug 2020 : Started learning AWS 
 - 3 Aug 2020 : First Day at Job 
 - 20 July 2020 : Started creating [Jikan](https://github.com/abstractxan/Jikan)
 - 29 July 2020 : Started Kubernetes 
