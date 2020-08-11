@@ -56,9 +56,8 @@ Journal shows recent updates.
 ## Bucket List
 ###  
 - [x] Create my own website
-- [ ] Host my own wiki for my website
 - [ ] Create my own font
-- [ ] Personal Time Tracker
+- [x] Personal Time Logger : Jikan
 - [ ] Get a Gramophone
 - [ ] Own a vinyl record of my own songs 
 - [ ] Learn longboarding
@@ -171,9 +170,48 @@ One could use mobilenet pretrained models using tf.js as given [here](https://gi
 
 # Articles
 
+## Serverless
+### Introduction
+
+### Quick start
+Prerequisite: 
+- 1. AWS account 
+- 2. Globally installed [serverless](https://www.npmjs.com/package/serverless) with [AWS serverless config](https://www.serverless.com/framework/docs/providers/aws/cli-reference/config-credentials/)
+
+1. Create 'hello-world-function' from hello-world template:
+<pre class="code">
+serverless create --template hello-world --path hello-world-function
+</pre>
+
+2. Test/invoke on local:
+<pre class="code">
+serverless invoke local --function helloWorld
+</pre>
+
+3. Deploy
+<pre class="code">
+serverless deploy
+</pre>
+
+This would deploy the lambda function and give HTTP endpoint like:
+- endpoints:
+- GET — https://oyqliuc8hd.execute-api.us-east-1.amazonaws.com/dev/hello-world
+
+### Serverless.yml
+[WIP]
+### Links
+- 1. [Getting started with serverless functions using NodeJS and AWS](https://medium.com/@ashwinsoni/getting-started-with-serverless-functions-using-nodejs-and-aws-eef8c84abbf3)
+## AWS
+### Introduction
+[WIP]
+### Compute
+### Storage 
+
 ## Kubernetes
 ### Introduction
+[WIP]
 Kubernetes(k8s) is an open source platform for 
+
 ## Diffie-Hellmann Key Exchange
 ### Introduction
 - Public key exchange protocol
