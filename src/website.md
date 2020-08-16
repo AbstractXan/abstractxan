@@ -179,7 +179,7 @@ Get WAMP / MAMP for windows / linux.
 
 ### Hello World
 <pre class="code">
-    <!-- /htdocs/index.php-->
+    &lt;!-- /htdocs/index.php--&gt;
     &lt;body&gt;
         &lt;?php
             echo "Hello World";
@@ -187,16 +187,16 @@ Get WAMP / MAMP for windows / linux.
     &lt;/body&gt;
 </pre>
 
-### Forms
+### Forms and requests
 <pre class="code">
-    <!-- /htdocs/index.php-->
+    &lt;!-- /htdocs/index.php--&gt;
     &lt;form action="process.php" method="post"&gt;
         Enter your name &lt;input name="name" type="text"&gt;
         &lt;input type="submit"&gt;
     &lt;/form&gt;
 </pre>
 <pre class="code">
-    <!-- /htdocs/process.php-->
+    &lt;!-- /htdocs/process.php--&gt;
     &lt;body&gt;
         &lt;?php
             echo "Hello ," . $_POST["name"];
