@@ -27,7 +27,8 @@ Source files for my projects could be found on <a href='https://www.github.com/a
 ## Journal
 ###  
 Journal shows recent updates.
-
+![160820](../media/journal/160820.png)
+160820 - Getting a feel of some PHP
 ![110820](../media/journal/110820.jpg)
 110820 - Learning AWS Lamda and Serverless applications
 ![180720](../media/journal/180720.png)
