@@ -171,6 +171,45 @@ One could use mobilenet pretrained models using tf.js as given [here](https://gi
 
 # Articles
 
+## PHP
+### Introduction
+PHP : PHP Hypertext Preprocessor is a programming language that allows developers to create dynamic content that interact with databses. It is used to create web based software applications.
+
+Get WAMP / MAMP for windows / linux.
+
+### Hello World
+<pre class="code">
+    <!-- /htdocs/index.php-->
+    &lt;body&gt;
+        &lt;?php
+            echo "Hello World";
+        ?&gt;
+    &lt;/body&gt;
+</pre>
+
+### Forms
+<pre class="code">
+    <!-- /htdocs/index.php-->
+    &lt;form action="process.php" method="post"&gt;
+        Enter your name &lt;input name="name" type="text"&gt;
+        &lt;input type="submit"&gt;
+    &lt;/form&gt;
+</pre>
+<pre class="code">
+    <!-- /htdocs/process.php-->
+    &lt;body&gt;
+        &lt;?php
+            echo "Hello ," . $_POST["name"];
+        ?&gt;
+    &lt;/body&gt;
+</pre>
+
+### Links
+- [Learn PHP in 15min](https://www.youtube.com/watch?v=ZdP0KM49IVk) - Jake Wright
+
+
+Last Modified: 16th Aug 2020
+
 ## Serverless
 ### Introduction
 
