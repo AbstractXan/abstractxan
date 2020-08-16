@@ -517,7 +517,8 @@ Last Updated: 19 May 2020
 
 ## Git
 ### Introduction
-
+Version control systems like Git are tools used to track changes to source code (or other collections of files and folders). As the name implies, these tools help maintain a history of changes; furthermore, they facilitate collaboration. Source : [Missing-Semester/Git](https://missing.csail.mit.edu/2020/version-control/)
+[Documentation](https://git-scm.com/docs)
 <pre class="code">
     $ git init
     $ git add .
@@ -536,7 +537,7 @@ Last Updated: 19 May 2020
     $ git merge &lt;branch-name&gt;
 </pre>
 
-### 
+### Terminology
 - <b>Init</b>: Initialises git repo. Creates ".git" directory
 - <b>Add</b>: Adds the changes in current directory to staging area
 - <b>Commit</b>: Commits the staged changes to snapshot graph. 
@@ -545,7 +546,7 @@ Last Updated: 19 May 2020
 - <b>Checkout</b>: Moves head pointer and mutates contents of working directory corresponding to that commit. Could create a new branch.
 - <b>Merge</b>: Merges current branch with branch specified. Could "auto-merge" or may cause "merge conflict" 
     In case of merge conflict, resolve conflict manually / using VSCode / other tools.
-- <b>Remote<b>:
+- <b>Remote</b>: Remote repositories are versions of your project that are hosted on the internet/network somewhere. Remotes enable collaboration.
 
 
 ## Golang
