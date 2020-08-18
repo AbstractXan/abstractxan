@@ -558,8 +558,15 @@ Last Updated: 19 May 2020
 Version control systems like Git are tools used to track changes to source code (or other collections of files and folders). As the name implies, these tools help maintain a history of changes; furthermore, they facilitate collaboration. Source : [Missing-Semester/Git](https://missing.csail.mit.edu/2020/version-control/)
 [Documentation](https://git-scm.com/docs)
 <pre class="code">
+    
+    # Initialize repository
     $ git init
+    ---
+    # Add / Delete from Staging 
     $ git add .
+    $ git checkout -- .
+    ---
+    # Commit 
     $ git commit -m "First Commit"
     ---
     $ git status
@@ -586,6 +593,8 @@ Version control systems like Git are tools used to track changes to source code 
     In case of merge conflict, resolve conflict manually / using VSCode / other tools.
 - <b>Remote</b>: Remote repositories are versions of your project that are hosted on the internet/network somewhere. Remotes enable collaboration.
 
+### Links
+- [Git tutorials](https://www.youtube.com/channel/UCrl5xG-L4ZCFkR-bhUy9BVg) by Youtube/Tower
 
 ## Golang
 ###  
