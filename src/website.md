@@ -559,14 +559,12 @@ Version control systems like Git are tools used to track changes to source code 
 [Documentation](https://git-scm.com/docs)
 <pre class="code">
     
-    # Initialize repository
+    --- Initialize repository
     $ git init
-    ---
-    # Add / Delete from Staging 
+    --- Add / Delete from Staging 
     $ git add .
     $ git checkout -- .
-    ---
-    # Commit 
+    --- Commits 
     $ git commit -m "First Commit"
     ---
     $ git status
