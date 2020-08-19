@@ -181,12 +181,12 @@ Modes:
 - Write : Press <kbd>w</kbd>
 - Quit : Press <kbd>q</kbd>
 ### Commands
-Delete a line[Command mode] :DD
-Delete 3 lines [Commmand mode] :3 DD
-Undo [Command mode] :U
-Redo [Command mode] :Ctl + R
-Searching [Command mode] :/&lt;text&gt; 
-Search and Replace All (greedy) :%s/&lt;search text&gt;/&lt;replace text&gt;/g
+- Delete a line[Command mode] :DD
+- Delete 3 lines [Commmand mode] :3 DD
+- Undo [Command mode] :U
+- Redo [Command mode] :Ctl + R
+- Searching [Command mode] :/&lt;text&gt; 
+- Search and Replace All (greedy) :%s/&lt;search text&gt;/&lt;replace - text&gt;/g
 
 ### Links
 Vim [Cheetsheet](http://vimsheet.com)
