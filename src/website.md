@@ -171,7 +171,7 @@ One could use mobilenet pretrained models using tf.js as given [here](https://gi
 
 # Articles
 
-# Vim
+## Vim
 ### Inctroduction
 Modal Editor : It's got modes
 
