@@ -566,6 +566,7 @@ Version control systems like Git are tools used to track changes to source code 
     $ git checkout -- .
     --- Commits 
     $ git commit -m "First Commit"
+    $ git commit --amend -m "An updated commit message"
     ---
     $ git status
     ---
