@@ -172,8 +172,8 @@ One could use mobilenet pretrained models using tf.js as given [here](https://gi
 # Articles
 
 ## Vim
-### Inctroduction
-Modal Editor : It's got modes
+### Introduction
+Vim is a 'modal' editr i.e it's got modes
 
 Modes:
 - Command : Default, press <kbd>esc</kbd> to reach here
@@ -181,18 +181,12 @@ Modes:
 - Write : Press <kbd>w</kbd>
 - Quit : Press <kbd>q</kbd>
 ### Commands
-Delete a line [Command mode]
-- DD
-Delete 3 lines [Commmand mode]
-- 3 DD
-Undo [Command mode]
-- U
-Redo [Command mode]
-- Ctl + R
-Searching [Commang mode]
-- /&lt;text&gt; 
-Search and Replace All (greedy)
-- %s/&lt;search text&gt;/&lt;replace text&gt;/g
+Delete a line[Command mode] :DD
+Delete 3 lines [Commmand mode] :3 DD
+Undo [Command mode] :U
+Redo [Command mode] :Ctl + R
+Searching [Command mode] :/&lt;text&gt; 
+Search and Replace All (greedy) :%s/&lt;search text&gt;/&lt;replace text&gt;/g
 
 ### Links
 Vim [Cheetsheet](http://vimsheet.com)
