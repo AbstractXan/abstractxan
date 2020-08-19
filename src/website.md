@@ -171,6 +171,31 @@ One could use mobilenet pretrained models using tf.js as given [here](https://gi
 
 # Articles
 
+# Vim
+### Inctroduction
+Modal Editor : It's got modes
+
+Modes:
+- Command : Default, press <kbd>esc</kbd> to reach here
+- Insert : Press <kbd>i</kbd>
+- Write : Press <kbd>w</kbd>
+- Quit : Press <kbd>q</kbd>
+### Commands
+Delete a line [Command mode]
+- DD
+Delete 3 lines [Commmand mode]
+- 3 DD
+Undo [Command mode]
+- U
+Redo [Command mode]
+- Ctl + R
+Searching [Commang mode]
+- /&lt;text&gt; 
+Search and Replace All (greedy)
+- %s/&lt;search text&gt;/&lt;replace text&gt;/g
+
+### Links
+Vim [Cheetsheet](http://vimsheet.com)
 ## PHP
 ### Introduction
 PHP : PHP Hypertext Preprocessor is a programming language that allows developers to create dynamic content that interact with databses. It is used to create web based software applications.
