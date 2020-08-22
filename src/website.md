@@ -189,7 +189,11 @@ Modes:
 - Search and Replace All (greedy) :%s/&lt;search text&gt;/&lt;replace - text&gt;/g
 
 ### Links
-Vim [Cheetsheet](http://vimsheet.com)
+- Vim [Cheetsheet](http://vimsheet.com)
+- [SuperTab](https://youtube.com/watch?v=BhwtnCaFTFk) plugin
+- [Improving Vim Speed](https://youtube.com/watch?v=watch?v=OnUiHLYZgaA)
+ 
+
 ## PHP
 ### Introduction
 PHP : PHP Hypertext Preprocessor is a programming language that allows developers to create dynamic content that interact with databses. It is used to create web based software applications.
