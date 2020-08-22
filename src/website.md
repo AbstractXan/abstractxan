@@ -27,6 +27,8 @@ Source files for my projects could be found on <a href='https://www.github.com/a
 ## Journal
 ###  
 Journal shows recent updates.
+![220820](../media/journal/220820.png)
+220820 - Learning [Vim](./vim.html)!
 ![160820](../media/journal/160820.png)
 160820 - Getting a feel of some PHP
 ![110820](../media/journal/110820.jpg)
