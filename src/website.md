@@ -194,6 +194,7 @@ Modes:
 - Vim [Cheetsheet](http://vimsheet.com)
 - [SuperTab](https://youtube.com/watch?v=BhwtnCaFTFk) plugin
 - [Improving Vim Speed](https://youtube.com/watch?v=watch?v=OnUiHLYZgaA)
+- Ctabs plugin
  
 
 ## PHP
