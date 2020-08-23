@@ -192,10 +192,11 @@ Modes:
 
 ### Links
 - Vim [Cheetsheet](http://vimsheet.com)
+- [VimCasts](http://vimcasts.org)
 - [SuperTab](https://youtube.com/watch?v=BhwtnCaFTFk) plugin
 - [Improving Vim Speed](https://youtube.com/watch?v=watch?v=OnUiHLYZgaA)
 - Ctabs plugin
- 
+
 
 ## PHP
 ### Introduction
