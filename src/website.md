@@ -196,6 +196,7 @@ Modes:
 - [SuperTab](https://youtube.com/watch?v=BhwtnCaFTFk) plugin
 - [Improving Vim Speed](https://youtube.com/watch?v=watch?v=OnUiHLYZgaA)
 - Ctabs plugin
+- Macros [vimcast](http://vimcasts.org/episodes/converting-markdown-to-structured-html-with-a-macro/)
 
 
 ## PHP
