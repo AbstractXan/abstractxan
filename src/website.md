@@ -6,7 +6,7 @@
 
 I'm an extremely motivated individual who likes to tackle problems and tinker with the latest technology. 
 
-Currently, I manage Mizi ,a static site generator, which is being used to build this website. My plans include improving Mizi, creating a flat-file wiki generator (Mori), and build my time tracker.
+Currently, I manage Mizi ,a static site generator, which is being used to build this website. My plans include improving Mizi and build my time tracker.
 
 I have an insatiable thirst for knowledge and use it to improve my approach to problems. I am always fascinated by the ocean of unexplored knowledge that lies beyond. I constantly push myself to explore more. I am very glad to be surrounded by amazing individuals who keep inspiring me to learn and create something new and exciting every day.  
 
@@ -64,7 +64,7 @@ Journal shows recent updates.
 - [ ] Get a Gramophone
 - [ ] Own a vinyl record of my own songs 
 - [ ] Learn longboarding
-
+- [ ] Create LINK DUMP webpage
 
 # Projects
 
@@ -607,6 +607,10 @@ Version control systems like Git are tools used to track changes to source code 
     $ git diff
     ---
     $ git merge &lt;branch-name&gt;
+    --- Go back in time
+    $ git reflog
+    $ git reset HEAD@{&lt;id&gt;}
+    
 </pre>
 
 ### Terminology
@@ -1302,7 +1306,8 @@ Log :
 Last Updated: 8 May 2020
 
 ## Human changelog
-###  
+###
+- 21 Aug 2020 : Learning vim
 - 9 Aug 2020 : Started learning AWS 
 - 3 Aug 2020 : First Day at Job 
 - 20 July 2020 : Started creating [Jikan](https://github.com/abstractxan/Jikan)
