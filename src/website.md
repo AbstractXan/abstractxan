@@ -626,6 +626,7 @@ Version control systems like Git are tools used to track changes to source code 
 
 ### Links
 - [Git tutorials](https://www.youtube.com/channel/UCrl5xG-L4ZCFkR-bhUy9BVg) by Youtube/Tower
+- Atlassian [git tutorial](https://www.atlassian.com/git/tutorials)
 
 ## Golang
 ###  
