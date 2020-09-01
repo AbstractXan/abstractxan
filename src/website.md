@@ -610,6 +610,9 @@ Version control systems like Git are tools used to track changes to source code 
     --- Go back in time
     $ git reflog
     $ git reset HEAD@{&lt;id&gt;}
+    -- Change history in remote
+    $ git reset --hard HEAD~&lt;number-of-commits-to-undo&gt;
+    $ git push origin HEAD -f
 
 </pre>
 
@@ -1308,6 +1311,7 @@ Last Updated: 8 May 2020
 
 ## Human changelog
 ###  
+- 31 Aug 2020 : First paycheck
 - 21 Aug 2020 : Learning vim
 - 9 Aug 2020 : Started learning AWS 
 - 3 Aug 2020 : First Day at Job 
