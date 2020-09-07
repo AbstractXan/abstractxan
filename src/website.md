@@ -233,7 +233,7 @@ Subtotals :
 - Data -> Subtotal
 Grouping and totalling data wrt changes in columns. Does data folding as well.
 
-### Date and Time functions:
+### Date and Time functions
 - = TODAY() , YEAR() , MONTH() , DAY()
 - = WORKDAY(), WEEKDAY(), WEEKNUM(), EOMONTH()
 - = EDATE(&lt;date&gt;,&lt;months&gt;)
@@ -254,14 +254,20 @@ Grouping and totalling data wrt changes in columns. Does data folding as well.
 
 CHAR and CODE convert from and to ASCII
 
-### Statistical functions:
+### Statistical functions
 - = MIN(), MINA(), MAX(), MAXA(), MEDIANS()
 
-### VLookup
+### Lookup
 
 - Lookup Table : The table data used to lookup
-- LookUp Value : The value against which we search
+- LookUp Value : The value against which we search. 
 - = VLOOKUP(lookup_value,table_array,col_index_num, APPROX_MATCH?1:0 )
+Vlookup could be used along with <b>Data -> Data Validation -> Allow "List"</b> to create a dropdown for the possible values. Lookup value should be <b>unique</b> and should belong to the <b>first column</b> of the array.
+
+- = HLOOKUP(lookup_value,table_array,row_index_num, APPROX_MATCH?1:0 )
+- = LOOKUP(lookup_value,lookup_vector,result_vector)
+
+Lookup vector should be sorted in <b>ascending</b> order and should have <b>unique values</b>
 
 ## Vim
 ### Introduction
