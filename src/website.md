@@ -172,6 +172,46 @@ One could use mobilenet pretrained models using tf.js as given [here](https://gi
 <script src="../projects/mobilenet/helper.js"></script>
 
 # Articles
+## MS Excel
+
+### Introduction
+[WIP]
+
+MS Excel V16.4
+
+### Name Range and Name Manager
+Name ranges could be used as variables to put into formulas. MAkes the workflow easy and convenient to search and manage.
+
+### Functions
+Aggregation
+- SUM(&lt;RANGE&gt;)
+- SUMIF(&lt;RANGE&gt;, "<500")
+- SUMIF(&lt;CRITERIA_RANGE&gt;, "&lt;CRITERIA&gt;", &lt;SUM_RANGE&gt;)
+- SUMIFS( &lt;SUM_RANGE&gt;, &lt;CRITERIA_RANGE_1&gt;, "&lt;CRITERIA_1&gt;", [&lt;CRITERIA_RANGE_2&gt;, "&lt;CRITERIA_2&gt;"])
+- SUMPRODUCT(&lt;ARRAY_1&gt;, &lt;ARRAY_2&gt;)
+
+Count
+- COUNT(&lt;RANGE&gt;)
+- COUNTA(&lt;RANGE&gt;)
+- COUNTBLANK(&lt;RANGE&gt;)
+- COUNTIF(&lt;CRITERIA_RANGE&gt;, "&lt;CRITERIA&gt;", &lt;COUNT_RANGE&gt;)
+- COUNTIFS(&lt;COUNT_RANGE&gt;, &lt;CRITERIA_RANGE_1&gt;, "&lt;CRITERIA_1&gt;", [&lt;CRITERIA_RANGE_2&gt;, "&lt;CRITERIA_2&gt;"])
+
+COUNT -- Considers only numbers. COUNTA -- Considers text
+
+Average functions
+- AVERAGE(&lt;RANGE&gt;)
+- AVERAGEA()
+- AVERAGEIF(&lt;CRITERIA_RANGE&gt;, "&lt;CRITERIA&gt;")
+- COUNTIF(&lt;CRITERIA_RANGE&gt;, "&lt;CRITERIA&gt;", &lt;AVERAGE_RANGE&gt;)
+- AVERAGEIFS(&lt;AVERAGE_RANGE&gt;, &lt;CRITERIA_RANGE_1&gt;, "&lt;CRITERIA_1&gt;", [&lt;CRITERIA_RANGE_2&gt;, "&lt;CRITERIA_2&gt;"]) 
+
+AVERAGE -- Consideres only numbers ; Omits text from counting. AVERAGEA -- Considers text in the counting.
+
+Rand
+- RAND()
+- RAND()*100 
+- RANDBETWEEN(&lt;LEFT&gt;, &lt;RIGHT&gt;))
 
 ## Vim
 ### Introduction
