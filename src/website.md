@@ -237,6 +237,10 @@ Date and Time functions:
 - = TODAY() , YEAR() , MONTH() , DAY()
 - = WORKDAY(), WEEKDAY(), WEEKNUM(), EOMONTH()
 - = EDATE(&lt;date&gt;,&lt;months&gt;)
+- = NETWORKDAYS(start_date,end_date,[holidays])
+- = NOW() , HOUR() , MINUTE() , SECOND() , TIME(hour,minute,second)
+- = DATEDIF(start_date,end_date,"&lt;format&gt;")
+- Where format could be : "Y" , "M" , "D" , "YM" ,"MD"
 
 ## Vim
 ### Introduction
