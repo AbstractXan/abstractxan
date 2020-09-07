@@ -254,6 +254,15 @@ Grouping and totalling data wrt changes in columns. Does data folding as well.
 
 CHAR and CODE convert from and to ASCII
 
+### Statistical functions:
+- = MIN(), MINA(), MAX(), MAXA(), MEDIANS()
+
+### VLookup
+
+- Lookup Table : The table data used to lookup
+- LookUp Value : The value against which we search
+- = VLOOKUP(lookup_value,table_array,col_index_num, APPROX_MATCH?1:0 )
+
 ## Vim
 ### Introduction
 Vim is a 'modal' editr i.e it's got modes
