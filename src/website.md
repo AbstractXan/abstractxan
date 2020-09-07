@@ -184,34 +184,34 @@ Name ranges could be used as variables to put into formulas. MAkes the workflow 
 
 ### Functions
 Aggregation
-- SUM(&lt;RANGE&gt;)
-- SUMIF(&lt;RANGE&gt;, "<500")
-- SUMIF(&lt;CRITERIA_RANGE&gt;, "&lt;CRITERIA&gt;", &lt;SUM_RANGE&gt;)
-- SUMIFS( &lt;SUM_RANGE&gt;, &lt;CRITERIA_RANGE_1&gt;, "&lt;CRITERIA_1&gt;", [&lt;CRITERIA_RANGE_2&gt;, "&lt;CRITERIA_2&gt;"])
-- SUMPRODUCT(&lt;ARRAY_1&gt;, &lt;ARRAY_2&gt;)
+- SUM(&lt;range&gt;)
+- SUMIF(&lt;range&gt;, "<500")
+- SUMIF(&lt;criteria_range&gt;, "&lt;criteria&gt;", &lt;SUM_RANGE&gt;)
+- SUMIFS( &lt;sum_range&gt;, &lt;criteria_range_1&gt;, "&lt;criteria_1&gt;", [&lt;criteria_range_2&gt;, "&lt;criteria_2&gt;"])
+- SUMPRODUCT(&lt;array_1&gt;, &lt;array_2&gt;)
 
 Count
-- COUNT(&lt;RANGE&gt;)
-- COUNTA(&lt;RANGE&gt;)
-- COUNTBLANK(&lt;RANGE&gt;)
-- COUNTIF(&lt;CRITERIA_RANGE&gt;, "&lt;CRITERIA&gt;", &lt;COUNT_RANGE&gt;)
-- COUNTIFS(&lt;COUNT_RANGE&gt;, &lt;CRITERIA_RANGE_1&gt;, "&lt;CRITERIA_1&gt;", [&lt;CRITERIA_RANGE_2&gt;, "&lt;CRITERIA_2&gt;"])
+- COUNT(&lt;range&gt;)
+- COUNTA(&lt;range&gt;)
+- COUNTBLANK(&lt;range&gt;)
+- COUNTIF(&lt;criteria_range&gt;, "&lt;criteria&gt;", &lt;count_range&gt;)
+- COUNTIFS(&lt;count_range&gt;, &lt;criteria_range_1&gt;, "&lt;criteria_1&gt;", [&lt;criteria_range_2&gt;, "&lt;criteria_2&gt;"])
 
 COUNT -- Considers only numbers. COUNTA -- Considers text
 
 Average functions
-- AVERAGE(&lt;RANGE&gt;)
+- AVERAGE(&lt;range&gt;)
 - AVERAGEA()
-- AVERAGEIF(&lt;CRITERIA_RANGE&gt;, "&lt;CRITERIA&gt;")
-- COUNTIF(&lt;CRITERIA_RANGE&gt;, "&lt;CRITERIA&gt;", &lt;AVERAGE_RANGE&gt;)
-- AVERAGEIFS(&lt;AVERAGE_RANGE&gt;, &lt;CRITERIA_RANGE_1&gt;, "&lt;CRITERIA_1&gt;", [&lt;CRITERIA_RANGE_2&gt;, "&lt;CRITERIA_2&gt;"]) 
+- AVERAGEIF(&lt;criteria_range&gt;, "&lt;criteria&gt;")
+- COUNTIF(&lt;criteria_range&gt;, "&lt;criteria&gt;", &lt;average_range&gt;)
+- AVERAGEIFS(&lt;average_range&gt;, &lt;criteria_range_1&gt;, "&lt;criteria_1&gt;", [&lt;criteria_range_2&gt;, "&lt;criteria_2&gt;"]) 
 
 AVERAGE -- Consideres only numbers ; Omits text from counting. AVERAGEA -- Considers text in the counting.
 
 Rand
 - RAND()
 - RAND()*100 
-- RANDBETWEEN(&lt;LEFT&gt;, &lt;RIGHT&gt;))
+- RANDBETWEEN(&lt;bottom&gt;, &lt;top&gt;)
 
 ## Vim
 ### Introduction
