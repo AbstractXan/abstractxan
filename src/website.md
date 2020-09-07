@@ -197,7 +197,8 @@ Count
 - = COUNTIF(&lt;criteria_range&gt;, "&lt;criteria&gt;", &lt;count_range&gt;)
 - = COUNTIFS(&lt;count_range&gt;, &lt;criteria_range_1&gt;, "&lt;criteria_1&gt;", [&lt;criteria_range_2&gt;, "&lt;criteria_2&gt;"])
 
-COUNT -- Considers only numbers. COUNTA -- Considers text
+COUNT -- Considers only numbers. 
+COUNTA -- Considers text
 
 Average functions
 - = AVERAGE(&lt;range&gt;)
@@ -206,12 +207,36 @@ Average functions
 - = COUNTIF(&lt;criteria_range&gt;, "&lt;criteria&gt;", &lt;average_range&gt;)
 - = AVERAGEIFS(&lt;average_range&gt;, &lt;criteria_range_1&gt;, "&lt;criteria_1&gt;", [&lt;criteria_range_2&gt;, "&lt;criteria_2&gt;"]) 
 
-AVERAGE -- Consideres only numbers ; Omits text from counting. AVERAGEA -- Considers text in the counting.
+AVERAGE -- Consideres only numbers ; Omits text from counting. 
+AVERAGEA -- Considers text in the counting.
 
 Rand
 - = RAND()
 - = RAND()*100 
 - = RANDBETWEEN(&lt;bottom&gt;, &lt;top&gt;)
+
+Round
+
+- = ROUND(&lt;number&gt;,&lt;decimal_position&gt;)
+- = ROUNDUP(&lt;number&gt;,&lt;decimal_position&gt;)
+- = ROUNDDOWN(&lt;number&gt;,&lt;decimal_position&gt;)
+
+Decimal position +2 is hundredth decimal place. Similarly -3 is thousands place.
+- = ROUND(23.557, 2) = 23.560
+- = ROUND(2555, -3) = 3000 
+
+ROUNDUP and ROUNDDOWN are like Ceil() and Floor().
+- = ROUNDUP(100.001,0) = 101
+- = ROUNDDOWN(100.999,0) = 100
+
+Subtotals : 
+- Data -> Subtotal
+Grouping and totalling data wrt changes in columns. Does data folding as well.
+
+Date and Time functions:
+- = TODAY() , YEAR() , MONTH() , DAY()
+- = WORKDAY(), WEEKDAY(), WEEKNUM(), EOMONTH()
+- = EDATE(&lt;date&gt;,&lt;months&gt;)
 
 ## Vim
 ### Introduction
