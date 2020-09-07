@@ -179,39 +179,39 @@ One could use mobilenet pretrained models using tf.js as given [here](https://gi
 
 MS Excel V16.4
 
-### Name Range and Name Manager
-Name ranges could be used as variables to put into formulas. MAkes the workflow easy and convenient to search and manage.
+### Name Range
+Name ranges could be used as variables to put into formulas. Makes the workflow easy and convenient to search and manage.
 
 ### Functions
 Aggregation
-- SUM(&lt;range&gt;)
-- SUMIF(&lt;range&gt;, "<500")
-- SUMIF(&lt;criteria_range&gt;, "&lt;criteria&gt;", &lt;SUM_RANGE&gt;)
-- SUMIFS( &lt;sum_range&gt;, &lt;criteria_range_1&gt;, "&lt;criteria_1&gt;", [&lt;criteria_range_2&gt;, "&lt;criteria_2&gt;"])
-- SUMPRODUCT(&lt;array_1&gt;, &lt;array_2&gt;)
+- = SUM(&lt;range&gt;)
+- = SUMIF(&lt;range&gt;, "<500")
+- = SUMIF(&lt;criteria_range&gt;, "&lt;criteria&gt;", &lt;SUM_RANGE&gt;)
+- = SUMIFS( &lt;sum_range&gt;, &lt;criteria_range_1&gt;, "&lt;criteria_1&gt;", [&lt;criteria_range_2&gt;, "&lt;criteria_2&gt;"])
+- = SUMPRODUCT(&lt;array_1&gt;, &lt;array_2&gt;)
 
 Count
-- COUNT(&lt;range&gt;)
-- COUNTA(&lt;range&gt;)
-- COUNTBLANK(&lt;range&gt;)
-- COUNTIF(&lt;criteria_range&gt;, "&lt;criteria&gt;", &lt;count_range&gt;)
-- COUNTIFS(&lt;count_range&gt;, &lt;criteria_range_1&gt;, "&lt;criteria_1&gt;", [&lt;criteria_range_2&gt;, "&lt;criteria_2&gt;"])
+- = COUNT(&lt;range&gt;)
+- = COUNTA(&lt;range&gt;)
+- = COUNTBLANK(&lt;range&gt;)
+- = COUNTIF(&lt;criteria_range&gt;, "&lt;criteria&gt;", &lt;count_range&gt;)
+- = COUNTIFS(&lt;count_range&gt;, &lt;criteria_range_1&gt;, "&lt;criteria_1&gt;", [&lt;criteria_range_2&gt;, "&lt;criteria_2&gt;"])
 
 COUNT -- Considers only numbers. COUNTA -- Considers text
 
 Average functions
-- AVERAGE(&lt;range&gt;)
-- AVERAGEA()
-- AVERAGEIF(&lt;criteria_range&gt;, "&lt;criteria&gt;")
-- COUNTIF(&lt;criteria_range&gt;, "&lt;criteria&gt;", &lt;average_range&gt;)
-- AVERAGEIFS(&lt;average_range&gt;, &lt;criteria_range_1&gt;, "&lt;criteria_1&gt;", [&lt;criteria_range_2&gt;, "&lt;criteria_2&gt;"]) 
+- = AVERAGE(&lt;range&gt;)
+- = AVERAGEA()
+- = AVERAGEIF(&lt;criteria_range&gt;, "&lt;criteria&gt;")
+- = COUNTIF(&lt;criteria_range&gt;, "&lt;criteria&gt;", &lt;average_range&gt;)
+- = AVERAGEIFS(&lt;average_range&gt;, &lt;criteria_range_1&gt;, "&lt;criteria_1&gt;", [&lt;criteria_range_2&gt;, "&lt;criteria_2&gt;"]) 
 
 AVERAGE -- Consideres only numbers ; Omits text from counting. AVERAGEA -- Considers text in the counting.
 
 Rand
-- RAND()
-- RAND()*100 
-- RANDBETWEEN(&lt;bottom&gt;, &lt;top&gt;)
+- = RAND()
+- = RAND()*100 
+- = RANDBETWEEN(&lt;bottom&gt;, &lt;top&gt;)
 
 ## Vim
 ### Introduction
