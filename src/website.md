@@ -233,7 +233,7 @@ Subtotals :
 - Data -> Subtotal
 Grouping and totalling data wrt changes in columns. Does data folding as well.
 
-Date and Time functions:
+### Date and Time functions:
 - = TODAY() , YEAR() , MONTH() , DAY()
 - = WORKDAY(), WEEKDAY(), WEEKNUM(), EOMONTH()
 - = EDATE(&lt;date&gt;,&lt;months&gt;)
@@ -241,6 +241,18 @@ Date and Time functions:
 - = NOW() , HOUR() , MINUTE() , SECOND() , TIME(hour,minute,second)
 - = DATEDIF(start_date,end_date,"&lt;format&gt;")
 - Where format could be : "Y" , "M" , "D" , "YM" ,"MD"
+
+### Text Functions
+- = TRIM(), LOWER(), UPPER(), PROPER()
+- = LEFT(text,[&lt; num_chars &gt;]) , RIGHT(...)
+- = MID(text,start_num, [&lt; num_chars &gt;])
+
+- = FIND(find_text,within_text)
+- = SEARCH() , REPLACE(), SUBSTITUE()
+
+- = CONCATENATE(), TEXT(), LEN(), CHAR(), CODE()
+
+CHAR and CODE convert from and to ASCII
 
 ## Vim
 ### Introduction
