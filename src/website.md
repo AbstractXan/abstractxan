@@ -261,6 +261,7 @@ CHAR and CODE convert from and to ASCII
 
 - Lookup Table : The table data used to lookup
 - LookUp Value : The value against which we search. 
+
 - = VLOOKUP(lookup_value,table_array,col_index_num,match_type)
 Vlookup could be used along with <b>Data -> Data Validation -> Allow "List"</b> to create a dropdown for the possible values. Lookup value should be <b>unique</b> and should belong to the <b>first column</b> of the array.
 
@@ -268,6 +269,14 @@ Vlookup could be used along with <b>Data -> Data Validation -> Allow "List"</b> 
 - = LOOKUP(lookup_value,lookup_vector,result_vector)
 
 Lookup vector should be sorted in <b>ascending</b> order and should have <b>unique values</b>
+
+### Pivot tables
+Pivot tables are used to aggregate data and group them w.r.t criteria. Here's a reference video to understand the expected behaviour.
+
+<iframe width="100%" height="auto" src="https://youtu.be/FoKzK3YfYoY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Slicers
+Slicers are visual filters in the form of interactive buttons. They are used to filter the data present in the pivot table.
 
 ## Vim
 ### Introduction
