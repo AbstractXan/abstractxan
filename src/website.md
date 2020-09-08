@@ -273,7 +273,7 @@ Lookup vector should be sorted in <b>ascending</b> order and should have <b>uniq
 ### Pivot tables
 Pivot tables are used to aggregate data and group them w.r.t criteria. Here's a reference video to understand the expected behaviour.
 
-<iframe width="100%" height="auto" src="https://youtu.be/FoKzK3YfYoY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="auto" src="https://www.youtube.com/embed/FoKzK3YfYoY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Slicers
 Slicers are visual filters in the form of interactive buttons. They are used to filter the data present in the pivot table.
