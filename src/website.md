@@ -27,10 +27,8 @@ Source files for my projects could be found on <a href='https://www.github.com/a
 ## Journal
 ###  
 Journal shows recent updates.
-![080920](../media/journal/080920.png)
-080920 - CS50 Puzzle Day team
 ![080920](https://certificates.cs50.io/323374f9-48a8-4026-bfc8-b15c88cfa8e3.png?size=letter)
-080920 - Won the CS50 Puzzle Day
+080920 - Won the CS50 Puzzle Day | [Team](https://cs50.smugmug.com/CS50-Puzzle-Day-2020/i-zL4RXrS/A)
 ![220820](../media/journal/220820.png)
 220820 - Learning [Vim](./vim.html)!
 ![160820](../media/journal/160820.png)
