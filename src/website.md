@@ -27,6 +27,10 @@ Source files for my projects could be found on <a href='https://www.github.com/a
 ## Journal
 ###  
 Journal shows recent updates.
+![080920](../media/journal/080920.png)
+080920 - CS50 Puzzle Day team
+![080920](https://certificates.cs50.io/323374f9-48a8-4026-bfc8-b15c88cfa8e3.png?size=letter)
+080920 - Won the CS50 Puzzle Day
 ![220820](../media/journal/220820.png)
 220820 - Learning [Vim](./vim.html)!
 ![160820](../media/journal/160820.png)
@@ -1416,6 +1420,7 @@ Last Updated: 8 May 2020
 
 ## Human changelog
 ###  
+- 7 Sep 2020 : Started [MS Excel](../ms_excel.html) 
 - 31 Aug 2020 : First paycheck
 - 21 Aug 2020 : Learning vim
 - 9 Aug 2020 : Started learning AWS 
