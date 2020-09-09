@@ -1174,6 +1174,9 @@ The following is a log of various questions solved.
 - SPOJ : Sphere Online Judge
 
 ### Log
+9 Sep 2020
+- LC 1022 Sum of Root To Leaf Binary Numbers
+
 27 Jul 2020
 - LC Pascal's Triangle 
 - LC Missing Number
