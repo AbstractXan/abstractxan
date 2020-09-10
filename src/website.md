@@ -68,6 +68,54 @@ Journal shows recent updates.
 - [ ] Learn longboarding
 - [ ] Create LINK DUMP webpage
 
+# Blog
+## Tackling offcampus placements
+### Programming Language
+Learn ONE programming language. And lean it all the way. So much so that you could/should create your own piece of software/tool. (Like I wrote Mizi)
+
+“Dude I like python. I absolutely hate C++”.
+If you’re this guy, ENSURE that you understand C++ inside out and then shrug it off simply because it doesn’t suite you. 
+
+### Learn a programming language checklist
+- [ ] Primitive data types and their usage (Other languages could include many more)
+-   - [ ] Int, Float, String, Bool
+-   - [ ] Arrays, Dynamic arrays/SLICES?
+-   - [ ] Maps/Dictionary
+- [ ] Composite data types:  structs	
+- [ ] Functions for primitive data types:
+-   - [ ] Types conversions: eg. int -> string / string -> int 
+-   - [ ] Traversing through the data structure: eg. Iterators for maps, vectors (C++)
+- [ ] Learn how to use standard libraries. ABSOLUTE MUST. Eg. C++ : vector, string, algorithm, hash map, list, queue, stack, dequeue, sets. Understand that these are abstractions for ADTs and could be implemented however you want.
+- “I’ll create my own library is the wrong way of solving the problem.”
+- [ ] Implementation of OOPS concept in that language. Eg. Python, C++ supports OOPs, Golang does it differently.
+-   - [ ] Understand how one uses abstractions
+-   - [ ] Ensure you know how to use encapsulation while solving a problem. DONOT USE GLOBAL VARIABLES. It’s a red flag. Platforms like LEETCODE help you create a solution class where you could try this out. (???)
+-   - [ ] Understand Inheritence and Polymorphism and it’s implementation in your own language. You might not need this much while doing CP (Competitive Programming)
+
+### Programming Patterns Checklist
+- [ ] Recursion vs Memory/Memoization
+
+### Coding
+Learn OOPs concepts. You have to. Object oriented approach is closest you could get to the real world.
+
+Writing badly structured and C-like (serial?) code is simpler but inconvenient — (Trust me I’ve been writing that sort of bad code earlier and it sucked ass)
+
+Learn OOPS (Link to my website)
+
+### Technology
+Master atleast ONE implementation/framework for each of these:
+- Relational Database: MySQL, PostgreSQL
+- Non-relational Database: MongoDB
+- Frontend framework: React / Angular
+- Backend framework: Express-Node, Golang, PHP
+- Web technologies: HTML+CSS+JS/TS
+- Scripting languages: Bash, Python
+- Legacy : C++,Java
+
+Keep in mind that the company doesn’t expect you to know the best/latest/popular things out there. They expect you to have a good understanding of the concepts around it.
+
+My company uses legacy PHP — And I’ll have to work on it regardless of my liking since that’s how the architecture was decades ago. 
+
 # Projects
 
 ## Mizi
