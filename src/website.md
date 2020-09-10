@@ -70,27 +70,37 @@ Journal shows recent updates.
 
 # Blog
 ## Tackling offcampus placements
+
+### Introduction
+This blog post is a collection of my personal experiences and isn't an exhaustive list of things to do/learn. I hope it comes in
+handy for people who need this.
+
 ### Programming Language
-Learn ONE programming language. And lean it all the way. So much so that you could/should create your own piece of software/tool. (Like I wrote Mizi)
+Learn ONE programming language. And lean it all the way. So much so that you could/should create your own piece of software/tool.
+(Like I wrote Mizi). I recommend working with C++ when you're starting off. Try to understand what's happening under the hood. After significant practice you should be able to understand the tradeoff between space and time complexities.
+
 
 “Dude I like python. I absolutely hate C++”.
 If you’re this guy, ENSURE that you understand C++ inside out and then shrug it off simply because it doesn’t suite you. 
 
 ### Learn a programming language checklist
-- [ ] Primitive data types and their usage (Other languages could include many more)
--   - [ ] Int, Float, String, Bool
--   - [ ] Arrays, Dynamic arrays/SLICES?
--   - [ ] Maps/Dictionary
-- [ ] Composite data types:  structs	
-- [ ] Functions for primitive data types:
--   - [ ] Types conversions: eg. int -> string / string -> int 
--   - [ ] Traversing through the data structure: eg. Iterators for maps, vectors (C++)
-- [ ] Learn how to use standard libraries. ABSOLUTE MUST. Eg. C++ : vector, string, algorithm, hash map, list, queue, stack, dequeue, sets. Understand that these are abstractions for ADTs and could be implemented however you want.
-- “I’ll create my own library is the wrong way of solving the problem.”
-- [ ] Implementation of OOPS concept in that language. Eg. Python, C++ supports OOPs, Golang does it differently.
--   - [ ] Understand how one uses abstractions
--   - [ ] Ensure you know how to use encapsulation while solving a problem. DONOT USE GLOBAL VARIABLES. It’s a red flag. Platforms like LEETCODE help you create a solution class where you could try this out. (???)
--   - [ ] Understand Inheritence and Polymorphism and it’s implementation in your own language. You might not need this much while doing CP (Competitive Programming)
+- Primitive data types and their usage (Other languages could include many more)
+- - Int, Float, String, Bool
+- - Arrays, Dynamic arrays/SLICES?
+- - Maps/Dictionary
+- Composite data types:  structs	
+- Functions for primitive data types:
+- - Types conversions: eg. int -> string / string -> int 
+- - Traversing through the data structure: eg. Iterators for maps, vectors (C++)
+- Learn how to use standard libraries. ABSOLUTE MUST. Eg. C++ : vector, string, algorithm, hash map, list, queue, stack, dequeue, sets. Understand that these are abstractions for ADTs and could be implemented however you want.
+
+“I’ll create my own library" is the wrong way of solving a problem. When giving interviews - people test your knowledge about Datta
+structures and
+
+- Implementation of OOPS concept in that language. Eg. Python, C++ supports OOPs, Golang does it differently.
+- - Understand how one uses abstractions
+- - Ensure you know how to use encapsulation while solving a problem. DONOT USE GLOBAL VARIABLES. It’s a red flag. Platforms like LEETCODE help you create a solution class where you could try this out. (???)
+- - Understand Inheritence and Polymorphism and it’s implementation in your own language. You might not need this much while doing CP (Competitive Programming)
 
 ### Programming Patterns Checklist
 - [ ] Recursion vs Memory/Memoization
@@ -98,7 +108,7 @@ If you’re this guy, ENSURE that you understand C++ inside out and then shrug i
 ### Coding
 Learn OOPs concepts. You have to. Object oriented approach is closest you could get to the real world.
 
-Writing badly structured and C-like (serial?) code is simpler but inconvenient — (Trust me I’ve been writing that sort of bad code earlier and it sucked ass)
+Writing badly structured and C-like procedural code is simpler but ends up being unmanageable and unintuitive — (Trust me I’ve been writing that sort of bad code earlier and it sucked ass)
 
 Learn OOPS (Link to my website)
 
