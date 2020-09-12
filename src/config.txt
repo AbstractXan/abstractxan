@@ -1,5 +1,5 @@
-shortcut_icon=../media/interface/favicon.ico
-icon=../media/interface/favicon.ico
+shortcut_icon=../media/interface/logo.png
+icon=../media/interface/logo.png
 name=abstractxan
 description=Personal Website
 creator=abstractxan 
