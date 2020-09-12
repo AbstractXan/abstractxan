@@ -184,26 +184,24 @@ The fun way of doing RPi is probably using it without periherals. Simply SSH int
 To [SSH](https://www.ssh.com/ssh/) into RPi, refer this [article](https://itsfoss.com/ssh-into-raspberry/). 
 
 ### File Transfer
-Downloading- 
-- scp pi@RPI-ADDR:/home/pi/file.zip HOST-PATH
-Uploading-
-- scp file.zip pi@RPI-ADDR:/home/pi
+- Downloading- 
+- $ scp pi@RPI-ADDR:/home/pi/file.zip HOST-PATH
+- Uploading-
+- $ scp file.zip pi@RPI-ADDR:/home/pi
 
 Know more about SCP [here](https://tecadmin.net/download-file-using-ssh/)
 
 ### Web server
-You could start off by creating a web server using [nginX](http://nginx.org/en/).
-- apt get install nginx
-This will setup a server on the RPi. Do a quick 'ifconfig' to get the IP address for the RPi and try it out on other devices in the same network.
+- 1. You could start off by creating a web server using [nginX](http://nginx.org/en/). Do '$ apt get install nginx'
 
-To make changes to your website head over to-
-- cd /var/www/html
+- 2. This will setup a server on the RPi. Do a quick 'ifconfig' to get the IP address for the RPi and try it out on other devices in the same network.
 
-Create a new file 'index.html' and start building up your server. If your website doesn't look awesome, why not add some styling using [Bootstrap](https://getbootstrap.com)? Simply import the required scripts and get started.
+- 3. To make changes to your website head over to /var/www/html
+
+- 4. Create a new file 'index.html' and start building up your server. If your website doesn't look awesome, why not add some styling using [Bootstrap](https://getbootstrap.com)? Simply import the required scripts and get started.
  
 <b>Known issues:</b> 
-+ If you're unable to fetch images/content -- try doing `sudo chmod +x 0755 *` in `/var/www/html`
-+ If you're unable to make changes to index.html or other files use `sudo` followed by nano or vim.
+- + If you're unable to fetch images/content -- try doing 'sudo chmod +x 0755 *' in '/var/www/html'
 
 ### VNC
 Why even bother using the HDMI ports? Get [VNC](https://www.raspberrypi.org/documentation/remote-access/vnc/) to use your RPI on any device.
