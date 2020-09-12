@@ -174,6 +174,40 @@ One could use mobilenet pretrained models using tf.js as given [here](https://gi
 <script src="../projects/mobilenet/helper.js"></script>
 
 # Articles
+## Raspberry Pi
+### Introduction
+[WIP]
+### Getting started
+The fun way of doing RPi is probably using it without periherals. Simply SSH into it! Though you do need to set up OS and Wifi config correctly.
+
+### SSH into RPi
+To [SSH](https://www.ssh.com/ssh/) into RPi, refer this [article](https://itsfoss.com/ssh-into-raspberry/). 
+
+### File Transfer
+Downloading- 
+- scp pi@RPI-ADDR:/home/pi/file.zip HOST-PATH
+Uploading-
+- scp file.zip pi@RPI-ADDR:/home/pi
+
+Know more about SCP [here](https://tecadmin.net/download-file-using-ssh/)
+
+### Web server
+You could start off by creating a web server using [nginX](http://nginx.org/en/).
+- apt get install nginx
+This will setup a server on the RPi. Do a quick 'ifconfig' to get the IP address for the RPi and try it out on other devices in the same network.
+
+To make changes to your website head over to-
+- cd /var/www/html
+
+Create a new file 'index.html' and start building up your server. If your website doesn't look awesome, why not add some styling using [Bootstrap](https://getbootstrap.com)? Simply import the required scripts and get started.
+ 
+<b>Known issues:</b> 
++ If you're unable to fetch images/content -- try doing `sudo chmod +x 0755 *` in `/var/www/html`
++ If you're unable to make changes to index.html or other files use `sudo` followed by nano or vim.
+
+### VNC
+Why even bother using the HDMI ports? Get [VNC](https://www.raspberrypi.org/documentation/remote-access/vnc/) to use your RPI on any device.
+
 ## MS Excel
 
 ### Introduction
@@ -280,6 +314,14 @@ Pivot tables are used to aggregate data and group them w.r.t criteria. Here's a 
 ### Slicers
 Slicers are visual filters in the form of interactive buttons. They are used to filter the data present in the pivot table.
 
+### Ordered pair functions
+- = SLOPE(y_array,x_array)
+- = INTERCEPT(y_array,x_array)
+- = CORREL(array_1,array_2)
+- = RSQ(y_array,x_array)
+
+Correlation:
+R-Squared:
 ## Vim
 ### Introduction
 Vim is a 'modal' editr i.e it's got modes
