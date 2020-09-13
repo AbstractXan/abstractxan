@@ -192,7 +192,7 @@ To [SSH](https://www.ssh.com/ssh/) into RPi, refer this [article](https://itsfos
 Know more about SCP [here](https://tecadmin.net/download-file-using-ssh/)
 
 ### Web server
-![Local_Server](../media/rpi/nginx.jpg)
+![Local_Server](../media/rpi/nginx.jpeg)
 - 1. You could start off by creating a web server using [nginX](http://nginx.org/en/). Do '$ apt get install nginx'
 
 - 2. This will setup a server on the RPi. Do a quick 'ifconfig' to get the IP address for the RPi and try it out on other devices in the same network.
