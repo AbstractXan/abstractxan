@@ -207,10 +207,25 @@ Know more about SCP [here](https://tecadmin.net/download-file-using-ssh/)
 ### VNC
 Why even bother using the HDMI ports? Get [VNC](https://www.raspberrypi.org/documentation/remote-access/vnc/) to use your RPI on any device.
 
+## Data
+### Standardization
+
+Average
+Variance
+Standard Deviation (sd)
+<pre class="code">
+sd = population_sd / SQRT(sample_size)
+</pre>
+<pre class="code">
+x' = x - mu / sd
+</pre>
+
+Standard Normal Probability Distribution in Excel
+
 ## MS Excel
 
 ### Introduction
-[WIP]
+This is an attempt to understanding data and analytics using MS Excel.
 
 MS Excel V16.4
 
@@ -319,8 +334,13 @@ Slicers are visual filters in the form of interactive buttons. They are used to 
 - = CORREL(array_1,array_2)
 - = RSQ(y_array,x_array)
 
-Correlation:
+Correlation: CORREL
 R-Squared:
+
+### Solver
+The solver add in could be used to solve optimization problems.
+
+
 ## Vim
 ### Introduction
 Vim is a 'modal' editr i.e it's got modes
@@ -680,6 +700,11 @@ for (auto elem : vec){...}
 </pre>
 
 ## Unity2D
+
+### Links
+- [User interface and screen resolution](https://www.youtube.com/watch?v=_RIsfVOqTaE)
+- [Building a save system](https://www.youtube.com/watch?v=5roZtuqZyuw)
+
 ### Movement Scipt
 <pre class="code">
 // Update is called once per frame
@@ -726,7 +751,7 @@ public static float[,] GenerateNoiseMap(int mapWidth, int mapHeight, float scale
 ### Time
 Time.deltaTime : The completion time in seconds since the last frame (Read Only).This property provides the time between the current and previous frame.
 
-Last Updated: 19 May 2020
+Last Updated: 24 Sep 2020
 
 
 ## Git
@@ -1210,11 +1235,16 @@ Hands On
 ### About
 The following is a log of various questions solved. 
 
-- LC : Leetcode
 - CTCI : Cracking the coding interview
+- DCP : Daily Coding Problems
+- LC : Leetcode
 - SPOJ : Sphere Online Judge
 
 ### Log
+24 Sep 2020
+- DCP [ElementSumK](https://github.com/AbstractXan/CompetitiveProgramming/tree/master/DailyCodingProblems/2020-09-23)
+- DCP [MultiplyEverythingButMe](https://github.com/AbstractXan/CompetitiveProgramming/tree/master/DailyCodingProblems/2020-09-24)
+
 9 Sep 2020
 - LC 1022 Sum of Root To Leaf Binary Numbers
 
