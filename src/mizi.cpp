@@ -221,7 +221,7 @@ Category ** createCategories(int * categoryCount, string filename){
     string line;
     int lineNo=0;
 
-    Category * currentCategory; 
+    Category * currentCategory = NULL; 
     Page * currentPage = NULL;   
     bool uList = false;
     string currentPartName = "";
@@ -279,8 +279,7 @@ Category ** createCategories(int * categoryCount, string filename){
                         printError(lineNo,"No Category assigned!");
                         return 0;
                     }
-                    currentPage = createPage(line.substr(i+1,line.size()-i));
-                    addPage(currentCategory,currentPage);
+                    currentPage = createPage(line.substr(i+1,line.size()-i));                    addPage(currentCategory,currentPage);
                     uList = false;
                 }
 
