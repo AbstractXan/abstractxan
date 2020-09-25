@@ -17,7 +17,7 @@ struct Config{
 
 Config * configParser(){
     Config * conf = new Config;
-    ifstream configFile ("config.txt");
+    ifstream configFile("config.txt");
     if (configFile.is_open())
     {
     string line;
@@ -230,7 +230,7 @@ Category ** createCategories(int * categoryCount, string filename){
     //Category for separate pages
     Category * seperateCategory = createCategory("SeperatePages",0);
     
-    ifstream mdFile (filename);
+    ifstream mdFile(filename);
     
     if (mdFile.is_open())
     {
