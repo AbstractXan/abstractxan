@@ -225,9 +225,9 @@ x' = x - mu / sd
 ### Information:
 
 Entropy:
-<img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/bfe3616dee43f6287d4a4e2a557de8d48ad24926" style="width:40%">
+<img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/bfe3616dee43f6287d4a4e2a557de8d48ad24926" style="width:280px">
 
-<img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/a44d96821415e6aa4ac63b6c8f6af9dfdfa9a3f2" style="width:40%">
+<img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/a44d96821415e6aa4ac63b6c8f6af9dfdfa9a3f2" style="width:280px">
 
 Mutual Information/ Information Gain:
 <pre class="code">
