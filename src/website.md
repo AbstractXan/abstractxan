@@ -234,9 +234,7 @@ Mutual Information/ Information Gain:
 I(x,y) = H(x) - H(x|y) 
 </pre>
 
-<iframe width="100%" height="auto" src="https://www.youtube.com/watch?v=2s3aJfRr9gE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
+[Information Entropy](https://www.youtube.com/watch?v=2s3aJfRr9gE)
 
 ## MS Excel
 
