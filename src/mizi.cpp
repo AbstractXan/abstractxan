@@ -17,7 +17,7 @@ struct Config{
 
 Config * configParser(){
     Config * conf = new Config;
-    ifstream configFile ("config.txt");
+    ifstream configFile("config.txt");
     if (configFile.is_open())
     {
     string line;
