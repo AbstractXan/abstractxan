@@ -230,7 +230,7 @@ Category ** createCategories(int * categoryCount, string filename){
     //Category for separate pages
     Category * seperateCategory = createCategory("SeperatePages",0);
     
-    ifstream mdFile(filename);
+    ifstream mdFile(filename.c_str());
     
     if (mdFile.is_open())
     {
@@ -346,7 +346,8 @@ Category ** createCategories(int * categoryCount, string filename){
 
 void buildHome(Category * categories[], int categories_length, string path){
     ofstream htmlHome;
-    htmlHome.open(path+"/home.html");
+    string homePath = path+"/home.html";
+    htmlHome.open(homePath.c_str());
     htmlHome << html_head("Home");
     htmlHome << html_header;
     htmlHome << "<main class='home'>";
