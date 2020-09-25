@@ -27,6 +27,8 @@ Source files for my projects could be found on <a href='https://www.github.com/a
 ## Journal
 ###  
 Journal shows recent updates.
+![250920](../media/journal/250920.png)
+250920 - RSS Reader for updates
 ![080920](https://certificates.cs50.io/323374f9-48a8-4026-bfc8-b15c88cfa8e3.png?size=letter)
 080920 - Won the CS50 Puzzle Day | [Team](https://cs50.smugmug.com/CS50-Puzzle-Day-2020/i-zL4RXrS/A)
 ![220820](../media/journal/220820.png)
@@ -220,7 +222,17 @@ sd = population_sd / SQRT(sample_size)
 x' = x - mu / sd
 </pre>
 
-Standard Normal Probability Distribution in Excel
+### Information:
+
+Entropy:
+<img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/bfe3616dee43f6287d4a4e2a557de8d48ad24926" style="width:40%">
+
+<img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/a44d96821415e6aa4ac63b6c8f6af9dfdfa9a3f2" style="width:40%">
+
+Mutual Information/ Information Gain:
+<pre class="code">
+I(x,y) = H(x) - H(x|y) 
+</pre>
 
 ## MS Excel
 
@@ -436,16 +448,6 @@ This would deploy the lambda function and give HTTP endpoint like:
 [WIP]
 ### Links
 - 1. [Getting started with serverless functions using NodeJS and AWS](https://medium.com/@ashwinsoni/getting-started-with-serverless-functions-using-nodejs-and-aws-eef8c84abbf3)
-## AWS
-### Introduction
-[WIP]
-### Compute
-### Storage 
-
-## Kubernetes
-### Introduction
-[WIP]
-Kubernetes(k8s) is an open source platform for 
 
 ## Diffie-Hellmann Key Exchange
 ### Introduction
