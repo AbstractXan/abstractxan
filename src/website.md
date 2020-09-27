@@ -1245,6 +1245,9 @@ The following is a log of various questions solved.
 - SPOJ : Sphere Online Judge
 
 ### Log
+
+27 Sep 2020
+- DCP [Serialize Tree](https://github.com/AbstractXan/CompetitiveProgramming/tree/master/DailyCodingProblems/2020-09-25)
 24 Sep 2020
 - DCP [ElementSumK](https://github.com/AbstractXan/CompetitiveProgramming/tree/master/DailyCodingProblems/2020-09-23)
 - DCP [MultiplyEverythingButMe](https://github.com/AbstractXan/CompetitiveProgramming/tree/master/DailyCodingProblems/2020-09-24)
@@ -1496,8 +1499,17 @@ Last Updated: 8 May 2020
 
 ## Human changelog
 ###  
-- 7 Sep 2020 : Started [MS Excel](../ms_excel.html) 
-- 31 Aug 2020 : First paycheck
+- 26 Sep 2020 : Refactoring and unit testing Mizi
+- 24 Sep 2020 : Learning Makefile
+- 19 Sep 2020 : Git Actions for Mizi CI
+- 15 Sep 2020 : First Monitor LG IPS 4K
+- 13 Sep 2020 : Main() meet with @vvassup @realradone
+- 12 Sep 2020 : First [Raspberry Pi 4](raspberry_pi.html)
+- 8 Sep 2020 : First Mech Keyboard : HyperX Alloy FPS Pro TKL
+- 7 Sep 2020 : Started [MS Excel](ms_excel.html) 
+- 1 Sep 2020 : [Link_Dump](https://github.com/abstractxan/LINK_PUMP) format update
+- 31 Aug 2020 : <b> First paycheck </b>
+- 22 Aug 2020 : Link_Pump scripting 
 - 21 Aug 2020 : Learning vim
 - 9 Aug 2020 : Started learning AWS 
 - 3 Aug 2020 : First Day at Job 
@@ -1508,6 +1520,7 @@ Last Updated: 8 May 2020
 - 21 July 2020 : Job Interview Rejected - [MindBody]()
 - 18 July 2020 : Completed Coursera Golang specialisation
 - 5 July 2020 : Job Interview - [MindBody]()
+
 - 4 April 2020 : Google Code Jam Qualifiers
 - 14 April 2020 : Start Machine Learning
 - 16 April 2020 : Read Fahrenheit 451
@@ -1528,11 +1541,11 @@ Last Updated: 8 May 2020
 - 8 Jul 2020 Started looking into Goland and Microservices Architecture and Deployment for a potential Backend Lead Developer Post
 - 10 Jul 2020 Job interview for Velotio : Rejected
 
-Last Update: 12 Jul 2020
+Last Update: 26 Sep 2020
 ## Wanderings
 ### Study
 - Complete CTCI [x]
-- Complete DSA - Weiss []
+- Complete DSA - Weiss [x]
 ### Random things I wanna do
 - Unity GameDev
 - Variable passing through a website using JS
