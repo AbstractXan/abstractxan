@@ -27,7 +27,7 @@ Source files for my projects could be found on <a href='https://www.github.com/a
 ## Journal
 ###  
 Journal shows recent updates.
-![270920](../media/journal/270920/png)
+![270920](../media/journal/270920.png)
 270920 - [Link Pump](https://link-pump.netlify.app/site/home.html) gets a new look! 
 ![250920](../media/journal/250920.png)
 250920 - RSS Reader for updates
