@@ -28,7 +28,7 @@ Source files for my projects could be found on <a href='https://www.github.com/a
 ###  
 Journal shows recent updates.
 ![031020](../media/journal/031020.png)
-031020 - [Panels](https://abstractxan.itch.io/panels) - A small prototype for generating a random 2D grid.
+031020 - [Panels](https://abstractxan.itch.io/panels) - A small prototype for generating a random 2D grid. | [Repository](https://github.com/AbstractXan/Panels-Unity)
 ![270920](../media/journal/270920.png)
 270920 - [Link Pump](https://link-pump.netlify.app/site/home.html) gets a new look! 
 ![250920](../media/journal/250920.png)
