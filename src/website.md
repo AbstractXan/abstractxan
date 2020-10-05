@@ -27,6 +27,8 @@ Source files for my projects could be found on <a href='https://www.github.com/a
 ## Journal
 ###  
 Journal shows recent updates.
+![031020](../media/journal/031020.png)
+031020 - [Panels](https://abstractxan.itch.io/panels) - A small prototype for generating a random 2D grid.
 ![270920](../media/journal/270920.png)
 270920 - [Link Pump](https://link-pump.netlify.app/site/home.html) gets a new look! 
 ![250920](../media/journal/250920.png)
@@ -178,6 +180,34 @@ One could use mobilenet pretrained models using tf.js as given [here](https://gi
 <script src="../projects/mobilenet/helper.js"></script>
 
 # Articles
+
+## Kubernetes
+Kuberenetes aka K8s
+
+### Minikube
+Minikube starts a virtual machine which hosts a Kubernetes cluster.
+
+<pre class="code">
+minikube start
+</pre>
+
+### Kubectl
+Kubectl or Kube controller is CLI for K8s.
+
+Viewing cluster details
+<pre class="code">
+kubectl cluster-info
+</pre>
+
+Viewing the nodes in the cluster
+<pre class="code">
+kubectl get nodes
+</pre>
+
+Create and manage deployments
+
+### Links
+
 ## Raspberry Pi
 ### Introduction
 [WIP]
