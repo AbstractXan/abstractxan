@@ -241,6 +241,27 @@ Know more about SCP [here](https://tecadmin.net/download-file-using-ssh/)
 ### VNC
 Why even bother using the HDMI ports? Get [VNC](https://www.raspberrypi.org/documentation/remote-access/vnc/) to use your RPI on any device.
 
+### Nextcloud
+
+SSH into your RPi to do setup docker
+<pre class="code">
+sudo apt update
+sudo apt upgrade
+sudo apt install raspberrypi-kernel raspberrypi-kernel-headers
+curl -sSL https://get.docker.com | sh
+sudo usermod -aG docker pi
+sudo reboot
+</pre>
+
+Getting Nextcloud
+<pre class="code">
+docker pull nextcloud
+</pre>
+
+Reference links:
+- [Install docker on RPi](https://linuxhint.com/install_docker_on_raspbian_os/)
+- [Nextvloud Docker Instructions](https://github.com/nextcloud/docker)
+
 ## Data
 ### Standardization
 
