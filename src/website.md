@@ -27,6 +27,8 @@ Source files for my projects could be found on <a href='https://www.github.com/a
 ## Journal
 ###  
 Journal shows recent updates.
+![111020](../media/journal/111020.png)
+111020 - SDL2 Hello World
 ![031020](../media/journal/031020.png)
 031020 - [Panels](https://abstractxan.itch.io/panels) - A small prototype for generating a random 2D grid. | [Repository](https://github.com/AbstractXan/Panels-Unity)
 ![270920](../media/journal/270920.png)
