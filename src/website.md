@@ -2,27 +2,19 @@
 ## About
 ### Me
 
-<p> <img class='thumbnail' style='width:200px' src='https://pbs.twimg.com/profile_images/1136164853003849729/FFFdBGmk_400x400.png'> </p><p>Hello, I'm Priyansh Sangule, 4th year Computer Science and Engineering student at <a href='https://www.iittp.ac.in'>IIT Tirupati</a>. [Resume](../media/Priyansh_Sangule_Resume.pdf)
+<p> <img class='thumbnail' style='width:200px' src='https://pbs.twimg.com/profile_images/1136164853003849729/FFFdBGmk_400x400.png'> </p><p>Hello, I'm Priyansh Sangule [Resume](../media/Priyansh_Sangule_Resume.pdf) and this website is my [digital garden](https://joelhooks.com/digital-garden) where I curate ideas, technology, art, activity logs. I like tinkering around with computers and creating my own tools.
 
-I'm an extremely motivated individual who likes to tackle problems and tinker with the latest technology. 
+Currently, I manage [Mizi](https://github.com/abstractxan/Mizi), a static site generator used to build this website. My plans include improving Mizi and build my own time tracker.
 
-Currently, I manage Mizi ,a static site generator, which is being used to build this website. My plans include improving Mizi and build my time tracker.
-
-I have an insatiable thirst for knowledge and use it to improve my approach to problems. I am always fascinated by the ocean of unexplored knowledge that lies beyond. I constantly push myself to explore more. I am very glad to be surrounded by amazing individuals who keep inspiring me to learn and create something new and exciting every day.  
-
-Various things that intrigue me are named data networking(NDN), machine/deep learning, better quality code practices, game development, C++, gaming.
+Various things that intrigue me are cross platform software development, better quality code practices, game development, C++ and ways to improve productivity.
 </p>
-
-### Website
-This website exists as a knowledge base for curating ideas, technology, art, activity logs.
 
 ### Goal
 Further advance the fields of science and arts. Creating low level simple and sharp softwares that help people create and inspire others.
 
 ### Contribute
-<p>Website is currently under development.
-
-Source files for my projects could be found on <a href='https://www.github.com/abstractxan'>Github</a>. This website is made with C++ using  <a href='https://www.github.com/abstractxan/mizi'>Mizi</a>. Source files for my website are available <a href='https://www.github.com/abstractxan/abstractxan/tree/master/src'>here</a>.</p> <p>Inspired by <a href='https://solar.lowtechmagazine.com/2018/09/how-to-build-a-lowtech-website/'>low-tech web design</a>, most images on this website are <i>dithered</i>. This website is heavily inspired by <a href='https://100r.co'>100 Rabbits</a>.</p> <p>Found a typo? Feel free to open an <a href='github.com/abstractxan/abstractxan/issues/new'>issue</a>.</p>
+<p>
+Source files for my projects could be found on <a href='https://www.github.com/abstractxan'>Github</a>. This website is made with C++ using  <a href='https://www.github.com/abstractxan/mizi'>Mizi</a>. Source files for my website are available <a href='https://www.github.com/abstractxan/abstractxan/tree/master/src'>here</a>. This website is heavily inspired by <a href='https://100r.co'>100 Rabbits</a>.</p> <p>Found a typo? Feel free to open an <a href='github.com/abstractxan/abstractxan/issues/new'>issue</a>.</p>
 
 ## Journal
 ###  
