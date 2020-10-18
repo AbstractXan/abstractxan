@@ -14,7 +14,7 @@ Further advance the fields of science and arts. Creating low level simple and sh
 
 ### Contribute
 <p>
-Source files for my projects could be found on <a href='https://www.github.com/abstractxan'>Github</a>. This website is made with C++ using  <a href='https://www.github.com/abstractxan/mizi'>Mizi</a>. Source files for my website are available <a href='https://www.github.com/abstractxan/abstractxan/tree/master/src'>here</a>. This website is heavily inspired by <a href='https://100r.co'>100 Rabbits</a>.</p> <p>Found a typo? Feel free to open an <a href='github.com/abstractxan/abstractxan/issues/new'>issue</a>.</p>
+Source files for my projects could be found on <a href='https://www.github.com/abstractxan'>Github</a>. This website is made with C++ using  <a href='https://www.github.com/abstractxan/mizi'>Mizi</a>. Source files for my website are available <a href='https://www.github.com/abstractxan/abstractxan/tree/master/src'>here</a>. This website is heavily inspired by <a href='https://100r.co'>100 Rabbits</a>.</p> <p>Found a typo? Feel free to open an <a href='https://www.github.com/abstractxan/abstractxan/issues/new'>issue</a>.</p>
 
 ## Journal
 ###  
