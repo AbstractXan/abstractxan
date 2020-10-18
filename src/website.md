@@ -13,12 +13,7 @@ Various things that intrigue me are cross platform software development, better 
 Further advance the fields of science and arts. Creating low level simple and sharp softwares that help people create and inspire others.
 
 ### Contribute
-<<<<<<< HEAD
 <p>
-=======
-<p>Website is currently under development.
-
->>>>>>> 6e7cfd0a9a3557dddfd4dde06a03266fc312b369
 Source files for my projects could be found on <a href='https://www.github.com/abstractxan'>Github</a>. This website is made with C++ using  <a href='https://www.github.com/abstractxan/mizi'>Mizi</a>. Source files for my website are available <a href='https://www.github.com/abstractxan/abstractxan/tree/master/src'>here</a>. This website is heavily inspired by <a href='https://100r.co'>100 Rabbits</a>.</p> <p>Found a typo? Feel free to open an <a href='github.com/abstractxan/abstractxan/issues/new'>issue</a>.</p>
 
 ## Journal
