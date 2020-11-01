@@ -80,6 +80,9 @@ Journal shows recent updates.
 <p>Mizi is designed to be light weight, minimalistic and convenient. It is created in an attempt to help people create websites easily and without any prior web development experience.
 
 ## Mini-projects
+### Panels
+<p><iframe src="https://itch.io/embed/774904" height="auto" width="100%" frameborder="0"><a href="https://abstractxan.itch.io/panels">Panels by AbstractXan</a></iframe></p>
+
 ### Shooting Stars
 <p><iframe src='https://itch.io/embed/566225' height='auto' width='100%' frameborder='0'><a href='https://abstractxan.itch.io/shooting-stars'>Shooting stars by AbstractXan</a></iframe></p>
 
