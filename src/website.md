@@ -19,6 +19,8 @@ Source files for my projects could be found on <a href='https://www.github.com/a
 ## Journal
 ###  
 Journal shows recent updates.
+![271020](../media/journal/271020.png)
+271020 - Unity Kanban | [Repository](https://github.com/AbstractXan/Kanban-Unity)
 ![111020](../media/journal/111020.png)
 111020 - SDL2 Hello World
 ![031020](../media/journal/031020.png)
@@ -174,7 +176,46 @@ One could use mobilenet pretrained models using tf.js as given [here](https://gi
 <script src="../projects/mobilenet/helper.js"></script>
 
 # Articles
+## React
+### Links
+[React for Angular Developers](https://blog.fabritglobal.com/product-development/getting-started-with-react-angular-developer/)
 
+### Introduction
+React is a Javascript library unlike Angular - which is a framework.
+
+- - React has <b> only components </b>
+
+- - React has a <b> virtual </b> DOM object for every DOM object ; Limits frequently updating the DOM
+
+- - Only one element rendered per component : [JSX](https://reactjs.org/docs/introducing-jsx.html)
+
+### Components
+React contains only two types of components: <b> Functional </b> and <b> Class based </b>.
+
+<i>Functional components</i> are <b>stateless</b> and have no constructor
+<pre class="code">
+function App() {
+    return (
+        <p>Hello, World</p>	
+    );
+}
+export default App;
+</pre>
+
+<i>Class-based components</i> are <b>stateful</b> i.e they keep track of changing data
+
+<pre class="code">
+class HasTheParameter extends React.component{
+    render(){
+        return (<p>{this.props.theParameter}</p>)
+    }
+}
+export default HasTheParameter;
+</pre>
+
+
+
+Last Updated : 31 Oct 2020 
 ## Kubernetes
 Kuberenetes aka K8s
 
@@ -1292,7 +1333,8 @@ The following is a log of various questions solved.
 - SPOJ : Sphere Online Judge
 
 ### Log
-
+1 Nov 2020
+- LC 1290 [Convert Binary Number in a Linked List to Integer](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/) | Easy | LinkedList
 27 Sep 2020
 - DCP [Serialize Tree](https://github.com/AbstractXan/CompetitiveProgramming/tree/master/DailyCodingProblems/2020-09-25)
 24 Sep 2020
@@ -1382,6 +1424,26 @@ The following is a log of various questions solved.
 - SPOJ 2 : Prime Generator | [Code](https://github.com/AbstractXan/CompetitiveProgramming/blob/master/SPOJ/2.cpp)
 
 Started logging: 27 May 2020
+## Artwork
+### Disclaimer
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+
+### Mundane
+29-Oct-2020
+![Mundane](../media/art/mundane.png)
+
+### Football
+19-Oct-2020
+![Football](../media/art/football.png)
+
+### Pink Hair
+19-Oct-2020
+![Pink Hair](../media/art/pinkhair.png)
+
+### Watermelon
+19-Oct-2020
+![Watermelon](../media/art/watermelon.png)
+
 ## PixelArt
 ### Zip-Zap
 ![Zip-Zap](../media/pixelart/zip-zap-big.gif)
@@ -1545,7 +1607,10 @@ Log :
 Last Updated: 8 May 2020
 
 ## Human changelog
-###  
+### Timeline
+- 1 Nov 2020 : Started Preparing for CAT
+- 26 Oct 2020 : Learning Unity kanban drag and drop
+- 5 Oct 2020 : Started going out everyday for a walk / football
 - 26 Sep 2020 : Refactoring and unit testing Mizi
 - 24 Sep 2020 : Learning Makefile
 - 19 Sep 2020 : Git Actions for Mizi CI
