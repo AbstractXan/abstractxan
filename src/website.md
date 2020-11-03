@@ -1336,6 +1336,8 @@ The following is a log of various questions solved.
 - SPOJ : Sphere Online Judge
 
 ### Log
+3 Nov 2020
+- LC 1446 | Easy | Strings
 1 Nov 2020
 - LC 1290 [Convert Binary Number in a Linked List to Integer](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/) | Easy | LinkedList
 27 Sep 2020
