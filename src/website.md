@@ -179,6 +179,11 @@ One could use mobilenet pretrained models using tf.js as given [here](https://gi
 <script src="../projects/mobilenet/helper.js"></script>
 
 # Articles
+## Databases
+### Links
+[Things every developer absolutely, positively needs to know about database indexing](https://www.youtube.com/watch?v=HubezKbFL7E)
+### Database Indexing
+Last updated: 18 Nov
 ## React
 ### Links
 [React for Angular Developers](https://blog.fabritglobal.com/product-development/getting-started-with-react-angular-developer/)
