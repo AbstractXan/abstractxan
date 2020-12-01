@@ -181,7 +181,10 @@ One could use mobilenet pretrained models using tf.js as given [here](https://gi
 # Articles
 ## Databases
 ### Links
-[Things every developer absolutely, positively needs to know about database indexing](https://www.youtube.com/watch?v=HubezKbFL7E)
+- [[CMU Databse Group] Intro to Database Systems Fall 2019](https://www.youtube.com/playlist?list=PLSE8ODhjZXjbohkNBWQs_otTrBTrjyohi)
+- [[CMU Databse Group] Advanced Database Systems Spring 2020](https://www.youtube.com/playlist?list=PLSE8ODhjZXjasmrEd2_Yi1deeE360zv5O)
+
+- [Things every developer absolutely, positively needs to know about database indexing](https://www.youtube.com/watch?v=HubezKbFL7E)
 ### Database Indexing
 Last updated: 18 Nov
 ## React
@@ -790,12 +793,12 @@ Methods:
 <pre class="code">
 vector&lt;int&gt;::iterator it = vec.begin();
 vector&lt;int&gt;::iterator it = vec.end();
----
+
 int size = vec.size();
 vec.push_back( 5 );
 vec.erase( it );
 int elem = vec[0];
----
+
 for (auto elem : vec){...}
 </pre>
 
