@@ -185,6 +185,11 @@ One could use mobilenet pretrained models using tf.js as given [here](https://gi
 - [[CMU Databse Group] Advanced Database Systems Spring 2020](https://www.youtube.com/playlist?list=PLSE8ODhjZXjasmrEd2_Yi1deeE360zv5O)
 
 - [Things every developer absolutely, positively needs to know about database indexing](https://www.youtube.com/watch?v=HubezKbFL7E)
+### Questions
+
+- What are shards ?
+- BTrees vs Hash Tables ; What to use ?
+
 ### Database Indexing
 Last updated: 18 Nov
 ## React
@@ -1342,8 +1347,17 @@ The following is a log of various questions solved.
 - DCP : Daily Coding Problems
 - LC : Leetcode
 - SPOJ : Sphere Online Judge
+- AOC2020 : Advent Of Code 2020
+- BS : Binary Search
 
 ### Log
+3 Dec 2020
+- AOC2020 [Day 3](https://adventofcode.com/2020/day/3) | [Code]() | Easy 
+- AOC2020 [Day 2](https://adventofcode.com/2020/day/2) | [Code]() | Easyx2
+- AOC2020 [Day 1](https://adventofcode.com/2020/day/1) | [Code]() | Easy | Medium
+- BS [Merging K Sorted List](https://binarysearch.com/problems/Merging-K-Sorted-Lists/)
+2 Dec 2020
+- BS [Palindromic Anagram](https://binarysearch.com/problems/Palindromic-Anagram) | Easy | Bit Manipulation
 3 Nov 2020
 - LC 1446 | Easy | Strings
 1 Nov 2020
