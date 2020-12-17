@@ -181,8 +181,8 @@ One could use mobilenet pretrained models using tf.js as given [here](https://gi
 # Articles
 ## Databases
 ### Links
-- [[CMU Databse Group] Intro to Database Systems Fall 2019](https://www.youtube.com/playlist?list=PLSE8ODhjZXjbohkNBWQs_otTrBTrjyohi)
-- [[CMU Databse Group] Advanced Database Systems Spring 2020](https://www.youtube.com/playlist?list=PLSE8ODhjZXjasmrEd2_Yi1deeE360zv5O)
+- [CMU Databse Group -- Intro to Database Systems Fall 2019](https://www.youtube.com/playlist?list=PLSE8ODhjZXjbohkNBWQs_otTrBTrjyohi)
+- [CMU Databse Group -- Advanced Database Systems Spring 2020](https://www.youtube.com/playlist?list=PLSE8ODhjZXjasmrEd2_Yi1deeE360zv5O)
 
 - [Things every developer absolutely, positively needs to know about database indexing](https://www.youtube.com/watch?v=HubezKbFL7E)
 ### Questions
