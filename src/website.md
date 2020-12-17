@@ -461,13 +461,14 @@ The solver add in could be used to solve optimization problems.
 
 ## Vim
 ### Introduction
-Vim is a 'modal' editr i.e it's got modes
+Vim is a 'modal' editor i.e it's got modes
 
 Modes:
 - Command : Default, press <kbd>esc</kbd> to reach here
 - Insert : Press <kbd>i</kbd>
 - Write : Press <kbd>w</kbd>
 - Quit : Press <kbd>q</kbd>
+
 ### Commands
 - Delete a line[Command mode] :DD
 - Delete 3 lines [Commmand mode] :3 DD
@@ -1351,8 +1352,10 @@ The following is a log of various questions solved.
 - BS : Binary Search
 
 ### Log
+5 Dec 2020
+- BS [HomeRun](https://binarysearch.com/problems/Home-Run) | Medium | BitManipulation
 3 Dec 2020
-- AOC2020 [Day 3](https://adventofcode.com/2020/day/3) | [Code]() | Easy 
+- AOC2020 [Day 3](https://adventofcode.com/2020/day/3) | [Code]() | Easyx2 
 - AOC2020 [Day 2](https://adventofcode.com/2020/day/2) | [Code]() | Easyx2
 - AOC2020 [Day 1](https://adventofcode.com/2020/day/1) | [Code]() | Easy | Medium
 - BS [Merging K Sorted List](https://binarysearch.com/problems/Merging-K-Sorted-Lists/)

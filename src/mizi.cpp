@@ -50,6 +50,8 @@ string html_head(string text){
     return "<!DOCTYPE html><html lang='en'><head><link rel='shortcut icon' href='"+ conf->shortcut_icon +"' type='image/x-icon'><link rel='icon' href='"+conf->icon+"' type='image/x-icon'><meta charset='utf-8'><meta name='description' content='"+conf->description+"'><meta name='viewport' content='width=device-width, initial-scale=1.0'><meta name='twitter:card' content='summary'><meta name='twitter:site' content='"+conf->name+"'><meta name='twitter:title' content='"+conf->name+"'><meta name='twitter:description' content='"+conf->description+"'><meta name='twitter:creator' content='@"+conf->twitter_creator+"'><meta name='twitter:image' content='"+conf->icon+"'><meta property='og:title' content='"+conf->name+"'><meta property='og:site_name' content='"+conf->name+"'><title> "+conf->name+" - "+text+"</title><link rel='stylesheet' type='text/css' href='../links/main.css'></head><body class='"+text+"'>";
 }
 string html_header = "";
+// Portal to dashboard
+string html_home_header = "<header><a id='logo' href='../dashboard.html'><img src='../media/interface/logo.png' alt='AbstractXan' ></a></header>";
 string html_footer = "";
 
 struct Page{
@@ -348,7 +350,7 @@ void buildHome(Category * categories[], int categories_length, string path){
     string homePath = path+"/home.html";
     htmlHome.open(homePath.c_str());
     htmlHome << html_head("Home");
-    htmlHome << html_header;
+    htmlHome << html_home_header;
     htmlHome << "<main class='home'>";
 
     for(int i=1;i<=categories_length;i++){

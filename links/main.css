@@ -60,6 +60,11 @@ body footer p { font-weight: bold }
 body footer form { margin-top: 5px; border: 1.5px solid black; display: inline-block; }
 body footer form *:first-child { padding-left:15px; }
 body footer form *:last-child { background:#000;font-weight: bold;color:white;padding: 10px; cursor: pointer; }
+kbd {
+  border-radius: 2px;
+  padding: 2px;
+  border: 1px solid black;
+}
 
 div.sketchbook {height: 100%;}
 div.sketchbook img{ max-width: calc(100% - 20px); border-radius: 3px;margin: 10px; display: block; float: left; border-style: solid; border-radius: 3px; border-width: 3px;}
