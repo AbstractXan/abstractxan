@@ -1355,6 +1355,19 @@ The following is a log of various questions solved.
 25 Dec 2020
 - LC 1137 [Nth Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/) | [Code](https://github.com/AbstractXan/CompetitiveProgramming/tree/master/LC/nth-tribonacci) | Medium | Dynamic Programming
 - LC 70 [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | Medium | Dynamic Programming
+18 Dec 2020
+- BS [Palindromic Linked List](https://binarysearch.com/problems/Palindrome-Linked-List) | Medium | Two Pointers
+- BS [Linked List Intersection](https://binarysearch.com/problems/Linked-List-Intersection) | Medium | Linked List
+16 Dec 2020
+- BS [Factorial Factory](https://binarysearch.com/problems/Factorial-Factory) | Easy | Recursion
+- BS [Sum of first N odd integer](https://binarysearch.com/problems/Sum-of-First-N-Odd-Integers) | Easy | Math
+- BS [One Integer](https://binarysearch.com/problems/One-Integer) | Medium | Heap
+- BS [Frame Picture](https://binarysearch.com/problems/Frame-Picture) | Easy
+- BS [Inverse Factorial](https://binarysearch.com/problems/Inverse-Factorial) | Easy
+- BS [Domino Placement](https://binarysearch.com/problems/Domino-Placement) | Easy | Math
+- BS [N-Rooks](https://binarysearch.com/problems/N-Rooks/submissions/3212197) | Recursion
+15 Dec 2020
+- BS [Shortest Common Subsequence](https://binarysearch.com/problems/Shortest-Common-Supersequence) | Hard | Dynamic Programming 
 5 Dec 2020
 - BS [HomeRun](https://binarysearch.com/problems/Home-Run) | Medium | Bit Manipulation
 3 Dec 2020
