@@ -15,14 +15,14 @@ body {
   overflow-x: hidden; padding:45px 90px; line-height: 28px; max-width: 600px;  
   margin-left: auto; margin-right:auto;}
 body hr { border:0; clear:both; }
-body header a#logo { margin-top: -15px;display: block;width: 75px; margin-bottom:15px;}
-body header a#logo img { width:100%; }
+body header img.logo{ margin-top: -15px;display: block;width: 75px; margin-bottom:15px;}
 body main img.capsule { width: 150px; }
 body main img.medium {max-width: 300px;}
 body main > * { max-width: 600px; margin-bottom: 30px }
-body main > h1 { font-family: "alte_haas_grotesk_regular", "Helvetica Neue", Helvetica, Arial; font-size:45px; text-transform: capitalize; padding-bottom:30px; line-height: 1;}
-body main > h2 { font-family: "alte_haas_grotesk_bold", "Helvetica Neue", Helvetica, Arial; font-size:30px; text-transform: capitalize; }
+h1 { font-family: "alte_haas_grotesk_regular", "Helvetica Neue", Helvetica, Arial; font-size:45px; text-transform: capitalize; padding-bottom:30px; line-height: 1;}
+h2 { font-family: "alte_haas_grotesk_bold", "Helvetica Neue", Helvetica, Arial; font-size:30px; text-transform: capitalize; }
 body main img { width:100%; max-width: 600px; }
+body main img.logo{ margin-top: -15px;display: block;width: 75px; margin-bottom:15px;}
 body main > ul { font-family: 'input_mono_regular'; font-size:14px; line-height: 20px }
 body main > ul li a { text-transform: capitalize; text-decoration: underline; }
 body main > ul li b { font-weight: bold }
@@ -94,4 +94,21 @@ details {
 @media (max-width: 900px) {
   body { padding: 30px; }
   body main > ul.jump { columns: 1 !important }
+}
+
+/* Index.html */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px; /* 5px rounded corners */
+  padding: 4px 16px;
+}
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
 }
