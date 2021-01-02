@@ -1667,6 +1667,10 @@ Last Updated: 8 May 2020
 
 ## Human changelog
 ### Timeline
+- 
+- ?? Dec 2020 : Started learning databases
+- 17 Dec 2020 : Bought my first blazer
+- 29 Nov 2020 : Gave CAT exam
 - 1 Nov 2020 : Started Preparing for CAT
 - 26 Oct 2020 : Learning Unity kanban drag and drop
 - 5 Oct 2020 : Started going out everyday for a walk / football
@@ -1691,7 +1695,6 @@ Last Updated: 8 May 2020
 - 21 July 2020 : Job Interview Rejected - [MindBody]()
 - 18 July 2020 : Completed Coursera Golang specialisation
 - 5 July 2020 : Job Interview - [MindBody]()
-
 - 4 April 2020 : Google Code Jam Qualifiers
 - 14 April 2020 : Start Machine Learning
 - 16 April 2020 : Read Fahrenheit 451
@@ -1708,17 +1711,21 @@ Last Updated: 8 May 2020
 - 6 Jun 2020 : Started working on sleep schedule
 - 19 Jun 2020 : Started reading [Data Structures and Algorithm Analysis in C](https://www.amazon.com/Data-Structures-Algorithm-Analysis-2nd/dp/0201498405/ref=pd_sbs_14_10?_encoding=UTF8&pd_rd_i=0201498405&pd_rd_r=419e33ca-9da8-4296-acd1-209c1f6288dd&pd_rd_w=Vl5qZ&pd_rd_wg=t74yz&pf_rd_p=d28ef93e-22cf-4527-b60a-90c984b5663d&pf_rd_r=S6B43ACM842RGFEYW1N4&psc=1&refRID=S6B43ACM842RGFEYW1N4)
 - 29 Jun 2020 : Started Coursera course on [Functions, Methods, and Interfaces in Go](https://www.coursera.org/learn/golang-functions-methods/home/welcome)
-- 5 Jul 2020 Coursera Certified Course : [Functions, Methods and Interfaces in Go](https://www.coursera.org/account/accomplishments/certificate/YWZFLD4PEVGH)
-- 8 Jul 2020 Started looking into Goland and Microservices Architecture and Deployment for a potential Backend Lead Developer Post
-- 10 Jul 2020 Job interview for Velotio : Rejected
+- 5 Jul 2020 : Coursera Certified Course : [Functions, Methods and Interfaces in Go](https://www.coursera.org/account/accomplishments/certificate/YWZFLD4PEVGH)
+- 8 Jul 2020 : Started looking into Goland and Microservices Architecture and Deployment for a potential Backend Lead Developer Post
+- 10 Jul 2020 : Job interview for Velotio : Rejected
 
-Last Update: 26 Sep 2020
+- ?? Feb 2020 : Created and hosted website
+Last Update: 2 Jan 2021
+
 ## Wanderings
 ### Study
+- Databases []
+- Dynamic Programming []
 - Complete CTCI [x]
 - Complete DSA - Weiss [x]
+
 ### Random things I wanna do
 - Unity GameDev
-- Variable passing through a website using JS
 - Explore Webassembly
 - Write about Webassembly
