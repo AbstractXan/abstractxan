@@ -412,7 +412,7 @@ void createSite(string filename, string path){
     Category ** cats;
     int categoryCount = 0;
     cats = createCategories(&categoryCount, filename);
-    cout << "Categories found: " << categoryCount << endl;
+    cout << "Categories found (" << filename << "): " << categoryCount << endl;
 
     conf = configParser();
     html_header = "<header>"+conf->header+"</header>";

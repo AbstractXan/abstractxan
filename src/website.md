@@ -479,11 +479,11 @@ Modes:
 
 ### Links
 - Vim [Cheetsheet](http://vimsheet.com)
-- [VimCasts](http://vimcasts.org)
 - [SuperTab](https://youtube.com/watch?v=BhwtnCaFTFk) plugin
 - [Improving Vim Speed](https://youtube.com/watch?v=watch?v=OnUiHLYZgaA)
 - Ctabs plugin
 - Macros [vimcast](http://vimcasts.org/episodes/converting-markdown-to-structured-html-with-a-macro/)
+- [Vim Creep](https://rudism.com/vim-creep/) - a story of vim user 
 
 
 ## PHP
@@ -1352,6 +1352,9 @@ The following is a log of various questions solved.
 - BS : Binary Search
 
 ### Log
+2 Jan 2020
+- BS [Roomba Sequel](https://binarysearch.com/problems/Roomba-Sequel) | Hard | HashTable
+- BS [Split List Into Strictly Increasing Chunks](https://binarysearch.com/problems/Split-List-Into-Strictly-Increasing-Chunks) | Hard | HashTable
 25 Dec 2020
 - LC 1137 [Nth Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/) | [Code](https://github.com/AbstractXan/CompetitiveProgramming/tree/master/LC/nth-tribonacci) | Medium | Dynamic Programming
 - LC 70 [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | Medium | Dynamic Programming
