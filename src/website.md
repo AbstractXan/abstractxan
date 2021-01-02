@@ -1526,6 +1526,7 @@ The library is a collection of good content I have read/watched and recommend to
 - Hands On Machine Learning with Scikit-Learn, Keras, and TensorFlow by <b>Aurelion Geron</b>
 - Cracking the coding interview by <b>Gayle Laakman McDowell</b>
 ### Anime
+- Tatami Galaxy
 - Mushishi
 - Steins;Gate
 - One Punch Man
@@ -1539,17 +1540,20 @@ The library is a collection of good content I have read/watched and recommend to
 - Kimi no na wa
 - 5 Centimeters per sec
 - Garden of Words
-### Mubi(English)
-- So long my son
-- Tokyo Sonata
-- Office spaces
-- Curse of the golden flower
-- Tripping with Nils Frahm
+### Mubi
+- 25/12/20 :[Upstream Color](https://mubi.com/films/upstream-color) | Sci-Fi, Drama, Mystery | 4/5
+- 25/12/20 : [The Adventures of Tin Tin](https://mubi.com/films/the-adventures-of-tintin) | Animation | 3/5
+- 24/12/20 : [So long my son - Wang Xiaoshuai](https://mubi.com/films/so-long-my-son) | Drama | 4/5
+- 16/12/20 : [Tokyo Sonata - Kiyoshi Kurosawa](https://mubi.com/films/tokyo-sonata) | Drama | Life | 3/5
+- 15/12/20 : [Breakwater](https://mubi.com/films/quebramar) | Sexuality | 3/5
+- 13/12/20 : Curse of the golden flower | 2/5
+- 14/12/20 : [Tripping with Nils Frahm]() | Documentary | Music | 4/5
+- 12/12/20 : [Office spaces]() | 3/5
 - Her
-### Mubi(Hindi)
+### Mubi(India)
 - Gamak Ghar
 - Pyaasa
-- 3 Idiots
+- 12/12/20 3 Idiots
 ## Sketchbook 2019
 ### Sketches
 <div class='sketchbook'><img src='../media/sketchbook2019/Sketchbook2019-02.jpg'><img src='../media/sketchbook2019/Sketchbook2019-03.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-04.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-05.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-06.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-07.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-08.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-09.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-10.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-11.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-12.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-13.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-14.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-15.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-16.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-17.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-18.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-19.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-20.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-21.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-22.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-23.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-24.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-25.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-26.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-27.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-28.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-29.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-30.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-31.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-32.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-33.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-34.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-35.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-36.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-37.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-38.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-39.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-40.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-41.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-42.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-43.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-44.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-45.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-46.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-47.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-48.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-49.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-50.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-51.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-52.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-53.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-54.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-55.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-56.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-57.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-58.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-59.jpg'></div>
@@ -1667,10 +1671,13 @@ Last Updated: 8 May 2020
 
 ## Human changelog
 ### Timeline
-- 
 - ?? Dec 2020 : Started learning databases
-- 17 Dec 2020 : Bought my first blazer
+- 29 Dec 2020 : Watched watching Silicon Valley S01-S06
+- 17 Dec 2020 : Bought my first Blazer (Park Avenue)
+- 2 Dec 2020 : Advent of Code 2020 
+- 30 Nove 2020 : Watched [Tatami Galaxy](https://en.wikipedia.org/wiki/The_Tatami_Galaxy)
 - 29 Nov 2020 : Gave CAT exam
+- 29 Nov 2020 : Started using [BinarySearch platform](https://binarysearch.com)
 - 1 Nov 2020 : Started Preparing for CAT
 - 26 Oct 2020 : Learning Unity kanban drag and drop
 - 5 Oct 2020 : Started going out everyday for a walk / football
