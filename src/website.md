@@ -1352,6 +1352,8 @@ The following is a log of various questions solved.
 - BS : Binary Search
 
 ### Log
+3 Jan 2020
+- BS [IP Address Combinations](https://binarysearch.com/problems/IP-Address-Combinations) | Hard | Recursion
 2 Jan 2020
 - BS [Roomba Sequel](https://binarysearch.com/problems/Roomba-Sequel) | Hard | HashTable
 - BS [Split List Into Strictly Increasing Chunks](https://binarysearch.com/problems/Split-List-Into-Strictly-Increasing-Chunks) | Hard | HashTable
