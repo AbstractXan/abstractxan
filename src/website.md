@@ -1352,6 +1352,8 @@ The following is a log of various questions solved.
 - BS : Binary Search
 
 ### Log
+5 Jan 2020
+- BS [Number of moves to capture the king][https://binarysearch.com/problems/Number-of-Moves-to-Capture-the-King] | Medium | BFS | DP
 3 Jan 2020
 - BS [IP Address Combinations](https://binarysearch.com/problems/IP-Address-Combinations) | Hard | Recursion
 2 Jan 2020
