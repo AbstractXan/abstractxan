@@ -85,10 +85,32 @@ Journal shows recent updates.
 - [x] Automate LINK DUMP
 
 # Blog
+## Expressing intent
+###  
+Expressing intent is a major part of communication while driving. It is language agnostic —  a mere wave of hand can help the other drivers to re-evaluate their decisions.
+
+For instance - a common mistake I used to make was to apply brakes at the exact time I needed to. But a sudden brake would surprise the vehicle right behind me - as they get very less time to react to it. 
+
+<i>How to do it right?</i>
+Apply a slight break - hinting them to get ready for a change in flow. Take a pause of about half a second to actually apply breaks. This heads up will help the other driver react to you better.
+
+Slow down your car before turning- start moving it in the direction you want to turn a little. Observe how people around you are reacting to it. Chances are some vehicles might not notice it until after a while - preventing a suprise turn into a bad accident (pun!).
+
+The normal expression of intent we do on a daily basis is to use the indicator or flash headlights.
+
+Another one would be a horn - just to alert the other car of things like :
+- "I'm tryna overtake ; Keep going straight ; Do not deviate."
+- "Hey look over here there's a vehicle coming through"
+- "MOOOOOVE IT'S AN EMERGENCY"
+
+Expressing intent while driving makes you predictable and helps others decide their course of action well in advance.
+
+1-NOV-2020
+
 ## Why we need rules 
 ###  
 I had a quick thought about why adults set rules for themselves and why they live the way they live.
-This is probably because when you’re young you have a lot of stuff. I personally had a lot of fun exploring lot of stuff — and you do them in no particular order.
+This is probably because when you’re young you have a lot of stuff to explore — and you do them in no particular order.
 But a day comes while you get fed up with this randomness. This makes you self impose some rules to sort out the chaos you’ve been living in. 
 You set new schedules, you start managing the way deal with time, money and knowledge; keeping priorities right and pushing towards your goals.
 
@@ -104,6 +126,22 @@ Isn’t that worth living for?
 Carpe diem
 <i>Cease the day</i>
 Wrote after watching Dead poets society. Watch it again bud.
+
+## Communication
+###  
+Communication is absolutely necessary.
+
+Are you able express complex ideas in at least one language? If yes, then you’re done. Otherwise it’ll get really hard.
+
+<i><< INSERT A REALLY HARD IDEA TO EXPLAIN >></i>
+
+I’ve been studying English since childhood and I remember our teachers stressing hard on the importance of communication and I (used to) shrug it off like “Science and Math” don’t need languages.
+
+But now that I look back and I see the current scenario where I almost struggle to find simpler words — my (native English) colleagues speak it so well and with such efficiency that sometimes I’m awestruck at their art of communication. 
+
+While they speak like a clean calm stream of water, mine is more turbulent at times. I see scope of improvement! :)
+
+1-OCT-2020
 
 ## Tackling off campus placements
 ### Introduction
