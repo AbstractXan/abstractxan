@@ -12,6 +12,6 @@ int main(int argc,char *argv[]){
         }
     }
     createSite("website.md","../site/");
-    createSite("blog.md","../blog/");
+    createSite("draft.md","../draft/");
     return 0;
 }
