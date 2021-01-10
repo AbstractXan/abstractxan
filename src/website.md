@@ -1,65 +1,78 @@
 # Home
 ## About
 ### Me
-
-<p> <img class='thumbnail' style='width:200px' src='https://pbs.twimg.com/profile_images/1136164853003849729/FFFdBGmk_400x400.png'> </p><p>Hello, I'm Priyansh Sangule [Resume](../media/Priyansh_Sangule_Resume.pdf) and this website is my [digital garden](https://joelhooks.com/digital-garden) where I curate ideas, technology, art, activity logs. I like tinkering around with computers and creating my own tools.
+<img class='thumbnail' style='width:200px' src='https://pbs.twimg.com/profile_images/1136164853003849729/FFFdBGmk_400x400.png'>
+Hello, I'm Priyansh Sangule [Resume](../media/Priyansh_Sangule_Resume.pdf) and this website is my [digital garden](https://joelhooks.com/digital-garden) where I curate ideas, technology, art, activity logs. I like tinkering around with computers and creating my own tools.
 
 Currently, I manage [Mizi](https://github.com/abstractxan/Mizi), a static site generator used to build this website. My plans include improving Mizi and build my own time tracker.
 
 Various things that intrigue me are cross platform software development, better quality code practices, game development, C++ and ways to improve productivity.
-</p>
-
 ### Goal
 Further advance the fields of science and arts. Creating low level simple and sharp softwares that help people create and inspire others.
-
 ### Contribute
-<p>
-Source files for my projects could be found on <a href='https://www.github.com/abstractxan'>Github</a>. This website is made with C++ using  <a href='https://www.github.com/abstractxan/mizi'>Mizi</a>. Source files for my website are available <a href='https://www.github.com/abstractxan/abstractxan/tree/master/src'>here</a>. This website is heavily inspired by <a href='https://100r.co'>100 Rabbits</a>.</p> <p>Found a typo? Feel free to open an <a href='https://www.github.com/abstractxan/abstractxan/issues/new'>issue</a>.</p>
+Source files for my projects could be found on [Github](https://www.github.com/abstractxan). This website is made with C++ using [Mizi](https://www.github.com/abstractxan/mizi). Source files for my website are available [here](https://www.github.com/abstractxan/abstractxan/tree/master/src). This website is heavily inspired by [100 Rabbits](https://100r.co).
+
+Found a typo? Feel free to open an [issue](https://www.github.com/abstractxan/abstractxan/issues/new).
 
 ## Journal
 ###  
 Journal shows recent updates.
-![271020](../media/journal/271020.png)
-271020 - Unity Kanban | [Repository](https://github.com/AbstractXan/Kanban-Unity)
+
+![271020](../media/journal/271020.png) 271020 - Unity Kanban | [Repository](https://github.com/AbstractXan/Kanban-Unity) 
+
 ![111020](../media/journal/111020.png)
 111020 - SDL2 Hello World
+
 ![031020](../media/journal/031020.png)
 031020 - [Panels](https://abstractxan.itch.io/panels) - A small prototype for generating a random 2D grid. | [Repository](https://github.com/AbstractXan/Panels-Unity)
+
 ![270920](../media/journal/270920.png)
 270920 - [Link Pump](https://link-pump.netlify.app/site/home.html) gets a new look! 
+
 ![250920](../media/journal/250920.png)
 250920 - RSS Reader for updates
+
 ![080920](https://certificates.cs50.io/323374f9-48a8-4026-bfc8-b15c88cfa8e3.png?size=letter)
 080920 - Won the CS50 Puzzle Day | [Team](https://cs50.smugmug.com/CS50-Puzzle-Day-2020/i-zL4RXrS/A)
+
 ![220820](../media/journal/220820.png)
 220820 - Learning [Vim](./vim.html)!
+
 ![160820](../media/journal/160820.png)
 160820 - Getting a feel of some PHP
+
 ![110820](../media/journal/110820.jpg)
 110820 - Learning AWS Lamda and Serverless applications
+
 ![180720](../media/journal/180720.png)
 180720 - Programming with Google Go Specialization | [Coursera](https://coursera.org/share/9fe09f16123983bb2df8fc8ae2d11861) | [Code](https://github.com/AbstractXan/Golang/blob/master/Coursera/)
+
 ![030720](../media/journal/030720.png)
 030720 - Object Oriented Programming in Golang | [Notes](https://github.com/AbstractXan/Golang/blob/master/Coursera/2%20Functions%2C%20Methods%2C%20and%20Interfaces%20in%20Go/week3/notes.md) | [Coursera](https://www.coursera.org/learn/golang-functions-methods)
+
 <a href="https://asciinema.org/a/gbkU4ITHnt4fs9buS5YcT5r0b" target="_blank"><img src="https://asciinema.org/a/gbkU4ITHnt4fs9buS5YcT5r0b.svg" /></a>
 090620 - miniNDN experiments | [Github](https://github.com/AbstractXan/minindn-experiments)
+
 ![040620](../media/journal/040620.png)
 250520 - Golang
+
 ![250520](../media/journal/250520.png)
 250520 - Orange
+
 ![220520](../media/journal/220520.png)
 220520 - Database Concepts Notes
+
 ![190520](../media/journal/190520.png)
 190520 - MobileNet tf.js [implementation](./tensorflowjs.html#MobileNetv1.0.0) | [image](https://unsplash.com/photos/9SWHIgu8A8k)
+
 ![180520](../media/journal/180520.png)
 180520 - Object Detection | [image](https://unsplash.com/photos/HdtIiGcIQtU)
+
 ![170520](../media/journal/170520.jpeg)
 170520 - [Perlin Noise](./unity2d.html#better_perlin_noise__octaves)
+
 ![150520](../media/dl/catsdogsMODEL.png)
 150520 - CNN Cat/Dog [Model](./deep_learning_image_classification.html)
-
-
-
 ## Bucket List
 ###  
 - [x] Create my own website
@@ -68,37 +81,52 @@ Journal shows recent updates.
 - [ ] Get a Gramophone
 - [ ] Own a vinyl record of my own songs 
 - [ ] Learn longboarding
-- [ ] Create LINK DUMP webpage
+- [x] Create LINK DUMP webpage
+- [x] Automate LINK DUMP
 
 # Blog
+## Why we need rules 
+###  
+I had a quick thought about why adults set rules for themselves and why they live the way they live.
+This is probably because when you’re young you have a lot of stuff. I personally had a lot of fun exploring lot of stuff — and you do them in no particular order.
+But a day comes while you get fed up with this randomness. This makes you self impose some rules to sort out the chaos you’ve been living in. 
+You set new schedules, you start managing the way deal with time, money and knowledge; keeping priorities right and pushing towards your goals.
+
+Read more about this topic: [Decision Fatigue](https://en.wikipedia.org/wiki/Decision_fatigue)
+abc
+
+## Dead Poets Society
+###  
+Well it’s true bloodshed and bloodlust is all around
+We live for some anxiety, love, happiness, touch too.
+Isn’t that worth living for?
+  
+Carpe diem
+<i>Cease the day</i>
+Wrote after watching Dead poets society. Watch it again bud.
+
 ## Tackling off campus placements
 ### Introduction
 This blog is a work in progress.
-
 The following blog post is my personal experience with <b>product development companies</b> and their requirements. If you wanna find out more about applying to various domains like Machine/Deep learning , DevOps or others please contact devs from other domains.
-
 ### Programming Language
 Learn ONE programming language. And learn it all the way. So much so that you could/should create your own piece of software/tool. (Like I wrote [Mizi](https://github.com/AbstractXan/Mizi))
-
 ### Programming Language checklist
-- 1. Primitive data types and their usage (Other languages could include many more)
+1. Primitive data types and their usage (Other languages could include many more)
 - - Int, Float, String, Bool
 - - Arrays, Dynamic arrays/SLICES?
 - - Maps/Dictionary
 
-- 2. Composite data types:  structs	
+2. Composite data types:  structs	
 
-- 3. Functions for primitive data types:
+3. Functions for primitive data types:
 - - Types conversions: eg. int -> string / string -> int 
 - - Traversing through the data structure: eg. Iterators (C++)
 
-- 4. Learn how to use standard libraries your programming language provides. [ABSOLUTE MUST]. 
+4. Learn how to use standard libraries your programming language provides. [ABSOLUTE MUST]. 
 - Eg. C++ : vector, string, algorithm, hash map, list, queue, stack, dequeue, sets. 
-
 Understand that these are abstractions for ADTs and could be implemented however you want.
-
 <i>“I’ll create my own library”</i> is the wrong way of solving the problem.
-
 ### Programming Best Practices Checklist
 [WIP]
 - - Recursion vs Memory/Memoization
@@ -106,13 +134,10 @@ Understand that these are abstractions for ADTs and could be implemented however
 - - Sensible variable naming conventions
 - - ...
 
-<i>“Dude I like python. I absolutely hate C++”.</i> If you’re this guy, ENSURE that you understand C++ inside out and then shrug it off simply because it doesn’t suit you. 
-
+<i>“Dude I like python. I absolutely hate C++”.</i> If you’re this guy, ENSURE that you understand C++ inside out and then shrug it off simply because it doesn’t suit you.
 ### Coding 
 Learn [OOPS](../site/object_oriented_programming.html) concepts. You have to. Object oriented approach is closest you could get to the real world. Every language has different ways of including oops concepts.
-
 Writing badly structured and C-like procedural code is simpler but inconvenient — (Trust me I’ve been writing that sort of bad code earlier and it sucked ass)
-
 Learn about <b>time complexities</b>. Whenever you come up with a solution, analyse it’s best case and worst case time complexities.
 
 ### Technology
@@ -164,76 +189,68 @@ While giving an interview, the interviewer focuses more on your approach to solv
 
 ## Death
 ###  
-To everyone who was ever a part of this beautiful journey, <i>“[Thanks for the adventure, now go have a new one!](https://www.youtube.com/watch?v=9yjAFMNkCDo)”</i> <br>-Love, Priyansh
+To everyone who was ever a part of this beautiful journey,
+<i>“[Thanks for the adventure, now go have a new one!](https://www.youtube.com/watch?v=9yjAFMNkCDo)”</i>
+- Love, Priyansh
 
 ###   
-
 <iframe src="https://merveilles.town/@neauoire/104294221475568164/embed" class="mastodon-embed" style="max-width: 100%; border: 0; height: 300px" width="600px" allowfullscreen="allowfullscreen"></iframe>
 
 # Projects
 
 ## Mizi
 ### Introduction
-<p><img class='thumbnail' style='max-width:200px' src='../media/interface/mizi.png'><p><a href='https://github.com/abstractxan/mizi'>Mizi</a> is a static website generator written in C++ that takes markdown file as input.</p>
+<img class='thumbnail' style='max-width:200px' src='../media/interface/mizi.png'>[Mizi](https://github.com/abstractxan/mizi) is a static website generator written in C++ that takes markdown file as input.
 
 ### Philosophy
-<p>Mizi is designed to be light weight, minimalistic and convenient. It is created in an attempt to help people create websites easily and without any prior web development experience.
+Mizi is designed to be light weight, minimalistic and convenient. It is created in an attempt to help people create websites easily and without any prior web development experience.
 
 ## Mini-projects
 ### Panels
-<p><iframe src="https://itch.io/embed/774904" height="auto" width="100%" frameborder="0"><a href="https://abstractxan.itch.io/panels">Panels by AbstractXan</a></iframe></p>
+<iframe src="https://itch.io/embed/774904" height="auto" width="100%" frameborder="0"><a href="https://abstractxan.itch.io/panels">Panels by AbstractXan</a></iframe>
 
 ### Shooting Stars
-<p><iframe src='https://itch.io/embed/566225' height='auto' width='100%' frameborder='0'><a href='https://abstractxan.itch.io/shooting-stars'>Shooting stars by AbstractXan</a></iframe></p>
+<iframe src='https://itch.io/embed/566225' height='auto' width='100%' frameborder='0'><a href='https://abstractxan.itch.io/shooting-stars'>Shooting stars by AbstractXan</a></iframe>
 
 ### Space 
-<p><iframe src='https://itch.io/embed/543741' height='auto' width='100%' frameborder='0'><a href='https://abstractxan.itch.io/space'>Space by AbstractXan</a></iframe>
+<iframe src='https://itch.io/embed/543741' height='auto' width='100%' frameborder='0'><a href='https://abstractxan.itch.io/space'>Space by AbstractXan</a></iframe>
 
 ## Enigma 2020
 ### About
-![](../media/enigma/poster.png)<p>Enigma is a competitive ciphering and deciphering heist while looking for clues in the gigantic internet universe. Explore some amazing corners of the web-battling out puzzles and reading between the lines. Got stuck on some questions? Work your way out through your search engines. </p>
-
+![](../media/enigma/poster.png)Enigma is a competitive ciphering and deciphering heist while looking for clues in the gigantic internet universe. Explore some amazing corners of the web-battling out puzzles and reading between the lines. Got stuck on some questions? Work your way out through your search engines.
 ### Leaderboard
-<p><ul><li><b>290 / 355 Kowalski Analysis</b></li><li><b>285 / 355 Living Immortals</b></li> <li>270 / 355 Chillminati</li> <li>270 / 355 Aam Aadmi Party</li> <li>260 / 355 Pigs Are Awesome</li> <li>240 / 355 404!</li> <li>225 / 355 Team Snow</li> <li>215 / 355 strugglers</li> <li>200 / 355 Cicada3301</li> <li>180 / 355 the beacons</li> <li>145 / 355 turingBois</li> <li>135 / 355 The Deathly Hallows</li> <li>120 / 355 execute ?</li> <li>120 / 355 DedSec</li> <li>120 / 355 Anything is fine</li> <li>60 / 355 SaCreD MaFiA</li></ul></p>
-
+<ul><li><b>290 / 355 Kowalski Analysis</b></li><li><b>285 / 355 Living Immortals</b></li> <li>270 / 355 Chillminati</li> <li>270 / 355 Aam Aadmi Party</li> <li>260 / 355 Pigs Are Awesome</li> <li>240 / 355 404!</li> <li>225 / 355 Team Snow</li> <li>215 / 355 strugglers</li> <li>200 / 355 Cicada3301</li> <li>180 / 355 the beacons</li> <li>145 / 355 turingBois</li> <li>135 / 355 The Deathly Hallows</li> <li>120 / 355 execute ?</li> <li>120 / 355 DedSec</li> <li>120 / 355 Anything is fine</li> <li>60 / 355 SaCreD MaFiA</li></ul>
 ### Goal
 Enigma as a medium is our way of exposing the participants to a myriad of exciting places on the internet. We strive to provide an unparalleled experience similar to an open world game — explore the depths of internet for clues, crack mind-bending puzzles, and get to know more about the rad things people are doing in the world.
 
 Every team's journey is unique and depends on how they approach a problem. Every question has a unique solution and it doesn't matter what path you take, it's important to remember <b>what</b> you're looking for. It's easy to get lost, you see.
-
 ### Rules
 Rulebook can be found <a href='../media/enigma/rulebook.pdf'>here</a>
-
 ### Questions
 Questions will be posted here soon.
-
 ### Creators
 <div class='row' style='height:auto'>
 <div style='float: left;max-width:25%'> <img class='thumbnail' src='https://pbs.twimg.com/profile_images/1136164853003849729/FFFdBGmk_400x400.png'></div> <div style='float:left'><p><b>Priyansh Sangule</b></p><p>Prelims & Finals</p></div></div>
-
 <div class='row'><div style='float: left; max-width:25%'> <img class='thumbnail' src = 'https://pbs.twimg.com/profile_images/1020017161190879232/nIzK9fNr_400x400.jpg'></div> <div><b> Anup Kulkarni</b><p>Prelims & Finals</p></div>
 </div>
-
 <div class='row' style='height:auto'><div style='float: left;max-width:25%'> <img class='thumbnail' src='https://scontent.fmaa8-1.fna.fbcdn.net/v/t1.0-9/p960x960/35551558_1998725663776165_5836937181775527936_o.jpg?_nc_cat=110&_nc_ohc=ScFYxe7cTKgAX9NpvLJ&_nc_ht=scontent.fmaa8-1.fna&_nc_tp=6&oh=72b00ef9d26e31be2c1f02f7f2233446&oe=5ED5BF9D'> </div> 
 <div><b>Aditya Chaudhary </b><p>Prelims</p></div></div>
-
 <div class='row' style='height:auto'><div style='float: left;max-width:25%'> <img class='thumbnail' src='https://instagram.fhyd6-1.fna.fbcdn.net/v/t51.2885-19/s150x150/70601826_479838035933997_6856475423283347456_n.jpg?_nc_ht=instagram.fhyd6-1.fna.fbcdn.net&_nc_ohc=hpw9WVfvyBYAX-j4XYW&oh=ca18e7a05420a7f145db61d4bf187f3a&oe=5EC37A6F'> </div> <div><b>Sibibalan </b><p>Prelims</p></div></div>
 
 ## Enigma 2019
 ### About
-<p>Enigma is a competitive ciphering and deciphering heist while looking for clues in the gigantic internet universe. Explore some amazing corners of the web-battling out puzzles and reading between the lines. Got stuck on some questions? Work your way out through your search engines.</p>
-
+Enigma is a competitive ciphering and deciphering heist while looking for clues in the gigantic internet universe. Explore some amazing corners of the web-battling out puzzles and reading between the lines. Got stuck on some questions? Work your way out through your search engines.
 ### Feedback
-<p><ul><li>\"Some are mind-bending, some are deep, some are clueless. It's an awesome experience overall.\" <b> — Sai Krupa Reddy, IIT Tirupati</b></li><br><li>\"Even though we couldn't come up with proper logics or answers, it was fun!!\"<li><b>—Hemangi Doye, IIM Indore</b></li><br><li>\"Horiffying. Enthralling. We loved it! Enjoyed the ride. Wish to solve many more of these again and again.\"<b> — Aparna Vadlamani, IIT Tirupati</b></li><br><li>\"It is an awesome,  brain storming event and best one I have ever attempted. I would love to participate even after my B.Tech.\"<b> — Sai Sumanth Vanka, IIT Tirupati</b></li></ul></p>
+<ul><li>\"Some are mind-bending, some are deep, some are clueless. It's an awesome experience overall.\" <b> — Sai Krupa Reddy, IIT Tirupati</b></li><br><li>\"Even though we couldn't come up with proper logics or answers, it was fun!!\"<li><b>—Hemangi Doye, IIM Indore</b></li><br><li>\"Horiffying. Enthralling. We loved it! Enjoyed the ride. Wish to solve many more of these again and again.\"<b> — Aparna Vadlamani, IIT Tirupati</b></li><br><li>\"It is an awesome,  brain storming event and best one I have ever attempted. I would love to participate even after my B.Tech.\"<b> — Sai Sumanth Vanka, IIT Tirupati</b></li></ul>
 
 ### Insight
-<p> Insights for the event could be found <a href='../media/enigma/enigma_2019_insights.png'> here</a></p><p>According to the statistics, we found the prelims results to be really skewed even though the questions were relatively simple compared to finals. We decided to increase the duration of the Prelims for the next event to 12 hours.</p>
-
+Insights for the event could be found [here]('../media/enigma/enigma_2019_insights.png')
+According to the statistics, we found the prelims results to be really skewed even though the questions were relatively simple compared to finals. We decided to increase the duration of the Prelims for the next event to 12 hours.
 ### Leaderboards
-<p>The following list contains the marks scored and members for the respective teams for Enigma2019 Finals.</p><p><ul><li>222 / 469 Raghav Dhawan | B. Varnika | Sandalika Sapra </li><li>203 / 469 Jakku Sai Krupa Reddy | Dasari Merwin | Sathwik Matsa </li><li>202 / 469 Sai Sumanth Vanka | Vuduthala Pratyusha | Tapan Ganatma </li><li>201 / 469 Aakash Yadav | Bhomik | Vishal </li><li>151 / 469 Rutvik Bade | Ayush Garg | Ravi Shrivatsa </li><li>146 / 469 V Dheeraj | Kalicheti Rishitha</li><li>143 / 469 A Chaitanya | Charan Sai | G Yaswanth </li><li>123 / 469 Manoj kumar | Ritesh Sai T. | Akhil Bharadwaj</li><li>116 / 469 Vasunith Kislay | Manish Kumar Shrivastava | Tejasva Motsara</li><li>101 / 469 Sriram | Akhil | Chandan</li><li>85  / 469 Rohith Sudheer | Prudvi Venkat | Shubham Sangle </li><li> 83  / 469 Reena Deshmukh</li><li> 79  / 469 Aparna Vadlamani | G Sushmita</li><li> 69  / 469 Bodapati Nirupama Sai | Ambati Amulya | Balasa Niharika </li><li> 68  / 469 Ajinkya Kamble | Krishan Kumar Rao | Nakshatra Gupta</li><li> 67  / 469 Raj Garg | Abhishek Kaushik | Deep Ghadiyali </li><li> 66  / 469 Shubhankar Bhadra</li><li> 66  / 469 Abhishek Kumar | Arnab Dutta | Devayan Barindranath Ghosh </li><li> 66  / 469 Shaik Irfan | Vinay Koneru | Yashwant Sai Koneru</li><li> 39  / 469 Nandita V Nair | Kaushal Pillay | Revathy Sajeev </li></ul></p>
-
+The following list contains the marks scored and members for the respective teams for Enigma2019 Finals.
+<ul><li>222 / 469 Raghav Dhawan | B. Varnika | Sandalika Sapra </li><li>203 / 469 Jakku Sai Krupa Reddy | Dasari Merwin | Sathwik Matsa </li><li>202 / 469 Sai Sumanth Vanka | Vuduthala Pratyusha | Tapan Ganatma </li><li>201 / 469 Aakash Yadav | Bhomik | Vishal </li><li>151 / 469 Rutvik Bade | Ayush Garg | Ravi Shrivatsa </li><li>146 / 469 V Dheeraj | Kalicheti Rishitha</li><li>143 / 469 A Chaitanya | Charan Sai | G Yaswanth </li><li>123 / 469 Manoj kumar | Ritesh Sai T. | Akhil Bharadwaj</li><li>116 / 469 Vasunith Kislay | Manish Kumar Shrivastava | Tejasva Motsara</li><li>101 / 469 Sriram | Akhil | Chandan</li><li>85  / 469 Rohith Sudheer | Prudvi Venkat | Shubham Sangle </li><li> 83  / 469 Reena Deshmukh</li><li> 79  / 469 Aparna Vadlamani | G Sushmita</li><li> 69  / 469 Bodapati Nirupama Sai | Ambati Amulya | Balasa Niharika </li><li> 68  / 469 Ajinkya Kamble | Krishan Kumar Rao | Nakshatra Gupta</li><li> 67  / 469 Raj Garg | Abhishek Kaushik | Deep Ghadiyali </li><li> 66  / 469 Shubhankar Bhadra</li><li> 66  / 469 Abhishek Kumar | Arnab Dutta | Devayan Barindranath Ghosh </li><li> 66  / 469 Shaik Irfan | Vinay Koneru | Yashwant Sai Koneru</li><li> 39  / 469 Nandita V Nair | Kaushal Pillay | Revathy Sajeev </li></ul>
 ### Questions
-<p>Prelims questions were created by both <a href='https://www.twitter.com/AnupKulkarn1'>Anup Kulkarni</a> and I. Questions for finals were created by me. Questions could be found here: <a href='enigma_2019_prelims.html'>prelims</a></p>
+Prelims questions were created by both <a href='https://www.twitter.com/AnupKulkarn1'>Anup Kulkarni</a> and I. Questions for finals were created by me. Questions could be found here: <a href='enigma_2019_prelims.html'>prelims</a>
 
 ## ID5022
 ### Introduction
@@ -265,11 +282,10 @@ ID5022: Entreprenuership and Innovation final project
 ![23](../media/ID5022slides/entre23.jpg)
 ![24](../media/ID5022slides/entre24.jpg)
 ![25](../media/ID5022slides/entre25.jpg)
-## Tensorflow.JS
 
+## Tensorflow.JS
 ### MobileNet1.0.0
 [MobileNets](https://github.com/tensorflow/models/blob/master/research/slim/nets/mobilenet_v1.md) are models parameterized to meet the resource constraints of a variety of use cases. They can be built upon for classification, detection, embeddings and segmentation.
-
 One could use mobilenet pretrained models using tf.js as given [here](https://github.com/tensorflow/tfjs-models/tree/master/mobilenet)
 <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest/dist/tf.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/mobilenet@1.0.0"></script>
@@ -1322,24 +1338,18 @@ Last Updated: 31 May 2020
 ## Computer Science
 ### Introduction
 [List of unsolved problems in Computer Science](https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_computer_science)
-
 ### Operating Systems
-<p>University of Washington <a href='https://courses.cs.washington.edu/courses/cse410/99au/lectures/'>lecture slides</a>.</p>
-
+- University of Washington [lecture slides](https://courses.cs.washington.edu/courses/cse410/99au/lectures/)
 ### C/C++
 - StackOverflow: [Definitive C++ book guide](https://stackoverflow.com/questions/388242/the-definitive-c-book-guide-and-list)
 - [Yale Notes](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html)
 - Simple steps to debugging using GDB [tutorial](https://u.osu.edu/cstutorials/2018/09/28/how-to-debug-c-program-using-gdb-in-6-simple-steps)
-
 ### Data Structures
-<p>Complete 8 hour <a href='https://www.youtube.com/watch?v=RBSGKlAvoiM'>course</a> ranging from easy to advanced data structures</p>
-
+Complete 8 hour <a href='https://www.youtube.com/watch?v=RBSGKlAvoiM'>course</a> ranging from easy to advanced data structures
 ### IDE 
-<p><a href='https://repl.it'>Repl.it</a> allows users to write code and build apps using a browser, without having to install any software on their devices.</p>
-
+[Repl.it](https://repl.it) allows users to write code and build apps using a browser, without having to install any software on their devices.
 ### Developer Podcast
-<p>Future of coding <a href='https://futureofcoding.org/episodes/045'>podcast</a> featuring Devine Lu Linvega where he talks about development process of <a href='https://100r.co/site/orca'>Orca</a>, a visual programming environment for making music.</p>
-
+Future of coding <a href='https://futureofcoding.org/episodes/045'>podcast</a> featuring Devine Lu Linvega where he talks about development process of <a href='https://100r.co/site/orca'>Orca</a>, a visual programming environment for making music.
 ## Docker
 ### Introduction
 - Image : Template for environment (OS, Software, Applications)
@@ -1368,10 +1378,7 @@ Running a Jupyter Tensorflow Notebook Server:
 docker run --rm -p 8888:8888 -v "$PWD":/home/jovyan/work jupyter/tensorflow-notebook:latest
 </pre>
 Here, ' -p 888:8888 ' maps the machines 8888 port to containers 8888 port. Also, ' -v &lt;machine_path&gt;:&lt;container_path&gt; ' maps the machines working directory to container's path (usually predefined). Here we map ' $PWD ' i.e current directory's path with container's predefined path '/home/jovyan/work'. For more info lookup: [jupyter-notebook stacks](https://jupyter-docker-stacks.readthedocs.io/en/latest/)
-
-
 ### Building images [WIP]
-
 Create a dockerfile with image config:
 <pre class="code">
 FROM alpine:latest
@@ -1386,7 +1393,6 @@ $ docker build -t imagename .
 Building an image could be hectic if the commands are not ordered properly. Here are some tips:
 - 1. Avoid using '&&' between all RUN commands as this disables checkpointing (using cache).
 - 2. Use COPY commands after RUN commands. This enables checkpointing(using cache) after every RUN. 
-
 ### Running 
 Running as a daemon and accessing container shell
 <pre class="code">
@@ -1403,7 +1409,7 @@ $ docker run --network network_name --name container_name image_name
 Last updated 28 March 2020
 ## Cryptography
 ### Coding
--[Set of Coding crypto challenges](https://cryptopals.com/)
+- [Set of Coding crypto challenges](https://cryptopals.com/)
 ### Links
 Unordered list of resources
 - [One way function](https://en.wikipedia.org/wiki/One-way_function)
@@ -1429,14 +1435,10 @@ Videos
 
 Hands On
 - [NodeJS and MySQL microservice using Docker](https://dwmkerr.com/learn-docker-by-building-a-microservice/) | [Code](https://github.com/dwmkerr/node-docker-microservice)
-
 ### Glossary[WIP]s
 <b>Microservices</b>: 
-
 <b>Spring Boot</b>:
-
 <b>Docker</b>:
-
 <b>Kubernetes</b>: [Video](https://www.youtube.com/watch?v=PH-2FfFD2PU)
 
 # Miscellaneous
@@ -1451,20 +1453,26 @@ The following is a log of various questions solved.
 - AOC2020 : Advent Of Code 2020
 - BS : Binary Search
 
-### Log
-5 Jan 2020
-- BS [Number of moves to capture the king][https://binarysearch.com/problems/Number-of-Moves-to-Capture-the-King] | Medium | BFS | DP
-3 Jan 2020
+### 2021-Jan
+5 Jan 2021
+- BS [Number of moves to capture the king](https://binarysearch.com/problems/Number-of-Moves-to-Capture-the-King) | Medium | BFS | DP
+
+3 Jan 2021
 - BS [IP Address Combinations](https://binarysearch.com/problems/IP-Address-Combinations) | Hard | Recursion
-2 Jan 2020
+
+2 Jan 2021
 - BS [Roomba Sequel](https://binarysearch.com/problems/Roomba-Sequel) | Hard | HashTable
 - BS [Split List Into Strictly Increasing Chunks](https://binarysearch.com/problems/Split-List-Into-Strictly-Increasing-Chunks) | Hard | HashTable
+
+### 2020-Dec
 25 Dec 2020
 - LC 1137 [Nth Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/) | [Code](https://github.com/AbstractXan/CompetitiveProgramming/tree/master/LC/nth-tribonacci) | Medium | Dynamic Programming
 - LC 70 [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | Medium | Dynamic Programming
+
 18 Dec 2020
 - BS [Palindromic Linked List](https://binarysearch.com/problems/Palindrome-Linked-List) | Medium | Two Pointers
 - BS [Linked List Intersection](https://binarysearch.com/problems/Linked-List-Intersection) | Medium | Linked List
+
 16 Dec 2020
 - BS [Factorial Factory](https://binarysearch.com/problems/Factorial-Factory) | Easy | Recursion
 - BS [Sum of first N odd integer](https://binarysearch.com/problems/Sum-of-First-N-Odd-Integers) | Easy | Math
@@ -1473,23 +1481,33 @@ The following is a log of various questions solved.
 - BS [Inverse Factorial](https://binarysearch.com/problems/Inverse-Factorial) | Easy
 - BS [Domino Placement](https://binarysearch.com/problems/Domino-Placement) | Easy | Math
 - BS [N-Rooks](https://binarysearch.com/problems/N-Rooks/submissions/3212197) | Recursion
+
 15 Dec 2020
 - BS [Shortest Common Subsequence](https://binarysearch.com/problems/Shortest-Common-Supersequence) | Hard | Dynamic Programming 
+
 5 Dec 2020
 - BS [HomeRun](https://binarysearch.com/problems/Home-Run) | Medium | Bit Manipulation
+
 3 Dec 2020
 - AOC2020 [Day 3](https://adventofcode.com/2020/day/3) | [Code]() | Easyx2 
 - AOC2020 [Day 2](https://adventofcode.com/2020/day/2) | [Code]() | Easyx2
 - AOC2020 [Day 1](https://adventofcode.com/2020/day/1) | [Code]() | Easy | Medium
 - BS [Merging K Sorted List](https://binarysearch.com/problems/Merging-K-Sorted-Lists/)
+
 2 Dec 2020
 - BS [Palindromic Anagram](https://binarysearch.com/problems/Palindromic-Anagram) | Easy | Bit Manipulation
+
+### 2020-Nov
 3 Nov 2020
 - LC 1446 | Easy | Strings
+
 1 Nov 2020
 - LC 1290 [Convert Binary Number in a Linked List to Integer](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/) | Easy | LinkedList
+
+### 2020-Sep
 27 Sep 2020
 - DCP [Serialize Tree](https://github.com/AbstractXan/CompetitiveProgramming/tree/master/DailyCodingProblems/2020-09-25)
+
 24 Sep 2020
 - DCP [ElementSumK](https://github.com/AbstractXan/CompetitiveProgramming/tree/master/DailyCodingProblems/2020-09-23)
 - DCP [MultiplyEverythingButMe](https://github.com/AbstractXan/CompetitiveProgramming/tree/master/DailyCodingProblems/2020-09-24)
@@ -1497,6 +1515,7 @@ The following is a log of various questions solved.
 9 Sep 2020
 - LC 1022 Sum of Root To Leaf Binary Numbers
 
+### 2020-July
 27 Jul 2020
 - LC Pascal's Triangle 
 - LC Missing Number
@@ -1512,7 +1531,8 @@ The following is a log of various questions solved.
 - LC 387 First Unique Character in a String | Hashmap
 - LC 242 Valid Anagram
 - LC 38 Count and Say
-23 jul 2020
+
+23 Jul 2020
 - LC 26  Remove Duplicates from Sorted Array
 - LC 189 Rotate Array
 - LC 217 Contains Duplicate
@@ -1522,37 +1542,52 @@ The following is a log of various questions solved.
 - LC 283  Move Zeroes
 - LC 1 Two Sum
 - LC 344 Reverse String 
+
 5 Jul 2020
 - LC 264 Ugly Number II 
+
 4 Jul 2020
 - Coursera Interfaces in Go | [notes](https://github.com/AbstractXan/Golang/blob/master/Coursera/2%20Functions%2C%20Methods%2C%20and%20Interfaces%20in%20Go/week4/notes.md) | [code](https://github.com/AbstractXan/Golang/tree/master/Coursera/2%20Functions%2C%20Methods%2C%20and%20Interfaces%20in%20Go/week4)
+
 3 Jul 2020
 - Coursera Classes, Objects, Methods in Go | [notes](https://abstractxan.xyz/site/golangwip#object_oriented) | [code](https://github.com/AbstractXan/Golang/tree/master/Coursera/2%20Functions%2C%20Methods%2C%20and%20Interfaces%20in%20Go/week3)
+
 2 Jul 2020
 - Coursera Getting Started with Go - Week 2 | [notes](https://github.com/AbstractXan/Golang/blob/master/Coursera/1%20Getting%20started%20with%20Go/week2/notes.md) | [code](https://github.com/AbstractXan/Golang/tree/master/Coursera/1%20Getting%20started%20with%20Go/week2)
+
 1 Jul 2020
 - Coursera Getting Started with Go - Week 1 
+
+### 2020-Jun
 31 Jun 2020
 - Coursera Functions in Go| [notes](https://abstractxan.xyz/site/golangwip#function) | [code](https://github.com/AbstractXan/Golang/tree/master/Coursera/2%20Functions%2C%20Methods%2C%20and%20Interfaces%20in%20Go/week2)
+
 30 Jun 2020
 - Coursera Data passing in Functions | [notes](https://abstractxan.xyz/site/golangwip#functions) | [code](https://github.com/AbstractXan/Golang/tree/master/Coursera/2%20Functions%2C%20Methods%2C%20and%20Interfaces%20in%20Go/week1)
+
 29 Jun 2020
 - LC 332 Reconstruct Itinerary
+
 27 Jun 2020 
 - LC 129 Sum root to leaf numbers
+
 21 Jun 2020
 - LC 111 Minimum Depth of Binary Tree
 - LC 174 Dungeon Game
+
 19 Jun 2020
 - LC 700 Search in a Binary Tree
+
 4 Jun 2020
 - CTCI 17.4 Missing Number
 - CTCI 17.6 Count of 2s | [Code](https://github.com/AbstractXan/CompetitiveProgramming/blob/master/CTCI/17-6-CountOf2s.cpp)
 - CTCI 16.19 Pond Sizes | [Code](https://github.com/AbstractXan/CompetitiveProgramming/blob/master/CTCI/16-19-PondSizes.cpp)
 - CTCI 16.20 Old Cell Phone | [Code](https://github.com/AbstractXan/CompetitiveProgramming/blob/master/CTCI/16-20-OldCellPhone.cpp)
+
 3 Jun 2020
 - CTCI 17.2 Shuffle | [Code](https://github.com/AbstractXan/CompetitiveProgramming/blob/master/CTCI/17-2-Shuffle.cpp)
 - CTCI 17.3 Random Set | [Code](https://github.com/AbstractXan/CompetitiveProgramming/blob/master/CTCI/17-3-RandomSet.cpp)
+
 2 Jun 2020
 - LC 237 Delete node in a linked list 
 - CTCI 16.10 Living People | [Code](https://github.com/AbstractXan/CompetitiveProgramming/blob/master/CTCI/16-10-LivingPeople.cpp)
@@ -1561,17 +1596,23 @@ The following is a log of various questions solved.
 - CTCI 16.13 Bisect Squares
 - CTCI 16.15 Master Mind
 - CTCI 16.16 Sub Sort | [Code](https://github.com/AbstractXan/CompetitiveProgramming/blob/master/CTCI/16-16-SubSort.cpp)
+
 1 Jun 2020
 - LC 219 : Contains Duplicate
 - Mirror NxN matrix along diagonal | [Code](https://github.com/AbstractXan/CompetitiveProgramming/blob/master/Others/diagonalswap.cpp)
 - CTCI 16.4 : Tic Tac Toe Win
 - CTCI 16.5 : Trailing zeroes in a factorial | [Code](https://github.com/AbstractXan/CompetitiveProgramming/blob/master/Others/fact-trailingzeroes.cpp)
+
+### 2020-May
 31 May 2020
 - LC 72 : [Edit Distance](https://leetcode.com/problems/edit-distance/)
+
 30 May 2020
 - SPOJ 6 : Simple Arithmetic | [Code](https://github.com/AbstractXan/CompetitiveProgramming/blob/master/SPOJ/6.cpp)
+
 29 May 2020
 - SPOJ 5 : The Next Palindrom | [Code](https://github.com/AbstractXan/CompetitiveProgramming/blob/master/SPOJ/5.cpp)
+
 27 May 2020
 - SPOJ 4 : Transform The Expression | [Code](https://github.com/AbstractXan/CompetitiveProgramming/blob/master/SPOJ/4.cpp)
 - SPOJ 2 : Prime Generator | [Code](https://github.com/AbstractXan/CompetitiveProgramming/blob/master/SPOJ/2.cpp)

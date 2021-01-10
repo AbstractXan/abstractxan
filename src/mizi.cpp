@@ -298,7 +298,7 @@ Category ** createCategories(int * categoryCount, string filename){
                     //Current Part Name
                     currentPartName = line.substr(i+1,line.size()-i);
                     addPart(currentPage,currentPartName);
-                    currentPartDesc = "<p>";
+                    currentPartDesc = "";
                     uList = false;
                 }
 
@@ -328,7 +328,7 @@ Category ** createCategories(int * categoryCount, string filename){
                         uList=false;
                         currentPartDesc += "</ul>";
                     }
-                    currentPartDesc += "<p>"+line+"</p>";
+                    currentPartDesc += ""+line+"<br>";
                 }
 
                 // For <ul> continuing to next part of the page, Every 'part name' has an extra </ul> to keep a check.
@@ -363,10 +363,7 @@ void buildHome(Category * categories[], int categories_length, string path){
             string page_index = toLowerCase(page_name);
             htmlHome << "<li><a href='" << page_index << ".html'>" << page_name << "</a></li>";
         }
-
         htmlHome << "</ul>";
-        
-        
     }
     htmlHome << "<hr/>";
     htmlHome << "</main>";
