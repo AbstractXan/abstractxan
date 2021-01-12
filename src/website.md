@@ -333,6 +333,17 @@ One could use mobilenet pretrained models using tf.js as given [here](https://gi
 <script src="../projects/mobilenet/helper.js"></script>
 
 # Articles
+## Toolkit
+###  
+Toolkit aims to give a different approach to for solving dev problems.  
+### Tests
+Code Refactor:
+ - 1. Use tests to capture the expected behaviour of the given code
+ - 2. Refactor code while checking against the actual and expected output
+
+Created: 12 Jan 2021
+Last Updated: 12 Jan 2021
+
 ## Databases
 ### Links
 - [CMU Databse Group -- Intro to Database Systems Fall 2019](https://www.youtube.com/playlist?list=PLSE8ODhjZXjbohkNBWQs_otTrBTrjyohi)
