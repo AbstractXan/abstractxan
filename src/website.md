@@ -1032,6 +1032,8 @@ Last Updated: 24 Sep 2020
 ### Introduction
 Version control systems like Git are tools used to track changes to source code (or other collections of files and folders). As the name implies, these tools help maintain a history of changes; furthermore, they facilitate collaboration. Source : [Missing-Semester/Git](https://missing.csail.mit.edu/2020/version-control/)
 [Documentation](https://git-scm.com/docs)
+
+[Introduction to git](../media/git/git.pdf) slides
 <pre class="code">
     
     --- Initialize repository
