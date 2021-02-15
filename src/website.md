@@ -235,7 +235,37 @@ To everyone who was ever a part of this beautiful journey,
 <iframe src="https://merveilles.town/@neauoire/104294221475568164/embed" class="mastodon-embed" style="max-width: 100%; border: 0; height: 300px" width="600px" allowfullscreen="allowfullscreen"></iframe>
 
 # Projects
+## Enigma 2021
+### About
+![](../media/enigma/poster21.png)Enigma is a competitive ciphering and deciphering heist while looking for clues in the gigantic internet universe. Explore some amazing corners of the web-battling out puzzles and reading between the lines. Got stuck on some questions? Work your way out through your search engines.
+### Goal
+Enigma as a medium is our way of exposing the participants to a myriad of exciting places on the internet. We strive to provide an unparalleled experience similar to an open world game — explore the depths of internet for clues, crack mind-bending puzzles, and get to know more about the rad things people are doing in the world.
 
+Every team's journey is unique and depends on how they approach a problem. Every question has a unique solution and it doesn't matter what path you take, it's important to remember <b>what</b> you're looking for. It's easy to get lost, you see.
+### Creators
+Anup Kulkarni
+Priyansh Sangule
+Bhargav
+Kranti
+S
+## Link-Pump
+### About
+- L I N K P U M P
+Link pump (name subject to change) is a online public archive of internet links curated by members of 'Main()' group.
+### Goal
+To curate awesome places on the internet for future reference/ exploration. Link-pump is essentially a rabbit hole of rabbit holes.
+### Curators
+- abstractxan
+- realradone
+- algokun
+- siddish
+- shraddha
+### How it works
+Link-Pump pulls its data from our Telegram group which is parsed and prepared and appended to a CSV. This CSV is then picked up by LinkPump to generate an MD file. This in turn is converted to a website my Mizi.
+### Contribute
+Link-Pump is still a baby project and we're proud of it. Though, it still requires a lot of fixes and ease of accessibility and design. Feel free to contribute via [Github](https://github.com/AbstractXan/LINK_PUMP)
+
+Last updated- 15 Feb 2021
 ## Mizi
 ### Introduction
 <img class='thumbnail' style='max-width:200px' src='../media/interface/mizi.png'>[Mizi](https://github.com/abstractxan/mizi) is a static website generator written in C++ that takes markdown file as input.
