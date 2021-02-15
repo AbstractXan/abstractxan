@@ -1731,13 +1731,19 @@ The library is a collection of good content I have read/watched and recommend to
 - Anohana
 - Is it wrong to pick up hot chicks in dungeon
 - The day I was reincarnated as a slime
+- Parasite
+- One Piece
 ### Anime Movies
 - Studio Ghibli movies
 - Kimi no na wa
 - 5 Centimeters per sec
 - Garden of Words
 ### Mubi
-- 12/1/21 : [Invisible Life - Karim Ainouz]() | Drama | 4/5
+- 14/2/21 : [Dead Pigs - Cathy Yan](https://mubi.com/films/dead-pigs) | 1/5
+- 5/2/21 : [Salon Kitty - Tinto Brass](https://mubi.com/films/salon-kitty) | Drama, Cult, Erotica | 2/5
+- 4/2/21 : [Kramer vs Kramer - Robert Benton]() | Drama | 3/5
+- 26/1/21 : [Adolescents - Sébastien Lifshitz](https://mubi.com/films/adolescentes) | Documentary | 3/5
+- 12/1/21 : [Invisible Life - Karim Ainouz](https://mubi.com/films/the-invisible-life-of-euridice-gusmao) | Drama | 4/5
 - 25/12/20 :[Upstream Color](https://mubi.com/films/upstream-color) | Sci-Fi, Drama, Mystery | 4/5
 - 25/12/20 : [The Adventures of Tin Tin](https://mubi.com/films/the-adventures-of-tintin) | Animation | 3/5
 - 24/12/20 : [So long my son - Wang Xiaoshuai](https://mubi.com/films/so-long-my-son) | Drama | 4/5
@@ -1746,11 +1752,10 @@ The library is a collection of good content I have read/watched and recommend to
 - 13/12/20 : Curse of the golden flower | 2/5
 - 14/12/20 : [Tripping with Nils Frahm]() | Documentary | Music | 4/5
 - 12/12/20 : [Office spaces]() | 3/5
-- Her
 ### Mubi(India)
 - Gamak Ghar
 - Pyaasa
-- 12/12/20 3 Idiots
+- 12/12/20: [3 Idiots]() | 3/5
 ## Sketchbook 2019
 ### Sketches
 <div class='sketchbook'><img src='../media/sketchbook2019/Sketchbook2019-02.jpg'><img src='../media/sketchbook2019/Sketchbook2019-03.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-04.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-05.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-06.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-07.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-08.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-09.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-10.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-11.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-12.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-13.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-14.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-15.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-16.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-17.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-18.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-19.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-20.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-21.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-22.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-23.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-24.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-25.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-26.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-27.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-28.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-29.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-30.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-31.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-32.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-33.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-34.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-35.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-36.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-37.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-38.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-39.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-40.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-41.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-42.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-43.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-44.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-45.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-46.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-47.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-48.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-49.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-50.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-51.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-52.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-53.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-54.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-55.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-56.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-57.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-58.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-59.jpg'></div>
