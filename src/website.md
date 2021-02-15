@@ -261,9 +261,9 @@ To curate awesome places on the internet for future reference/ exploration. Link
 - siddish
 - shraddha
 ### How it works
-Link-Pump pulls its data from our Telegram group which is parsed and prepared and appended to a CSV. This CSV is then picked up by LinkPump to generate an MD file. This in turn is converted to a website my Mizi.
+Link-Pump pulls its data from our Telegram group which is parsed, prepared and appended to a CSV. This CSV is then picked up by LinkPump to generate an MD file. This in turn is converted to a website by Mizi.
 ### Contribute
-Link-Pump is still a baby project and we're proud of it. Though, it still requires a lot of fixes and ease of accessibility and design. Feel free to contribute via [Github](https://github.com/AbstractXan/LINK_PUMP)
+Link-Pump is a baby project - it still requires a lot of fixes involvinf ease of accessibility and design. Feel free to contribute via [Github](https://github.com/AbstractXan/LINK_PUMP) or open an issue.
 
 Last updated- 15 Feb 2021
 ## Mizi
