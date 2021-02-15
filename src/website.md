@@ -247,7 +247,7 @@ Anup Kulkarni
 Priyansh Sangule
 Bhargav
 Kranti
-S
+Srikarah
 ## Link-Pump
 ### About
 - L I N K P U M P
