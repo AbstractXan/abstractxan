@@ -84,155 +84,6 @@ Journal shows recent updates.
 - [x] Create LINK DUMP webpage
 - [x] Automate LINK DUMP
 
-# Blog
-## Expressing intent
-###  
-Expressing intent is a major part of communication while driving. It is language agnostic —  a mere wave of hand can help the other drivers to re-evaluate their decisions.
-
-For instance - a common mistake I used to make was to apply brakes at the exact time I needed to. But a sudden brake would surprise the vehicle right behind me - as they get very less time to react to it. 
-
-<i>How to do it right?</i>
-Apply a slight break - hinting them to get ready for a change in flow. Take a pause of about half a second to actually apply breaks. This heads up will help the other driver react to you better.
-
-Slow down your car before turning- start moving it in the direction you want to turn a little. Observe how people around you are reacting to it. Chances are some vehicles might not notice it until after a while - preventing a suprise turn into a bad accident (pun!).
-
-The normal expression of intent we do on a daily basis is to use the indicator or flash headlights.
-
-Another one would be a horn - just to alert the other car of things like :
-- "I'm tryna overtake ; Keep going straight ; Do not deviate."
-- "Hey look over here there's a vehicle coming through"
-- "MOOOOOVE IT'S AN EMERGENCY"
-
-Expressing intent while driving makes you predictable and helps others decide their course of action well in advance.
-
-1-NOV-2020
-
-## Why we need rules 
-###  
-I had a quick thought about why adults set rules for themselves and why they live the way they live.
-This is probably because when you’re young you have a lot of stuff to explore — and you do them in no particular order.
-But a day comes while you get fed up with this randomness. This makes you self impose some rules to sort out the chaos you’ve been living in. 
-You set new schedules, you start managing the way deal with time, money and knowledge; keeping priorities right and pushing towards your goals.
-
-Read more about this topic: [Decision Fatigue](https://en.wikipedia.org/wiki/Decision_fatigue)
-abc
-
-## Dead Poets Society
-###  
-Well it’s true bloodshed and bloodlust is all around
-We live for some anxiety, love, happiness, touch too.
-Isn’t that worth living for?
-  
-Carpe diem
-<i>Cease the day</i>
-Wrote after watching Dead poets society. Watch it again bud.
-
-## Communication
-###  
-Communication is absolutely necessary.
-
-Are you able express complex ideas in at least one language? If yes, then you’re done. Otherwise it’ll get really hard.
-
-<i><< INSERT A REALLY HARD IDEA TO EXPLAIN >></i>
-
-I’ve been studying English since childhood and I remember our teachers stressing hard on the importance of communication and I (used to) shrug it off like “Science and Math” don’t need languages.
-
-But now that I look back and I see the current scenario where I almost struggle to find simpler words — my (native English) colleagues speak it so well and with such efficiency that sometimes I’m awestruck at their art of communication. 
-
-While they speak like a clean calm stream of water, mine is more turbulent at times. I see scope of improvement! :)
-
-1-OCT-2020
-
-## Tackling off campus placements
-### Introduction
-This blog is a work in progress.
-The following blog post is my personal experience with <b>product development companies</b> and their requirements. If you wanna find out more about applying to various domains like Machine/Deep learning , DevOps or others please contact devs from other domains.
-### Programming Language
-Learn ONE programming language. And learn it all the way. So much so that you could/should create your own piece of software/tool. (Like I wrote [Mizi](https://github.com/AbstractXan/Mizi))
-### Programming Language checklist
-1. Primitive data types and their usage (Other languages could include many more)
-- - Int, Float, String, Bool
-- - Arrays, Dynamic arrays/SLICES?
-- - Maps/Dictionary
-
-2. Composite data types:  structs	
-
-3. Functions for primitive data types:
-- - Types conversions: eg. int -> string / string -> int 
-- - Traversing through the data structure: eg. Iterators (C++)
-
-4. Learn how to use standard libraries your programming language provides. [ABSOLUTE MUST]. 
-- Eg. C++ : vector, string, algorithm, hash map, list, queue, stack, dequeue, sets. 
-Understand that these are abstractions for ADTs and could be implemented however you want.
-<i>“I’ll create my own library”</i> is the wrong way of solving the problem.
-### Programming Best Practices Checklist
-[WIP]
-- - Recursion vs Memory/Memoization
-- - Call by value vs Call by reference
-- - Sensible variable naming conventions
-- - ...
-
-<i>“Dude I like python. I absolutely hate C++”.</i> If you’re this guy, ENSURE that you understand C++ inside out and then shrug it off simply because it doesn’t suit you.
-### Coding 
-Learn [OOPS](../site/object_oriented_programming.html) concepts. You have to. Object oriented approach is closest you could get to the real world. Every language has different ways of including oops concepts.
-Writing badly structured and C-like procedural code is simpler but inconvenient — (Trust me I’ve been writing that sort of bad code earlier and it sucked ass)
-Learn about <b>time complexities</b>. Whenever you come up with a solution, analyse it’s best case and worst case time complexities.
-
-### Technology
-Master at least ONE implementation/framework for each of these:
-- Legacy : C++, Java
-- Relational Database: MySQL, PostgreSQL
-- Non-relational Database: MongoDB
-- Frontend framework: React / Angular
-- Backend framework: Express-Node, Golang, PHP
-- Web technologies: HTML+CSS+JS/TS
-- Scripting languages: Bash, Python
-- [OPTIONAL] : Containers , Docker , AWS / Azure 
-
-Keep in mind that the company doesn’t expect you to know the best/latest/popular things out there. They expect you to have a good understanding of the concepts around it.
-
-If your company uses legacy PHP — You’ll have to work on it regardless of your liking since that’s how the architecture was decades ago.  If they use Serverless or say - AWS services you’ll be expected to get familiar with these.
-
-### Interview
-I highly recommend you practice for coding rounds via Cracking the coding interview (CTCI). The typical flow should be trying to solve a problem on paper and then solving the same question on LEETCODE.
-
-Go through every CTCI solution after you solve them. Most of the times there are multiple solutions for the same problem. The key is to understand WHY a particular solution is better. 
-
-While giving an interview, the interviewer focuses more on your approach to solve the problem— they don’t expect you to get to the best solution right away. As you read into the solutions for CTCI you’d discover the flow of solving interview questions: 
-1. Do not dive into coding straight away. That’s a red flag. Discuss the solution with your interviewer before you write any code.
-3. Give a crude solution to the problem - whatever is at the top of your head. The interviewer will take your solution and point out some flaws which you might need to resolve. Once the interviewer is satisfied with your solution, they’ll most likely ask for the time complexity of your solution and how could you optimise it.
-4. Try to optimise your solution with your data structures and algorithm knowledge.
-5. Look out for corner cases and exceptions.
-6. Write a few good test cases and do a dry run by trying to go through the code against on of the test cases.
-
-### Interview checklist
-- Crude solution and it’s complexity
-- Come up with good test cases that could include corner cases and exceptions
-- Optimise your solution and give its complexity. Explain why it is better.
-
-### Resources
-- CTCI
-- Daily Coding Problems
-
-### INSIGHTS FROM FRIENDS:
-- “They need to have projects—Good credible projects. An end to end one would be good.They show you understand the language/framework very well. Also, group ones are better.They show you can collaborate in a team well. ” - @realradone
-
-- “First thing someone should know: their CV” - @realradone
-
-- “For the Product IT ones-
-- - Apply
-- - Tell people on LinkedIn to give referral “ - @realradone
-
-- “Read through JD's and Terms”
-
-## Death
-###  
-To everyone who was ever a part of this beautiful journey,
-<i>“[Thanks for the adventure, now go have a new one!](https://www.youtube.com/watch?v=9yjAFMNkCDo)”</i>
-- Love, Priyansh
-
-###   
-<iframe src="https://merveilles.town/@neauoire/104294221475568164/embed" class="mastodon-embed" style="max-width: 100%; border: 0; height: 300px" width="600px" allowfullscreen="allowfullscreen"></iframe>
 
 # Projects
 ## Enigma 2021
@@ -372,9 +223,11 @@ Toolkit aims to give a different approach to for solving dev problems.
 Code Refactor:
  - 1. Use tests to capture the expected behaviour of the given code
  - 2. Refactor code while checking against the actual and expected output
+### Timezone difference
+When having timezone differences, ensure that you're all set to work for the next day. Get your approaches approved and ask for reviews before signing off.
 
 Created: 12 Jan 2021
-Last Updated: 12 Jan 2021
+Last Updated: 16 Feb 2021
 
 ## Databases
 ### Links
@@ -383,11 +236,7 @@ Last Updated: 12 Jan 2021
 
 - [Things every developer absolutely, positively needs to know about database indexing](https://www.youtube.com/watch?v=HubezKbFL7E)
 ### Questions
-
-- What are shards ?
-- BTrees vs Hash Tables ; What to use ?
-
-### Database Indexing
+- 
 Last updated: 18 Nov
 ## React
 ### Links
@@ -1524,6 +1373,172 @@ Hands On
 <b>Docker</b>:
 <b>Kubernetes</b>: [Video](https://www.youtube.com/watch?v=PH-2FfFD2PU)
 
+# Blog
+## Expressing intent
+###  
+Expressing intent is a major part of communication while driving. It is language agnostic —  a mere wave of hand can help the other drivers to re-evaluate their decisions.
+
+For instance - a common mistake I used to make was to apply brakes at the exact time I needed to. But a sudden brake would surprise the vehicle right behind me - as they get very less time to react to it. 
+
+<i>How to do it right?</i>
+Apply a slight break - hinting them to get ready for a change in flow. Take a pause of about half a second to actually apply breaks. This heads up will help the other driver react to you better.
+
+Slow down your car before turning- start moving it in the direction you want to turn a little. Observe how people around you are reacting to it. Chances are some vehicles might not notice it until after a while - preventing a suprise turn into a bad accident (pun!).
+
+The normal expression of intent we do on a daily basis is to use the indicator or flash headlights.
+
+Another one would be a horn - just to alert the other car of things like :
+- "I'm tryna overtake ; Keep going straight ; Do not deviate."
+- "Hey look over here there's a vehicle coming through"
+- "MOOOOOVE IT'S AN EMERGENCY"
+
+Expressing intent while driving makes you predictable and helps others decide their course of action well in advance.
+
+1-NOV-2020
+
+## Why we need rules 
+###  
+I had a quick thought about why adults set rules for themselves and why they live the way they live.
+This is probably because when you’re young you have a lot of stuff to explore — and you do them in no particular order.
+But a day comes while you get fed up with this randomness. This makes you self impose some rules to sort out the chaos you’ve been living in. 
+You set new schedules, you start managing the way deal with time, money and knowledge; keeping priorities right and pushing towards your goals.
+
+Read more about this topic: [Decision Fatigue](https://en.wikipedia.org/wiki/Decision_fatigue)
+abc
+
+## Dead Poets Society
+###  
+Well it’s true bloodshed and bloodlust is all around
+We live for some anxiety, love, happiness, touch too.
+Isn’t that worth living for?
+  
+Carpe diem
+<i>Cease the day</i>
+Wrote after watching Dead poets society. Watch it again bud.
+
+## Communication
+###  
+Communication is absolutely necessary.
+
+Are you able express complex ideas in at least one language? If yes, then you’re done. Otherwise it’ll get really hard.
+
+<i><< INSERT A REALLY HARD IDEA TO EXPLAIN >></i>
+
+I’ve been studying English since childhood and I remember our teachers stressing hard on the importance of communication and I (used to) shrug it off like “Science and Math” don’t need languages.
+
+But now that I look back and I see the current scenario where I almost struggle to find simpler words — my (native English) colleagues speak it so well and with such efficiency that sometimes I’m awestruck at their art of communication. 
+
+While they speak like a clean calm stream of water, mine is more turbulent at times. I see scope of improvement! :)
+
+1-OCT-2020
+
+## Tackling off campus placements
+### Introduction
+This blog is a work in progress.
+The following blog post is my personal experience with <b>product development companies</b> and their requirements. If you wanna find out more about applying to various domains like Machine/Deep learning , DevOps or others please contact devs from other domains.
+### Programming Language
+Learn ONE programming language. And learn it all the way. So much so that you could/should create your own piece of software/tool. (Like I wrote [Mizi](https://github.com/AbstractXan/Mizi))
+### Programming Language checklist
+1. Primitive data types and their usage (Other languages could include many more)
+- - Int, Float, String, Bool
+- - Arrays, Dynamic arrays/SLICES?
+- - Maps/Dictionary
+
+2. Composite data types:  structs	
+
+3. Functions for primitive data types:
+- - Types conversions: eg. int -> string / string -> int 
+- - Traversing through the data structure: eg. Iterators (C++)
+
+4. Learn how to use standard libraries your programming language provides. [ABSOLUTE MUST]. 
+- Eg. C++ : vector, string, algorithm, hash map, list, queue, stack, dequeue, sets. 
+Understand that these are abstractions for ADTs and could be implemented however you want.
+<i>“I’ll create my own library”</i> is the wrong way of solving the problem.
+### Programming Best Practices Checklist
+[WIP]
+- - Recursion vs Memory/Memoization
+- - Call by value vs Call by reference
+- - Sensible variable naming conventions
+- - ...
+
+<i>“Dude I like python. I absolutely hate C++”.</i> If you’re this guy, ENSURE that you understand C++ inside out and then shrug it off simply because it doesn’t suit you.
+### Coding 
+Learn [OOPS](../site/object_oriented_programming.html) concepts. You have to. Object oriented approach is closest you could get to the real world. Every language has different ways of including oops concepts.
+Writing badly structured and C-like procedural code is simpler but inconvenient — (Trust me I’ve been writing that sort of bad code earlier and it sucked ass)
+Learn about <b>time complexities</b>. Whenever you come up with a solution, analyse it’s best case and worst case time complexities.
+
+### Technology
+Master at least ONE implementation/framework for each of these:
+- Legacy : C++, Java
+- Relational Database: MySQL, PostgreSQL
+- Non-relational Database: MongoDB
+- Frontend framework: React / Angular
+- Backend framework: Express-Node, Golang, PHP
+- Web technologies: HTML+CSS+JS/TS
+- Scripting languages: Bash, Python
+- [OPTIONAL] : Containers , Docker , AWS / Azure 
+
+Keep in mind that the company doesn’t expect you to know the best/latest/popular things out there. They expect you to have a good understanding of the concepts around it.
+
+If your company uses legacy PHP — You’ll have to work on it regardless of your liking since that’s how the architecture was decades ago.  If they use Serverless or say - AWS services you’ll be expected to get familiar with these.
+
+### Interview
+I highly recommend you practice for coding rounds via Cracking the coding interview (CTCI). The typical flow should be trying to solve a problem on paper and then solving the same question on LEETCODE.
+
+Go through every CTCI solution after you solve them. Most of the times there are multiple solutions for the same problem. The key is to understand WHY a particular solution is better. 
+
+While giving an interview, the interviewer focuses more on your approach to solve the problem— they don’t expect you to get to the best solution right away. As you read into the solutions for CTCI you’d discover the flow of solving interview questions: 
+1. Do not dive into coding straight away. That’s a red flag. Discuss the solution with your interviewer before you write any code.
+3. Give a crude solution to the problem - whatever is at the top of your head. The interviewer will take your solution and point out some flaws which you might need to resolve. Once the interviewer is satisfied with your solution, they’ll most likely ask for the time complexity of your solution and how could you optimise it.
+4. Try to optimise your solution with your data structures and algorithm knowledge.
+5. Look out for corner cases and exceptions.
+6. Write a few good test cases and do a dry run by trying to go through the code against on of the test cases.
+
+### Interview checklist
+- Crude solution and it’s complexity
+- Come up with good test cases that could include corner cases and exceptions
+- Optimise your solution and give its complexity. Explain why it is better.
+
+### Resources
+- CTCI
+- Daily Coding Problems
+
+### INSIGHTS FROM FRIENDS:
+- “They need to have projects—Good credible projects. An end to end one would be good.They show you understand the language/framework very well. Also, group ones are better.They show you can collaborate in a team well. ” - @realradone
+
+- “First thing someone should know: their CV” - @realradone
+
+- “For the Product IT ones-
+- - Apply
+- - Tell people on LinkedIn to give referral “ - @realradone
+
+- “Read through JD's and Terms”
+
+## Death
+###  
+To everyone who was ever a part of this beautiful journey,
+<i>“[Thanks for the adventure, now go have a new one!](https://www.youtube.com/watch?v=9yjAFMNkCDo)”</i>
+- Love, Priyansh
+
+###   
+<iframe src="https://merveilles.town/@neauoire/104294221475568164/embed" class="mastodon-embed" style="max-width: 100%; border: 0; height: 300px" width="600px" allowfullscreen="allowfullscreen"></iframe>
+
+# Gaming
+## Albion Online
+### About
+I started playing Albion online on Oct 2019 but soon discontinued and returned back to the game in Feb 2021. Got hooked because of the player driven economy and group and solo PVP vs PVE aspects, all of these providing real life-like experience.
+Albion is also a challege for a very safe item hoarder gamer like me who'd never use minecraft potions because the 'right-time' to use them never came. 
+
+Albion tries to balance the risks and rewards fairly well. I've always been pretty scared for a long time to step out of blue zones.
+
+I haven't explored the PVP and Guild aspect of it much. BUt I do plan to get there eventually. As recommended by good players, I've been trying to setup a stable income of money by testing out various ways including dungeons and fishing. Some of my build are as follows:
+
+### Great Axe Build
+![https://render.albiononline.com/v1/item/T5_MAIN_AXE@2.png] ![https://render.albiononline.com/v1/item/T5_HEAD_CLOTH_SET1@2.png] ![https://render.albiononline.com/v1/item/T5_ARMOR_LEATHER_SET1@2.png] ![https://render.albiononline.com/v1/item/T5_SHOES_LEATHER_MORGANA@2.png]
+
+### Resources
+https://www.albiononline2d.com/en
+
 # Miscellaneous
 ## Coding Log
 ### About
@@ -1536,6 +1551,10 @@ The following is a log of various questions solved.
 - AOC2020 : Advent Of Code 2020
 - BS : Binary Search
 
+### 2021-Feb
+18 Feb 2021
+- BS [Compress String](https://binarysearch.com/problems/Compress-String) | Easy | Strings
+- 
 ### 2021-Jan
 5 Jan 2021
 - BS [Number of moves to capture the king](https://binarysearch.com/problems/Number-of-Moves-to-Capture-the-King) | Medium | BFS | DP
@@ -1797,7 +1816,6 @@ $$$ Seperate Pages
 
 ## Casual Notes
 ### Coding
-
 - Sets are slower! Frek my runtime.
 - Iterators add overhead? Maybe..
 - Inplace algorithms improve space complexity
@@ -1961,7 +1979,8 @@ Last Update: 2 Jan 2021
 
 ## Wanderings
 ### Study
-- Databases []
+- Serverless []
+- Databases [x]
 - Dynamic Programming []
 - Complete CTCI [x]
 - Complete DSA - Weiss [x]
@@ -1969,4 +1988,3 @@ Last Update: 2 Jan 2021
 ### Random things I wanna do
 - Unity GameDev
 - Explore Webassembly
-- Write about Webassembly
