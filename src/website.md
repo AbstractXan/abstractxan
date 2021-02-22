@@ -1534,7 +1534,10 @@ Albion tries to balance the risks and rewards fairly well. I've always been pret
 I haven't explored the PVP and Guild aspect of it much. BUt I do plan to get there eventually. As recommended by good players, I've been trying to setup a stable income of money by testing out various ways including dungeons and fishing. Some of my build are as follows:
 
 ### Great Axe Build
-![Greataxe](https://render.albiononline.com/v1/item/T5_MAIN_AXE@2.png) ![Scholar cowl](https://render.albiononline.com/v1/item/T5_HEAD_CLOTH_SET1@2.png) ![Mercenary  jacket](https://render.albiononline.com/v1/item/T5_ARMOR_LEATHER_SET1@2.png) ![Stalker shoes](https://render.albiononline.com/v1/item/T5_SHOES_LEATHER_MORGANA@2.png)
+<img alt='Greataxe' src='https://render.albiononline.com/v1/item/T5_MAIN_AXE@2.png' >
+<img alt='Scholar cowl' src='https://render.albiononline.com/v1/item/T5_HEAD_CLOTH_SET1@2.png' >
+<img alt='Mercenary  jacket' src='https://render.albiononline.com/v1/item/T5_ARMOR_LEATHER_SET1@2.png' >
+<img alt='Stalker shoes' src='https://render.albiononline.com/v1/item/T5_SHOES_LEATHER_MORGANA@2.png' >
 
 ### Resources
 https://www.albiononline2d.com/en
