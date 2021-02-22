@@ -1535,7 +1535,7 @@ Albion tries to balance the risks and rewards fairly well. I've always been pret
 I haven't explored the PVP and Guild aspect of it much. But I do plan to get there eventually. As recommended by good players, I've been trying to setup a stable income of money by testing out various activities including dungeons and fishing. Some of my build are as follows:
 
 ### Great Axe Build
-<div class='albionBuild'><a href='https://www.albiononline2d.com/en/item/id/T5_2H_AXE@2'><img alt='Greataxe' src='https://render.albiononline.com/v1/item/T5_MAIN_AXE@2.png?size=100'></a>
+<div class='albionBuild'><a href='https://www.albiononline2d.com/en/item/id/T5_2H_AXE@2'><img alt='Greataxe' src='https://render.albiononline.com/v1/item/T5_2H_AXE@2.png?size=100'></a>
 Since I do a lot of solo dungeons, <b>Greataxe</b> is really good for AOE damage and high mobility due to the following spells
 - - Rendering spin: Bleed stats and good physical damage to enemies from a distance
 - - Adrenaline boost: Increased movement speed and damage.
