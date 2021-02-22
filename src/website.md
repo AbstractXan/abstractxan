@@ -1535,23 +1535,18 @@ Albion tries to balance the risks and rewards fairly well. I've always been pret
 I haven't explored the PVP and Guild aspect of it much. But I do plan to get there eventually. As recommended by good players, I've been trying to setup a stable income of money by testing out various activities including dungeons and fishing. Some of my build are as follows:
 
 ### Great Axe Build
-<div class='albionBuild'>
-<a href='https://www.albiononline2d.com/en/item/id/T5_2H_AXE@2'><img alt='Greataxe' src='https://render.albiononline.com/v1/item/T5_MAIN_AXE@2.png?size=100'></a>
+<div class='albionBuild'><a href='https://www.albiononline2d.com/en/item/id/T5_2H_AXE@2'><img alt='Greataxe' src='https://render.albiononline.com/v1/item/T5_MAIN_AXE@2.png?size=100'></a>
 Since I do a lot of solo dungeons, <b>Greataxe</b> is really good for AOE damage and high mobility due to the following spells
 - - Rendering spin: Bleed stats and good physical damage to enemies from a distance
 - - Adrenaline boost: Increased movement speed and damage.
 - - Whirlwind: Bayblade, go!
-
 <a href='https://www.albiononline2d.com/en/item/id/T5_HEAD_CLOTH_SET1@2'><img alt='Scholar cowl' src='https://render.albiononline.com/v1/item/T5_HEAD_CLOTH_SET1@2.png?size=100'></a> 
 <b>Scholar cowl</b>'s Energy Shield spell increases resistance against physical damage and takes care of our mana regen.
-
 <a href='https://www.albiononline2d.com/en/item/id/T5_ARMOR_LEATHER_SET1@2'><img alt='Mercenary  jacket' src='https://render.albiononline.com/v1/item/T5_ARMOR_LEATHER_SET1@2.png?size=100' ></a> 
 'Bloodlust' spell on <b>Mercenary Jacket</b> takes care of the extra health regen we need to out sustain hard bosses. I usually swap out w/ Stalker Jacket for clearing dungeons faster.
-
 <a href='https://www.albiononline2d.com/en/item/id/T5_SHOES_LEATHER_MORGANA@2'><img alt='Stalker shoes' src='https://render.albiononline.com/v1/item/T5_SHOES_LEATHER_MORGANA@2.png?size=100'></a> 
-Recently discovered <b>Stalker shoes</b>- amplifies damage. Swap out w/ Soldierr boots to use Wanderlusts for movement speed.
+Recently discovered <b>Stalker shoes</b>- amplifies damage. Swap out w/ Soldier boots to use 'Wanderlust' for movement speed.
 </div>
-
 <i>Why is this build good?</i>
 - 1. Good damage
 - 2. Very high mobility (w/ Soldier boots)
@@ -1559,10 +1554,9 @@ Recently discovered <b>Stalker shoes</b>- amplifies damage. Swap out w/ Soldierr
 - 4. Overtime damage via bleed stacks
 - 5. Speedy dungeon clear w/ AOE spells
 
-For new player
+New players should look into various Food buffs and Minor Poison potions.
 ### Making money
 Currently exploring various types of dungeons- Solo Dungeon Maps, HCEs, Corrupted dungeons. Also trying out fishing.
-
 ### Learn
 - [Equart](https://www.youtube.com/c/Equart)
 - [https://www.albiononline2d.com/en](https://www.albiononline2d.com/en)
