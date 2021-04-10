@@ -376,12 +376,22 @@ React is a Javascript library unlike Angular - which is a framework.
 - - React has a <b> virtual </b> DOM object for every DOM object ; Limits frequently updating the DOM
 - - Only one element rendered per component : [JSX](https://reactjs.org/docs/introducing-jsx.html)
 
+### Props and State
+<b>Props</b>
+- 1. Pass properties (props) from parent to child.
+- 2. The props that we pass from component to component will never change within the child component -- they can change within the parent but not within the child
+
+<b>State</b>
+- 1. Attributes that we will want to change within the life of a component
+- 2. To collect data from multiple children, or to have two child components communicate with each other, you need to declare the <b>shared state</b> in their parent component instead. The parent component can pass the state back down to the children by using props; this keeps the child components in sync with each other and with the parent component. [Example](#tutorial_checklist)
+
 ### Components
 React contains only two types of components: <b> Functional </b> and <b> Class based </b>.
 
 <i>Functional components</i> are <b>stateless</b> and have no constructor
 <pre class="code">
 function App() {
+    // no state or constructor
     return (
         &lt;p&gt;Hello, World&lt;/p&gt;	
     );
@@ -393,22 +403,15 @@ export default App;
 
 <pre class="code">
 class HasTheParameter extends React.component{
-    render(){
-        return (&lt;p&gt;{this.props.theParameter}&lt;/p&gt;)
+    constructor(props) {
+    super(props);
+    this.state = { ... };
     }
+    render(){...}
 }
 export default HasTheParameter;
 </pre>
-
-### Props and State
-Props
-- 1. Pass properties (props) from parent to child.
-- 2. The props that we pass from component to component will never change within the child component -- they can change within the parent but not within the child
-State
-- 1. Attributes that we will want to change within the life of a component
-- 2. To collect data from multiple children, or to have two child components communicate with each other, you need to declare the <b>shared state</b> in their parent component instead. The parent component can pass the state back down to the children by using props; this keeps the child components in sync with each other and with the parent component. [Example](#tutorial_checklist)
-
-Last Updated : 31 Oct 2020 
+Last Updated : 11 Apr 2021 | 31 Oct 2020 
 ## Kubernetes
 Kuberenetes aka K8s
 
