@@ -299,7 +299,7 @@ Person.prototype.firstNameCaps = function() {
 };
 s.firstNameCaps(); // "ABSTRACT"
 </pre>
--`Person.prototype` is an object shared by all instances of Person
+- `Person.prototype` is an object shared by all instances of Person
 
 ### Inner functions
 Nested functions can share variables in their parent, so you can use that mechanism to couple functions together when it makes sense without polluting your global namespace — "local globals" if you like. -- [Inner functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript#inner_functions)
@@ -353,7 +353,7 @@ React contains only two types of components: <b> Functional </b> and <b> Class b
 <pre class="code">
 function App() {
     return (
-        <p>Hello, World</p>	
+        &lt;p&gt;Hello, World&lt;/p&gt;	
     );
 }
 export default App;
@@ -364,7 +364,7 @@ export default App;
 <pre class="code">
 class HasTheParameter extends React.component{
     render(){
-        return (<p>{this.props.theParameter}</p>)
+        return (&lt;p&gt;{this.props.theParameter}&lt;/p&gt;)
     }
 }
 export default HasTheParameter;

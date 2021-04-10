@@ -86,7 +86,7 @@ body pre.code{
   font-size:14px; 
   line-height: 1;
   border: 1px solid black;
-  padding: 0px 15px 0px 15px;
+  padding: 5px 15px 5px 15px;
   overflow-x: scroll;
   -webkit-overflow-scrolling: touch;
 }
