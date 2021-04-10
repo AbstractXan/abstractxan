@@ -2,9 +2,9 @@
 ## About
 ### Me
 <img class='thumbnail' style='width:200px' src='https://pbs.twimg.com/profile_images/1136164853003849729/FFFdBGmk_400x400.png'>
-Hello, I'm Priyansh Sangule [Resume](../media/Priyansh_Sangule_Resume.pdf) and this website is my [digital garden](https://joelhooks.com/digital-garden) where I curate ideas, technology, art, activity logs. I like tinkering around with computers and creating my own tools.
+Hello, I'm Priyansh Sangule and this website is my [digital garden](https://joelhooks.com/digital-garden) where I curate ideas, technology, art, activity logs. I like tinkering around with computers and creating my own tools.
 
-Currently, I manage [Mizi](https://github.com/abstractxan/Mizi), a static site generator used to build this website. My plans include improving Mizi and build my own time tracker.
+Currently, I manage [Mizi](https://github.com/abstractxan/Mizi), a static site generator used to build this website.
 
 Various things that intrigue me are cross platform software development, better quality code practices, game development, C++ and ways to improve productivity.
 ### Goal
