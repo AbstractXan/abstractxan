@@ -238,10 +238,39 @@ Last Updated: 16 Feb 2021
 ### Questions
 - 
 Last updated: 18 Nov
+## ES6
+### About
+- [Reintroduction](https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript) to JS is a good starter.
+- Play with code at [es6console.com](https://es6console.com/)
+
+
+- JavaScript supports object-oriented programming with object prototypes, instead of classes
+- Also, supports functional programming
+### Checklist
+- [ ] Types
+- - [x] Numbers
+- - [x] Strings
+- - [x] Boolean
+- - [ ] Symbol
+- [x] Variables
+- [ ] Operators
+
+### Notes 
+- Unary <kbd>+</kbd> to convert values to numbers: <code> +'42'; // 42</code>
+- false, 0, empty strings (""), NaN, null, and undefined all become false; everything else is true.
+- <b>let</b>: block level |  <b>const</b>: block level
+- <b>var</b>: visible everywhere 
+- An important difference between JavaScript and other languages like Java is that in JavaScript, blocks do not have scope; only functions have a scope. 
+- `==` operator performs type coercion if you give it different types. To avoid type coercions, use `===`
+- 123 == '123' and 1 == true
+
+Last Updated: 10 April
 ## React
+### Checklist
+- [ ] ES6 
+- [ ] [Official tutorial](https://reactjs.org/tutorial/tutorial.html)
 ### Links
 [React for Angular Developers](https://blog.fabritglobal.com/product-development/getting-started-with-react-angular-developer/)
-
 ### Introduction
 React is a Javascript library unlike Angular - which is a framework.
 
@@ -1525,15 +1554,24 @@ To everyone who was ever a part of this beautiful journey,
 
 # Gaming
 ## Albion Online
-### About
+### About (Old - Feb 22, 2021)
 I started playing Albion online on Oct 2019 but soon discontinued and returned back to the game in Feb 2021. Got hooked because of the player driven economy and group and solo PVP vs PVE aspects, all of these providing real life-like experience.
 
 Albion is also a challege for a very safe item hoarder gamer like me who'd never use minecraft potions because the 'right-time' to use them never came. 
 
 Albion tries to balance the risks and rewards fairly well. I've always been pretty scared for a long time to step out of blue zones.
 
-I haven't explored the PVP and Guild aspect of it much. But I do plan to get there eventually. As recommended by good players, I've been trying to setup a stable income of money by testing out various activities including dungeons and fishing. Some of my build are as follows:
+I haven't explored the PVP and Guild aspect of it much. But I do plan to get there eventually. As recommended by good players, I've been trying to setup a stable income of money by testing out various activities including dungeons and fishing.
+### 25th March Update
+I finally bought premium today for 8.9million silver. 
 
+For the past month I've ventured into yellow zones, red zones and finally Avalonian Roads (black zones). I've took part in the recent call to arms update faction warfare which is pretty fun and beginner friendly PVP.
+
+Avalonian roads and red zone pvps are scary yet rewarding. The key to taking risks is being economically stable. I could easily earn 100-200k everytime I go dungeon(withour premium) in T6-7 red zones, which is basically how much my T5.1 greataxe build costs. I've also stashed about 5 sets of these builds just in case.
+
+I've also moved to Bridgewatch faction due to their high rewards: 144-150%. Nioh98 happens to have his base there too. 
+
+### 6th April Update
 ### Great Axe Build
 <div class='albionBuild'><a href='https://www.albiononline2d.com/en/item/id/T5_2H_AXE@2'><img alt='Greataxe' src='https://render.albiononline.com/v1/item/T5_2H_AXE@2.png?size=100'></a>
 Since I do a lot of solo dungeons, <b>Greataxe</b> is really good for AOE damage and high mobility due to the following spells
