@@ -240,12 +240,10 @@ Last Updated: 16 Feb 2021
 Last updated: 18 Nov
 ## ES6
 ### About
-- [Reintroduction](https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript) to JS is a good starter.
-- Play with code at [es6console.com](https://es6console.com/)
-
-
-- JavaScript supports object-oriented programming with object prototypes, instead of classes
-- Also, supports functional programming
+- - [Reintroduction](https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript) to JS is a good starter.
+- - Play with code at [es6console.com](https://es6console.com/)
+- - JavaScript supports object-oriented programming with object prototypes, instead of classes
+- - Also, supports functional programming
 ### Checklist
 - [ ] Types
 - - [x] Numbers
@@ -253,16 +251,24 @@ Last updated: 18 Nov
 - - [x] Boolean
 - - [ ] Symbol
 - [x] Variables
-- [ ] Operators
-
+- [x] Operators
+- [ ] Objects
 ### Notes 
-- Unary <kbd>+</kbd> to convert values to numbers: <code> +'42'; // 42</code>
-- false, 0, empty strings (""), NaN, null, and undefined all become false; everything else is true.
-- <b>let</b>: block level |  <b>const</b>: block level
-- <b>var</b>: visible everywhere 
-- An important difference between JavaScript and other languages like Java is that in JavaScript, blocks do not have scope; only functions have a scope. 
-- `==` operator performs type coercion if you give it different types. To avoid type coercions, use `===`
+1. Unary <kbd>+</kbd> to convert values to numbers: 
+- <code> +'42'; // 42</code>
+2. false, 0, empty strings (""), NaN, null, and undefined all become false; everything else is true.
+3. <b>let</b>: block level |  <b>const</b>: block level
+4. <b>var</b>: visible everywhere 
+5. An important difference between JavaScript and other languages like Java is that in JavaScript, blocks do not have scope; only functions have a scope. 
+6. `==` operator performs type coercion if you give it different types. To avoid type coercions, use `===`
 - 123 == '123' and 1 == true
+7. 
+- for (let value of array) { // do something with value }
+8. 
+- for (let property in object) { // do something with object property }
+### Objects
+Object initialization
+- var obj = {};
 
 Last Updated: 10 April
 ## React
