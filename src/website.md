@@ -337,10 +337,39 @@ Last Updated: 10 April
 - [ ] [Official tutorial](https://reactjs.org/tutorial/tutorial.html)
 ### Links
 [React for Angular Developers](https://blog.fabritglobal.com/product-development/getting-started-with-react-angular-developer/)
-### Tutorial
-- Goto (Starter code)[https://codepen.io/gaearon/pen/oWWQNa?editors=0010]
-- Pass data from Board to Square
-- 
+### Tutorial Checklist
+1. Goto [Starter code](https://codepen.io/gaearon/pen/oWWQNa?editors=0010)
+2. Pass props (data) from Board to Square
+3. Update Square `state` to display X on click
+4. Create a shared state in Board (parent) and pass function to allow change state
+<details><summary>Example code</summary><pre class="code">
+class Board extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      squares: Array(9).fill(null),
+    };
+  }
+  handleClick(i) {
+    // Update one instance of the state array
+    const squares = this.state.squares.slice();
+    squares[i] = 'X';
+    this.setState({squares: squares});
+  }
+  renderSquare(i) {
+    return (
+      &lt;Square 
+             value = { this.state.squares[i] } 
+             onClick = { () =&gt; this.handleClick(i) } 
+      /&gt;
+    );
+  }
+
+  render() { ... }
+}
+</pre>
+5. 
+
 ### Introduction
 React is a Javascript library unlike Angular - which is a framework.
 
@@ -378,7 +407,7 @@ Props
 - 2. The props that we pass from component to component will never change within the child component -- they can change within the parent but not within the child
 State
 - 1. Attributes that we will want to change within the life of a component
-- 2. To collect data from multiple children, or to have two child components communicate with each other, you need to declare the <b>shared state</b> in their parent component instead. The parent component can pass the state back down to the children by using props; this keeps the child components in sync with each other and with the parent component.
+- 2. To collect data from multiple children, or to have two child components communicate with each other, you need to declare the <b>shared state</b> in their parent component instead. The parent component can pass the state back down to the children by using props; this keeps the child components in sync with each other and with the parent component. Example: [](#tutorial_checklist)
 
 Last Updated : 31 Oct 2020 
 ## Kubernetes
