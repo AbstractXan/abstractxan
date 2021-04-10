@@ -367,8 +367,7 @@ class Board extends React.Component {
 
   render() { ... }
 }
-</pre>
-5. 
+</pre></details>
 
 ### Introduction
 React is a Javascript library unlike Angular - which is a framework.
@@ -407,7 +406,7 @@ Props
 - 2. The props that we pass from component to component will never change within the child component -- they can change within the parent but not within the child
 State
 - 1. Attributes that we will want to change within the life of a component
-- 2. To collect data from multiple children, or to have two child components communicate with each other, you need to declare the <b>shared state</b> in their parent component instead. The parent component can pass the state back down to the children by using props; this keeps the child components in sync with each other and with the parent component. Example: [](#tutorial_checklist)
+- 2. To collect data from multiple children, or to have two child components communicate with each other, you need to declare the <b>shared state</b> in their parent component instead. The parent component can pass the state back down to the children by using props; this keeps the child components in sync with each other and with the parent component. [Example](#tutorial_checklist)
 
 Last Updated : 31 Oct 2020 
 ## Kubernetes
