@@ -253,6 +253,9 @@ Last updated: 18 Nov
 - [x] Variables
 - [x] Operators
 - [ ] Objects
+- [ ] Arrays
+- [ ] Functions
+
 ### Notes 
 1. Unary <kbd>+</kbd> to convert values to numbers: 
 - <code> +'42'; // 42</code>
@@ -269,6 +272,47 @@ Last updated: 18 Nov
 ### Objects
 Object initialization
 - var obj = {};
+### Functions (not classes)
+Anonymous functions:
+- function() { ... }
+Lookup [IIFE - Immediately Invoked Function Expression](https://developer.mozilla.org/en-US/docs/Glossary/IIFE)
+### Custom Objects
+<pre class="code">
+function Person(first, last) {
+  this.first = first;
+  this.last = last;
+  this.fullName = function() {
+    return this.first + ' ' + this.last;
+  };
+  this.fullNameReversed = function() {
+    return this.last + ', ' + this.first;
+  };
+}
+var s = new Person('Simon', 'Willison');
+</pre>
+<b>Prototype Chain</b>
+- `Person.prototype` is an object shared by all instances of Person
+<pre class="code">
+var s = new Person('abstract', 'xan');
+Person.prototype.firstNameCaps = function() {
+  return this.first.toUpperCase();
+};
+s.firstNameCaps(); // "ABSTRACT"
+</pre>
+### Inner functions
+Nested functions can share variables in their parent, so you can use that mechanism to couple functions together when it makes sense without polluting your global namespace — "local globals" if you like. -- [Inner functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript#inner_functions)
+<pre class="code">
+function parentFunc() {
+  var a = 1;
+
+  function nestedFunc() {
+    var b = 4; // parentFunc can't use this
+    return a + b;
+  }
+  return nestedFunc(); // 5
+}
+</pre>
+
 
 Last Updated: 10 April
 ## React
