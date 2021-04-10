@@ -337,13 +337,15 @@ Last Updated: 10 April
 - [ ] [Official tutorial](https://reactjs.org/tutorial/tutorial.html)
 ### Links
 [React for Angular Developers](https://blog.fabritglobal.com/product-development/getting-started-with-react-angular-developer/)
+### Tutorial
+- Goto (Starter code)[https://codepen.io/gaearon/pen/oWWQNa?editors=0010]
+- Pass data from Board to Square
+- 
 ### Introduction
 React is a Javascript library unlike Angular - which is a framework.
 
 - - React has <b> only components </b>
-
 - - React has a <b> virtual </b> DOM object for every DOM object ; Limits frequently updating the DOM
-
 - - Only one element rendered per component : [JSX](https://reactjs.org/docs/introducing-jsx.html)
 
 ### Components
@@ -370,7 +372,13 @@ class HasTheParameter extends React.component{
 export default HasTheParameter;
 </pre>
 
-
+### Props and State
+Props
+- 1. Pass properties (props) from parent to child.
+- 2. The props that we pass from component to component will never change within the child component -- they can change within the parent but not within the child
+State
+- 1. Attributes that we will want to change within the life of a component
+- 2. To collect data from multiple children, or to have two child components communicate with each other, you need to declare the <b>shared state</b> in their parent component instead. The parent component can pass the state back down to the children by using props; this keeps the child components in sync with each other and with the parent component.
 
 Last Updated : 31 Oct 2020 
 ## Kubernetes
