@@ -333,7 +333,7 @@ A closure is the combination of a function and the scope object in which it was 
 Last Updated: 10 April
 ## React
 ### Checklist
-- [ ] ES6 
+- [x] {{ES6}} 
 - [ ] [Official tutorial](https://reactjs.org/tutorial/tutorial.html)
 ### Links
 [React for Angular Developers](https://blog.fabritglobal.com/product-development/getting-started-with-react-angular-developer/)
@@ -525,7 +525,6 @@ Rand
 - = RANDBETWEEN(&lt;bottom&gt;, &lt;top&gt;)
 
 Round
-
 - = ROUND(&lt;number&gt;,&lt;decimal_position&gt;)
 - = ROUNDUP(&lt;number&gt;,&lt;decimal_position&gt;)
 - = ROUNDDOWN(&lt;number&gt;,&lt;decimal_position&gt;)
@@ -785,10 +784,10 @@ Structured Query Language. Keywords are case insensitive.
 - [20 Important Queries](https://bytescout.com/blog/20-important-sql-queries.html#17)
 ### mySQL using Docker
 A basic working SQL server.
-- docker pull mysql
-- docker create network work
-- docker run --name testmysql --network work -e MYSQL_ROOT_PASSWORD=password -d mysql:latest
-- docker run -it --network work --rm mysql mysql -htestmysql -uroot -p
+- $ docker pull mysql
+- $ docker create network work
+- $ docker run --name testmysql --network work -e MYSQL_ROOT_PASSWORD=password -d mysql:latest
+- $ docker run -it --network work --rm mysql mysql -htestmysql -uroot -p
 - #(Enter 'password' as your password)
 
 Pull docker image. Create a network. Start a server in a container. Create a client container and access the server.
@@ -827,13 +826,24 @@ UNION ALL => DUPLICATES allowed
 
 ### Curated Questions
 1. Query even ID numbers in table STATION.
-- select * from station where <b>MOD(id,2)</b>=0;
+<pre class="code">
+select * from station where <b>MOD(id,2)</b>=0;
+</pre>
+
 2. Query to find the difference between the total number of cities and the unique number of cities in the table STATION.
-- select <b>count(city)-count(distinct city)</b> from station;
+<pre class="code">
+select <b>count(city)-count(distinct city)</b> from station;
+</pre>
+
 3. Query city with the longest name from table STATION
-- select city from station orderby length(city) <b>desc, city limit 1</b>;
+<pre class="code">
+select city from station orderby length(city) <b>desc, city limit 1</b>;
+</pre>
+
 4. Query the list of CITY names starting with vowels (i.e., a, e, i, o, or u) from STATION. Result cannot contain duplicates.
-- select distinct city FROM station WHERE city REGEXP "^[aeiou].*";
+<pre class="code">
+select distinct city FROM station WHERE city REGEXP "^[aeiou].*";
+</pre>
 
 ## Deep Learning Image Classification
 ### Notebook
@@ -873,7 +883,6 @@ C++ Classes and Objects in detail: [here](https://www.tutorialspoint.com/cpluspl
 Using abstract class/Interface we express the intent of the class rather than the actual implementation.
 ### Encapsulation
 Encapsulation — private instance variable and public accessor methods.
-
 ### Inheritence
 ### Polymorphism
 Polymorphism occurs when there is a hierarchy of classes and they are related by inheritance.
@@ -979,8 +988,10 @@ OnCollisionEnter2D(Collider2D other){
 ### Basic Perlin Noise
 ![Perlin Noise](../media/unity/perlin.png)
 <pre class="code">
-public static float[,] GenerateNoiseMap(int mapWidth, int mapHeight, float scale){
-    
+public static float[,] GenerateNoiseMap(
+        int mapWidth, 
+        int mapHeight, 
+        float scale){    
     float[,] noiseMap = new float[mapWidth,mapHeight];
     if ( scale <= 0 ){ scale = 0.001F; }
     for (int y = 0 ; y < mapHeight ; y++){
