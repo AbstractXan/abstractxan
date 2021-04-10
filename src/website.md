@@ -1861,6 +1861,22 @@ Started logging: 27 May 2020
 ### Disclaimer
 This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
 
+### Spring
+07-Apr-2021
+![Spring](../media/art/spring.png)
+
+### Spiral
+07-Apr-2021
+![Spiral](../media/art/pinkspiral.gif)
+
+### Contours
+07-Apr-2021
+![Contours](../media/art/contours.gif)
+
+### Xan
+07-Apr-2021
+![Xan Gif](../media/art/xan.gif)
+
 ### Mundane
 29-Oct-2020
 ![Mundane](../media/art/mundane.png)
@@ -1876,6 +1892,9 @@ This work is licensed under a <a rel="license" href="http://creativecommons.org/
 ### Watermelon
 19-Oct-2020
 ![Watermelon](../media/art/watermelon.png)
+## Poems
+### Disclaimer
+This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
 
 ## PixelArt
 ### Zip-Zap
