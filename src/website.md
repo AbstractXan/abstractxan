@@ -252,9 +252,10 @@ Last updated: 18 Nov
 - - [ ] Symbol
 - [x] Variables
 - [x] Operators
-- [ ] Objects
-- [ ] Arrays
-- [ ] Functions
+- [x] Objects
+- [x] Arrays
+- [x] Functions
+- [x] Closures
 
 ### Notes 
 1. Unary <kbd>+</kbd> to convert values to numbers: 
@@ -291,7 +292,6 @@ function Person(first, last) {
 var s = new Person('Simon', 'Willison');
 </pre>
 <b>Prototype Chain</b>
-- `Person.prototype` is an object shared by all instances of Person
 <pre class="code">
 var s = new Person('abstract', 'xan');
 Person.prototype.firstNameCaps = function() {
@@ -299,6 +299,8 @@ Person.prototype.firstNameCaps = function() {
 };
 s.firstNameCaps(); // "ABSTRACT"
 </pre>
+-`Person.prototype` is an object shared by all instances of Person
+
 ### Inner functions
 Nested functions can share variables in their parent, so you can use that mechanism to couple functions together when it makes sense without polluting your global namespace — "local globals" if you like. -- [Inner functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript#inner_functions)
 <pre class="code">
@@ -312,7 +314,21 @@ function parentFunc() {
   return nestedFunc(); // 5
 }
 </pre>
+### Closures
+<pre class="code">
+function makeAdder(a) {
+  return function(b) {
+    return a + b;
+  };
+}
+var add5 = makeAdder(5);
+var add20 = makeAdder(20);
+add5(6); // 11
+add20(7); // 27
+</pre>
+Scope objects form a chain called the scope chain, similar to the prototype chain.
 
+A closure is the combination of a function and the scope object in which it was created. Closures let you save state — as such, they can often be used in place of objects. A [good resource](https://stackoverflow.com/a/111111) for understanding closures. 
 
 Last Updated: 10 April
 ## React
