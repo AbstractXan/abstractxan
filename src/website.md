@@ -374,6 +374,7 @@ React is a Javascript library unlike Angular - which is a framework.
 - - React has <b> only components </b>
 - - React has a <b> virtual </b> DOM object for every DOM object ; Limits frequently updating the DOM
 - - Only one element rendered per component : [JSX](https://reactjs.org/docs/introducing-jsx.html)
+- - <b> Data Flows Down </b>
 
 ### Props and State
 <b>Props</b>
@@ -404,9 +405,6 @@ this.setState((state, props) => ({
 }));
 </pre>
 3. State updates are merged, i.e when you call `setState()`, React merges the object you provide into the current state.
-
-<b> Data Flows Down </b>
-
 ### Components
 React contains only two types of components: <b> Functional </b> and <b>Class based</b>.
 
@@ -437,9 +435,10 @@ Rendering multiple components using `map()` on arrays:
 <pre class="code">
 this.state.persons.map(person => { 
     return (
-        <Person name={person.name}
+        &lt;Person 
+            name={person.name}
             age={person.age}
-        />
+        /&gt;
     );
 })
 </pre>
@@ -449,9 +448,7 @@ Updating Immutable state:
 const currState = [<b>...this.state.persons</b>]
 </pre>
 2. [Splice](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice) (Remove/insert)
-<pre class="code">
-const currState = [<b>...this.state.persons</b>]
-</pre>
+3. Adding keys to lists to allow react to efficiently update DOM
 ### Lifecycle methods
 - componentDidMount()
 
@@ -465,7 +462,7 @@ const currState = [<b>...this.state.persons</b>]
 - useState()
 
 ### Two Way Binding : Events
-Last Updated : 11 Apr 2021 | 31 Oct 2020 
+Last Updated : 144 Apr 2021 | 11 Apr 2021 | 31 Oct 2020 
 ## Kubernetes
 Kuberenetes aka K8s
 
