@@ -334,7 +334,8 @@ Last Updated: 10 April
 ## React
 ### Checklist
 - [x] {{ES6}} 
-- [ ] [Official tutorial](https://reactjs.org/tutorial/tutorial.html)
+- [x] [Official tutorial](https://reactjs.org/tutorial/tutorial.html)
+- [ ] Create a project locally
 ### Links
 [React for Angular Developers](https://blog.fabritglobal.com/product-development/getting-started-with-react-angular-developer/)
 ### Tutorial Checklist
@@ -385,6 +386,29 @@ React is a Javascript library unlike Angular - which is a framework.
 - 1. Attributes that we will want to change within the life of a component
 - 2. To collect data from multiple children, or to have two child components communicate with each other, you need to declare the <b>shared state</b> in their parent component instead. The parent component can pass the state back down to the children by using props; this keeps the child components in sync with each other and with the parent component. [Example](#tutorial_checklist)
 
+Three things to know about state:
+1. Donot modify state directly
+<pre class="code">
+// Wrong
+this.state.comment = 'Hello';
+// Correct
+this.setState({comment: 'Hello'});
+</pre>
+2. State updates may be asynchronous
+<pre class="code">
+// Wrong
+this.setState({
+  counter: this.state.counter + this.props.increment,
+});
+// Correct
+this.setState((state, props) => ({
+  counter: state.counter + props.increment
+}));
+</pre>
+3. State updates are merged, i.e when you call `setState()`, React merges the object you provide into the current state.
+
+<b> Data Flows Down </b>
+
 ### Components
 React contains only two types of components: <b> Functional </b> and <b> Class based </b>.
 
@@ -411,6 +435,41 @@ class HasTheParameter extends React.component{
 }
 export default HasTheParameter;
 </pre>
+
+### Lists and Keys
+Rendering multiple components using `map()` on arrays:
+<pre class="code">
+{
+    this.state.persons.map(person => {
+    return (
+        <Person 
+            name={person.name}
+            age={person.age}
+        />
+        );
+    })
+}
+</pre>
+
+Updating Immutable state:
+1. Spread operator
+- const currState = [[<b>...this.state.persons</b>](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax)]
+2. Splice (Remove/insert)
+- [array.prototype.splice()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice)
+
+### Lifecycle methods
+- componentDidMount()
+
+### React app on local
+- 1. Dependency Manager: npm
+- 2. Bundler: Webpack
+- 3. Compiler: Babel
+- 4. Development Server
+
+### React Hooks
+- useState()
+
+### Two Way Binding : Events
 Last Updated : 11 Apr 2021 | 31 Oct 2020 
 ## Kubernetes
 Kuberenetes aka K8s
