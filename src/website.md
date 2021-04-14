@@ -365,11 +365,9 @@ class Board extends React.Component {
       /&gt;
     );
   }
-
   render() { ... }
 }
 </pre></details>
-
 ### Introduction
 React is a Javascript library unlike Angular - which is a framework.
 
@@ -410,7 +408,7 @@ this.setState((state, props) => ({
 <b> Data Flows Down </b>
 
 ### Components
-React contains only two types of components: <b> Functional </b> and <b> Class based </b>.
+React contains only two types of components: <b> Functional </b> and <b>Class based</b>.
 
 <i>Functional components</i> are <b>stateless</b> and have no constructor
 <pre class="code">
@@ -424,7 +422,6 @@ export default App;
 </pre>
 
 <i>Class-based components</i> are <b>stateful</b> i.e they keep track of changing data
-
 <pre class="code">
 class HasTheParameter extends React.component{
     constructor(props) {
@@ -435,28 +432,26 @@ class HasTheParameter extends React.component{
 }
 export default HasTheParameter;
 </pre>
-
 ### Lists and Keys
 Rendering multiple components using `map()` on arrays:
 <pre class="code">
-{
-    this.state.persons.map(person => {
+this.state.persons.map(person => { 
     return (
-        <Person 
-            name={person.name}
+        <Person name={person.name}
             age={person.age}
         />
-        );
-    })
-}
+    );
+})
 </pre>
-
 Updating Immutable state:
-1. Spread operator
-- const currState = [[<b>...this.state.persons</b>](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax)]
-2. Splice (Remove/insert)
-- [array.prototype.splice()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice)
-
+1. [Spread operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax)
+<pre class="code">
+const currState = [<b>...this.state.persons</b>]
+</pre>
+2. [Splice](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice) (Remove/insert)
+<pre class="code">
+const currState = [<b>...this.state.persons</b>]
+</pre>
 ### Lifecycle methods
 - componentDidMount()
 
