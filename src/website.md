@@ -333,11 +333,15 @@ A closure is the combination of a function and the scope object in which it was 
 Last Updated: 10 April
 ## React
 ### Checklist
-- [x] {{ES6}} 
+- [x] [ES6](./es6.html) 
 - [x] [Official tutorial](https://reactjs.org/tutorial/tutorial.html)
-- [ ] Create a project locally
+- [x] Create projects locally
+- [x] Create a simple counter app
+- [x] Create an app which inputs text and spawns a card for every letter
+
 ### Links
-[React for Angular Developers](https://blog.fabritglobal.com/product-development/getting-started-with-react-angular-developer/)
+1. [React for Angular Developers](https://blog.fabritglobal.com/product-development/getting-started-with-react-angular-developer/)
+2. [Design Patterns: The React Cookbook](https://www.youtube.com/watch?v=lG6Z0FQj_SI)
 ### Tutorial Checklist
 1. Goto [Starter code](https://codepen.io/gaearon/pen/oWWQNa?editors=0010)
 2. Pass props (data) from Board to Square
@@ -462,7 +466,7 @@ const currState = [<b>...this.state.persons</b>]
 - useState()
 
 ### Two Way Binding : Events
-Last Updated : 144 Apr 2021 | 11 Apr 2021 | 31 Oct 2020 
+Last Updated : 17,14,11 Apr 2021 | 31 Oct 2020 
 ## Kubernetes
 Kuberenetes aka K8s
 
@@ -2070,105 +2074,15 @@ $$$ Seperate Pages
 ## Quotes
 ### 
 - Great engineering comes from creating predictable results at predictable costs. In fact, I like to say that if you’re not measuring you’re not engineering. - Rico Mariani
-## Experiments with life
-### Introduction
-Being constantly dissatisfied with myself, I feel very stagnated in life. To come out of these badlands, I'll be writing blogs on my experiments on myself.
-
-### Routine
-- 3 AM : Wake up and Study 
-- 6 AM : Exercise and Yoga
-- 8:30 AM : Breakfast 
-- 11:30 AM : Lunch  
-- 7:30 PM : Dinner
-- 10 PM : Sleep
-
-### Workouts
-A set of body workouts including: Gym workouts, Yoga and Meditation on a daily basis.
-
-### Productivity
-Every work using pomodoro.
-
-Factors that help improve productivity:
-- Taking breaks between work
-- Explaining a concept to someone
-- Getting inspired
-- Cooking
-- Drawing
-
-Factors that hinder productivity:
-- Absense of physical activities
-- Trying to do a lot of work at once
-- Stress
-- Prolonged sitting
-- Excessive gaming (drains the mind)
-
-
-### Tracker
-Currently, I'm building a personal tracker for productivity and projects. I'll be posting daily progress here until then. Every time slot is broken down into pomodoros i.e 25min.
-
-Glossary:
-- <b>A</b> : Artwork
-- <b>C</b> : Cooking
-- <b>Ch</b> : Chores
-- <b>E</b> : Exercise
-- <b>G</b> : Gaming
-- <b>H</b> : Hygiene
-- <b>L</b> : Leisure
-- <b>M</b> : Meditation
-- <b>Mu</b> : Music
-- <b>S</b> : Study
-- <b>Y</b> : Yoga
-
-Log :
-- 24 March 2020 : E,Y,M,Mu,G,G,S,S,S,S,S,S,Mu,Mu,Mu,G,G,G,G,G,G,G,G
-- 25 March 2020 : E,Y,M,M,S,H,S,G,G,G,G,G,G,S,S,S,S,S,S,S,S,S,S,G,G,G,G,G,G
-- 26 March 2020 : E,Y,M,S,S,S,S,S,S,S,S,S,G,G,G,G,G,G,G,G
-- 27 March 2020 : Y,M,S,S,S,S,S,S,S,G,G,G,G,G,G,G,G
-- 28 March 2020 : M,S,S,S,S,S,S,G,G,G,G,G,G,G,G
-- 29 March 2020 : E,M,S,S,S,S,S,S,S,S,S,S,S,S,G,G,G,G,G,G,G,S,S,G,G,G,G,G,G
-- 30 March 2020 : E,Y,M,A,A,A,S,S,S,C,C,C,C,H,S,S,S,A,A,A,S
-- 31 March 2020 : E,M,A,A,S,S,S,A,A,C,S,S,A,A,S,S,S,G
-- 1 April 2020 : E,M,H,S,S,S,S,S,S,S,S,C,C,S,S,S,S,S,S,C,C,A
-- 2 April 2020 : E,Y,H,S,S,S,S,S,C,C,S,S,S,Mu,Mu,S,S,S
-- 3 April 2020 : E,Y,S,S,S,S,S,S,S
-- 4 April 2020 : S,S,S,S,S,S,S,S,S,S
-- 5 April 2020 : E,Y,M,S,S,S,S,C,S,S,S,S,S,S
-- 6 April 2020 : E,M,H,S,S,S,S,S,G,S,S,S,G,G,G,G,G,G,G,G
-- 7 April 2020 : E,M,H,S,S,S,C,C,G,G,G,G,E,E,G,G,G
-- 8 April 2020 : S,S,S,S,C,C,S,S,G,G,G,S,S,S,S,S,S,E,E,G,G,G
-- 9 April 2020 : E,M,G,G,G,G,G,G,G,G,E,E,Mu,Mu,Mu
-- 10 April 2020 : E,S,S,S,S,S,S,C,S,S,S,S,A,Ch,Ch,Ch,Ch,Ch,Ch,Mu,Mu
-- 11 April 2020 : S,E,A,S,S
-- 12 April 2020 : E,M,A,S,S,A,S,S,S
-- 13 April 2020 : E,M,S,S,S,S,S,S,S,S
-- 14 April 2020 : E,M,S,S,S,S,S,S,S,S,S,S,A,Mu,Mu
-- 15 April 2020 : E,Y,A,A,S,S,S,S,S,S,S,S,S,
-- 16 April 2020 : E,S,S,Ch,Ch,Ch,Ch,S,S,S,S,S,S,S,S,S,S,S,G,G,G,G
-- 17 April 2020 : E,Y,H,S,S,S,C,G,G,S,S,S,S,S,S,S,S,
-- 18 April 2020 : E
-- 19 April 2020 : S,S,S,S,S,S,S,S,S,S,S,S,G,G,G,G
-- 20 April 2020 : S,S,S,S,S,S,S,S,S,S,S,S,G,G,G,G,G
-- 21 April 2020 : E,S,S,S,S,S,S,S,S,G,G,G,G,S,S
-- 22 April 2020 : 
-- 23 April 2020 : S,S,S,S,S,S,S,s,S,S
-- 24 April 2020 : S,S,S,S,S,S,S,S,S,S
-- 25 April 2020 : E,S,S,S,S,S,S,S,S,S,S,G,G,S,S
-- 26 April 2020 : S,S,S,S,S,S,S,S
-- 27 April 2020 : S,S,S,S,G,G,S,S,S,S,S,S
-- 28 April 2020 : E,S,S,S,S,G,G,G,G,G,G,S,S,S,S,S,S,S,S,S,S
-- 29 April 2020 : S,S,S,S,S,S,S,S,G,G,G,G
-- 30 April 2020 : S,S,S,S,S,S,S,S,G,G,G,G,G,G
-- 1 May 2020 : S,S,S,S,S,S,S,S,S,S,G,G,G,G
-- 2 May 2020 : S,S,S,S,S,S,S,S,S,S
-- 3 May 2020 : S,S,S,S,S,S,S,S,S,S,G,G
-- 4 May 2020 : S,S,S,S,S,S,S,S,S,S,S,G,G
-- 5 May 2020 : S,S,G,G,G,S,S
-- 8 May 2020 : S,S,S,S,S,S,S
-
-Last Updated: 8 May 2020
 
 ## Human changelog
 ### Timeline
+- 14 Apr 2021 : Dealt with stored XSS 
+- 11 Apr 2021 : Started Learning React
+- 01 Mar 2021 : Played Albion for a month
+- 01 Mar 2021 : Moved to Kota for a month
+- 6 Apr 2021 : Got a raise! 
+- 12 Feb 2021 : Renewed abstractxan.xyz for 3 years
 - ?? Dec 2020 : Started learning databases
 - 29 Dec 2020 : Watched watching Silicon Valley S01-S06
 - 17 Dec 2020 : Bought my first Blazer (Park Avenue)
@@ -2192,7 +2106,7 @@ Last Updated: 8 May 2020
 - 22 Aug 2020 : Link_Pump scripting 
 - 21 Aug 2020 : Learning vim
 - 9 Aug 2020 : Started learning AWS 
-- 3 Aug 2020 : First Day at Job 
+- 3 Aug 2020 : First Day at Job [Team Schoology, Powerschool]() 
 - 20 July 2020 : Started creating [Jikan](https://github.com/abstractxan/Jikan)
 - 29 July 2020 : Started Kubernetes 
 - 29 July 2020 : Accepted Job Offer - [Powerschool]()
@@ -2221,7 +2135,7 @@ Last Updated: 8 May 2020
 - 10 Jul 2020 : Job interview for Velotio : Rejected
 
 - ?? Feb 2020 : Created and hosted website
-Last Update: 2 Jan 2021
+Last Update: 17 Apr 2021
 
 ## Wanderings
 ### Study
