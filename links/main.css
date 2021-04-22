@@ -26,7 +26,8 @@ body h2 { font-family: "alte_haas_grotesk_bold", "Helvetica Neue", Helvetica, Ar
 body main h2#_ { font-size:30px; padding: 0px 0px;} /* Empty " " Part title */
 body main > img { width:100%; max-width: 600px; }
 body main ul { font-family: 'input_mono_regular'; font-size:14px; line-height: 20px }
-body main ul li a { text-transform: capitalize; text-decoration: underline; }
+
+body main ul li a { text-decoration: underline; }
 body main ul li b { font-weight: bold }
 body main ul li:hover a { text-decoration: none; }
 body main { line-height: 28px; font-size:18px; }
@@ -51,7 +52,7 @@ body main ul.gallery li img { width:150px; float:left; display: block ; margin-r
 body main ul.gallery li h3 { font-family: "alte_haas_grotesk_regular", "Helvetica Neue", Helvetica, Arial; font-size: 30px;text-transform: capitalize; line-height: 40px;max-width: 75%; margin-bottom: 10px; }
 body main ul.gallery li h4 { font-family: "alte_haas_grotesk_bold", "Helvetica Neue", Helvetica, Arial; font-size:20px; text-transform: capitalize; }
 
-body main > ul.pagelist li { text-decoration-style: none;}
+body main.home ul li a { text-transform: capitalize; text-decoration: none;}
 body main > ul.pagelist li:hover{background:black; color:white; }
 body main > ul.pagelist li::marker { color:#777; }
 body main > ul.pagelist li { list-style-type: decimal-leading-zero; list-style-position: inside; text-transform: capitalize;}
@@ -81,14 +82,16 @@ body main sub { font-size: 14px;font-style: italic;}
 
 /* Code */
 body pre.code{
+  margin-top: 18px;
   display: block;
   font-family: 'input_mono_regular'; 
   font-size:14px; 
-  line-height: 1;
-  background-color: rgb(238, 238, 238);
-  border: 1px solid black;
+  line-height: 0.8;
+  background-color: rgb(247, 247, 247);
+  border: 4px rgb(193, 193, 193);
+  border-style: dashed solid;
   padding: 5px 15px 5px 15px;
-  overflow-x: scroll;
+  overflow-x: auto;
   -webkit-overflow-scrolling: touch;
 }
 

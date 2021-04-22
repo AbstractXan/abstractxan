@@ -1955,6 +1955,18 @@ Started logging: 27 May 2020
 ### Disclaimer
 This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
 
+### Work
+22-Apr-2021
+![Work](../media/art/work.gif)
+
+### Desk
+22-Apr-2021
+![Desk](../media/art/desk.png)
+
+### Travel
+17-Apr-2021
+![Travel](../media/art/travel.png)
+
 ### Spring
 07-Apr-2021
 ![Spring](../media/art/spring.png)
