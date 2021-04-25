@@ -18,6 +18,8 @@ Found a typo? Feel free to open an [issue](https://www.github.com/abstractxan/ab
 ###  
 Journal shows recent updates.
 
+![250421](../media/journal/250421.gif) 250421 - Unity Trees | [Repository](https://github.com/AbstractXan/Unity-Trees) 
+
 ![271020](../media/journal/271020.png) 271020 - Unity Kanban | [Repository](https://github.com/AbstractXan/Kanban-Unity) 
 
 ![111020](../media/journal/111020.png)
@@ -136,6 +138,59 @@ Mizi is designed to be light weight, minimalistic and convenient. It is created 
 ### Space 
 <iframe src='https://itch.io/embed/543741' height='auto' width='100%' frameborder='0'><a href='https://abstractxan.itch.io/space'>Space by AbstractXan</a></iframe>
 
+## Deforestation Devlog
+### Intro
+![250421](../media/journal/250421.gif)
+I like chill games. I feel there is a need for couch multiplayer games
+### Problems
+- [x] Movement for 1 player
+- [x] Creating sprites (for trees)
+- [x] Update sprites and number of logs on trees
+- [x] Grow back one log in tree 10sec after cutting: [Invoke](https://docs.unity3d.com/ScriptReference/MonoBehaviour.Invoke.html)
+<pre class="code">
+Invoke("growTree", Random.Range(10.0f,20.0f));
+</pre>
+- [x] Making it a 2 player game
+- [x] Adding movement controls for 2 players : [Edit > Project Settings > Input Manager](https://docs.unity3d.com/ScriptReference/Input.GetAxis.html)
+- [x] Adding scores for both players
+- [x] Sorting layer to hide player behind trees
+- [x] Fixing movement script to fix speed in which player ran in diagonal
+<pre class="code">
+void FixedUpdate(){
+    float moveSpeed = 7;
+    float horizontalInput = Input.GetAxis("Horizontal");
+    float verticalInput = Input.GetAxis("Vertical");
+
+    // Fix diagonal speed
+    if(verticalInput!=0 && horizontalInput!=0){
+        float theta = Mathf.Abs(Mathf.Atan(verticalInput/horizontalInput));
+        horizontalInput = horizontalInput * Mathf.Cos(theta);
+        verticalInput = verticalInput * Mathf.Sin(theta);
+    }
+    transform.Translate(new Vector3(horizontalInput, verticalInput, 0 ) * moveSpeed * Time.deltaTime);
+}
+</pre>
+- [ ] Check if player has been standing on tree for 2sec to cut tree
+
+At this point a simple prototype to play around is ready. I need to figure out key game mechanics and what this game could become. Some mechanics so far:
+1. Cutting trees
+2. Hiding among trees
+3. (Potential) Swapping logs on contact with other player
+Not a great idea as swapping is kinda brutal and probably is an annoying thing to have.
+4. (Potential) Setting traps to steal logs from other player
+
+Some game ideas:
+1. Overcooked style 
+Goal: Try to beat the game (star mechanic?) with best score possible
+Challenge: Game throws environmental challenges
+Gameplay: Level based Coop
+
+2. Stealth, skill based
+Goal: Try to beat the other player
+Challenge: Outwit the other player
+Gameplay: Stealth (Hide in the trees) and stealing (Swap) , traps ?
+
+Last Updated: 25-Apr-2021
 ## Enigma 2020
 ### About
 ![](../media/enigma/poster.png)Enigma is a competitive ciphering and deciphering heist while looking for clues in the gigantic internet universe. Explore some amazing corners of the web-battling out puzzles and reading between the lines. Got stuck on some questions? Work your way out through your search engines.
