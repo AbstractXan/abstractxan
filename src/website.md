@@ -2106,24 +2106,101 @@ The library is a collection of good content I have read/watched and recommend to
 - Kimi no na wa
 - 5 Centimeters per sec
 - Garden of Words
-### Mubi
-- 14/2/21 : [Dead Pigs - Cathy Yan](https://mubi.com/films/dead-pigs) | 1/5
-- 5/2/21 : [Salon Kitty - Tinto Brass](https://mubi.com/films/salon-kitty) | Drama, Cult, Erotica | 2/5
-- 4/2/21 : [Kramer vs Kramer - Robert Benton]() | Drama | 3/5
-- 26/1/21 : [Adolescents - Sébastien Lifshitz](https://mubi.com/films/adolescentes) | Documentary | 3/5
-- 12/1/21 : [Invisible Life - Karim Ainouz](https://mubi.com/films/the-invisible-life-of-euridice-gusmao) | Drama | 4/5
-- 25/12/20 :[Upstream Color](https://mubi.com/films/upstream-color) | Sci-Fi, Drama, Mystery | 4/5
-- 25/12/20 : [The Adventures of Tin Tin](https://mubi.com/films/the-adventures-of-tintin) | Animation | 3/5
-- 24/12/20 : [So long my son - Wang Xiaoshuai](https://mubi.com/films/so-long-my-son) | Drama | 4/5
-- 16/12/20 : [Tokyo Sonata - Kiyoshi Kurosawa](https://mubi.com/films/tokyo-sonata) | Drama | Life | 3/5
-- 15/12/20 : [Breakwater](https://mubi.com/films/quebramar) | Sexuality | 3/5
-- 13/12/20 : Curse of the golden flower | 2/5
-- 14/12/20 : [Tripping with Nils Frahm]() | Documentary | Music | 4/5
-- 12/12/20 : [Office spaces]() | 3/5
-### Mubi(India)
-- Gamak Ghar
-- Pyaasa
-- 12/12/20: [3 Idiots]() | 3/5
+## Movies Log
+### 2021-April-30
+<b>It's a boy-girl thing</b>
+*
+- Comedy, Fiction
+Good acting. Mild and goody-goody drama. Storyline was okay. Lost its spark on rewatching.
+<hr>
+### 2021-April-23
+<b>Matrix reloaded</b>
+★★★★★
+- Action, Sci-Fi, Thriller
+Rewatched for the 5th time? And still packs a punch??? Came here after Tenet, this one still wins by a large factor. LEGENDARY.
+<hr>
+### 2021-Feb-14
+<b>Dead Pigs ~ Cathy Yan</b>
+★
+- Drama
+Watch normal lives of people go to shit converge at the end.
+<hr>
+### 2021-Feb-5
+<b>Salon Kitty ~ Tinto Brass</b>
+★★
+- Drama, Cult, Erotica
+<hr>
+### 2021-Feb-4
+<b>Kramer vs Kramer ~ Robert Benton</b> 
+★★★
+- Drama
+Divorce and kids
+<hr>
+### 2021-Jan-26
+<b>Adolescents ~ Sébastien Lifshitz</b>
+★★★
+- Documentary
+Laid back documentary on people who aren't young enough to be called kids or old enough to be called adults.
+<hr>
+### 2021-Jan-12
+<b>Invisible Life ~ Karim Ainouz</b>
+★★★★
+- Drama
+<hr>
+### 2020-Dec-25
+<b>Upstream Color</b> 
+★★★★
+- Sci-Fi, Drama, Mystery
+No dialogues after you finish 50% of the movies, yet the story progresses as a constant pace using visual cues. Excellent cinematography.
+<hr>
+<b>The Adventures of Tin Tin</b>
+★★★
+- Animation
+<hr>
+### 2020-Dec-24
+<b>So long my son ~ Wang Xiaoshuai</b>
+★★★★
+- Drama
+Heart wrenching story of two chinese family and their bond. One child policy and it's effect on people.
+<hr>
+### 2020-Dec-16
+<b>Tokyo Sonata ~ Kiyoshi Kurosawa</b>
+★★★
+- Drama, Life
+Slice of life. A great breather if you ever feel like escaping your normal day-to-day routine. Everyone needs to get their shit together at the end.
+<hr>
+### 2020-Dec-15
+<b>Breakwater</b>
+★★★
+- Sexuality
+<hr>
+### 2020-Dec-14
+<b>Tripping with Nils Frahm</b> 
+★★★★
+- Documentary | Music
+Dissolve into the melodic music
+<hr>
+### 2020-Dec-13
+<b>Curse of the golden flower</b>
+★★
+- Action | Fighting
+Nice actions scenes. I don't like conspiracy thingies.
+<hr>
+### 2020-Dec-12
+<b>Office spaces</b>
+★★★
+Cult classic
+<hr>
+
+### Bollywood
+2020-Dec-12
+<b>3 Idiots </b>
+★★★
+<hr>
+???
+Gamak Ghar
+Pyaasa
+
 ## Sketchbook 2019
 ### Sketches
 <div class='sketchbook'><img src='../media/sketchbook2019/Sketchbook2019-02.jpg'><img src='../media/sketchbook2019/Sketchbook2019-03.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-04.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-05.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-06.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-07.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-08.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-09.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-10.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-11.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-12.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-13.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-14.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-15.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-16.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-17.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-18.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-19.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-20.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-21.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-22.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-23.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-24.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-25.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-26.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-27.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-28.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-29.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-30.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-31.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-32.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-33.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-34.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-35.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-36.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-37.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-38.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-39.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-40.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-41.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-42.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-43.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-44.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-45.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-46.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-47.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-48.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-49.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-50.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-51.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-52.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-53.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-54.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-55.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-56.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-57.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-58.jpg'> <img src='../media/sketchbook2019/Sketchbook2019-59.jpg'></div>
