@@ -2109,7 +2109,7 @@ The library is a collection of good content I have read/watched and recommend to
 ## Movies Log
 ### 2021-April-30
 <b>It's a boy-girl thing</b>
-*
+★
 - Comedy, Fiction
 Good acting. Mild and goody-goody drama. Storyline was okay. Lost its spark on rewatching.
 <hr>
