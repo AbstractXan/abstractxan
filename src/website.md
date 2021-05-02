@@ -1,14 +1,13 @@
 # Home
 ## About
 ### Me
-<img class='thumbnail' style='width:200px' src='https://pbs.twimg.com/profile_images/1136164853003849729/FFFdBGmk_400x400.png'>
-Hello, I'm Priyansh Sangule and this website is my [digital garden](https://joelhooks.com/digital-garden) where I curate ideas, technology, art, activity logs. I like tinkering around with computers and creating my own tools.
+Hello, I'm abstractxan and this website is my [digital garden](https://joelhooks.com/digital-garden) where I curate ideas, technology, art and activity logs.
 
 Currently, I manage [Mizi](https://github.com/abstractxan/Mizi), a static site generator used to build this website.
 
-Various things that intrigue me are cross platform software development, better quality code practices, game development, C++ and ways to improve productivity.
-### Goal
-Further advance the fields of science and arts. Creating low level simple and sharp softwares that help people create and inspire others.
+I'm a software engineer in education technology domain. In my free time I learn Game development, C++ and Databases. I like creating offline tools and softwares.
+ 
+You could treat this as a personal database of my life. This website is no way complete and shall never will be, please expect unfinished notes and artwork here.
 ### Contribute
 Source files for my projects could be found on [Github](https://www.github.com/abstractxan). This website is made with C++ using [Mizi](https://www.github.com/abstractxan/mizi). Source files for my website are available [here](https://www.github.com/abstractxan/abstractxan/tree/master/src). This website is heavily inspired by [100 Rabbits](https://100r.co).
 
@@ -516,6 +515,24 @@ const currState = [<b>...this.state.persons</b>]
 - 2. Bundler: Webpack
 - 3. Compiler: Babel
 - 4. Development Server
+
+### Component Updating Lifecycle
+1. getDerivedStateFromProps(props, state)
+- sync state to props
+2. shouldComponentUpdate()
+- Can block component update
+- can help with performance
+3. render()
+4. getSnapshotBeforeUpdate(prevpros,prevstate)
+5. componentDidUpdate()
+- HTTP requests should be done here
+
+Functional components use React.memo in place of shouldComponentUpdate
+- - Updates component when the inputs coming in change
+- - export default React.memo(MyComponent)
+
+Donot use shouldComponentUpdate or React.memo unnecessarily if parent almost always send through
+changes to the component. As it just adds extra checks which drops the performance instead.
 
 ### React Hooks
 - useState()
