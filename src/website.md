@@ -1200,54 +1200,54 @@ Working dir --add--> Staging data --commit--> Local repo --push--> Remote Reposi
 ### Staging
 Add changes to staging. '-p' for pruning through changes.
 <pre class="code">    
-    $ git add .
-    $ git add -p
-    $ git checkout -- .
+$ git add .
+$ git add -p
+$ git checkout -- .
 </pre>
 ### Diff
 Use `--staged` for changes in staging. Can also diff against different branches.
 <pre class="code">    
-    $ git diff 
-    $ git diff --staged
-    $ git diff origin/master
+$ git diff 
+$ git diff --staged
+$ git diff origin/master
 </pre>
 ### Commit
 Use `--amend -m` to update previous commit message
 <pre class="code">
-    $ git commit -m "First Commit"
-    $ git commit --amend -m "An updated commit message"
+$ git commit -m "First Commit"
+$ git commit --amend -m "An updated commit message"
 </pre>
 ### Log
 <pre class="code">    
-    $ git log
-    $ git log --all --graph --decorate
+$ git log
+$ git log --all --graph --decorate
 </pre>
 ### Branches
 Use '-b' tag to create a new branch
 <pre class="code">    
-    $ git checkout &lt;commit-id&gt;
-    $ git checkout -b &lt;branch&gt; 
+$ git checkout &lt;commit-id&gt;
+$ git checkout -b &lt;branch&gt; 
 </pre>
 ### Merging
 To merge branch A into B
 <pre class="code">
-    $ git checkout &lt;branch-B&gt;
-    $ git merge &lt;branch-A&gt;
+$ git checkout &lt;branch-B&gt;
+$ git merge &lt;branch-A&gt;
 </pre>
 ### Revert
 Use `-m` to revert a merge.
 <pre class="code">
-    $ git revert &lt;commit-hash&gt;>
+$ git revert &lt;commit-hash&gt;>
 </pre>
 ### Reset
 Go back in time
 <pre class="code">    
-    $ git reflog
-    $ git reset HEAD@{&lt;id&gt;}
+$ git reflog
+$ git reset HEAD@{&lt;id&gt;}
 
-    -- Change history in remote
-    $ git reset --hard HEAD~&lt;number-of-commits-to-undo&gt;
-    $ git push origin HEAD -f
+-- Change history in remote
+$ git reset --hard HEAD~&lt;number-of-commits-to-undo&gt;
+$ git push origin HEAD -f
 </pre>
 
 ### Terminology
