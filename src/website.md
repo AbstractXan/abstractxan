@@ -508,6 +508,9 @@ const currState = [<b>...this.state.persons</b>]
 2. [Splice](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice) (Remove/insert)
 3. Adding keys to lists to allow react to efficiently update DOM
 ### Lifecycle methods
+- getDerivedStateFromProps(props, state)
+- shouldComponentUpdate()
+- getSnapshotBeforeUpdate(prevpos,prevstate)
 - componentDidMount()
 
 ### React app on local
@@ -518,27 +521,26 @@ const currState = [<b>...this.state.persons</b>]
 
 ### Component Updating Lifecycle
 1. getDerivedStateFromProps(props, state)
-- sync state to props
+- - Sync state to props
 2. shouldComponentUpdate()
-- Can block component update
-- can help with performance
+- - Can block component update
+- - Can help with performance
 3. render()
 4. getSnapshotBeforeUpdate(prevpros,prevstate)
 5. componentDidUpdate()
-- HTTP requests should be done here
+- - HTTP requests should be done here
 
 Functional components use React.memo in place of shouldComponentUpdate
 - - Updates component when the inputs coming in change
 - - export default React.memo(MyComponent)
 
-Donot use shouldComponentUpdate or React.memo unnecessarily if parent almost always send through
-changes to the component. As it just adds extra checks which drops the performance instead.
+Donot use shouldComponentUpdate or React.memo if parent almost always send through changes to the component. It just adds unnecessary checks. 
 
 ### React Hooks
 - useState()
 
 ### Two Way Binding : Events
-Last Updated : 17,14,11 Apr 2021 | 31 Oct 2020 
+Last Updated : 3,4 Mar 2021 | 17,14,11 Apr 2021 | 31 Oct 2020 
 ## Kubernetes
 Kuberenetes aka K8s
 
