@@ -1,4 +1,7 @@
 # Blog
+## Problems
+### Intro
+The world is all about problems, why not classify them and their solutions?
 ## Money Matters
 ### Links
 - [How to get started with investing](https://www.youtube.com/watch?v=gFQNPmLKj1k)

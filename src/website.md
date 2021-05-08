@@ -538,9 +538,15 @@ Donot use shouldComponentUpdate or React.memo if parent almost always send throu
 
 ### React Hooks
 - useState()
+- useEffect()
 
-### Two Way Binding : Events
-Last Updated : 3,4 Mar 2021 | 17,14,11 Apr 2021 | 31 Oct 2020 
+### Misc
+1. Importing CSS classes into code:
+Example: import classes from './main.css';
+- $ npm run eject
+- Follow this [stackoverflow article](https://stackoverflow.com/questions/57899750/error-while-configuring-css-modules-with-webpack#57903310)
+
+Last Updated : 3,4,8 Mar 2021 | 17,14,11 Apr 2021 | 31 Oct 2020 
 ## Kubernetes
 Kuberenetes aka K8s
 
