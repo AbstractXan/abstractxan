@@ -75,15 +75,16 @@ Journal shows recent updates.
 ![150520](../media/dl/catsdogsMODEL.png)
 150520 - CNN Cat/Dog [Model](./deep_learning_image_classification.html)
 ## Bucket List
-###  
-- [x] Create my own website
+### 
 - [ ] Create my own font
-- [x] Personal Time Logger : Jikan
 - [ ] Get a Gramophone
 - [ ] Own a vinyl record of my own songs 
 - [ ] Learn longboarding
 - [x] Create LINK DUMP webpage
 - [x] Automate LINK DUMP
+- [x] Create Template Engine for Mizi
+- [x] Personal Time Logger : Jikan 
+- [x] Create my own website
 
 
 # Projects
@@ -270,18 +271,29 @@ One could use mobilenet pretrained models using tf.js as given [here](https://gi
 <script src="../projects/mobilenet/helper.js"></script>
 
 # Articles
-## Toolkit
-###  
+## Dev Toolkit
+### About
 Toolkit aims to give a different approach to for solving dev problems.  
 ### Tests
 Code Refactor:
  - 1. Use tests to capture the expected behaviour of the given code
  - 2. Refactor code while checking against the actual and expected output
-### Timezone difference
-When having timezone differences, ensure that you're all set to work for the next day. Get your approaches approved and ask for reviews before signing off.
 
-Created: 12 Jan 2021
-Last Updated: 16 Feb 2021
+<strong>Unit tests</strong> to test function input vs output.
+<strong>Integration tests</strong> to test data flows of use case.
+<strong>E2E tests</strong>
+
+### Timezone difference
+When having timezone differences, ensure that you're all set to work for the next day. Get your approaches approved and ask for reviews before signing off. Do PRs the next
+
+### Debugging
+Understand various ways you could debug through your code:
+- Using debugging plugins + debuggers in IDE
+- Using debugger + postman
+- Using mobile app
+- Debugging against staging data when issue not reproducible
+
+Last Updated: 24 May, 16 Feb, 12 Jan 2021
 
 ## Databases
 ### Links
