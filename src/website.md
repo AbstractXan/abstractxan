@@ -1893,7 +1893,19 @@ Currently exploring various types of dungeons- Solo Dungeon Maps, HCEs, Corrupte
 ### Learn
 - [Equart](https://www.youtube.com/c/Equart)
 - [https://www.albiononline2d.com/en](https://www.albiononline2d.com/en)
-
+## Minecraft
+### Screenshots
+![](../media/minecraft/2021-05-25_23.42.35.png)
+![](../media/minecraft/2021-05-25_23.42.44.png)
+![](../media/minecraft/2021-05-25_23.43.19.png)
+![](../media/minecraft/2021-05-26_00.05.07.png)
+![](../media/minecraft/2021-05-26_00.10.22.png)
+![](../media/minecraft/2021-05-26_00.10.32.png)
+![](../media/minecraft/2021-05-26_00.10.36.png)
+![](../media/minecraft/2021-05-26_00.26.01.png)
+![](../media/minecraft/2021-05-26_00.32.28.png)
+![](../media/minecraft/2021-05-26_01.03.42.png)
+Last updated: 26 May 2021
 # Miscellaneous
 ## Coding Log
 ### About
