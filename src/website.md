@@ -270,7 +270,7 @@ One could use mobilenet pretrained models using tf.js as given [here](https://gi
 <img id="InputImage" style="visibility: hidden;" width=100% max-height=600px>
 <script src="../projects/mobilenet/helper.js"></script>
 
-# Articles
+# Tech Articles
 ## Dev Toolkit
 ### About
 Toolkit aims to give a different approach to for solving dev problems.  
@@ -1470,6 +1470,25 @@ Weakly object oriented. Go provides structs. But no classes. No inheritance. No 
 - 4. Write the questions out of the notes, this will help in reacalling
 - 5. Write summary for all the notes
 - 6. Used spaced repetition techniques like flashcards to remember things
+
+# Business Articles
+## Excel
+### Shortcuts
+1. <kbd>ctrl</kbd>+<kbd>E</kbd> : Flash fill - matches a pattern in adjacent cell to extract data
+2. <kbd>ctrl</kbd>+<kbd>H</kbd> : Find and Replace
+
+1. <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>1</kbd> : Number format (2 decimals)
+2. <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>2</kbd> : Time format
+3. <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>3</kbd> : Date format
+### Tips
+Using <kbd>'</kbd> before value will store value as a string in the cell
+### Data Viz
+1. Pivot Tables
+2. Heat Maps
+
+### References
+- [20 Excel Tricks for Data Analysis](https://www.youtube.com/watch?v=YqS0x0yshlo)
+
 # Resources
 ## Competitive Coding
 ### Links
