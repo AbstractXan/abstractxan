@@ -1472,6 +1472,30 @@ Weakly object oriented. Go provides structs. But no classes. No inheritance. No 
 - 6. Used spaced repetition techniques like flashcards to remember things
 
 # Business Articles
+## Accountancy
+### Income Statement
+Gives us net income = Total revenue - Cost of goods sold - All other expenses
+### Balance Sheet
+Snapshot of financial health of business at a point in time.
+
+Assets:
+1. Current assets: Can be converted into cash instantly. Example: Cash, Inventory
+2. Fixed assets: Cannot be converted to cash instantly within a year. Example: Land, Buildings
+<hr>
+Liabilities: Financial obligations and debts. Example: Loans, Mortgages, Revenue, Expenses
+1. Current Liabilities: Debts that need to be satisfied within one year from balance sheet date
+2. Long term liabilities: Ex: Mortgages
+<hr>
+Equity: Money returned to shareholders if all our assets were turned into cash and all our debts were payed off
+<hr>
+
+ASSETS = EQUITY + LIABILITIES
+### Cash flow statement
+How much money came in / went out in a time period
+1. Operations Cash Flow: Money spent on runnning the business. Includes revenue, expenses and taxes
+2. Investment Cash Flow: Property, Plant, Equipment
+3. Financial Cash Flow: Loans, Dividends paid to shareholders
+
 ## Excel
 ### Shortcuts
 1. <kbd>ctrl</kbd>+<kbd>E</kbd> : Flash fill - matches a pattern in adjacent cell to extract data
