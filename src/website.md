@@ -1509,10 +1509,16 @@ Using <kbd>'</kbd> before value will store value as a string in the cell
 ### Data Viz
 1. Pivot Tables
 2. Heat Maps
-
+### Financial functions
+1. PMT
 ### References
+- [Financial Functions Reference](https://support.office.com/en-gb/f1/topic/financial-functions-reference-5658d81e-6035-4f24-89c1-fbf124c2b1d8?NS=MACEXCEL&Version=90)
 - [20 Excel Tricks for Data Analysis](https://www.youtube.com/watch?v=YqS0x0yshlo)
 
+## Sample Problems
+### _
+Jake is buying a house for $500,000. He is making a 20% down payment with cash, and paying the balance with a mortgage. The mortgage is a 30-year loan with monthly payments, and the annual interest rate is 6%. Which of the following functions will calculate the correct monthly payment?
+Solution: In Excel: =PMT(6%/12,30*12,500000*80%)
 # Resources
 ## Competitive Coding
 ### Links
@@ -2179,7 +2185,124 @@ This work is licensed under a <a rel="license" href="http://creativecommons.org/
 ![Watermelon](../media/art/watermelon.png)
 ## Poems
 ### Disclaimer
-This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a> unless source reads otherwise.
+### chalks that give you life
+
+
+
+
+studying will kill you
+until you come across
+the infamous
+the MIT chalks
+
+
+
+
+### recalibrate
+
+
+
+
+recalibrate
+in
+nature
+🌲
+
+
+
+### grace
+
+
+
+
+she is style
+she is grace 
+she make them tears 
+roll down my face 
+
+
+- source : youtube comments
+
+
+### property
+
+
+
+
+hippity
+hoppity
+
+my problems
+are now your property
+
+
+- source : youtube comments 
+
+
+### whatever feels great
+
+
+
+
+people love,
+people hate
+just do
+whatever feels great
+
+
+
+### afternoon power nap
+
+
+
+
+early to bed,
+early to rise
+afternoon power nap
+is laziness in disguise
+
+
+
+
+### polygon
+
+
+
+
+
+so few
+my friends
+with no mask on -
+i call it my friend polygon
+
+
+
+
+### freckles?
+
+
+
+
+if you,
+have more marks
+never recheck
+
+
+
+
+### lipstick
+
+
+
+
+i wear every shade,
+in my imagination
+to match it just right,
+with my clinical depression
+
+
+
 
 ## PixelArt
 ### Zip-Zap
@@ -2231,6 +2354,11 @@ The library is a collection of good content I have read/watched and recommend to
 - 5 Centimeters per sec
 - Garden of Words
 ## Movies Log
+### 2021-May-30
+<b>Castle in the Sky</b>
+★★★★★
+- Mystery, Comedy, Animated
+In love with the mystery and curiosity this movie creates and holds onto even after the movie.
 ### 2021-April-30
 <b>It's a boy-girl thing</b>
 ★
@@ -2345,11 +2473,14 @@ $$$ Seperate Pages
 
 ## Human changelog
 ### Timeline
+- 1 Jun 2021 : Learning Excel for Business
+- 30 May 2021 : Started playing CSGO a bit
+- 15 May 2021 : Admission offer from IIM A
 - 14 Apr 2021 : Dealt with stored XSS 
 - 11 Apr 2021 : Started Learning React
+- 6 Apr 2021 : Got a raise! 
 - 01 Mar 2021 : Played Albion for a month
 - 01 Mar 2021 : Moved to Kota for a month
-- 6 Apr 2021 : Got a raise! 
 - 12 Feb 2021 : Renewed abstractxan.xyz for 3 years
 - ?? Dec 2020 : Started learning databases
 - 29 Dec 2020 : Watched watching Silicon Valley S01-S06
