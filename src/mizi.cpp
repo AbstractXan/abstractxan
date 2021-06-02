@@ -11,6 +11,7 @@ struct Config{
     string name;
     string description;
     string twitter_creator;
+    string head;
     string header;
     string footer;
 };
@@ -32,6 +33,7 @@ Config * configParser(){
                 } else if(key=="name"){ conf->name=value;
                 } else if(key=="description"){ conf->description=value;
                 } else if(key=="creator"){ conf->twitter_creator=value;
+                } else if(key=="head"){ conf->head=value;
                 } else if(key=="header"){ conf->header=value;
                 } else if(key=="footer"){ conf->footer=value;
                 } else {
@@ -47,7 +49,7 @@ Config * configParser(){
 
 Config * conf;
 string html_head(string text){
-    return "<!DOCTYPE html><html lang='en'><head><link rel='shortcut icon' href='"+ conf->shortcut_icon +"' type='image/x-icon'><link rel='icon' href='"+conf->icon+"' type='image/x-icon'><meta charset='utf-8'><meta name='description' content='"+conf->description+"'><meta name='viewport' content='width=device-width, initial-scale=1.0'><meta name='twitter:card' content='summary'><meta name='twitter:site' content='"+conf->name+"'><meta name='twitter:title' content='"+conf->name+"'><meta name='twitter:description' content='"+conf->description+"'><meta name='twitter:creator' content='@"+conf->twitter_creator+"'><meta name='twitter:image' content='"+conf->icon+"'><meta property='og:title' content='"+conf->name+"'><meta property='og:site_name' content='"+conf->name+"'><title> "+conf->name+" - "+text+"</title><link rel='stylesheet' type='text/css' href='../links/main.css'></head><body class='"+text+"'>";
+    return "<!DOCTYPE html><html lang='en'><head><link rel='shortcut icon' href='"+ conf->shortcut_icon +"' type='image/x-icon'><link rel='icon' href='"+conf->icon+"' type='image/x-icon'><meta charset='utf-8'><meta name='description' content='"+conf->description+"'><meta name='viewport' content='width=device-width, initial-scale=1.0'><meta name='twitter:card' content='summary'><meta name='twitter:site' content='"+conf->name+"'><meta name='twitter:title' content='"+conf->name+"'><meta name='twitter:description' content='"+conf->description+"'><meta name='twitter:creator' content='@"+conf->twitter_creator+"'><meta name='twitter:image' content='"+conf->icon+"'><meta property='og:title' content='"+conf->name+"'><meta property='og:site_name' content='"+conf->name+"'><title> "+conf->name+" - "+text+"</title><link rel='stylesheet' type='text/css' href='../links/main.css'>"+conf->head+"</head><body class='"+text+"'>";
 }
 string html_header = "";
 // Portal to dashboard
