@@ -1474,42 +1474,40 @@ Weakly object oriented. Go provides structs. But no classes. No inheritance. No 
 # Business Articles
 ## Financial Accounting
 ### Accounting concept
-1. Entity Concept
-2. Money Measurement Concept 
-3. Going Concern Concept
-4. Consistency Concept
-5. Materiality Concept
+- 1. Entity Concept
+- 2. Money Measurement Concept 
+- 3. Going Concern Concept
+- 4. Consistency Concept
+- 5. Materiality Concept
 
 Concepts used in Balance Sheet:
-6. Dual Aspect (Double Entry Bookkeeping)
-7. Historucal cost concept
+- 6. Dual Aspect (Double Entry Bookkeeping)
+- 7. Historucal cost concept
 
-### Assets:
+### Assets
 - 1. Acquired at measurable cost
 - 2. Obtainable / Controlled by the entity
 - 3. Expected to produce future economic benefits
 - 4. Based on past transaction/event
 
 Types of assets based on Liquidity:
-1. Current assets: Can be converted into cash instantly. Example: Cash, Inventory
-2. Fixed assets: Cannot be converted to cash instantly within a year. Example: Land, Buildings
+- + <b>Current assets:</b> Can be converted into cash within a year
+- + <b>Non-current/Fixed assets:</b> Cannot be converted to cash instantly within a year
 
 Types of assets based on Tangibility:
-1. Tangible: Have physical form 
-2. Non Tangible: Donot have physical form. Eg: Licence, Fee
-<hr>
-
+- + Tangible: Have physical form 
+- + Non Tangible: Donot have physical form. Eg: Licence, Fee
 ### Liabilities:
 - 1. Probable future sacrifice of economic resources
 - 2. Economic resources transferred to another entity
 - 3. Sacrifice is current obligation, arising from past txn / event
 
 Financial obligations and debts. Example: Loans, Mortgages, Revenue, Expenses
-1. Current Liabilities: Debts that need to be satisfied within one year from balance sheet date
-2. Long term liabilities: Ex: Mortgages
-<hr>
-Equity: Money returned to shareholders if all our assets were turned into cash and all our debts were payed off
-<hr>
+- + <b>Current Liabilities:</b> Debts that need to be satisfied within one year from balance sheet date
+- + <b>Long term liabilities:</b> Ex: Mortgages
+
+### Equity
+Money returned to shareholders if all our assets were turned into cash and all our debts were payed off
 
 ### Financial reports
 Financial reports are used to make business decisions. Three major financial reports are:
@@ -1524,20 +1522,20 @@ ASSETS = EQUITY + LIABILITIES
 --- INSERT BALANCE SHEET FORMAT ----
 
 Balance sheet based ratios:
-1. Current ratio = Current Assets / Current Liabilities
+1. <b>Current ratio = Current Assets / Current Liabilities</b>
 - - Current ratio more than peers: Locking up potential for productivity
 - - Current ration less than peers: Questionable ability to satisfy current obligations
 
-2. Total Debt to Equity = Total Debt / Total Equity
+2. <b>Total Debt to Equity = Total Debt / Total Equity</b>
 - - Increase in ratio => Increasing strain on entity to make regular payment, thus incresing risk of bankruptcy. 
 
 ### Income Statement
 Gives us net income = Total revenue - Cost of goods sold - All other expenses
 ### Cash flow statement
 How much money came in / went out in a time period
-1. Operations Cash Flow: Money spent on runnning the business. Includes revenue, expenses and taxes
-2. Investment Cash Flow: Property, Plant, Equipment
-3. Financial Cash Flow: Loans, Dividends paid to shareholders
+- 1. Operations Cash Flow: Money spent on runnning the business. Includes revenue, expenses and taxes
+- 2. Investment Cash Flow: Property, Plant, Equipment
+- 3. Financial Cash Flow: Loans, Dividends paid to shareholders
 
 ## Excel
 ### Shortcuts
