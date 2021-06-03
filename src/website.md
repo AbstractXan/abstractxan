@@ -1483,7 +1483,7 @@ Weakly object oriented. Go provides structs. But no classes. No inheritance. No 
 
 Concepts used in Balance Sheet:
 - 6. Dual Aspect (Double Entry Bookkeeping)
-- 7. Historucal cost concept
+- 7. Historical cost concept
 
 ### Assets
 - 1. Acquired at measurable cost
@@ -1492,20 +1492,23 @@ Concepts used in Balance Sheet:
 - 4. Based on past transaction/event
 
 Types of assets based on Liquidity:
-- + <b>Current assets:</b> Can be converted into cash within a year
-- + <b>Non-current/Fixed assets:</b> Cannot be converted to cash instantly within a year
+- + <b>Current assets:</b> 
+-     Can be converted into cash within a year
+- + <b>Non-current/Fixed assets:</b>
+-     Cannot be converted to cash instantly within a year
 
 Types of assets based on Tangibility:
-- + Tangible: Have physical form 
-- + Non Tangible: Donot have physical form. Eg: Licence, Fee
+- + <b>Tangible:</b> Have physical form 
+- + <b>Non Tangible:</b> Do not have physical form. Eg: Licence, Fee
 ### Liabilities:
 - 1. Probable future sacrifice of economic resources
 - 2. Economic resources transferred to another entity
 - 3. Sacrifice is current obligation, arising from past txn / event
+Example: Loans, Mortgages, Revenue, Expenses
 
-Financial obligations and debts. Example: Loans, Mortgages, Revenue, Expenses
-- + <b>Current Liabilities:</b> Debts that need to be satisfied within one year from balance sheet date
-- + <b>Long term liabilities:</b> Ex: Mortgages
+Types of Liabilities:
+- + <b>Current Liabilities:</b> Debts that need to be satisfied within a year
+- + <b>Long term liabilities:</b>
 
 ### Equity
 Money returned to shareholders if all our assets were turned into cash and all our debts were payed off
@@ -1518,9 +1521,9 @@ Financial reports are used to make business decisions. Three major financial rep
 
 ### Balance Sheet
 Snapshot of financial health of business at a point in time.
-ASSETS = EQUITY + LIABILITIES
+<b>ASSETS = EQUITY + LIABILITIES</b>
 
---- INSERT BALANCE SHEET FORMAT ----
+=== INSERT BALANCE SHEET FORMAT ===
 
 Balance sheet based ratios:
 1. <b>Current ratio = Current Assets / Current Liabilities</b>

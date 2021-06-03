@@ -367,8 +367,8 @@ void buildHome(Category * categories[], int categories_length, string path){
         }
         htmlHome << "</ul>";
     }
-    htmlHome << "<hr/>";
-    htmlHome << "</main>";
+    htmlHome << "</main><br><hr/>";
+    
     htmlHome << html_footer;
     htmlHome.close();
 }
@@ -400,8 +400,6 @@ void buildPage(Page * page,string path){
         htmlPage << "</ul><h2 id='" << part_index << "'>" << part_name << "</h2>"; // Extra </ul> to keep a check on overflowing <ul>
         htmlPage << part_desc;
     }
-
-    htmlPage << "<hr/>";
     htmlPage << "</main>";
     htmlPage << html_footer;
     htmlPage.close();
