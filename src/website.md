@@ -1,13 +1,14 @@
 # Home
 ## About
 ### Me
-Hello, I'm abstractxan and this website is my [digital garden](https://joelhooks.com/digital-garden) where I curate ideas, technology, art and activity logs.
+Hello, I'm abstractxan and this website is my [digital garden](https://joelhooks.com/digital-garden) where I curate ideas, notes about technology and business, art and activity logs.
 
-Currently, I manage [Mizi](https://github.com/abstractxan/Mizi), a static site generator used to build this website.
+Currently, I manage [Mizi](https://github.com/abstractxan/Mizi), a static site generator used to build this website. 
 
-I'm a software engineer in education technology domain. In my free time I learn Game development, C++ and Databases. I like creating offline tools and softwares.
+I'm a software engineer transitioning into business administration. On the side, I learn Game development, C++ and Databases. I like creating offline tools and softwares.
  
 You could treat this as a personal database of my life. This website is no way complete and shall never will be, please expect unfinished notes and artwork here.
+
 ### Contribute
 Source files for my projects could be found on [Github](https://www.github.com/abstractxan). This website is made with C++ using [Mizi](https://www.github.com/abstractxan/mizi). Source files for my website are available [here](https://www.github.com/abstractxan/abstractxan/tree/master/src). This website is heavily inspired by [100 Rabbits](https://100r.co).
 
