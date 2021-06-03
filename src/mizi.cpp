@@ -400,7 +400,7 @@ void buildPage(Page * page,string path){
         htmlPage << "</ul><h2 id='" << part_index << "'>" << part_name << "</h2>"; // Extra </ul> to keep a check on overflowing <ul>
         htmlPage << part_desc;
     }
-    htmlPage << "</main>";
+    htmlPage << "</main><br><hr/>";
     htmlPage << html_footer;
     htmlPage.close();
 }
