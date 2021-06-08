@@ -1,5 +1,8 @@
 {
     "files.associations": {
         "string": "cpp"
-    }
+    },
+    "spellchecker.ignoreWordsList": [
+        "CS50"
+    ]
 }

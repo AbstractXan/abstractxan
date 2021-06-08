@@ -35,7 +35,7 @@ body main ul:not(.jump) {
 }
 
 body main ul li a { text-decoration: underline; }
-body main ul li b { font-weight: bold }
+body main ul li b { font-weight: 600 ; font-stretch: ultra-condensed;}
 body main ul li:hover a { text-decoration: none; }
 body main { line-height: 28px; font-size:18px; }
 body main a { text-decoration: underline; }

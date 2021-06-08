@@ -298,8 +298,8 @@ Last Updated: 24 May, 16 Feb, 12 Jan 2021
 
 ## Databases
 ### Links
-- [CMU Databse Group -- Intro to Database Systems Fall 2019](https://www.youtube.com/playlist?list=PLSE8ODhjZXjbohkNBWQs_otTrBTrjyohi)
-- [CMU Databse Group -- Advanced Database Systems Spring 2020](https://www.youtube.com/playlist?list=PLSE8ODhjZXjasmrEd2_Yi1deeE360zv5O)
+- [CMU Database Group -- Intro to Database Systems Fall 2019](https://www.youtube.com/playlist?list=PLSE8ODhjZXjbohkNBWQs_otTrBTrjyohi)
+- [CMU Database Group -- Advanced Database Systems Spring 2020](https://www.youtube.com/playlist?list=PLSE8ODhjZXjasmrEd2_Yi1deeE360zv5O)
 
 - [Things every developer absolutely, positively needs to know about database indexing](https://www.youtube.com/watch?v=HubezKbFL7E)
 ### Questions
@@ -1473,8 +1473,37 @@ Weakly object oriented. Go provides structs. But no classes. No inheritance. No 
 - 6. Used spaced repetition techniques like flashcards to remember things
 
 # Business Articles
-## Financial Accounting
-### Accounting concept
+## Accounting Concepts [WIP]
+### Entity Concept
+### Money Measurement Concept 
+### Going Concern Concept
+### Consistency Concept
+### Materiality Concept
+### Dual Aspect (Double Entry Bookkeeping)
+### Historical cost concept
+### Realization
+[Income Statement] When to recognize revenue? Deals with converting assets into cash equivalents.
+1. <b>Revenue must be earned:</b> Customer must receive goods/service
+2. <b>Revenue must be realizable:</b> Customer paid / expected to pay
+
+[Revenue recognition principle](https://www.youtube.com/watch?v=X-fiBTfSJ74)
+
+- <b> IFRS </b> recognizes revenue when risks and rewards of ownership are transferred
+- <b> GAAP </b> recognizes revenue when it is earned
+
+### Matching Concept
+[Income Statement] 
+1. Expenses are recognised when revenue is recognised
+2. Expenses for goods delivered in future recognised in future
+![Matching concept](../media/business/matching_concept.jpg)
+
+### Conservatism Concept
+[Income Statement] [Balance Sheet] Recognize revenues only when reasonably certain, but expenses should be recognized as soon as reasonably possible.
+
+Last Updated: 9 June 2021
+
+## Financial Accounting [WIP]
+### Accounting concepts
 - 1. Entity Concept
 - 2. Money Measurement Concept 
 - 3. Going Concern Concept
@@ -1485,6 +1514,10 @@ Concepts used in Balance Sheet:
 - 6. Dual Aspect (Double Entry Bookkeeping)
 - 7. Historical cost concept
 
+Concepts used in Income Statement:
+- 8. Realization
+- 9. Matching Concept
+- 10. Conservatism Concept
 ### Assets
 - 1. Acquired at measurable cost
 - 2. Obtainable / Controlled by the entity
@@ -1508,7 +1541,7 @@ Example: Loans, Mortgages, Revenue, Expenses
 
 Types of Liabilities:
 - + <b>Current Liabilities:</b> Debts that need to be satisfied within a year
-- + <b>Long term liabilities:</b>
+- + <b>Long term liabilities</b>
 
 ### Equity
 Money returned to shareholders if all our assets were turned into cash and all our debts were payed off
@@ -1523,7 +1556,8 @@ Financial reports are used to make business decisions. Three major financial rep
 Snapshot of financial health of business at a point in time.
 <b>ASSETS = EQUITY + LIABILITIES</b>
 
-=== INSERT BALANCE SHEET FORMAT ===
+Format of balance sheet: (src: Wikipedia)
+![Balance Sheet](../media/business/balance_sheet.png)
 
 Balance sheet based ratios:
 1. <b>Current ratio = Current Assets / Current Liabilities</b>
@@ -1534,13 +1568,73 @@ Balance sheet based ratios:
 - - Increase in ratio => Increasing strain on entity to make regular payment, thus incresing risk of bankruptcy. 
 
 ### Income Statement
-Gives us net income = Total revenue - Cost of goods sold - All other expenses
+A. [Sample Income Statement](https://en.wikipedia.org/wiki/Income_statement#Sample_income_statement)
+
+B. Format of income statement
+- <b>Sales</b>
+-   (COGS) [Cost of Goods sold]
+- --------------------------
+- <b>Gross Margin</b>
+-   (Operating Expenses)
+- --------------------------
+- <b>Operating Profit/Income</b>
+-   (Interest Expense) [from Debts]
+- --------------------------
+- <b>Income before Income Tax</b>
+-   (Income Tax Expense)
+- --------------------------
+- <b>Income</b> [net profit/loss]
+
+C. <b>Retaied Earnings</b>
+This net income is used to update <b>Retained Earnings</b> in Balance Sheet as follows:
+![Retained Earnings Formula](../media/business/retained_earnings.jpg)
+- <b>Retained Earnings (beginning) + Net Income - Dividends = Retained Earnings (ending)</b>
+Here, <b> Dividends </b> are not an expense but distribution of equity capital to investors.
+
+D. Making a sale
+- + <b>Cash Sale</b>: Cash(Asset) increases; Retained Earning increases
+- + <b>Credit Sale</b>: Accounts Receivable(Asset) increases; Retained Earning increases
+
+E. <b>Expenses</b>: 
+- Prepaid expenses are marked as asset
+- <b> Operating Expenses</b>
+- - Salaries
+- - Utilities
+- - Rent Expenses
+- - Depreciation
+- - License Amortization
+- <b> Interest Expenses </b>
+- - Short term debt
+- - Mortgage
+- <b> Tax Expense </b>
+<b>+ Depreciation</b>: Cost from using a tangible non-current asset. No depreciation for land.
+- <b>Net book value</b> = Historical Cost - Accumulated Depreciation
+<b>+ Amortiztion</b>: Intangible long lived asset. Amortization expense directly reduces value of asset. Eg: Franchise License Amortization
+
+F. Income Statement based ratios:
+1. <b>Gross Margin % = GM / Sales * 100 </b>
+- - Increase in GM => Increase in Efficiency
+2. <b>Return on Sales = Net Income / Sales * 100 </b>
+- - Depends on nature of industry, business strategy, capital structure and tax regime
+
+### Accounting Records
+A. Double-Entry Accountings
+
+B. <b>Journal</b> Chronological Record of all entities transaction
+C. <b>Debits and Credits</b>: [Youtube Tutorial](https://www.youtube.com/watch?v=VhwZ9t2b3Zk)
+![Debits and Credits](../media/business/debits_and_credits.png)
+- <b>Debits:</b> Destinations economic benefit can flow to
+- <b>Credits:</b> Sources economic benefit can flow from
+[5 Debit and Credit Practice Questions & Solutions](https://www.youtube.com/watch?v=yCOZ7aylC0c)
+
+D. Sample Journal Entry
 ### Cash flow statement
 How much money came in / went out in a time period
 - 1. Operations Cash Flow: Money spent on runnning the business. Includes revenue, expenses and taxes
 - 2. Investment Cash Flow: Property, Plant, Equipment
 - 3. Financial Cash Flow: Loans, Dividends paid to shareholders
 
+Last Updated: 9, 3 Jun 2021
 ## Excel
 ### Shortcuts
 1. <kbd>ctrl</kbd>+<kbd>E</kbd> : Flash fill - matches a pattern in adjacent cell to extract data
@@ -1647,7 +1741,7 @@ int cost(string &S, string &T, int i, int j, vector<vector<int>> &dp) {
     if (S[i] == T[j]) { // Accept when equal
         return dp[i][j] = cost(S, T, i - 1, j - 1, dp); x
     }
-    
+
     return dp[i][j] = mini( 1 + cost(S, T, i - 1, j - 1, dp),   // Replacement
                             1 + cost(S, T, i, j - 1, dp),       // Insertion
                             1 + cost(S, T, i - 1, j, dp));      // Deletion
