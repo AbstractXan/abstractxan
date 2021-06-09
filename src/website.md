@@ -1618,16 +1618,34 @@ F. Income Statement based ratios:
 - - Depends on nature of industry, business strategy, capital structure and tax regime
 
 ### Accounting Records
-A. Double-Entry Accountings
+A. Double-Entry Accounting : Both sides of each transaction are recorded, and at least two accounts are affected.
 
-B. <b>Journal</b> Chronological Record of all entities transaction
-C. <b>Debits and Credits</b>: [Youtube Tutorial](https://www.youtube.com/watch?v=VhwZ9t2b3Zk)
+B. <b>Journal</b> Chronological Record of all entities transaction. After analyzing a transaction, a journal entry is prepared using the rule that debits indicate increases in assets and in expenses and credits indicate increases in liabilities, owners' equity and sales.
+
+C. <b>[Debits and Credits](https://en.wikipedia.org/wiki/Debits_and_credits)</b>: [Youtube Tutorial](https://www.youtube.com/watch?v=VhwZ9t2b3Zk)
 ![Debits and Credits](../media/business/debits_and_credits.png)
-- <b>Debits:</b> Destinations economic benefit can flow to
-- <b>Credits:</b> Sources economic benefit can flow from
-[5 Debit and Credit Practice Questions & Solutions](https://www.youtube.com/watch?v=yCOZ7aylC0c)
+- <b>Debits:</b> Destinations economic benefit can flow to. 
+- + Eg: Dividends, Expenses, Assets 
+- + An <b>increase</b> in these would reduce cash and thus amount would be <b>debited</b>.
+- <b>Credits:</b> Sources economic benefit can flow from. 
+- + Eg: Liabilities, Owner's Equity, Revenue
+- + An <b>increase</b> would increase cash sources and thus the amount would be <b>credited</b>
+![DEALER](../media/business/dealer.jpg)
 
-D. Sample Journal Entry
+[Debit and Credit Practice Questions & Solutions](https://www.youtube.com/watch?v=yCOZ7aylC0c)
+
+D. Sample Journal Entry [TBD]
+
+E. <b>Ledger</b>: Journal entries are posted into a ledger of T-accounts where 'debit' means left side of the T-account and 'credit' means right side of the T-account.
+
+F. Sample Ledger and T-accounts [TBD]
+
+G. <b>Adjusting Entries</b> Adjusting entries do not involve any economic exchange with a third party. Once all transactions with outside entities are recorded for the period, adjusting entries are made to particular accounts- Eg. Prepaid expenses, warehouse building, store fixtures, franchise fee and taxes payable.
+
+H. <b>Closing Entries</b> : Close out each temporary or income statement account and reset it to a zero balance, in preparation for the next accounting period. A closing entry is made to close or reset all sales and expense accounts to zero.
+
+I. Preparing financial reports : Finally, the balance sheet and income statement are prepared.
+
 ### Cash flow statement
 How much money came in / went out in a time period
 - 1. Operations Cash Flow: Money spent on runnning the business. Includes revenue, expenses and taxes
