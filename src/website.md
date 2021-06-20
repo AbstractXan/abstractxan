@@ -1475,10 +1475,15 @@ Weakly object oriented. Go provides structs. But no classes. No inheritance. No 
 # Business Articles
 ## Accounting Concepts [WIP]
 ### Entity Concept
+Accounts are kept for an entity as distinct from the people who own, run or do business with the entity.
 ### Money Measurement Concept 
+Financial accounting deals only with things that can be represented in monetary terms
 ### Going Concern Concept
+An entity is expected to remain in operation for the indefinite future
 ### Consistency Concept
+An entity should use the same accounting methods and procedures from period to period unless it has a sound reason to change methods
 ### Materiality Concept
+An entity need only apply proper accounting to items that are material i.e. significant to potential users of the financial statements
 ### Dual Aspect (Double Entry Bookkeeping)
 ### Historical cost concept
 ### Realization
@@ -1503,6 +1508,9 @@ Weakly object oriented. Go provides structs. But no classes. No inheritance. No 
 Last Updated: 9 June 2021
 
 ## Financial Accounting [WIP]
+### Links
+1. Reference [slides](https://docs.google.com/presentation/d/1Sa9SscGt2GFnY16Ifxhdp2SJD7rURKcVfSQYn3xJbHk/edit?usp=sharing)
+
 ### Accounting concepts
 - 1. Entity Concept
 - 2. Money Measurement Concept 
@@ -1547,7 +1555,7 @@ Types of Liabilities:
 Money returned to shareholders if all our assets were turned into cash and all our debts were payed off
 
 ### Financial reports
-Financial reports are used to make business decisions. Three major financial reports are:
+Financial reports are used to [make business decisions](https://www.investopedia.com/ask/answers/032615/why-do-shareholders-need-financial-statements.asp). Three major financial reports are:
 - 1. Balance Sheet
 - 2. Income Statement
 - 3. Cash Flow Statement
@@ -1648,14 +1656,77 @@ I. Preparing financial reports : Finally, the balance sheet and income statement
 
 ### Cash flow statement
 How much money came in / went out in a time period
+
+A. Classifies and organizes information about the cash flows during an accounting period
 - 1. Operations Cash Flow: Money spent on runnning the business. Includes revenue, expenses and taxes
 - 2. Investment Cash Flow: Property, Plant, Equipment
 - 3. Financial Cash Flow: Loans, Dividends paid to shareholders
 
-Last Updated: 9, 3 Jun 2021
-## Excel
+There are two formats for the statement of cash flows: the direct method and the indirect method. They differ in their presentation of operating cash flows.
+B. <b>Direct Method</b>: Under the direct method, in the operating section, are included a number of line items, each of which is a cash inflow to the reporting entity or a cash. The direct method statement of operating cash flows can be prepared directly from the entries in the cash T-account during the accounting period. [TBD: Add Sample Format]
+
+C. <b>Indirect Method</b>: Operating section starts with the net income and make a series of de-accrual adjustments to it in order to derive the net cash from operations. The indirect method statement of operating cash flows is prepared from the period's income statement accounts and the period's beginning and ending balance sheets. [TBD: Add sample format]
+
+D. Interpretation
+
+### Revenue and Receivables
+A. <b>Deferred Revenue</b> : Deferred revenue is future revenue that has already been collected but has yet to be earned. Eg. Unredeemed gift certificate, Coupon, Advanced Payment of Magazine Subscription. We donot use this for tax calculations.
+
+B. <b>Bad Debts</b> : Setting up '[allowance for bad debt/doubtful accounts](https://www.youtube.com/watch?v=ayNv1IOXi7c)' contra-account and 'bad debt expense' account (Income statement)
+
+C. <b>Refunds</b> :
+
+D. <b>Prompt Payment Discounts</b> :
+
+E. Allowances are adjusted at month's end
+
+F. <b>Bad Debt Ratio</b> : A company with a low bad debt ratio believes it is more likely to receive payment of more of its receivables outstanding than a company with a high bad debt ratio. High/Low bad debt ratio indicates company is failing to properly screen potential clients before offering them credit. It might also mean that the company is pursuing less credit-worthy customers in an attempt to generate sales.
+- Bad Debt Ratio = (Bad Debt allowances at the end of the period <b>/</b> Gross receivables at the end of the period) x 100
+
+G. <b>Day's receivable ratio</b> : Indicates the average number of days necessary for the company to collect its outstanding accounts receivable. Analysts compare a company's days receivables with its industry peers. The slowing of a company's days receivables or a high days receivables compared to its competitors has a negative impact on the firm's liquidity. An increasing days receivable ratio might also be an indication that more of the receivables will become bad debts.
+- Days Receivable Ratio = (Net accounts receivable / Total Sales in the period) x number of days in the period
+Last Updated: 16-14,11-9, 3 Jun 2021
+## Excel - Spreadsheet Modelling
+
+### Worksheets and Workbooks
+1. <kbd>Ctrl</kbd><kbd>Home</kbd>: Selects cell A1
+2. <kbd>Ctrl</kbd><kbd>End</kbd>: Selects the cell at the intersection of the last-used column and last-used row on the worksheet
+3. <kbd>Page Up</kbd>: Scrolls up one screen
+4. <kbd>Page Down</kbd>: Scrolls down one screen
+5. <kbd>Alt</kbd><kbd>Page Up</kbd>: Scrolls left one screen
+6. <kbd>Alt</kbd><kbd>Page Down</kbd>: Scrolls right one screen
+7. <kbd>Ctrl</kbd><kbd>Page Up</kbd>: Selects the previous worksheet
+8. <kbd>Ctrl</kbd><kbd>Page Down</kbd>: Selects the next worksheet
+9. <kbd>Ctrl</kbd><kbd>Tab</kbd>: Moves to the next open Excel workbook
+
+### Ribbon
+1. [WINDOWS only] <kbd>Alt</kbd> : Pressing the Alt key once will allow you to quickly select a ribbon using its letter key
+
+### Basic Techniques:
+- 1. Cell Limitations: 1,048,576 rows by 16,384 columns
+- 2. Block of cells is called <b>Range</b>.
+- 3. Holding down <kbd>Ctrl</kbd> tells Excel that you want to jump to the end of the range.
+- 4. Holding down <kbd>Shift</kbd> tells Excel to select all of the intermediate cells along the way.
+- 5. <kbd>Ctrl</kbd><kbd>A</kbd> or <kbd>Ctrl</kbd><kbd>*</kbd> i.e <kbd>Ctrl</kbd><kbd>Shift</kbd><kbd>8</kbd> to Select All cells
+- 6. <kbd>F8</kbd> enables 'Extend Selection' mode, Shift</kbd>F8</kbd> enables 'Add Selection' mode. These could be used in a repeated fashion to select non contiguous modes.
+- 7. Holding down <kbd>Ctrl</kbd> key after selecting a range lets you select another non contiguous range.
+- 8. Cell selection: Name Box, <kbd>F5</kbd> Goto Dialog Box -> Goto Special
+- 9. Date formatting: Dates have equivalent numeric value. <b>1/1/1900</b> is the beginning of the Excel epoch, and that each date is 1 greater than the day before. Thus numeric values can be converted to dates.
+- 9. Copying Formula: Double click bottom right square of an existing cell with a formula. Alternatively, one could copy a cell with formula and then paste it on desired range.
+- 10. <kbd>F4</kbd> Absolute addressing: $D$10 when copied remains the same across cells.
+- 11. Autosum: Select a cell next to the numbers you want to sum, click &Sigma; i.e "AutoSum" button.
+- 12. Show formulas: Formulas -&gt; Show Formulas
+
+### Formulas
+- 1. IF
+- 2. Text functions: LEFT, RIGHT, MID, LEN, FIND, VALUE, and CONCATENATE
+- 3. Data -&gt; Text to Columns. Use width/delimiters to split text into columns
+- 4. Text Concatenation =D4&"@gmail.com" --&gt; xan@gmail.com
+- 5. <kbd>ctrl</kbd>+<kbd>E</kbd> : Flash fill - matches a pattern in adjacent cell to extract data. Flash Fill is not foolproof; sometimes it just does not get the pattern.
+- 6. =TODAY() : Current Date ; =NOW() : Current Date and Time
+- 7. Renaming ranges: Formulas -&gt; Create from selection. Formulae can now be written in terms of cell names instead of coordinates like C5.
+    
 ### Shortcuts
-1. <kbd>ctrl</kbd>+<kbd>E</kbd> : Flash fill - matches a pattern in adjacent cell to extract data
 2. <kbd>ctrl</kbd>+<kbd>H</kbd> : Find and Replace
 
 1. <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>1</kbd> : Number format (2 decimals)
@@ -1672,6 +1743,7 @@ Using <kbd>'</kbd> before value will store value as a string in the cell
 - [Financial Functions Reference](https://support.office.com/en-gb/f1/topic/financial-functions-reference-5658d81e-6035-4f24-89c1-fbf124c2b1d8?NS=MACEXCEL&Version=90)
 - [20 Excel Tricks for Data Analysis](https://www.youtube.com/watch?v=YqS0x0yshlo)
 
+Last Updated: 20-18 June 2021
 ## Sample Problems
 ### _
 Jake is buying a house for $500,000. He is making a 20% down payment with cash, and paying the balance with a mortgage. The mortgage is a 30-year loan with monthly payments, and the annual interest rate is 6%. Which of the following functions will calculate the correct monthly payment?
@@ -2630,6 +2702,8 @@ $$$ Seperate Pages
 
 ## Human changelog
 ### Timeline
+- 9 Jun 2021 : Education loan 35lac sanctioned
+- 9 Jun 2021 : Learning Financial Accounting
 - 1 Jun 2021 : Learning Excel for Business
 - 30 May 2021 : Started playing CSGO a bit
 - 15 May 2021 : Admission offer from IIM A
