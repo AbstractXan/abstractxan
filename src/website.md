@@ -768,10 +768,15 @@ Lookup vector should be sorted in <b>ascending</b> order and should have <b>uniq
 ### Pivot tables
 Pivot tables are used to aggregate data and group them w.r.t criteria. Here's a reference video to understand the expected behaviour.
 
-<iframe width="100%" height="auto" src="https://www.youtube.com/embed/FoKzK3YfYoY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="auto" src="https://www.youtube.com/embed/U-pZVjYnb1Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Slicers
 Slicers are visual filters in the form of interactive buttons. They are used to filter the data present in the pivot table.
+
+[Pivot table timelines](https://support.microsoft.com/en-gb/office/create-a-pivottable-timeline-to-filter-dates-d3956083-01be-408c-906d-6fc99d9fadfa?ns=macexcel&version=90&ui=en-us&rs=en-gb&ad=gb)
+<iframe width="100%" height="auto" src="https://www.youtube.com/embed/_C7jpFmUo7A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Pivot charts
 
 ### Ordered pair functions
 - = SLOPE(y_array,x_array)
@@ -785,7 +790,7 @@ R-Squared:
 ### Solver
 The solver add in could be used to solve optimization problems.
 
-
+Last updated: 21 Jun 2021, 12 Sept 2020
 ## Vim
 ### Introduction
 Vim is a 'modal' editor i.e it's got modes
@@ -1707,7 +1712,7 @@ Last Updated: 16-14,11-9, 3 Jun 2021
 - 2. Block of cells is called <b>Range</b>.
 - 3. Holding down <kbd>Ctrl</kbd> tells Excel that you want to jump to the end of the range.
 - 4. Holding down <kbd>Shift</kbd> tells Excel to select all of the intermediate cells along the way.
-- 5. <kbd>Ctrl</kbd><kbd>A</kbd> or <kbd>Ctrl</kbd><kbd>*</kbd> i.e <kbd>Ctrl</kbd><kbd>Shift</kbd><kbd>8</kbd> to Select All cells
+- 5. <kbd>Ctrl</kbd> <kbd>A</kbd> or <kbd>Ctrl</kbd> <kbd>*</kbd> i.e <kbd>Ctrl</kbd> <kbd>Shift</kbd> <kbd>8</kbd> to Select All cells
 - 6. <kbd>F8</kbd> enables 'Extend Selection' mode, Shift</kbd>F8</kbd> enables 'Add Selection' mode. These could be used in a repeated fashion to select non contiguous modes.
 - 7. Holding down <kbd>Ctrl</kbd> key after selecting a range lets you select another non contiguous range.
 - 8. Cell selection: Name Box, <kbd>F5</kbd> Goto Dialog Box -> Goto Special
@@ -1716,7 +1721,17 @@ Last Updated: 16-14,11-9, 3 Jun 2021
 - 10. <kbd>F4</kbd> Absolute addressing: $D$10 when copied remains the same across cells.
 - 11. Autosum: Select a cell next to the numbers you want to sum, click &Sigma; i.e "AutoSum" button.
 - 12. Show formulas: Formulas -&gt; Show Formulas
-
+- 13. [Conditional Formatting using new rules](https://support.microsoft.com/en-us/office/use-conditional-formatting-to-highlight-information-fed60dfa-1d3f-4e13-9ecb-f1951ff89d7f): 
+- <iframe width="100%" height="auto" src="https://www.microsoft.com/en-us/videoplayer/embed/RWf1xk?pid=ocpVideo1-innerdiv-oneplayer&postJsllMsg=true&maskLevel=20&market=en-us" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+- 14. [Pivot Table](./ms_excel#pivot_tables) and [Slicers](./ms_excel#slicers) for aggregating and slicing tabular data
+- 15. [Pivot Charts](./ms_excel#pivot_charts) for generating charts for corresponding pivot tables
+- 16. Charts are useful for data visualization. Charts can  also be stored as templates and reused. 
+- 17. What-if annalysis and Data Tables
+- 18. Goal Seek
+- 19. Auditing: Trace decendents, Trance Precedents
+- 20. <kbd>F9</kbd> Formulas -&gt; Evaluate formula
+- 21. Excel Solver solves optimisation problems for given Objectives, Variables and Contraints
+- 22. <kbd>Ctrl</kbd> <kbd>T</kbd> for creating a table
 ### Formulas
 - 1. IF
 - 2. Text functions: LEFT, RIGHT, MID, LEN, FIND, VALUE, and CONCATENATE
@@ -1724,21 +1739,37 @@ Last Updated: 16-14,11-9, 3 Jun 2021
 - 4. Text Concatenation =D4&"@gmail.com" --&gt; xan@gmail.com
 - 5. <kbd>ctrl</kbd>+<kbd>E</kbd> : Flash fill - matches a pattern in adjacent cell to extract data. Flash Fill is not foolproof; sometimes it just does not get the pattern.
 - 6. =TODAY() : Current Date ; =NOW() : Current Date and Time
-- 7. Renaming ranges: Formulas -&gt; Create from selection. Formulae can now be written in terms of cell names instead of coordinates like C5.
-    
-### Shortcuts
-2. <kbd>ctrl</kbd>+<kbd>H</kbd> : Find and Replace
+- 7. Renaming ranges : Formulas -&gt; Create from selection. Formulae can now be written in terms of cell names instead of coordinates like C5. This improves readability. Similar ease of names in formulas is seen when creating tables.
+- 8. <kbd>F3</kbd> : Using renamed ranges
+- 9. Formulas -&gt; <b>Apply Names</b> to replace newly created name ranges to formulas.
+- 10. [=VLOOKUP(...)](https://www.youtube.com/watch?v=ODZfwD39gGE) : Fetch value in a table wrt matching value in adjacent column with some offset
+- 11. =HLOOKUP(...) searches wrt vertical offset
+- 12. =INDEX(...) function can be used to easily extract any entry from a rectangular array of cells
+- 13. =MATCH(...) function can be used to locate a text string in a row or column. Returns index of the match.
+- 14. =IFERROR(...) error trap
+- 15. Rounding functions
+- 16. COUNT(): numbers ; COUNTA(): numbers + text ; COUNTBLANK()
+- 17. LARGE([range], k): kth largest number. Similarly- SMALL(), RANK()
+- 18. VAR(): Variance; STDEV(): Standard deviation
+- 19. RANK.EQ(): Ranks a given value wrt an array in asc/desc
+- 20. COUNTIFS() and SUMIFS()
+- 21. Data -&gt; Remove Duplicates: Remove duplicates / Duplicate combinations in a given range
+- 22. Data -&gt; Sort: Sort a given range wrt column value/colors.
+- 23. 3D formula: =SUM(Worksheet1:Worksheet2!A2)
+- 24. Referencing tables =SUM(Table1[Column1])
+- 25. Resolving Circular Dependencies: Excel options -&gt; Formulas -&gt; Enable iterative calculations (Gauss Seidel Iteration)
 
+### Monte Carlo Simulation
+Random variable describes an uncertain quantity by listing the values of the uncertain quantity along with a description of the relative likelihood of all possible values. There are two types of random variables: discrete and continuous random variables.
+### Financial Functions [TBD]
+### Shortcuts
+<kbd>ctrl</kbd>+<kbd>H</kbd> : Find and Replace
 1. <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>1</kbd> : Number format (2 decimals)
 2. <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>2</kbd> : Time format
 3. <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>3</kbd> : Date format
+
 ### Tips
 Using <kbd>'</kbd> before value will store value as a string in the cell
-### Data Viz
-1. Pivot Tables
-2. Heat Maps
-### Financial functions
-1. PMT
 ### References
 - [Financial Functions Reference](https://support.office.com/en-gb/f1/topic/financial-functions-reference-5658d81e-6035-4f24-89c1-fbf124c2b1d8?NS=MACEXCEL&Version=90)
 - [20 Excel Tricks for Data Analysis](https://www.youtube.com/watch?v=YqS0x0yshlo)
