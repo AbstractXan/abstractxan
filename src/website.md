@@ -1712,7 +1712,7 @@ Last Updated: 16-14,11-9, 3 Jun 2021
 - 2. Block of cells is called <b>Range</b>.
 - 3. Holding down <kbd>Ctrl</kbd> tells Excel that you want to jump to the end of the range.
 - 4. Holding down <kbd>Shift</kbd> tells Excel to select all of the intermediate cells along the way.
-- 5. <kbd>Ctrl</kbd> <kbd>A</kbd> or <kbd>Ctrl</kbd> <kbd>*</kbd> i.e <kbd>Ctrl</kbd> <kbd>Shift</kbd> <kbd>8</kbd> to Select All cells
+- 5. <kbd>Ctrl</kbd><kbd>A</kbd> or <kbd>Ctrl</kbd><kbd>*</kbd> i.e <kbd>Ctrl</kbd><kbd>Shift</kbd><kbd>8</kbd> to Select All cells
 - 6. <kbd>F8</kbd> enables 'Extend Selection' mode, Shift</kbd>F8</kbd> enables 'Add Selection' mode. These could be used in a repeated fashion to select non contiguous modes.
 - 7. Holding down <kbd>Ctrl</kbd> key after selecting a range lets you select another non contiguous range.
 - 8. Cell selection: Name Box, <kbd>F5</kbd> Goto Dialog Box -> Goto Special
@@ -1759,14 +1759,13 @@ Last Updated: 16-14,11-9, 3 Jun 2021
 - 24. Referencing tables =SUM(Table1[Column1])
 - 25. Resolving Circular Dependencies: Excel options -&gt; Formulas -&gt; Enable iterative calculations (Gauss Seidel Iteration)
 
-### Monte Carlo Simulation
-Random variable describes an uncertain quantity by listing the values of the uncertain quantity along with a description of the relative likelihood of all possible values. There are two types of random variables: discrete and continuous random variables.
+### Monte Carlo Simulation [TBD]
 ### Financial Functions [TBD]
 ### Shortcuts
-<kbd>ctrl</kbd>+<kbd>H</kbd> : Find and Replace
-1. <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>1</kbd> : Number format (2 decimals)
-2. <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>2</kbd> : Time format
-3. <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>3</kbd> : Date format
+1.<kbd>ctrl</kbd>+<kbd>H</kbd> : Find and Replace
+2. <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>1</kbd> : Number format (2 decimals)
+3. <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>2</kbd> : Time format
+4. <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>3</kbd> : Date format
 
 ### Tips
 Using <kbd>'</kbd> before value will store value as a string in the cell
@@ -1774,7 +1773,13 @@ Using <kbd>'</kbd> before value will store value as a string in the cell
 - [Financial Functions Reference](https://support.office.com/en-gb/f1/topic/financial-functions-reference-5658d81e-6035-4f24-89c1-fbf124c2b1d8?NS=MACEXCEL&Version=90)
 - [20 Excel Tricks for Data Analysis](https://www.youtube.com/watch?v=YqS0x0yshlo)
 
-Last Updated: 20-18 June 2021
+Last Updated: 26-24,20-18 June 2021
+## Mathematics for Management
+### About
+Personal notes
+### Caculus
+- 1. Point of inflection: f"(x)=0. A curve is convex if for all values of x, f"(x) ≥ 0 and concave if for all values of x, f"(x) ≤ 0
+- 2. <b>Skewness</b> : A measure of a data set's asymmetry. A skewness value near 0 indicates a data set with a symmetric histogram. A skewness value greater than +1 indicates that a data set is positively skewed. A skewness value less than -1 indicates that a data set is negatively skewed.
 ## Sample Problems
 ### _
 Jake is buying a house for $500,000. He is making a 20% down payment with cash, and paying the balance with a mortgage. The mortgage is a 30-year loan with monthly payments, and the annual interest rate is 6%. Which of the following functions will calculate the correct monthly payment?
