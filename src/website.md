@@ -1479,17 +1479,18 @@ Weakly object oriented. Go provides structs. But no classes. No inheritance. No 
 
 # Business Articles
 ## Bayes theorem
-- [Bayes Theorem](https://www.youtube.com/watch?v=HZGCoVF3YvM)
-- [Why Bayes rule is nicer with odds](https://www.youtube.com/watch?v=lG4VkPoG3ko) 
+### Links
+- 1. [Bayes Theorem](https://www.youtube.com/watch?v=HZGCoVF3YvM)
+- 2. [Why Bayes rule is nicer with odds](https://www.youtube.com/watch?v=lG4VkPoG3ko) 
 ### Bayesian A/B Testing
-- [A/B Testing](https://www.countbayesie.com/blog/2015/4/25/bayesian-ab-testing
+- [A/B Testing](https://www.countbayesie.com/blog/2015/4/25/bayesian-ab-testing)
 Updating prior knowledge using new information/evidence 
 
 ### Bayesian thinking
 [A visual guide to Bayesian thinking](https://www.youtube.com/watch?v=BrK7X_XlGB8)
-- Remember your priors
-- Imagine your theory is wrong. Would the world look differently?
-- Update incrementally
+- 1. Remember your priors
+- 2. Imagine your theory is wrong. Would the world look differently?
+- 3. Update incrementally
 ## Microeconomics
 ### About
 
