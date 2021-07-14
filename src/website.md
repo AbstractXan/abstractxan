@@ -1478,6 +1478,21 @@ Weakly object oriented. Go provides structs. But no classes. No inheritance. No 
 - 6. Used spaced repetition techniques like flashcards to remember things
 
 # Business Articles
+## Bayes theorem
+- [Bayes Theorem](https://www.youtube.com/watch?v=HZGCoVF3YvM)
+- [Why Bayes rule is nicer with odds](https://www.youtube.com/watch?v=lG4VkPoG3ko) 
+### Bayesian A/B Testing
+- [A/B Testing](https://www.countbayesie.com/blog/2015/4/25/bayesian-ab-testing
+Updating prior knowledge using new information/evidence 
+
+### Bayesian thinking
+[A visual guide to Bayesian thinking](https://www.youtube.com/watch?v=BrK7X_XlGB8)
+- Remember your priors
+- Imagine your theory is wrong. Would the world look differently?
+- Update incrementally
+## Microeconomics
+### About
+
 ## Accounting Concepts [WIP]
 ### Entity Concept
 Accounts are kept for an entity as distinct from the people who own, run or do business with the entity.
@@ -1780,6 +1795,7 @@ Personal notes
 ### Caculus
 - 1. Point of inflection: f"(x)=0. A curve is convex if for all values of x, f"(x) ≥ 0 and concave if for all values of x, f"(x) ≤ 0
 - 2. <b>Skewness</b> : A measure of a data set's asymmetry. A skewness value near 0 indicates a data set with a symmetric histogram. A skewness value greater than +1 indicates that a data set is positively skewed. A skewness value less than -1 indicates that a data set is negatively skewed.
+- 3. 
 ## Sample Problems
 ### _
 Jake is buying a house for $500,000. He is making a 20% down payment with cash, and paying the balance with a mortgage. The mortgage is a 30-year loan with monthly payments, and the annual interest rate is 6%. Which of the following functions will calculate the correct monthly payment?
